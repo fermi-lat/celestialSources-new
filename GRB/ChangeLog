@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Jun 21 02:38:33 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBmaker.h GRBobsUtilities.h 
+Log Message:
+adding linux compatibility
+    *
+------------------------------------------------------------
 User: sbansal  Thu Jun 20 13:10:24 PDT 2002
 GRB/src/GRBmaker
 
