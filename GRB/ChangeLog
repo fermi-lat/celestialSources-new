@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Nov 14 02:32:04 PST 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Better graphics, possibility to extract gif moovie
+    *
+------------------------------------------------------------
 User: omodei  Thu Nov 14 02:29:34 PST 2002
 GRB/src/test
 
