@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Sep 21 09:18:46 PDT 2004
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Fixed problem in Interval for photon extraction
+    *
+------------------------------------------------------------
 User: razzano  Sun Sep 19 23:27:27 PDT 2004
 celestialSources/Pulsar/src
 

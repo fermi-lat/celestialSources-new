@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Sep 21 09:17:18 PDT 2004
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Fixed extraction in GetPhoton
+    *
+------------------------------------------------------------
 User: razzano  Fri Sep 17 04:12:17 PDT 2004
 celestialSources/SpectObj/src
 
