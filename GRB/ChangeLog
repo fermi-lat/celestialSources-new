@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Fri Nov 15 06:12:30 PST 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBICompton.cxx GRBSynchrotron.cxx RadiationProcess.cxx 
+	RadiationProcess.h 
+Log Message:
+first attempt at dispersion effect (QG dispersion in velocity of light)
+    *
+------------------------------------------------------------
 User: cohen  Thu Nov 14 12:21:11 PST 2002
 GRB/src/GRBmaker
 
