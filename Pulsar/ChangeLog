@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Wed Mar 30 06:35:05 PST 2005
+celestialSources/Pulsar/src/test/other
+
+Modified Files:
+	PulsarROOTtest.cxx 
+Log Message:
+Barycentric tolerance changed
+    *
+------------------------------------------------------------
+User: razzano  Wed Mar 30 06:35:05 PST 2005
 celestialSources/Pulsar/src
 
 Modified Files:
