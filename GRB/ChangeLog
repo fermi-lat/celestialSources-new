@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jun 19 14:43:29 PDT 2002
+GRB/cmt
+
+Modified Files:
+	requirements setup.bat 
+Log Message:
+updates for GRBmaker (GSFC version of GRB simulation)
+    *
+------------------------------------------------------------
 User: sbansal  Wed Jun 19 14:25:59 PDT 2002
 GRB/src/GRBmaker
 
