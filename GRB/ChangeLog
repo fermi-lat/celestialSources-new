@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jul 25 09:05:29 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+The minimum photon energy extracted from GRBspectrum is now a Parameter
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 25 09:02:54 PDT 2002
 GRB/src/GRB
 
