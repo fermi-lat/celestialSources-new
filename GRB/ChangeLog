@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Jul  4 18:18:17 PDT 2002
+GRB/src/GRB
+
+Removed Files:
+	mainpage.h 
+Log Message:
+move to src
+    *
+------------------------------------------------------------
 User: burnett  Thu Jul  4 18:17:06 PDT 2002
 GRB/src/GRB
 
