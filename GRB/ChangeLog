@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Jun 26 09:24:41 PDT 2002
+GRB/xml
+
+Added Files:
+	GRB_library.xml 
+Log Message:
+add an xml library containing the two spectrum objects
+    *
+------------------------------------------------------------
 User: omodei  Wed Jun 26 09:05:30 PDT 2002
 GRB/xml
 
