@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Fri Jun 28 10:47:21 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsUtilities.cxx 
+Log Message:
+code cleanup
+    *
+------------------------------------------------------------
 User: omodei  Fri Jun 28 06:17:23 PDT 2002
 GRB/src/test/other
 
