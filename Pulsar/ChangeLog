@@ -2,6 +2,14 @@
 TAG
 Tag name: v1r0p2, operation: add
 Package: Pulsar
+User: glast  Mon Jan 17 12:04:31 2005
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p2, operation: add
+Package: Pulsar
 User: razzano  Mon Jan 17 08:05:13 2005
 Files:
   Pulsar/ChangeLog  1.64
