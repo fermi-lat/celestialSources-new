@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Nov 19 08:33:39 PST 2004
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+new Pdot algorithm included
+    *
+------------------------------------------------------------
 User: razzano  Fri Nov 19 08:33:38 PST 2004
 celestialSources/Pulsar/Pulsar
 
