@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Thu Aug 29 08:24:36 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBtestAlgOptions.txt 
+Log Message:
+GRBobsSpectrum was misspelt, fixed it
+    *
+------------------------------------------------------------
 User: sbansal  Thu Aug 29 05:09:10 PDT 2002
 GRB/src/LatGRBAlert
 
