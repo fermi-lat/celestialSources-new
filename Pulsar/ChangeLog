@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Jan 25 07:25:50 PST 2005
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h PulsarSpectrum.h 
+Log Message:
+First implementation of barycentric decorrections
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p3, operation: add
 Package: Pulsar
