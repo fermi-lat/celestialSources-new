@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Jul  4 18:17:06 PDT 2002
+GRB/src/GRB
+
+Removed Files:
+	GRBSvc.cxx GRBSvc.h IGRBSvc.h 
+Log Message:
+change register procedure.
+    *
+------------------------------------------------------------
 User: burnett  Thu Jul  4 18:15:20 PDT 2002
 GRB/src/Dll
 
