@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Wed Jul 30 02:33:28 PDT 2003
+GRB/src/test
+
+Modified Files:
+	test_jobOptions.txt 
+Log Message:
+follow changes in the dir of xml source files (now in flux rather than FluxSvc)
+    *
+------------------------------------------------------------
 User: cohen  Wed Jul 30 01:44:25 PDT 2003
 GRB/src/test
 
