@@ -1,4 +1,22 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jan 22 12:15:49 PST 2003
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBmaker.cxx GRBmaker.h GRBobsConstants.h GRBobsSpectrum.cxx 
+	GRBobsSpectrum.h GRBobsUtilities.cxx GRBobsUtilities.h 
+	GRBpulse.cxx GRBpulse.h GRBsimvecCreator.cxx 
+	GRBsimvecCreator.h GbmGrb.cxx GbmGrb.h GrbGlobalData.cxx 
+	GrbGlobalData.h LatGrb.cxx LatGrb.h 
+Added Files:
+	GRBurst.cxx GRBurst.h 
+Removed Files:
+	GRB.cxx GRB.h 
+Log Message:
+Replaced GRB.h and GRB.cxx with GRBurst.h and GRBurst.cxx to avoid web documentation problems.
+
+    *
+------------------------------------------------------------
 User: sbansal  Wed Jan 22 12:10:17 PST 2003
 GRB/src
 
