@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: omodei  Mon Feb 21 03:56:28 PST 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml 
+Added Files:
+	GenerateXMLLibrary.C 
+Log Message:
+Add macro to generate library, remove some cout
+
+    *
+------------------------------------------------------------
+User: omodei  Mon Feb 21 03:56:28 PST 2005
 celestialSources/GRBobs/src/test/other
 
 Modified Files:
