@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: sbansal  Fri Nov 22 07:21:31 PST 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRB.cxx GRBmaker.cxx GbmGrb.cxx GRBpulse.cxx LatGrb.cxx 
+	GrbGlobalData.cxx GRBobsSpectrum.cxx GRBobsUtilities.cxx 
+Log Message:
+Fixes for linux.
+
+    *
+------------------------------------------------------------
 User: cohen  Thu Nov 21 13:40:48 PST 2002
 GRB/src/GRB
 
