@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Thu Aug 29 08:30:06 PDT 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+replaced LatTrigger with LatGRBAlert
+    *
+------------------------------------------------------------
 User: sbansal  Thu Aug 29 08:28:24 PDT 2002
 GRB/src/test
 
