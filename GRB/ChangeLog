@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Aug 28 12:57:57 PDT 2002
+GRB/src/LatGRBAlert
+
+Removed Files:
+	LatTriggerConstants.h 
+Log Message:
+removing to rename
+    *
+------------------------------------------------------------
 User: burnett  Wed Aug 28 12:53:51 PDT 2002
 GRB/src/LatGRBAlert
 
