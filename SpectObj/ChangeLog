@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Wed Feb  2 03:09:01 PST 2005
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+PeriodicSpectrum bug fixed
+    *
+------------------------------------------------------------
+User: omodei  Wed Feb  2 03:09:01 PST 2005
 celestialSources/SpectObj/SpectObj
 
 Modified Files:
