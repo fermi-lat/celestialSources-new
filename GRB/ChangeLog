@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Jun 21 03:12:12 PDT 2002
+GRB/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+Add the possibility to have GRBobsSpectrum as source name
+    *
+------------------------------------------------------------
 User: omodei  Fri Jun 21 03:07:49 PDT 2002
 GRB/src/GRB
 
