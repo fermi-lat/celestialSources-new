@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Sun Jan 30 21:53:33 PST 2005
+celestialSources/genericSources/data
+
+Added Files:
+	testTemplate.dat 
+Log Message:
+add SpectralTransient class for AGN modeling
+    *
+------------------------------------------------------------
+User: jchiang  Sun Jan 30 21:53:33 PST 2005
 celestialSources/genericSources/cmt
 
 Modified Files:
