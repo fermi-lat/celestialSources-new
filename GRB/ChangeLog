@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Thu Aug  1 06:31:08 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBtestAlgOptions.txt TDSreadFluxOptions.txt 
+	test_jobOptions.txt 
+Log Message:
+Fix the names of the sources
+    *
+------------------------------------------------------------
 User: omodei  Thu Aug  1 05:03:53 PDT 2002
 GRB/xml
 
