@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Tue Jul  2 02:54:58 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.h GRBShell.cxx GRBShell.h GRBShock.cxx GRBSim.cxx 
+	GRBSim.h GRBSpectrum.cxx 
+Log Message:
+Speed up the code
+    *
+------------------------------------------------------------
 User: sbansal  Fri Jun 28 10:58:39 PDT 2002
 GRB/src/GRBmaker
 
