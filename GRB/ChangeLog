@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Mon May  3 18:12:13 PDT 2004
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix a public/private mismatch
+    *
+------------------------------------------------------------
 User: jchiang  Wed Apr 28 16:13:55 PDT 2004
 GRB/cmt
 
