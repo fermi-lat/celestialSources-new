@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Jan 14 16:39:17 PST 2005
+celestialSources/GRB/cmt
+
+Modified Files:
+      Tag: GlastRelease-v4r7
+	requirements 
+Log Message:
+use any ROOT
+    *
+------------------------------------------------------------
 User: heather  Fri Jan 14 16:39:10 PST 2005
 celestialSources/GRB/doc
 
