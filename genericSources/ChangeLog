@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Oct 27 18:00:48 PDT 2004
+celestialSources/genericSources/genericSources
+
+Removed Files:
+	mainpage.h 
+Log Message:
+move mainpage.h to src
+    *
+------------------------------------------------------------
 User: jchiang  Mon Oct 25 14:14:01 PDT 2004
 celestialSources/genericSources/doc
 
