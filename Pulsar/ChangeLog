@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: v-f, operation: del
+Package: Pulsar
+User: glast  Mon Jan 17 12:06:11 2005
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r0p2, operation: mov
 Package: Pulsar
 User: glast  Mon Jan 17 12:05:14 2005
