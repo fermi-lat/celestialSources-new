@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Mon Mar 29 19:38:31 PST 2004
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix a bug in lib naming
+    *
+------------------------------------------------------------
 User: cohen  Mon Mar 29 11:48:59 PST 2004
 GRB/src/GRBmaker
 
