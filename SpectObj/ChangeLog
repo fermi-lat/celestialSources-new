@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Dec  9 03:09:52 PST 2004
+celestialSources/SpectObj/doc
+
+Added Files:
+	Doxyfile 
+Log Message:
+Add doxyfile and mainpage (the code is not yet documented)
+    *
+------------------------------------------------------------
 User: omodei  Thu Dec  9 03:07:52 PST 2004
 celestialSources/SpectObj/doc
 
