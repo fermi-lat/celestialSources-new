@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Feb 24 04:24:46 PST 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsmanager.h 
+Log Message:
+Review the BATSE normalization. Preparing for DC2
+    *
+------------------------------------------------------------
 User: omodei  Mon Feb 21 03:56:28 PST 2005
 celestialSources/GRBobs/xml
 
