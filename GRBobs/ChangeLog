@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Jan 20 02:30:11 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsSim.cxx 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: omodei  Thu Jan 20 02:30:11 PST 2005
 celestialSources/GRBobs/cmt
 
 Modified Files:
