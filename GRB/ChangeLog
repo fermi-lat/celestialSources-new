@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: omodei  Tue Feb  8 01:42:01 PST 2005
-celestialSources/GRB/src/GRB
-
-Modified Files:
-	GRBSim.cxx GRBmanager.cxx 
-Log Message:
-added QG effect and GBM spectrum, changed some params
-    *
-------------------------------------------------------------
-User: omodei  Thu Feb  3 10:02:35 PST 2005
-celestialSources/GRB/xml
-
-Modified Files:
-	GRB_user_library.xml 
-Log Message:
-Added minimum photon energy to the xml library
-    *
-------------------------------------------------------------
 User: omodei  Wed Feb  2 03:27:14 PST 2005
 celestialSources/GRB/src/test/other
 
