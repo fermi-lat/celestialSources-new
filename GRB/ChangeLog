@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Tue May 11 07:58:00 PDT 2004
+GRB/src/GRB
+
+Modified Files:
+	GRBmanager.cxx 
+Log Message:
+Only minor changes. Cleaning up the requirements (to be check for windows)
+
+    *
+------------------------------------------------------------
+User: omodei  Tue May 11 07:58:00 PDT 2004
 GRB/cmt
 
 Modified Files:
