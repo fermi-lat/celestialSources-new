@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Sep 17 04:12:17 PDT 2004
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Solved InternalTime problem
+    *
+------------------------------------------------------------
 User: omodei  Fri Sep 10 09:18:58 PDT 2004
 celestialSources/SpectObj/src
 
