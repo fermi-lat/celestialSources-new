@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Tue Jul 30 05:30:58 PDT 2002
+GRB/src/test
+
+Added Files:
+	test_jobOptions.txt 
+Log Message:
+defining a new joboptions, dedicated only to the batch nightly run. It should not be used for testing new features of the package
+    *
+------------------------------------------------------------
 User: cohen  Tue Jul 30 03:45:59 PDT 2002
 GRB/src/LatTrigger
 
