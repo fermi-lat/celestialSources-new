@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Dec 14 08:01:38 PST 2004
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBShock.cxx GRBSim.cxx 
+Log Message:
+Reimplemented the fluence computation
+    *
+------------------------------------------------------------
 User: omodei  Fri Dec 10 02:50:22 PST 2004
 celestialSources/GRB/src/test/other
 
