@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Sun Feb 23 19:27:14 PST 2003
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix gcc 2.95.3 compilation errors (no idea why we were ok for the code review and not anymore). Also test_GRBROOT.exe seems broken.
+    *
+------------------------------------------------------------
 User: omodei  Mon Jan 27 08:46:01 PST 2003
 GRB/src/test
 
