@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Nov 28 11:20:39 PST 2003
+GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+add some parameters in the parameters txt file. 
+    *
+------------------------------------------------------------
+User: omodei  Fri Nov 28 11:20:39 PST 2003
 GRB/src/test
 
 Modified Files:
