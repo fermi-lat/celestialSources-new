@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: sbansal  Thu Nov 21 13:16:59 PST 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBmaker.h GRBobsConstants.h GRBobsSpectrum.h 
+	GRBobsUtilities.h GRBpulse.h GRBsimvecCreator.h 
+Added Files:
+	GRB.h GbmGrb.h LatGrb.h GrbGlobalData.h 
+Log Message:
+Made several modifications/additions to allow program to create GBM as well as LAT GRBs.
+
+    *
+------------------------------------------------------------
 User: frailis  Thu Nov 21 08:04:27 PST 2002
 GRB/cmt
 
