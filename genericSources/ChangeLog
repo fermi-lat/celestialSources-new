@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Fri Aug 13 10:32:47 PDT 2004
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx TransientTemplate.cxx 
+Added Files:
+	FitsImage.cxx FitsImage.h 
+Log Message:
+remove Likelihood dependence by copying FitsImage code.
+    *
+------------------------------------------------------------
 User: jchiang  Fri Aug 13 10:32:46 PDT 2004
 celestialSources/genericSources/cmt
 
