@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Tue Aug 13 13:06:54 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.cxx GRBobsSpectrum.h 
+Log Message:
+allow specification of dir/filename for GRBmaker I/O files
+    *
+------------------------------------------------------------
 User: sbansal  Tue Aug 13 13:06:10 PDT 2002
 GRB/src/GRBmaker
 
