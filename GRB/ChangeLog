@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Dec  2 13:59:45 PST 2003
+GRB/src
+
+Modified Files:
+	TDSReadFluxAlg.cxx 
+Log Message:
+last version, hopefully solved the crash problem
+    *
+------------------------------------------------------------
 User: omodei  Tue Dec  2 05:55:33 PST 2003
 GRB/xml
 
