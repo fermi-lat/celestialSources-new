@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: cohen  Tue Apr 27 17:26:50 PDT 2004
+GRB/src
+
+Removed Files:
+	TDSReadFluxAlg.cxx RegisterGRB.cxx 
+Log Message:
+removing dependencies to Gaudi
+    *
+------------------------------------------------------------
+User: cohen  Tue Apr 27 17:26:50 PDT 2004
 GRB/src/test
 
 Removed Files:
