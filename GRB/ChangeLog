@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jul 25 08:56:53 PDT 2002
+GRB/src
+
+Added Files:
+	TDSReadFluxAlg.cxx 
+Log Message:
+Algorithm that retrives flux data from the TDS
+    *
+------------------------------------------------------------
 User: burnett  Fri Jul  5 08:15:07 PDT 2002
 GRB/cmt
 
