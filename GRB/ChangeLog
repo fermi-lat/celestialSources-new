@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu May 29 05:22:37 PDT 2003
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+replace math.h by cmath, and fix an iterator/pointer mismatch
+    *
+------------------------------------------------------------
 User: burnett  Wed May 28 17:01:49 PDT 2003
 GRB/cmt
 
