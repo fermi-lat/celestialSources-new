@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: cohen  Sun Feb 23 19:27:14 PST 2003
+GRB/src/LatGRBAlert
+
+Modified Files:
+	BackgroundMixer.h ClusterData.cxx ClusterData.h 
+Log Message:
+fix gcc 2.95.3 compilation errors (no idea why we were ok for the code review and not anymore). Also test_GRBROOT.exe seems broken.
+    *
+------------------------------------------------------------
+User: cohen  Sun Feb 23 19:27:14 PST 2003
 GRB/src/GRBmaker
 
 Modified Files:
