@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Tue Apr 27 17:33:54 PDT 2004
+GRB/src/test
+
+Added Files:
+	testMgr.cxx 
+Log Message:
+new test exec for GRB: stolen from flux
+    *
+------------------------------------------------------------
 User: cohen  Tue Apr 27 17:32:45 PDT 2004
 GRB/src/Dll
 
