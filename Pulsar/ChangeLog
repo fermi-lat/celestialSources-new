@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Nov 15 05:35:20 PST 2004
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h PulsarSim.h PulsarSpectrum.h 
+Log Message:
+enphmin & enphmax included
+    *
+------------------------------------------------------------
 User: razzano  Thu Nov 11 09:50:41 PST 2004
 celestialSources/Pulsar/src/test/other
 
