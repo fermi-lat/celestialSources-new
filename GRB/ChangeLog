@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Tue May 11 09:18:36 PDT 2004
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove the X11lib link. Build the component library and two test app.
+
+    *
+------------------------------------------------------------
 User: omodei  Tue May 11 07:58:01 PDT 2004
 GRB/xml
 
