@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Sep  7 14:46:17 PDT 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBengine.cxx 
+Log Message:
+disambiguate calls to functions for VC8
+    *
+------------------------------------------------------------
 User: burnett  Thu Aug 14 14:51:01 PDT 2003
 GRB/xml
 
