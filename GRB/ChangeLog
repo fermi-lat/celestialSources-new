@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jun 19 14:25:59 PDT 2002
+GRB/src/GRBmaker
+
+Added Files:
+	GRBmaker.cxx GRBmaker.h GRBobsConstants.h GRBobsSpectrum.cxx 
+	GRBobsSpectrum.h GRBobsUtilities.cxx GRBobsUtilities.h 
+	GRBpulse.cxx GRBpulse.h GRBsimvecCreator.cxx 
+	GRBsimvecCreator.h 
+Log Message:
+Initial check in of GRBsimulation code
+    *
+------------------------------------------------------------
 User: sbansal  Wed Jun 19 14:22:16 PDT 2002
 GRB/src/GRBmaker
 
