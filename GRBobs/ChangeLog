@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jan 20 02:30:10 PST 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsSim.h GRBobsengine.h 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
 User: omodei  Tue Dec 14 08:00:55 PST 2004
 celestialSources/GRBobs/xml
 
