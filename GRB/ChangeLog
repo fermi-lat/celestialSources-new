@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed May 15 07:43:43 PDT 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Fix the link with shared objs
+    *
+------------------------------------------------------------
 User: omodei  Wed May 15 07:01:54 PDT 2002
 GRB/cmt
 
