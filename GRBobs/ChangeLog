@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Tue Apr  5 16:22:53 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+attempt to fix windows build problem and linux corresponding warning, plus an inocuous warning on unsigned int against int comparison
+
+    *
+------------------------------------------------------------
 User: cohen  Tue Apr  5 16:21:08 PDT 2005
 celestialSources/GRBobs/doc
 
