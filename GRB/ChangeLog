@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: omodei  Mon Mar 17 01:30:40 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.h GRBSim.cxx GRBSim.h GRBSpectrum.cxx 
+	GRBSpectrum.h GRBSynchrotron.cxx GRBSynchrotron.h 
+	GRBengine.cxx GRBengine.h GRBmanager.h RadiationProcess.cxx 
+	RadiationProcess.h SpectObj.cxx SpectObj.h 
+Log Message:
+Use of SpectrumObj class. Add treeview in the doc.
+    *
+------------------------------------------------------------
+User: omodei  Mon Mar 17 01:30:40 PST 2003
 GRB/doc
 
 Modified Files:
