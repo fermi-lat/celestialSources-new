@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Mon Jan 17 06:45:31 PST 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+Doxy Documentation added; Added testPulsar library
+    *
+------------------------------------------------------------
+User: razzano  Mon Jan 17 06:45:31 PST 2005
 celestialSources/Pulsar/doc
 
 Modified Files:
