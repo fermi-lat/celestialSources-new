@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Mar  2 06:48:50 PST 2005
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Fixed intNumPer in getPhoton for Pulsars
+    *
+------------------------------------------------------------
 User: omodei  Wed Mar  2 03:36:03 PST 2005
 celestialSources/SpectObj/SpectObj
 
