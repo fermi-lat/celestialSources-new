@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jun 26 06:55:48 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.h 
+Log Message:
+Added nextTime method
+    *
+------------------------------------------------------------
 User: sbansal  Wed Jun 26 06:54:48 PDT 2002
 GRB/src/GRBmaker
 
