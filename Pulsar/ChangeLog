@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Wed Mar  9 07:19:11 PST 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Barycenter & ephem decorrections implemented;no cout;ready to be tagged
+    *
+------------------------------------------------------------
+User: razzano  Wed Mar  9 07:19:11 PST 2005
 celestialSources/Pulsar/doc
 
 Modified Files:
