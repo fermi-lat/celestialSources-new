@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: sbansal  Thu Jan 23 06:55:06 PST 2003
+GRB/src/GRBmaker
+
+Modified Files:
+	GrbGlobalData.h 
+Log Message:
+Changed prototype for the function that computes power law.
+
+    *
+------------------------------------------------------------
 User: sbansal  Thu Jan 23 06:53:25 PST 2003
 GRB/src/GRBmaker
 
