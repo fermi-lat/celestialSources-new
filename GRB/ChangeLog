@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Sun Sep  7 14:46:17 PDT 2003
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+disambiguate calls to functions for VC8
+    *
+------------------------------------------------------------
+User: burnett  Sun Sep  7 14:46:17 PDT 2003
 GRB/src/GRB
 
 Modified Files:
