@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Sat Jan 15 13:57:45 PST 2005
+celestialSources/Pulsar/cmt
+
+Modified Files:
+      Tag: GlastRelease-v4r7p3
+	requirements 
+Log Message:
+use any ROOT
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-v4r7p3, operation: add
 Package: Pulsar
