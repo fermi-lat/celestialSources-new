@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Oct 11 08:22:54 PDT 2004
+celestialSources/genericSources/data
+
+Modified Files:
+	pks1622-297_Template.dat 
+Log Message:
+stop using iterators in TransientTemplate so that zero flux entries are handled correctly
+    *
+------------------------------------------------------------
 User: jchiang  Fri Aug 13 10:33:54 PDT 2004
 celestialSources/genericSources/doc
 
