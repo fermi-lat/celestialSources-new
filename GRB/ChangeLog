@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu May 30 10:11:42 PDT 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Major modifications. created GRB Service, and added GRBTestAlg.
+    *
+------------------------------------------------------------
 User: omodei  Thu May 30 10:07:40 PDT 2002
 GRB/src/test/other
 
