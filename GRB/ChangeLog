@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Jan 18 09:16:00 PST 2005
+celestialSources/GRB/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Minimized the parameter set
+    *
+------------------------------------------------------------
+User: omodei  Tue Jan 18 09:16:00 PST 2005
 celestialSources/GRB/src/GRB
 
 Modified Files:
