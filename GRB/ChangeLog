@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Nov 17 04:13:59 PST 2003
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+New GRB design. Uses ROOT libraries. 
+    *
+------------------------------------------------------------
 User: cohen  Mon Nov 10 03:42:03 PST 2003
 GRB/cmt
 
