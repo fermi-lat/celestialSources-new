@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Tue Jul 30 12:12:55 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.cxx 
+Log Message:
+Modified Interval, energySrc, nextTime and nextEnergy methods.
+    *
+------------------------------------------------------------
 User: sbansal  Tue Jul 30 12:10:45 PDT 2002
 GRB/src/GRBmaker
 
