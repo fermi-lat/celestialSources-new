@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: omodei  Tue Feb  8 02:08:10 PST 2005
+celestialSources/GRBobs/cmt
+
+Removed Files:
+      Tag: v0r1p1
+	Makefile cleanup.csh cleanup.sh rh9_gcc32.make setup.csh 
+	setup.sh 
+Log Message:
+remove obsolete file, add GBM spectrum
+    *
+------------------------------------------------------------
 User: omodei  Tue Feb  8 02:08:09 PST 2005
 celestialSources/GRBobs/GRBobs
 
