@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Nov 15 04:43:39 PST 2004
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+GetPhoton modified in Pulsar sourcetype:small changes in extracting energy
+    *
+------------------------------------------------------------
 User: razzano  Thu Nov 11 09:42:22 PST 2004
 celestialSources/SpectObj/src
 
