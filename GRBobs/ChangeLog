@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Feb  8 02:08:09 PST 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsSim.h 
+Log Message:
+remove obsolete file, add GBM spectrum
+    *
+------------------------------------------------------------
 User: omodei  Thu Jan 20 02:30:11 PST 2005
 celestialSources/GRBobs/src/test/other
 
