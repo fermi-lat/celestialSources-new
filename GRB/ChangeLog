@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu May 16 01:37:49 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt GRBTest.cxx GRBTest1.cxx 
+Log Message:
+Redefined GRBSpectrum::Interval() and some minor changes
+    *
+------------------------------------------------------------
+User: omodei  Thu May 16 01:37:49 PDT 2002
 GRB/src/GRB
 
 Modified Files:
