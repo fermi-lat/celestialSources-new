@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Tue Apr 27 17:32:45 PDT 2004
+GRB/src/Dll
+
+Removed Files:
+	GRB_load.cxx GRB_dll.cxx 
+Log Message:
+removing dependencies to Gaudi
+    *
+------------------------------------------------------------
 User: cohen  Tue Apr 27 17:26:50 PDT 2004
 GRB/cmt
 
