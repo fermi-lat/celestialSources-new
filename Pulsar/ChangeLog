@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Thu Nov 25 06:43:15 PST 2004
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSim.h PulsarSpectrum.h 
+Log Message:
+Added Interface with datalist file,PSR name and TimeProfile Output
+    *
+------------------------------------------------------------
 User: razzano  Thu Nov 25 06:41:59 PST 2004
 celestialSources/Pulsar/data
 
