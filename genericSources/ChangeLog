@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Feb  7 16:20:56 PST 2005
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	MapCube.h 
+Log Message:
+MapCube source with position dependent differential spectrum
+    *
+------------------------------------------------------------
 User: jchiang  Mon Feb  7 16:20:55 PST 2005
 celestialSources/genericSources/data
 
