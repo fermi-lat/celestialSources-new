@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Feb 24 04:25:46 PST 2005
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBConstants.h GRBSim.cxx 
+Log Message:
+cosmetics
+    *
+------------------------------------------------------------
 User: omodei  Mon Feb 21 03:59:51 PST 2005
 celestialSources/GRB/xml
 
