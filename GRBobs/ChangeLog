@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Dec 10 10:19:05 PST 2004
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsSim.cxx 
+	GRBobsmanager.cxx 
+Log Message:
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 10 10:19:05 PST 2004
 celestialSources/GRBobs/cmt
 
 Modified Files:
