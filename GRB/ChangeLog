@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: cohen  Tue Dec  2 15:37:24 PST 2003
+GRB/src/LatGRBAlert
+
+Modified Files:
+	PhotonInfo.h 
+Log Message:
+replace includes
+    *
+------------------------------------------------------------
+User: cohen  Tue Dec  2 15:37:24 PST 2003
 GRB/src/GRB
 
 Modified Files:
