@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed May 15 07:01:54 PDT 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Builds the GRBlib. This shouold to be fixed.
+    *
+------------------------------------------------------------
 User: omodei  Wed May 15 06:58:02 PDT 2002
 GRB/src/GRB
 
