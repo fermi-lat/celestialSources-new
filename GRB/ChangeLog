@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jul  2 09:19:27 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBSpectrum.cxx 
+Log Message:
+Changed The random choice of the parameters
+    *
+------------------------------------------------------------
 User: omodei  Tue Jul  2 02:56:00 PDT 2002
 GRB/src/test/other
 
