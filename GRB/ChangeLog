@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: omodei  Fri Nov 21 01:39:15 PST 2003
+GRB/src/test
+
+Modified Files:
+	TDSreadFluxOptions.txt jobOptions.txt 
+Removed Files:
+	GRBtestAlgOptions.txt test_jobOptions.txt 
+Log Message:
+new GRB code, tagged for DC1
+    *
+------------------------------------------------------------
+User: omodei  Fri Nov 21 01:39:15 PST 2003
 GRB/cmt
 
 Modified Files:
