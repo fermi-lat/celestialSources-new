@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Apr 19 03:58:19 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt GRBTest.cxx 
+Log Message:
+New Test developed, now it extracts photons from the flux and fill a Root tree. Copatibility checked also with some other spectrum sources (CHIME, Cr, diffuse,...)
+    *
+------------------------------------------------------------
 User: omodei  Fri Apr 19 03:52:42 PDT 2002
 GRB/src/GRB
 
