@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: jchiang  Sun Feb 20 16:21:43 PST 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	sources.in 
+Added Files:
+	EblAtten.cxx IRB_routines.cxx 
+Log Message:
+add EBL attenuation calc
+    *
+------------------------------------------------------------
+User: jchiang  Sun Feb 20 16:21:43 PST 2005
 celestialSources/genericSources/genericSources
 
 Added Files:
