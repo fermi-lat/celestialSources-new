@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu Nov 21 13:40:48 PST 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBengine.cxx GRBSim.cxx SpectObj.h 
+Log Message:
+windows compilation fixes
+    *
+------------------------------------------------------------
 User: sbansal  Thu Nov 21 13:18:13 PST 2002
 GRB/src/GRBmaker
 
