@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Nov 17 04:14:00 PST 2003
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt TDSreadFluxOptions.txt 
+Log Message:
+New GRB design. Uses ROOT libraries. 
+    *
+------------------------------------------------------------
+User: omodei  Mon Nov 17 04:14:00 PST 2003
 GRB/src/GRB
 
 Modified Files:
