@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb 21 03:59:51 PST 2005
+celestialSources/GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Interval between bursts is not fixed. Tau is the parameter, the interval is TRandom->Exp(tau).
+    *
+------------------------------------------------------------
 User: omodei  Mon Feb 21 03:59:50 PST 2005
 celestialSources/GRB/src/test
 
