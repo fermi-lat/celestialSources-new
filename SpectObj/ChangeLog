@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Nov 10 02:11:03 PST 2004
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Get photon for periodic spectrum revised. Switch off the output
+    *
+------------------------------------------------------------
 User: omodei  Fri Nov  5 07:14:39 PST 2004
 celestialSources/SpectObj/src
 
