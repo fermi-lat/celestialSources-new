@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Mar 22 07:49:30 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+use namespace astro::SkyDir for coordinate (GALACTIC), new xml library
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r2p2, operation: add
 Package: GRBobs
