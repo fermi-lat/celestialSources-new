@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Wed Jul 30 01:44:25 PDT 2003
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix GRB to follow FluxSvc/flux changes
+    *
+------------------------------------------------------------
 User: sbansal  Mon Jun 23 10:13:04 PDT 2003
 GRB/src/GRBmaker
 
