@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Aug 14 14:51:01 PDT 2003
+GRB/xml
+
+Modified Files:
+	GRB_user_library.xml 
+Log Message:
+provide a title for the source library--will move tag
+    *
+------------------------------------------------------------
 User: cohen  Wed Jul 30 02:33:28 PDT 2003
 GRB/src/test
 
