@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Wed Nov 20 10:55:41 PST 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx GRBTest.cxx 
+Log Message:
+change cout into std::cout
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov 20 10:55:41 PST 2002
 GRB/src/test
 
 Modified Files:
