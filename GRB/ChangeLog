@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Dec 10 02:49:55 PST 2004
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx 
+Log Message:
+minor changes
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r1, operation: add
 Package: GRB
