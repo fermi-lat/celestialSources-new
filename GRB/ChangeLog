@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jul 25 09:01:29 PDT 2002
+GRB/src/GRB
+
+Added Files:
+	GRBmanager.cxx GRBmanager.h 
+Log Message:
+GRBmanager concatenates several GRBs in order to simulate long exposure time
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 25 08:57:55 PDT 2002
 GRB/src
 
