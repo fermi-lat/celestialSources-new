@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jun 26 12:40:49 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.cxx 
+Log Message:
+return an invalid number from Interval() when photon list is depleted
+    *
+------------------------------------------------------------
 User: omodei  Wed Jun 26 10:42:01 PDT 2002
 GRB/xml
 
