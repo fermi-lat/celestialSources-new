@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Oct 11 08:22:55 PDT 2004
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	TransientTemplate.h 
+Log Message:
+stop using iterators in TransientTemplate so that zero flux entries are handled correctly
+    *
+------------------------------------------------------------
 User: jchiang  Mon Oct 11 08:22:54 PDT 2004
 celestialSources/genericSources/data
 
