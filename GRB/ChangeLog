@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: omodei  Tue Jan 14 03:39:40 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBICompton.cxx 
+	GRBSpectrum.cxx GRBSynchrotron.cxx GRBengine.cxx 
+	RadiationProcess.cxx RadiationProcess.h 
+Log Message:
+Preparing for code review
+    *
+------------------------------------------------------------
 User: omodei  Tue Jan 14 03:38:57 PST 2003
 GRB/src
 
