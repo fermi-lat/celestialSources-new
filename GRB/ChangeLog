@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Mar  3 06:09:34 PST 2005
+celestialSources/GRB/xml
+
+Modified Files:
+	GRB_user_library.xml 
+Log Message:
+bug fixed
+    *
+------------------------------------------------------------
+User: omodei  Thu Mar  3 06:09:34 PST 2005
 celestialSources/GRB/src/test
 
 Modified Files:
