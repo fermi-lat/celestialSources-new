@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Mon Jan 12 09:37:58 PST 2004
+GRB/src/GRB
+
+Modified Files:
+	GRBSim.cxx 
+Log Message:
+fix for VC7
+    *
+------------------------------------------------------------
 User: richard  Sat Jan 10 01:13:22 PST 2004
 GRB/src/GRBmaker
 
