@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: sbansal  Tue Nov 26 06:40:59 PST 2002
+GRB/src/test/other
+
+Removed Files:
+	GRBobsTester.cxx 
+Log Message:
+Obsolete.  GRBtestAlg should be used to test GRBmaker.
+
+    *
+------------------------------------------------------------
 User: sbansal  Tue Nov 26 06:36:51 PST 2002
 GRB/src/GRBmaker
 
