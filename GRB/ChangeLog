@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Tue Apr 27 17:26:50 PDT 2004
+GRB/src/test
+
+Removed Files:
+	jobOptions.txt TDSreadFluxOptions.txt LatGRBAlertOptions.txt 
+	LatGRBAlertAlg.cxx GRBTestAlg.cxx 
+Log Message:
+removing dependencies to Gaudi
+    *
+------------------------------------------------------------
 User: cohen  Tue Apr 27 17:26:49 PDT 2004
 GRB/src/test/other
 
