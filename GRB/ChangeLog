@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: cohen  Tue Apr 27 17:35:59 PDT 2004
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+1)applied Traudl's spec on XXDir
+2)added a new test exec to replace the one that depended on Gaudi
+
+    *
+------------------------------------------------------------
 User: cohen  Tue Apr 27 17:33:54 PDT 2004
 GRB/src/test
 
