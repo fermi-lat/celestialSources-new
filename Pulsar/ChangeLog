@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: razzano  Mon Jan 17 06:45:30 PST 2005
+celestialSources/Pulsar/data
+
+Modified Files:
+	PulsarDataList.txt 
+Added Files:
+	TestPulsarDataList.txt 
+Log Message:
+Doxy Documentation added; Added testPulsar library
+    *
+------------------------------------------------------------
+User: razzano  Mon Jan 17 06:45:30 PST 2005
 celestialSources/Pulsar/Pulsar
 
 Modified Files:
