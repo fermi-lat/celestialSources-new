@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Oct 25 14:12:40 PDT 2004
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx Pulsar.cxx 
+Log Message:
+check for template file existence
+    *
+------------------------------------------------------------
 User: jchiang  Thu Oct 21 08:50:12 PDT 2004
 celestialSources/genericSources/src
 
