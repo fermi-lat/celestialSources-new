@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Sep 28 06:34:21 PDT 2004
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Inclusion of JD and Mission Elapsed Time
+    *
+------------------------------------------------------------
 User: razzano  Tue Sep 28 06:34:20 PDT 2004
 celestialSources/Pulsar/cmt
 
