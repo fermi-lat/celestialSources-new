@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Mar 22 07:42:20 PST 2005
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBSim.cxx GRBmanager.cxx 
+Log Message:
+flags for short and long bursts in parameters
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r1p5, operation: add
 Package: GRB
