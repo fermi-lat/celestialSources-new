@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Fri Jun 21 07:53:46 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsUtilities.cxx GRBpulse.cxx GRBmaker.cxx 
+Log Message:
+made some modifications to make it compile on linux
+    *
+------------------------------------------------------------
 User: omodei  Fri Jun 21 03:12:12 PDT 2002
 GRB/src/test
 
