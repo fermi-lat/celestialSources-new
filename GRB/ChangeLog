@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed May 28 17:01:49 PDT 2003
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+rearrange order of source files for vs.net
+    *
+------------------------------------------------------------
 User: omodei  Mon Mar 17 01:30:40 PST 2003
 GRB/src/test/other
 
