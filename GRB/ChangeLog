@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Thu Jun 27 12:15:27 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.h 
+Log Message:
+removed engine from argument list passed to nextEnergy and nextTime
+    *
+------------------------------------------------------------
 User: sbansal  Thu Jun 27 12:14:23 PDT 2002
 GRB/src/GRBmaker
 
