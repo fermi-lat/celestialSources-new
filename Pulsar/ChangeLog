@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+TAG
+Tag name: GlastRelease-v4r7p3, operation: add
+Package: Pulsar
+User: heather  Sat Jan 15 13:56:43 2005
+Files:
+  Pulsar/Pulsar/PulsarConstants.h  1.1.1.1
+  Pulsar/Pulsar/PulsarSpectrum.h  1.1.1.1
+  Pulsar/Pulsar/PulsarSim.h  1.1.1.1
+  Pulsar/cmt/requirements  1.1.1.1
+  Pulsar/src/PulsarSim.cxx  1.1.1.1
+  Pulsar/src/PulsarSpectrum.cxx  1.1.1.1
+  Pulsar/src/test/other/PulsarROOTtest.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
 User: heather  Sat Jan 15 13:52:36 PST 2005
 celestialSources/Pulsar/cmt
 
