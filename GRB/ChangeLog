@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu Nov  7 03:27:16 PST 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+removed FluxSvc explicit tag dependancy and fixed include inconsistency in TDSReadFluxAlg.cxx
+    *
+------------------------------------------------------------
 User: sbansal  Thu Aug 29 11:33:45 PDT 2002
 GRB/src/test
 
