@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Sep 10 09:18:58 PDT 2004
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Better Algorithm for transients
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 22 09:30:52 PDT 2004
 celestialSources/SpectObj
 
