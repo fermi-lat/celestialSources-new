@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Mon Mar  7 08:22:08 PST 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+work on baryDEcorr
+    *
+------------------------------------------------------------
+User: razzano  Mon Mar  7 08:22:08 PST 2005
 celestialSources/Pulsar/cmt
 
 Modified Files:
