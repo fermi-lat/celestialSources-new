@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Nov 10 09:30:59 PST 2004
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx 
+Log Message:
+Fixed problem in random generation of lightcurves
+    *
+------------------------------------------------------------
 User: razzano  Wed Nov 10 02:48:34 PST 2004
 celestialSources/Pulsar/src/test/other
 
