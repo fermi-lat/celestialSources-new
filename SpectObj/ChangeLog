@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Nov  5 07:14:39 PST 2004
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Unique name fixed and area detector hard coded
+    *
+------------------------------------------------------------
 User: cohen  Sun Oct  3 16:37:33 PDT 2004
 celestialSources/SpectObj/cmt
 
