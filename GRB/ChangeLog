@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Jan 14 17:03:34 PST 2005
+celestialSources/GRB/cmt
+
+Modified Files:
+      Tag: GlastRelease-v4r7p1
+	requirements 
+Log Message:
+use any ROOT
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-v4r7p1, operation: add
 Package: GRB
