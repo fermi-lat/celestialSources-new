@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: sbansal  Tue Nov 26 06:36:51 PST 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRB.cxx 
+Log Message:
+Linux fix for sstream.
+
+    *
+------------------------------------------------------------
 User: sbansal  Fri Nov 22 07:23:20 PST 2002
 GRB/src/test/other
 
