@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Jul  5 08:15:07 PDT 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix include path so test programs have access to root of package.
+    *
+------------------------------------------------------------
 User: burnett  Thu Jul  4 20:52:14 PDT 2002
 GRB/cmt
 
