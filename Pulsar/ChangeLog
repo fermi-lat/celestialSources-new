@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Nov 15 06:51:29 PST 2004
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+enphmin & enphmax included,xml modified
+    *
+------------------------------------------------------------
 User: razzano  Mon Nov 15 06:50:41 PST 2004
 celestialSources/Pulsar/xml
 
