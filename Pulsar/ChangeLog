@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Feb 28 08:41:34 PST 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Optimization of retrieveNextTimeTilde
+    *
+------------------------------------------------------------
 User: razzano  Fri Feb 25 03:46:37 PST 2005
 celestialSources/Pulsar/src
 
