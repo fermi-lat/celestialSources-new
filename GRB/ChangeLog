@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Jul  3 05:34:02 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBTest.cxx 
+Log Message:
+Output ascii file with different name depending on the execution number
+    *
+------------------------------------------------------------
 User: omodei  Wed Jul  3 05:33:43 PDT 2002
 GRB/src/test
 
