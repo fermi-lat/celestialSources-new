@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jun 26 08:36:16 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx GRBTest.cxx 
+Added Files:
+	GRBobsTester.cxx 
+Log Message:
+Test module for GRBobsSpectrum simulation model.
+
+    *
+------------------------------------------------------------
 User: sbansal  Wed Jun 26 07:33:06 PDT 2002
 GRB/src/test
 
