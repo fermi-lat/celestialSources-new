@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Feb 14 20:17:30 PST 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	FitsImage.cxx MapCube.cxx 
+Log Message:
+use magnitude of pixel solid angle
+    *
+------------------------------------------------------------
+User: jchiang  Mon Feb 14 20:17:30 PST 2005
 celestialSources/genericSources/genericSources
 
 Modified Files:
