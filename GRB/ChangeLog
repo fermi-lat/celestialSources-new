@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Mon Mar 29 11:48:59 PST 2004
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsUtilities.h 
+Log Message:
+fix for pedantic: see http://gcc.gnu.org/ml/gcc-bugs/2000-05/msg00255.html
+    *
+------------------------------------------------------------
 User: hansl  Thu Mar 18 11:35:50 PST 2004
 GRB/cmt
 
