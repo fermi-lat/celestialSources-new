@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Wed Nov 20 10:55:41 PST 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBShell.cxx GRBShock.cxx GRBSim.cxx 
+	GRBSpectrum.cxx GRBengine.cxx 
+Log Message:
+change cout into std::cout
+    *
+------------------------------------------------------------
 User: omodei  Wed Nov 20 10:34:50 PST 2002
 GRB/src/test
 
