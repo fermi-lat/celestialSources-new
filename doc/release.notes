@@ -5,6 +5,7 @@
   @verbatim
   $Id$
 
+  14-Jan-05 v0r1em0  HMK   use any ROOT in GRB
   13-Aug-04 v0r1     JC    many undocumented changes: Pulsar, GRB, SpectObj
                            added in previous tags.  Removed Likelihood
                            dependence from genericSources.
