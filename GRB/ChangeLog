@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jul 22 10:14:59 PDT 2004
+celestialSources/GRB/src
+
+Removed Files:
+	defaultOptions.txt 
+Log Message:
+remove some files
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 22 09:51:14 PDT 2004
 celestialSources/GRB/src/test/other
 
