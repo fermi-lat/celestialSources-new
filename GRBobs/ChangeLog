@@ -1,4 +1,35 @@
 ------------------------------------------------------------
+TAG
+Tag name: v0r3p1, operation: add
+Package: GRBobs
+User: cohen  Tue Apr  5 16:23:20 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.63
+  GRBobs/GRBobs/GRBobsmanager.h  1.6
+  GRBobs/GRBobs/mainpage.h  1.3
+  GRBobs/GRBobs/GRBobsSim.h  1.5
+  GRBobs/GRBobs/GRBobsengine.h  1.2
+  GRBobs/GRBobs/GRBobsPulse.h  1.2
+  GRBobs/GRBobs/GRBobsConstants.h  1.5
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.3
+  GRBobs/cmt/Makefile  1.1.1.1
+  GRBobs/doc/release.notes  1.1
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.6
+  GRBobs/src/GRBobsConstants.cxx  1.6
+  GRBobs/src/GRBobsmanager.cxx  1.10
+  GRBobs/src/GRBobsengine.cxx  1.4
+  GRBobs/src/GRBobsSim.cxx  1.8
+  GRBobs/src/test/GRBParam.txt  1.9
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.11
+  GRBobs/xml/GenerateXMLLibrary.C  1.5
+  GRBobs/xml/GRBobs_user_library.xml  1.9
+
+    *
+------------------------------------------------------------
 User: cohen  Tue Apr  5 16:22:54 PDT 2005
 celestialSources/GRBobs/GRBobs
 
