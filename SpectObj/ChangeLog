@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Thu Nov 11 09:42:22 PST 2004
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+little changes to GetPhoton for Pulsars
+    *
+------------------------------------------------------------
 User: omodei  Wed Nov 10 02:11:04 PST 2004
 celestialSources/SpectObj/src
 
