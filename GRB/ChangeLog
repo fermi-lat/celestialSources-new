@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Jun 10 02:42:52 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt GRBTestAlg.cxx jobOptions.txt 
+Log Message:
+Improve the documentation, minor changes
+    *
+------------------------------------------------------------
 User: omodei  Mon Jun 10 02:42:51 PDT 2002
 GRB/src/GRB
 
