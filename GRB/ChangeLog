@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Jun 28 06:17:23 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBTest.cxx 
+Log Message:
+Changed the name of the sources in the root tree
+    *
+------------------------------------------------------------
+User: omodei  Fri Jun 28 06:17:23 PDT 2002
 GRB/src/test
 
 Modified Files:
