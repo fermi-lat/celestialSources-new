@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Dec  1 09:37:58 PST 2003
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+solve a memory leak(?)
+    *
+------------------------------------------------------------
+User: omodei  Mon Dec  1 09:37:58 PST 2003
 GRB/src/GRB
 
 Modified Files:
