@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Thu Oct 21 08:50:12 PDT 2004
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	MapSource.h 
+Log Message:
+remove in favor of st_facilities
+    *
+------------------------------------------------------------
+User: jchiang  Thu Oct 21 08:50:12 PDT 2004
 celestialSources/genericSources/cmt
 
 Modified Files:
