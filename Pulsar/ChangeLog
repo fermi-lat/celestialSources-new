@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Nov 10 01:57:35 PST 2004
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h 
+Log Message:
+Fixed problems in binning, compatibility with new SpectObj, XML librery updated
+    *
+------------------------------------------------------------
 User: razzano  Tue Nov  2 01:26:55 PST 2004
 celestialSources/Pulsar/xml
 
