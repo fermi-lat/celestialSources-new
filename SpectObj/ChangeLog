@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Nov 22 02:07:02 PST 2004
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Speed up the extraction of Photons
+    *
+------------------------------------------------------------
 User: omodei  Wed Nov 17 08:58:20 PST 2004
 celestialSources/SpectObj/src
 
