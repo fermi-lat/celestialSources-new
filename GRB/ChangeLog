@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jun 27 11:24:01 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBTestAlg.cxx jobOptions.txt 
+Log Message:
+The Photon List can be saved in an ascii file
+    *
+------------------------------------------------------------
 User: omodei  Thu Jun 27 08:20:38 PDT 2002
 GRB/src/GRB
 
