@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: sbansal  Fri Nov 22 07:23:20 PST 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBobsTester.cxx 
+Log Message:
+Fixed instantiation of GRBmaker.
+
+    *
+------------------------------------------------------------
 User: sbansal  Fri Nov 22 07:22:15 PST 2002
 GRB/src/GRBmaker
 
