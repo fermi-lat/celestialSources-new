@@ -1,0 +1,23 @@
+------------------------------------------------------------
+User: omodei  Thu Jul 22 09:32:16 PDT 2004
+celestialSources/Pulsar
+
+Log Message:
+Pulsar First import
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N celestialSources/Pulsar/cmt/requirements
+N celestialSources/Pulsar/Pulsar/PulsarConstants.h
+N celestialSources/Pulsar/Pulsar/PulsarSim.h
+N celestialSources/Pulsar/Pulsar/PulsarSpectrum.h
+N celestialSources/Pulsar/src/PulsarSim.cxx
+N celestialSources/Pulsar/src/PulsarSpectrum.cxx
+N celestialSources/Pulsar/src/test/other/PulsarROOTtest.cxx
+
+No conflicts created by this import
+
+    *

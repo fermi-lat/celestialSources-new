@@ -1,0 +1,19 @@
+------------------------------------------------------------
+User: omodei  Thu Jul 22 09:30:52 PDT 2004
+celestialSources/SpectObj
+
+Log Message:
+SpectObj first import. GRB and Pulsar use it
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N celestialSources/SpectObj/cmt/requirements
+N celestialSources/SpectObj/SpectObj/SpectObj.h
+N celestialSources/SpectObj/src/SpectObj.cxx
+
+No conflicts created by this import
+
+    *
