@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Sep 22 09:05:51 PDT 2004
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSim.h PulsarSpectrum.h 
+Log Message:
+pDot Added, Fixed the PulsarSim generator, Pdot added to the XML library file
+    *
+------------------------------------------------------------
 User: razzano  Tue Sep 21 09:18:46 PDT 2004
 celestialSources/Pulsar/src
 
