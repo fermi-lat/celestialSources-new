@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Nov 17 08:50:44 PST 2003
+GRB/src
+
+Modified Files:
+	TDSReadFluxAlg.cxx 
+Log Message:
+GRBROOT_test program ok
+    *
+------------------------------------------------------------
+User: omodei  Mon Nov 17 08:50:44 PST 2003
 GRB/cmt
 
 Modified Files:
