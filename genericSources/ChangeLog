@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: jchiang  Sun Feb  6 19:24:54 PST 2005
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	MapSource.h SpectralTransient.h 
+Added Files:
+	MapCube.h 
+Log Message:
+add MapCube source, refactoring other classes as needed
+    *
+------------------------------------------------------------
+User: jchiang  Sun Feb  6 19:24:54 PST 2005
 celestialSources/genericSources/cmt
 
 Modified Files:
