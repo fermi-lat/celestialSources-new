@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Nov  7 15:24:47 PST 2002
+GRB/src/test
+
+Modified Files:
+	TDSreadFluxOptions.txt 
+Log Message:
+remove obsolete and now wrong source library addition.
+    *
+------------------------------------------------------------
 User: cohen  Thu Nov  7 10:18:38 PST 2002
 GRB/src/test/other
 
