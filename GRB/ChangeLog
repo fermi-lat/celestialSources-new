@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: omodei  Fri Jul 26 03:10:36 PDT 2002
+GRB/src/test
+
+Modified Files:
+	jobOptions.txt 
+Added Files:
+	GRBtestAlgOptions.txt TDSreadFluxOptions.txt 
+Log Message:
+Redesign the joboptions file
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 25 09:20:43 PDT 2002
 GRB/xml
 
