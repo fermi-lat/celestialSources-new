@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: razzano  Mon Jan 17 06:45:31 PST 2005
+celestialSources/Pulsar/xml
+
+Modified Files:
+	Pulsar_user_library.xml 
+Added Files:
+	Pulsar_test_library.xml 
+Log Message:
+Doxy Documentation added; Added testPulsar library
+    *
+------------------------------------------------------------
+User: razzano  Mon Jan 17 06:45:31 PST 2005
 celestialSources/Pulsar/src/test/other
 
 Modified Files:
