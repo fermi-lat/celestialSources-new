@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: omodei  Wed Jun 19 09:37:12 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBShell.cxx GRBShell.h 
+	GRBShock.cxx GRBShock.h GRBSim.cxx GRBSim.h GRBSpectrum.cxx 
+	GRBSpectrum.h GRBSvc.h mainpage.h 
+Log Message:
+Improve the portability under Windows, Improve the documentation
+    *
+------------------------------------------------------------
 User: omodei  Wed Jun 19 09:37:11 PDT 2002
 GRB/cmt
 
