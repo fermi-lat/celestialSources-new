@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: cohen  Wed Jul 30 01:44:25 PDT 2003
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.cxx GRBobsSpectrum.h 
+Log Message:
+fix GRB to follow FluxSvc/flux changes
+    *
+------------------------------------------------------------
+User: cohen  Wed Jul 30 01:44:25 PDT 2003
 GRB/src/GRB
 
 Modified Files:
