@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Thu Jan 16 09:59:26 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBShell.h GRBShock.cxx GRBShock.h GRBSim.h GRBSpectrum.h 
+	GRBengine.cxx GRBengine.h GRBmanager.cxx GRBmanager.h 
+Log Message:
+Add documentation...
+    *
+------------------------------------------------------------
+User: omodei  Thu Jan 16 09:59:26 PST 2003
 GRB/doc
 
 Modified Files:
