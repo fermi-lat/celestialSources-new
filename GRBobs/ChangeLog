@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Tue Dec 14 08:00:55 PST 2004
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsSim.cxx 
+	GRBobsengine.cxx GRBobsmanager.cxx 
+Log Message:
+Reimplemented the Fluence calculation
+    *
+------------------------------------------------------------
+User: omodei  Tue Dec 14 08:00:55 PST 2004
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
