@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Jun 28 04:25:44 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBTestAlg.cxx jobOptions.txt 
+Log Message:
+Multiple background sources selection
+    *
+------------------------------------------------------------
 User: omodei  Fri Jun 28 04:25:43 PDT 2002
 GRB/src/GRB
 
