@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Wed Nov 20 10:34:50 PST 2002
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Clean up the code, fixed bugs, removed some couts
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov 20 10:34:50 PST 2002
 GRB/src/GRB
 
 Modified Files:
