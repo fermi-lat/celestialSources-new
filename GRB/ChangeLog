@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Fri Apr 19 03:52:42 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBSim.cxx GRBSim.h GRBConstants.cxx GRBConstants.h GRBShell.h 
+	GRBShock.cxx GRBShock.h 
+Log Message:
+Minor changes, fixed the path to find the parameter file. Checked the flux calculation and the physics of the emission processes.
+    *
+------------------------------------------------------------
 User: omodei  Fri Apr 19 03:42:26 PDT 2002
 GRB/src/GRB
 
