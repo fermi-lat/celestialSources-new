@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Fri Nov 28 11:20:39 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBShock.cxx GRBShock.h 
+	GRBSim.cxx GRBengine.cxx GRBengine.h GRBmanager.cxx 
+Log Message:
+add some parameters in the parameters txt file. 
+    *
+------------------------------------------------------------
 User: omodei  Wed Nov 26 10:45:25 PST 2003
 GRB/xml
 
