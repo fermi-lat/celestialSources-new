@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Dec  2 15:57:16 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.h GRBengine.cxx SpectObj.cxx 
+Log Message:
+check the compatibility for 2.95.3
+    *
+------------------------------------------------------------
 User: cohen  Tue Dec  2 15:37:24 PST 2003
 GRB/src/LatGRBAlert
 
