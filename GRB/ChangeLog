@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: omodei  Wed Nov 20 10:34:50 PST 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.h GRBICompton.cxx GRBICompton.h GRBShell.cxx 
+	GRBShock.cxx GRBSim.cxx GRBSim.h GRBSynchrotron.cxx 
+	GRBSynchrotron.h GRBengine.cxx GRBmanager.cxx 
+	RadiationProcess.cxx RadiationProcess.h 
+Log Message:
+Clean up the code, fixed bugs, removed some couts
+    *
+------------------------------------------------------------
 User: cohen  Tue Nov 19 07:51:11 PST 2002
 GRB/src/GRB
 
