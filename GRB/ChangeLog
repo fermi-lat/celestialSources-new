@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Jun 19 09:37:11 PDT 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Improve the portability under Windows, Improve the documentation
+    *
+------------------------------------------------------------
 User: cohen  Tue Jun 11 08:00:49 PDT 2002
 GRB/src/GRB
 
