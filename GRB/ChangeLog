@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Wed Nov 26 10:45:24 PST 2003
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+changes for dc1, alpha and beta are randomly generated.
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov 26 10:45:24 PST 2003
 GRB/src/GRB
 
 Modified Files:
