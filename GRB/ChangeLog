@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Nov 14 02:29:34 PST 2002
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+New scenarious are consedered. Still working of the way to deal with the parameter file
+    *
+------------------------------------------------------------
 User: omodei  Thu Nov 14 02:26:45 PST 2002
 GRB/src/GRB
 
