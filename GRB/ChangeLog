@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jul 22 10:15:00 PDT 2004
+celestialSources/GRB/src/GRB
+
+Removed Files:
+	SpectObj.cxx SpectObj.h 
+Log Message:
+remove some files
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 22 10:14:59 PDT 2004
 celestialSources/GRB/src
 
