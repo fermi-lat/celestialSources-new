@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Mon Nov 15 05:35:21 PST 2004
+celestialSources/Pulsar/xml
+
+Modified Files:
+	Pulsar_user_library.xml 
+Log Message:
+enphmin & enphmax included
+    *
+------------------------------------------------------------
+User: razzano  Mon Nov 15 05:35:21 PST 2004
 celestialSources/Pulsar/src/test/other
 
 Modified Files:
