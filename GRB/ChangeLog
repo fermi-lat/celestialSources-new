@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jul  2 09:49:31 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBTest.cxx 
+Log Message:
+ include only GRBConstants.h
+    *
+------------------------------------------------------------
 User: omodei  Tue Jul  2 09:48:58 PDT 2002
 GRB/src/test/other
 
