@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu Nov 14 12:18:11 PST 2002
+GRB/src/GRB
+
+Added Files:
+	RadiationProcess.cxx RadiationProcess.h 
+Log Message:
+first version of the RadiationProcess base class (much remains to be done). Fix few bugs.
+    *
+------------------------------------------------------------
 User: cohen  Thu Nov 14 12:17:27 PST 2002
 GRB/src/test/other
 
