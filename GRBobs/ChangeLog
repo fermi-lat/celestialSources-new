@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: cohen  Tue Apr  5 16:21:08 PDT 2005
+celestialSources/GRBobs/cmt
+
+Added Files:
+	.cvsignore 
+Removed Files:
+	setup.sh setup.csh rh9_gcc32.make cleanup.sh cleanup.csh 
+Log Message:
+cleanup the package in CVS
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r3, operation: add
 Package: GRBobs
