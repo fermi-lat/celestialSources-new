@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: cohen  Thu May 29 05:22:37 PDT 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBShell.cxx GRBShock.cxx GRBSim.cxx GRBSpectrum.cxx 
+	SpectObj.h 
+Log Message:
+replace math.h by cmath, and fix an iterator/pointer mismatch
+    *
+------------------------------------------------------------
+User: cohen  Thu May 29 05:22:37 PDT 2003
 GRB/cmt
 
 Modified Files:
