@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Jul  4 18:15:20 PDT 2002
+GRB/src/Dll
+
+Modified Files:
+	GRB_dll.cxx GRB_load.cxx 
+Log Message:
+clean up and convert to use the IRegisterSource interface
+    *
+------------------------------------------------------------
 User: omodei  Wed Jul  3 10:03:59 PDT 2002
 GRB/src/test/other
 
