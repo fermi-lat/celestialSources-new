@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: jchiang  Sat Feb 19 08:22:11 PST 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	FitsImage.cxx FitsImage.h MapCube.cxx SpectralTransient.cxx 
+	Util.cxx Util.h sources.in 
+Log Message:
+be able to read SpectralTransient light curves from FITS file
+    *
+------------------------------------------------------------
+User: jchiang  Sat Feb 19 08:22:11 PST 2005
 celestialSources/genericSources/genericSources
 
 Modified Files:
