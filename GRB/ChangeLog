@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: cohen  Tue Apr 27 17:52:43 PDT 2004
+GRB/xml
+
+Modified Files:
+	GRB_user_library.xml 
+Log Message:
+Gaudi independance
+    *
+------------------------------------------------------------
+User: cohen  Tue Apr 27 17:52:43 PDT 2004
 GRB/src/GRBmaker
 
 Modified Files:
