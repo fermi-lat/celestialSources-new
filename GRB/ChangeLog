@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Thu Jul  4 20:34:31 PDT 2002
+GRB/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+general cleanup to be used with Gleam
+    *
+------------------------------------------------------------
+User: burnett  Thu Jul  4 20:34:31 PDT 2002
 GRB/cmt
 
 Removed Files:
