@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: sbansal  Fri Nov 22 07:22:15 PST 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRB.h LatGrb.h GbmGrb.h GRBobsSpectrum.h GRBobsUtilities.h 
+Log Message:
+fixes for linux.
+
+    *
+------------------------------------------------------------
 User: sbansal  Fri Nov 22 07:21:31 PST 2002
 GRB/src/GRBmaker
 
