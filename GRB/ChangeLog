@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: omodei  Thu Nov 14 02:26:45 PST 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBmanager.cxx GRBmanager.h 
+	GRBShell.cxx GRBShell.h GRBShock.cxx GRBShock.h GRBSim.cxx 
+	GRBSim.h GRBSpectrum.cxx GRBSpectrum.h 
+Added Files:
+	GRBengine.cxx GRBengine.h GRBICompton.cxx GRBICompton.h 
+	GRBSynchrotron.cxx GRBSynchrotron.h SpectObj.cxx SpectObj.h 
+Log Message:
+New version of physical processes, separated from the shock class. The code is faster and new scenarious can be considered
+    *
+------------------------------------------------------------
 User: burnett  Tue Nov 12 21:13:35 PST 2002
 GRB/src/Dll
 
