@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Wed Jun 19 09:37:12 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt GRBTestAlg.cxx jobOptions.txt 
+Log Message:
+Improve the portability under Windows, Improve the documentation
+    *
+------------------------------------------------------------
+User: omodei  Wed Jun 19 09:37:12 PDT 2002
 GRB/src/GRB
 
 Modified Files:
