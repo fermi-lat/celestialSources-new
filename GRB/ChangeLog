@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Apr 28 12:25:37 PDT 2004
+GRB/xml
+
+Modified Files:
+	GRB_user_library.xml 
+Log Message:
+fix GRBmanager mystery bug; rename diffuse to grb_diffuse
+    *
+------------------------------------------------------------
 User: jchiang  Wed Apr 28 12:25:36 PDT 2004
 GRB/src/GRB
 
