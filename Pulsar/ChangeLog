@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Feb  4 02:20:30 PST 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+User defined timeprofiles fixed
+    *
+------------------------------------------------------------
 User: razzano  Thu Feb  3 10:06:16 PST 2005
 celestialSources/Pulsar/src
 
