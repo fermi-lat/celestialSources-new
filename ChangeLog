@@ -2,6 +2,15 @@
 TAG
 Tag name: v0r3p1, operation: add
 Package: celestialSources
+User: jchiang  Wed Jan  5 19:24:29 2005
+Files:
+  celestialSources/src/mainpage.h  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r3p1, operation: add
+Package: celestialSources
 User: jchiang  Wed Jan  5 19:24:12 2005
 Files:
   celestialSources/doc/release.notes  1.7
