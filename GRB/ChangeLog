@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jun 26 06:54:48 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.cxx 
+Log Message:
+Implemented Interval method
+    *
+------------------------------------------------------------
 User: sbansal  Wed Jun 26 06:49:08 PDT 2002
 GRB/src/GRBmaker
 
