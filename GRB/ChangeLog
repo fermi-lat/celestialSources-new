@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Nov 17 08:50:45 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBSim.cxx GRBengine.cxx 
+	GRBmanager.h 
+Log Message:
+GRBROOT_test program ok
+    *
+------------------------------------------------------------
 User: omodei  Mon Nov 17 08:50:44 PST 2003
 GRB/src
 
