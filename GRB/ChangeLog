@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Mon Nov 17 08:50:45 PST 2003
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt GRBTestAlg.cxx TDSreadFluxOptions.txt 
+	test_jobOptions.txt 
+Log Message:
+GRBROOT_test program ok
+    *
+------------------------------------------------------------
+User: omodei  Mon Nov 17 08:50:45 PST 2003
 GRB/src/GRB
 
 Modified Files:
