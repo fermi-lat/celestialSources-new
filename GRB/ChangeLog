@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Apr 19 03:42:26 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBSpectrum.cxx GRBSpectrum.h 
+Log Message:
+Implemented the interval method (necessary for transient sources)
+    *
+------------------------------------------------------------
 User: srobinsn  Mon Apr  8 17:23:48 PDT 2002
 GRB/src/test
 
