@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Mar 22 07:49:30 PST 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+use namespace astro::SkyDir for coordinate (GALACTIC), new xml library
+    *
+------------------------------------------------------------
+User: omodei  Tue Mar 22 07:49:30 PST 2005
 celestialSources/GRBobs/src
 
 Modified Files:
