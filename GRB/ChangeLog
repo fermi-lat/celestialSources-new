@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jul 25 09:12:07 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBTest.cxx 
+Log Message:
+Galactic coordinates are double to minimize numerical errors
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 25 09:08:19 PDT 2002
 GRB/src/test
 
