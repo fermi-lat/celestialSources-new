@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: cohen  Tue Apr  5 16:22:53 PDT 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+attempt to fix windows build problem and linux corresponding warning, plus an inocuous warning on unsigned int against int comparison
+
+    *
+------------------------------------------------------------
+User: cohen  Tue Apr  5 16:22:53 PDT 2005
 celestialSources/GRBobs/src
 
 Modified Files:
