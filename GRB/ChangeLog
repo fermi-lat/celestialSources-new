@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Mon Jul 29 07:54:02 PDT 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Included LatTrigger algorithm
+    *
+------------------------------------------------------------
 User: omodei  Fri Jul 26 03:10:36 PDT 2002
 GRB/src/test
 
