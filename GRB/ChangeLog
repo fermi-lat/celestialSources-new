@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Tue Jul 30 12:05:27 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBmaker.cxx 
+Log Message:
+std::fixed did not compile on linux - fixed this.
+    *
+------------------------------------------------------------
 User: cohen  Tue Jul 30 05:39:33 PDT 2002
 GRB/cmt
 
