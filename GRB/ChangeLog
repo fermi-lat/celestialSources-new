@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Tue Jul 30 03:45:59 PDT 2002
+GRB/src/LatTrigger
+
+Modified Files:
+	BackgroundMixer.cxx LatTriggerConstants.h 
+Log Message:
+fix Linux compilation
+    *
+------------------------------------------------------------
 User: sbansal  Mon Jul 29 08:28:25 PDT 2002
 GRB/src/GRB
 
