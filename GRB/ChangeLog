@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Wed Aug 28 13:34:44 PDT 2002
+GRB/xml
+
+Modified Files:
+	GRB_user_library.xml 
+Log Message:
+Changed specification of GRB photon list file to be read
+    *
+------------------------------------------------------------
 User: burnett  Wed Aug 28 12:57:57 PDT 2002
 GRB/src/LatGRBAlert
 
