@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jan 22 12:17:54 PST 2003
+GRB/src/LatGRBAlert
+
+Modified Files:
+	BackgroundMixer.h ClusterData.h ClusterInfo.h LatGRBAlert.h 
+	LatGRBAlertConstants.h PhotonInfo.h 
+Log Message:
+Added Doxygen documentation.
+
+    *
+------------------------------------------------------------
 User: sbansal  Wed Jan 22 12:15:49 PST 2003
 GRB/src/GRBmaker
 
