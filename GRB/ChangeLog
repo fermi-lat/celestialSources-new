@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: frailis  Thu Nov 21 08:04:27 PST 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+changes to the requirements file to use stamps and GRB_extrastamps
+    *
+------------------------------------------------------------
 User: omodei  Wed Nov 20 10:55:41 PST 2002
 GRB/src/test/other
 
