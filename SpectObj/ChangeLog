@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Dec  9 01:46:11 PST 2004
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Add SetAreaDetector() method
+    *
+------------------------------------------------------------
+User: omodei  Thu Dec  9 01:46:11 PST 2004
 celestialSources/SpectObj/SpectObj
 
 Modified Files:
