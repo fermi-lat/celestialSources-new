@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jul 25 08:57:55 PDT 2002
+GRB/src
+
+Modified Files:
+	RegisterGRB.cxx 
+Log Message:
+Add GRBmanager flux
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 25 08:56:53 PDT 2002
 GRB/src
 
