@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Aug 28 12:53:51 PDT 2002
+GRB/src/LatGRBAlert
+
+Removed Files:
+	LatTrigger.cxx LatTrigger.h 
+Log Message:
+remove for Sandhia
+    *
+------------------------------------------------------------
 User: flongo  Tue Aug 20 09:22:05 PDT 2002
 GRB/src/test/other
 
