@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: omodei  Thu Jul 22 09:51:14 PDT 2004
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBSim.h GRBmanager.cxx GRBmanager.h 
+Removed Files:
+      Tag: v4r0p4
+	SpectObj.cxx SpectObj.h 
+Log Message:
+Use SpectObj
+    *
+------------------------------------------------------------
+User: omodei  Thu Jul 22 09:51:14 PDT 2004
 celestialSources/GRB/src
 
 Removed Files:
