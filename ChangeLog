@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu Jul 22 16:19:09 PDT 2004
+celestialSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix an oops in GRB
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 22 09:57:42 PDT 2004
 celestialSources/cmt
 
