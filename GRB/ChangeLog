@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Jun 19 09:37:13 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx GRBTest.cxx 
+Log Message:
+Improve the portability under Windows, Improve the documentation
+    *
+------------------------------------------------------------
 User: omodei  Wed Jun 19 09:37:12 PDT 2002
 GRB/src/test
 
