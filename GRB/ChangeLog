@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jul  2 09:21:00 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx GRBTest.cxx 
+Log Message:
+Changed the inizialization of time in saving data. Bugs fixed
+    *
+------------------------------------------------------------
 User: omodei  Tue Jul  2 09:19:27 PDT 2002
 GRB/src/GRB
 
