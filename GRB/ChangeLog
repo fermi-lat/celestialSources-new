@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Fri Jan 24 09:38:16 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.h GRBICompton.h GRBSim.h GRBSpectrum.h 
+	GRBSynchrotron.h GRBmanager.h RadiationProcess.h SpectObj.h 
+Log Message:
+final version for me before the CR
+    *
+------------------------------------------------------------
+User: omodei  Fri Jan 24 09:38:16 PST 2003
 GRB/src
 
 Modified Files:
