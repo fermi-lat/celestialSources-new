@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: omodei  Wed May 15 06:50:21 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt GRBTest.cxx 
+Added Files:
+	GRBTest1.cxx 
+Log Message:
+Add a test program
+    *
+------------------------------------------------------------
 User: omodei  Fri Apr 19 04:04:40 PDT 2002
 GRB/cmt
 
