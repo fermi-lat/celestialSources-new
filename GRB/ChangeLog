@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Wed Feb 26 00:30:37 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBSpectrum.cxx GRBSpectrum.h GRBmanager.cxx GRBmanager.h 
+Log Message:
+couldn't beat the clock, but this should fix nightly build against FluxSvc
+    *
+------------------------------------------------------------
 User: cohen  Sun Feb 23 19:27:14 PST 2003
 GRB/src/test/other
 
