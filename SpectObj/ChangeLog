@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Nov 17 08:58:20 PST 2004
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Better approximation for interval computation
+    *
+------------------------------------------------------------
 User: razzano  Mon Nov 15 04:43:39 PST 2004
 celestialSources/SpectObj/src
 
