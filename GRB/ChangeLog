@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jan 22 12:18:45 PST 2003
+GRB/src/LatGRBAlert
+
+Modified Files:
+	BackgroundMixer.cxx ClusterData.cxx LatGRBAlert.cxx 
+Log Message:
+Minor maintenance.
+
+    *
+------------------------------------------------------------
 User: sbansal  Wed Jan 22 12:17:54 PST 2003
 GRB/src/LatGRBAlert
 
