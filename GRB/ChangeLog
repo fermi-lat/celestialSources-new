@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: sbansal  Thu Aug 29 05:09:10 PDT 2002
+GRB/src/LatGRBAlert
+
+Modified Files:
+	ClusterData.cxx 
+Added Files:
+	LatGRBAlert.cxx 
+Log Message:
+name change from LatTrigger to LatGRBAlert
+    *
+------------------------------------------------------------
 User: sbansal  Wed Aug 28 13:46:04 PDT 2002
 GRB/src/LatGRBAlert
 
