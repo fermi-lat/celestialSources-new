@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Thu Dec  9 06:31:41 PST 2004
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Added PeriodicSpectrum
+    *
+------------------------------------------------------------
+User: razzano  Thu Dec  9 06:31:41 PST 2004
 celestialSources/SpectObj/SpectObj
 
 Modified Files:
