@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: jchiang  Sun Jan 30 21:53:33 PST 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx Pulsar.cxx 
+Added Files:
+	SpectralTransient.cxx sources.in 
+Log Message:
+add SpectralTransient class for AGN modeling
+    *
+------------------------------------------------------------
+User: jchiang  Sun Jan 30 21:53:33 PST 2005
 celestialSources/genericSources/genericSources
 
 Added Files:
