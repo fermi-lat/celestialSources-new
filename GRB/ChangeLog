@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jul  2 09:48:58 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Fixed the bug for time=0
+    *
+------------------------------------------------------------
 User: omodei  Tue Jul  2 09:47:54 PDT 2002
 GRB/src/GRB
 
