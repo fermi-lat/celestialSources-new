@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Dec  2 13:59:45 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBSim.h GRBengine.h GRBmanager.h SpectObj.cxx SpectObj.h 
+Log Message:
+last version, hopefully solved the crash problem
+    *
+------------------------------------------------------------
+User: omodei  Tue Dec  2 13:59:45 PST 2003
 GRB/src
 
 Modified Files:
