@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Tue Sep 28 06:34:20 PDT 2004
+celestialSources/Pulsar/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Inclusion of JD and Mission Elapsed Time
+    *
+------------------------------------------------------------
+User: razzano  Tue Sep 28 06:34:20 PDT 2004
 celestialSources/Pulsar/Pulsar
 
 Modified Files:
