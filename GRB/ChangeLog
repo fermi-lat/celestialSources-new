@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Jul 22 09:51:14 PDT 2004
+celestialSources/GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Use SpectObj
+    *
+------------------------------------------------------------
+User: omodei  Thu Jul 22 09:51:14 PDT 2004
 celestialSources/GRB/src/test
 
 Modified Files:
