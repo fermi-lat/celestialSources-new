@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Dec  9 03:07:30 PST 2004
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+SetAreaDetector() method bug fixed
+    *
+------------------------------------------------------------
 User: omodei  Thu Dec  9 01:46:11 PST 2004
 celestialSources/SpectObj/src
 
