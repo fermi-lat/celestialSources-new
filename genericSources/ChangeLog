@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Mon Dec 13 13:37:30 PST 2004
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx Pulsar.cxx TransientTemplate.cxx 
+Added Files:
+	FitsImage.cxx FitsImage.h Util.cxx Util.h 
+Log Message:
+remove dependence on st_facilities
+    *
+------------------------------------------------------------
 User: jchiang  Mon Dec 13 13:37:29 PST 2004
 celestialSources/genericSources/doc
 
