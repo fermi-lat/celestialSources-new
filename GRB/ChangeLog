@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Tue Apr 27 17:26:49 PDT 2004
+GRB/src/test/other
+
+Removed Files:
+	GRBTest.cxx 
+Log Message:
+removing dependencies to Gaudi
+    *
+------------------------------------------------------------
 User: cohen  Tue Mar 30 20:50:47 PST 2004
 GRB/cmt
 
