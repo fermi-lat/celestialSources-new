@@ -2,6 +2,17 @@
 TAG
 Tag name: v0r4p2, operation: add
 Package: celestialSources
+User: jchiang  Mon Apr  4 12:28:42 2005
+Files:
+  celestialSources/cmt/requirements  1.22
+  celestialSources/doc/release.notes  1.14
+  celestialSources/src/mainpage.h  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r4p2, operation: add
+Package: celestialSources
 User: jchiang  Mon Apr  4 12:28:24 2005
 Files:
   celestialSources/.cvsignore  1.1.1.1
