@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: jchiang  Sun Feb  6 19:24:54 PST 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	FitsImage.cxx FitsImage.h MapSource.cxx SpectralTransient.cxx 
+	Util.cxx Util.h sources.in 
+Added Files:
+	MapCube.cxx 
+Log Message:
+add MapCube source, refactoring other classes as needed
+    *
+------------------------------------------------------------
+User: jchiang  Sun Feb  6 19:24:54 PST 2005
 celestialSources/genericSources/genericSources
 
 Modified Files:
