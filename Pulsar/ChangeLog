@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Fri Feb 18 07:06:23 PST 2005
+celestialSources/Pulsar/data
+
+Modified Files:
+	PulsarDataList.txt 
+Log Message:
+Timing de-corrections implemented;waiting for orbit problem TBS
+    *
+------------------------------------------------------------
+User: razzano  Fri Feb 18 07:06:23 PST 2005
 celestialSources/Pulsar/Pulsar
 
 Modified Files:
