@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Fri Jan 14 09:09:43 PST 2005
+celestialSources/Pulsar/doc
+
+Added Files:
+	DoxyFile release.notes 
+Log Message:
+Multiple PSR bugs fixed; Begin of Doxy documentation
+    *
+------------------------------------------------------------
+User: razzano  Fri Jan 14 09:09:43 PST 2005
 celestialSources/Pulsar/data
 
 Modified Files:
