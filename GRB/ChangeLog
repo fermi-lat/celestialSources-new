@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: cohen  Thu Nov 14 12:17:26 PST 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBICompton.cxx GRBICompton.h GRBShell.h GRBSim.cxx 
+	GRBSpectrum.cxx GRBSpectrum.h GRBSynchrotron.cxx 
+	GRBSynchrotron.h GRBengine.cxx GRBmanager.cxx GRBmanager.h 
+	SpectObj.cxx 
+Log Message:
+first version of the RadiationProcess base class (much remains to be done). Fix few bugs.
+    *
+------------------------------------------------------------
 User: omodei  Thu Nov 14 02:32:04 PST 2002
 GRB/src/test/other
 
