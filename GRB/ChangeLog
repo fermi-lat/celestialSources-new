@@ -1,4 +1,20 @@
 ------------------------------------------------------------
+User: omodei  Mon Nov 17 04:14:00 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBShell.cxx GRBShell.h 
+	GRBShock.cxx GRBShock.h GRBSim.cxx GRBSim.h GRBengine.cxx 
+	GRBengine.h GRBmanager.cxx GRBmanager.h SpectObj.cxx 
+	SpectObj.h 
+Removed Files:
+	GRBICompton.cxx GRBICompton.h GRBSpectrum.cxx GRBSpectrum.h 
+	GRBSynchrotron.cxx GRBSynchrotron.h RadiationProcess.cxx 
+	RadiationProcess.h 
+Log Message:
+New GRB design. Uses ROOT libraries. 
+    *
+------------------------------------------------------------
 User: omodei  Mon Nov 17 04:13:59 PST 2003
 GRB/src
 
