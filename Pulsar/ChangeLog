@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Sat Nov 27 05:32:03 PST 2004
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h 
+Log Message:
+Binning fixed. PDot=0.0 bug fixed
+    *
+------------------------------------------------------------
 User: razzano  Thu Nov 25 06:43:15 PST 2004
 celestialSources/Pulsar/xml
 
