@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Sun Oct  3 16:37:33 PDT 2004
+celestialSources/SpectObj/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+versions of uses need to have the major number at least there. I just lost 1h because of that
+
+    *
+------------------------------------------------------------
 User: razzano  Wed Sep 22 09:07:20 PDT 2004
 celestialSources/SpectObj/src
 
