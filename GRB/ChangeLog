@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Thu Aug 29 08:28:24 PDT 2002
+GRB/src/test
+
+Added Files:
+	LatGRBAlertAlg.cxx 
+Log Message:
+replacement for LatTriggerAlg.cxx
+    *
+------------------------------------------------------------
 User: sbansal  Thu Aug 29 08:27:20 PDT 2002
 GRB/src/test
 
