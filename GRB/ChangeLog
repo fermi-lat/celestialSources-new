@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Jun 28 04:25:44 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBTest.cxx 
+Log Message:
+Multiple background sources selection
+    *
+------------------------------------------------------------
+User: omodei  Fri Jun 28 04:25:44 PDT 2002
 GRB/src/test
 
 Modified Files:
