@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Mar  8 09:28:34 PST 2005
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBShock.cxx GRBmanager.cxx 
+Log Message:
+fixes for windows: include <cmath>, use enum in SkyDir constructor
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r1p4, operation: add
 Package: GRB
