@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: sbansal  Mon Jul 29 08:01:10 PDT 2002
+GRB/src/LatTrigger
+
+Added Files:
+	BackgroundMixer.cxx BackgroundMixer.h ClusterData.cxx 
+	ClusterData.h ClusterInfo.h LatTrigger.cxx LatTrigger.h 
+	LatTriggerConstants.h PhotonInfo.h 
+Log Message:
+New LatTrigger Algorithm
+    *
+------------------------------------------------------------
 User: sbansal  Mon Jul 29 08:00:15 PDT 2002
 GRB/src/LatTrigger
 
