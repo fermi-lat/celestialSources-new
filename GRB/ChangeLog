@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Dec  1 13:55:27 PST 2003
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+GRB physical model Almost ready for dc1
+    *
+------------------------------------------------------------
+User: omodei  Mon Dec  1 13:55:27 PST 2003
 GRB/src/GRB
 
 Modified Files:
