@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Wed Aug 28 13:40:28 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBmaker.h GRBobsConstants.h 
+Log Message:
+Made some changes to the way a GRB photon file can be specified for read
+    *
+------------------------------------------------------------
 User: sbansal  Wed Aug 28 13:39:10 PDT 2002
 GRB/src/GRBmaker
 
