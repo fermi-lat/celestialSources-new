@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Wed Aug 28 13:46:04 PDT 2002
+GRB/src/LatGRBAlert
+
+Added Files:
+	LatGRBAlert.h LatGRBAlertConstants.h 
+Log Message:
+name change from LatTrigger to LatGRBAlert
+    *
+------------------------------------------------------------
 User: sbansal  Wed Aug 28 13:40:28 PDT 2002
 GRB/src/GRBmaker
 
