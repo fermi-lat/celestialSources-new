@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Nov 22 09:15:05 PST 2004
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Modifications to increase speed for periodic sources
+    *
+------------------------------------------------------------
 User: omodei  Mon Nov 22 02:07:02 PST 2004
 celestialSources/SpectObj/SpectObj
 
