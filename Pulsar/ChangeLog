@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Sun Sep 19 23:27:27 PDT 2004
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Problem with InternalTime solved
+    *
+------------------------------------------------------------
 User: razzano  Thu Sep 16 09:17:33 PDT 2004
 celestialSources/Pulsar/xml
 
