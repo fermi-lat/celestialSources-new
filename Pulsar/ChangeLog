@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Jan 18 07:39:25 PST 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Small modications in PulsarSpectrum for speed
+    *
+------------------------------------------------------------
 User: razzano  Tue Jan 18 06:16:56 PST 2005
 celestialSources/Pulsar/src
 
