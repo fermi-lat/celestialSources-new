@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: omodei  Thu Jan 23 11:03:45 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.h GRBICompton.cxx GRBICompton.h GRBShell.cxx 
+	GRBShock.cxx GRBSpectrum.cxx GRBSpectrum.h GRBSynchrotron.cxx 
+	GRBengine.cxx GRBmanager.h SpectObj.h 
+Log Message:
+Add documentation, bug fixing
+    *
+------------------------------------------------------------
 User: omodei  Thu Jan 23 11:03:44 PST 2003
 GRB/src
 
