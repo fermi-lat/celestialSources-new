@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Feb  8 10:04:55 PST 2005
+celestialSources/genericSources/data
+
+Added Files:
+	test_image.fits 
+Log Message:
+add test code
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1, operation: add
 Package: genericSources
