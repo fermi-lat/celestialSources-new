@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: cohen  Tue Apr  5 16:21:08 PDT 2005
+celestialSources/GRBobs/doc
+
+Added Files:
+	release.notes 
+Log Message:
+cleanup the package in CVS
+
+    *
+------------------------------------------------------------
+User: cohen  Tue Apr  5 16:21:08 PDT 2005
 celestialSources/GRBobs/cmt
 
 Added Files:
