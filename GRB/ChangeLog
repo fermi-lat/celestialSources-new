@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Tue Aug 13 13:16:54 PDT 2002
+GRB/src/LatTrigger
+
+Modified Files:
+	BackgroundMixer.cxx ClusterData.cxx 
+Log Message:
+added few comments
+    *
+------------------------------------------------------------
 User: sbansal  Tue Aug 13 13:06:54 PDT 2002
 GRB/src/GRBmaker
 
