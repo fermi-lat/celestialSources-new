@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Thu Dec  9 06:35:30 PST 2004
+celestialSources/Pulsar/xml
+
+Modified Files:
+	Pulsar_user_library.xml 
+Log Message:
+Added different seed for different Pulsars;modify for new Aeff in SpectObj
+    *
+------------------------------------------------------------
+User: razzano  Thu Dec  9 06:35:30 PST 2004
 celestialSources/Pulsar/src/test/other
 
 Modified Files:
