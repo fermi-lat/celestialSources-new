@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Wed May 15 06:58:02 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBShell.cxx GRBShell.h 
+	GRBShock.cxx GRBSim.cxx GRBSpectrum.cxx GRBSpectrum.h 
+Log Message:
+Chacking the compatibility with FluxSvc 5r6... still working
+    *
+------------------------------------------------------------
 User: omodei  Wed May 15 06:50:21 PDT 2002
 GRB/src/test
 
