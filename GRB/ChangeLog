@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Jun 10 02:42:52 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx GRBTest.cxx 
+Log Message:
+Improve the documentation, minor changes
+    *
+------------------------------------------------------------
+User: omodei  Mon Jun 10 02:42:52 PDT 2002
 GRB/src/test
 
 Modified Files:
