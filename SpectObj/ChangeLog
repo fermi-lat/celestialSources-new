@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Jan 31 09:22:19 PST 2005
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Modified PeriodicSpectrumIsComputed for PulsarSpectrum
+    *
+------------------------------------------------------------
 User: omodei  Mon Jan 31 05:56:44 PST 2005
 celestialSources/SpectObj/src
 
