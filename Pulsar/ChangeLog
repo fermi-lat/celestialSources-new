@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Sat Nov 27 05:32:03 PST 2004
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Binning fixed. PDot=0.0 bug fixed
+    *
+------------------------------------------------------------
+User: razzano  Sat Nov 27 05:32:03 PST 2004
 celestialSources/Pulsar/Pulsar
 
 Modified Files:
