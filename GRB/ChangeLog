@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jul 25 09:19:15 PDT 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+I am not sure that this will work also under Win
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 25 09:13:26 PDT 2002
 GRB/src/test/other
 
