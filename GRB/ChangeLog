@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Mar 17 01:30:40 PST 2003
+GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx GRBTest.cxx 
+Log Message:
+Use of SpectrumObj class. Add treeview in the doc.
+    *
+------------------------------------------------------------
+User: omodei  Mon Mar 17 01:30:40 PST 2003
 GRB/src/test
 
 Modified Files:
