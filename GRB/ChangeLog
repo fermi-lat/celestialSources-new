@@ -1,0 +1,32 @@
+------------------------------------------------------------
+User: srobinsn  Mon Apr  8 16:52:00 PDT 2002
+GRB
+
+Log Message:
+Original GRB files were moved from the package "FluxDisplay."
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N GRB/.cvsignore
+N GRB/cmt/cleanup.bat
+N GRB/cmt/NMake
+N GRB/cmt/requirements
+N GRB/cmt/setup.bat
+N GRB/src/GRB/GRBConstants.cxx
+N GRB/src/GRB/GRBConstants.h
+N GRB/src/GRB/GRBShell.cxx
+N GRB/src/GRB/GRBShell.h
+N GRB/src/GRB/GRBShock.cxx
+N GRB/src/GRB/GRBShock.h
+N GRB/src/GRB/GRBSim.cxx
+N GRB/src/GRB/GRBSim.h
+N GRB/src/GRB/GRBSpectrum.cxx
+N GRB/src/GRB/GRBSpectrum.h
+N GRB/src/test/GRBParam.txt
+
+No conflicts created by this import
+
+    *
