@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jun 20 08:37:37 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBSvc.h 
+Log Message:
+Adding GRBobsSpectrum to the factory
+    *
+------------------------------------------------------------
 User: omodei  Thu Jun 20 08:21:03 PDT 2002
 GRB/src/GRB
 
