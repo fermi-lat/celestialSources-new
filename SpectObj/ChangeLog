@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Dec 14 08:03:06 PST 2004
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Reimplemented the Fluence calculation
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r1p0, operation: add
 Package: SpectObj
