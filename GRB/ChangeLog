@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Jun 21 03:07:49 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.h 
+Log Message:
+Adding the possibility to save the parameters in a file to keep trace of the runs
+    *
+------------------------------------------------------------
 User: omodei  Fri Jun 21 03:07:42 PDT 2002
 GRB/src/GRB
 
