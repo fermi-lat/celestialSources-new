@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Thu Dec  9 10:28:34 PST 2004
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsengine.cxx 
+	GRBobsmanager.cxx 
+Log Message:
+Add mainpage.h and some cleaning
+    *
+------------------------------------------------------------
+User: omodei  Thu Dec  9 10:28:34 PST 2004
 celestialSources/GRBobs/cmt
 
 Modified Files:
