@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu Nov 14 12:21:11 PST 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBmaker.cxx GRBmaker.h 
+Log Message:
+fix inocuous warning under Linux (all methods except constructor/destructor should have a return type)
+    *
+------------------------------------------------------------
 User: cohen  Thu Nov 14 12:18:11 PST 2002
 GRB/src/GRB
 
