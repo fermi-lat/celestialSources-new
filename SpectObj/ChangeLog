@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Dec 14 08:03:06 PST 2004
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Reimplemented the Fluence calculation
+    *
+------------------------------------------------------------
+User: omodei  Tue Dec 14 08:03:06 PST 2004
 celestialSources/SpectObj/SpectObj
 
 Modified Files:
