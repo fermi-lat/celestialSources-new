@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Mar 31 08:19:19 PST 2005
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBShock.cxx 
+Log Message:
+WARNING: GRBmaker back in the requiremets.
+    *
+------------------------------------------------------------
+User: omodei  Thu Mar 31 08:19:19 PST 2005
 celestialSources/GRB/cmt
 
 Modified Files:
