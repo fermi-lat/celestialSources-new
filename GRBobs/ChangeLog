@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Mar  3 02:54:19 PST 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+GRB generated only in the FOV (SC coordinate are known). Changed parameters. Fitting Procedure ok
+    *
+------------------------------------------------------------
+User: omodei  Thu Mar  3 02:54:19 PST 2005
 celestialSources/GRBobs/src/test
 
 Modified Files:
