@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: sbansal  Tue Dec  9 05:54:55 PST 2003
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.cxx GRBurst.cxx GRBurst.h 
+Log Message:
+Made temporary fix to process multiple sources.
+
+    *
+------------------------------------------------------------
 User: cohen  Thu Dec  4 12:06:22 PST 2003
 GRB/src/test
 
