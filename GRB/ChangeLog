@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Sat Jan 10 01:13:22 PST 2004
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBurst.cxx GRBobsSpectrum.cxx 
+Log Message:
+remove cout; iterate indx to handle non-zero start times
+    *
+------------------------------------------------------------
 User: sbansal  Fri Jan  9 12:17:53 PST 2004
 GRB/doc
 
