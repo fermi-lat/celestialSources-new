@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Mar  9 03:32:12 PST 2005
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h PulsarSpectrum.h 
+Log Message:
+fixed baycorr
+    *
+------------------------------------------------------------
 User: razzano  Tue Mar  8 08:18:00 PST 2005
 celestialSources/Pulsar/src
 
