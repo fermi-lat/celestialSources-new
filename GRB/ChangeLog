@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Tue Dec  2 05:55:32 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBShock.cxx GRBSim.cxx 
+	GRBmanager.cxx GRBmanager.h SpectObj.cxx SpectObj.h 
+Log Message:
+DC1 preparation
+    *
+------------------------------------------------------------
 User: omodei  Mon Dec  1 13:55:27 PST 2003
 GRB/src/test
 
