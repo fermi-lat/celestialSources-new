@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Dec  9 10:03:25 PST 2004
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBShock.cxx GRBShock.h 
+	GRBSim.cxx GRBSim.h GRBengine.cxx GRBmanager.cxx GRBmanager.h 
+Log Message:
+    *
+------------------------------------------------------------
 User: omodei  Thu Dec  9 10:03:24 PST 2004
 celestialSources/GRB/src
 
