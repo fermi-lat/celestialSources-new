@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Jul  4 18:19:38 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBSim.cxx 
+Log Message:
+minor test to avoid observed divide by zero
+    *
+------------------------------------------------------------
 User: burnett  Thu Jul  4 18:18:17 PDT 2002
 GRB/src/GRB
 
