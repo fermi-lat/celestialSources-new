@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jan 22 12:10:17 PST 2003
+GRB/src
+
+Modified Files:
+	mainpage.h 
+Log Message:
+Added LatTrigAlert parameter definitions.
+
+    *
+------------------------------------------------------------
 User: cohen  Tue Jan 21 09:05:19 PST 2003
 GRB/src/GRB
 
