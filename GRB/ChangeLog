@@ -1,4 +1,24 @@
 ------------------------------------------------------------
+User: srobinsn  Mon Apr  8 17:01:14 PDT 2002
+GRB
+
+Log Message:
+new package "GRB" to hold gamma-ray burst simulations.
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+U GRB/cmt/cleanup.bat
+U GRB/cmt/NMake
+U GRB/cmt/requirements
+U GRB/cmt/setup.bat
+
+No conflicts created by this import
+
+    *
+------------------------------------------------------------
 User: srobinsn  Mon Apr  8 16:52:00 PDT 2002
 GRB
 
