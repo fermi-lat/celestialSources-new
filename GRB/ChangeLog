@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Tue Nov 19 07:51:11 PST 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBmanager.cxx GRBShell.h SpectObj.h 
+Log Message:
+fix win compilation (thanks Sandhia)
+    *
+------------------------------------------------------------
 User: cohen  Fri Nov 15 06:12:30 PST 2002
 GRB/src/GRB
 
