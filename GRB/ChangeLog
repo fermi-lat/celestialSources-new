@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu May 29 05:22:38 PDT 2003
+GRB/src/LatGRBAlert
+
+Modified Files:
+	LatGRBAlertConstants.h 
+Log Message:
+replace math.h by cmath, and fix an iterator/pointer mismatch
+    *
+------------------------------------------------------------
 User: cohen  Thu May 29 05:22:37 PDT 2003
 GRB/src/GRB
 
