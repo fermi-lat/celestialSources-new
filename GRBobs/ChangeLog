@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: omodei  Thu Dec  9 10:28:34 PST 2004
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsPulse.h GRBobsmanager.h 
+Added Files:
+	mainpage.h 
+Log Message:
+Add mainpage.h and some cleaning
+    *
+------------------------------------------------------------
 User: omodei  Mon Dec  6 02:26:02 PST 2004
 celestialSources/GRBobs
 
