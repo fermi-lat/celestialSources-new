@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Dec 14 08:01:38 PST 2004
+celestialSources/GRB/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Reimplemented the fluence computation
+    *
+------------------------------------------------------------
+User: omodei  Tue Dec 14 08:01:38 PST 2004
 celestialSources/GRB/src/GRB
 
 Modified Files:
