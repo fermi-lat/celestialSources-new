@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: sbansal  Wed Dec  3 13:13:02 PST 2003
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.cxx GRBpulse.cxx GRBpulse.h GRBurst.cxx 
+	GRBurst.h GbmGrb.cxx GbmGrb.h LatGrb.cxx LatGrb.h 
+Log Message:
+Fixed some bugs related to processing of more than one burst simultaneously.
+
+    *
+------------------------------------------------------------
 User: omodei  Wed Dec  3 10:17:52 PST 2003
 GRB/src/test/other
 
