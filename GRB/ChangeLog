@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Mon Jun 10 02:42:51 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBShock.cxx GRBShock.h 
+	GRBSim.cxx GRBSpectrum.h 
+Log Message:
+Improve the documentation, minor changes
+    *
+------------------------------------------------------------
+User: omodei  Mon Jun 10 02:42:51 PDT 2002
 GRB/doc
 
 Added Files:
