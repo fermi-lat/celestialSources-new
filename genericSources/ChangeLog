@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Mar  6 13:30:11 PST 2005
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+suppress warnings on windows; resolve pow with explicit casts
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r2, operation: add
 Package: genericSources
