@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Wed Jun 26 06:48:00 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+changed number of total bursts per year from 810 to 667
+    *
+------------------------------------------------------------
 User: sbansal  Fri Jun 21 07:53:46 PDT 2002
 GRB/src/GRBmaker
 
