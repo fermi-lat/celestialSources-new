@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Mar 31 08:04:08 PST 2005
+celestialSources/GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+WARNING: Remove GRBmaker frm requiremets.
+    *
+------------------------------------------------------------
+User: omodei  Thu Mar 31 08:04:08 PST 2005
 celestialSources/GRB/src/test
 
 Modified Files:
