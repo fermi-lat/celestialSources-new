@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Aug  1 06:31:08 PDT 2002
+GRB/xml
+
+Modified Files:
+	GRB_user_library.xml 
+Log Message:
+Fix the names of the sources
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug  1 06:31:08 PDT 2002
 GRB/src/test
 
 Modified Files:
