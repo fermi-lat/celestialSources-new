@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Apr 19 04:04:40 PDT 2002
+GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Should be reviewd and fixed under windows. Included FluxSvc to test different sources
+    *
+------------------------------------------------------------
 User: omodei  Fri Apr 19 03:58:19 PDT 2002
 GRB/src/GRB
 
