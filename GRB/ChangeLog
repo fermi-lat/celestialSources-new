@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Nov 12 21:13:35 PST 2002
+GRB/src/Dll
+
+Modified Files:
+	GRB_load.cxx 
+Log Message:
+add TDSReadFluxAlg so that the test program would work.
+    *
+------------------------------------------------------------
 User: burnett  Thu Nov  7 16:02:33 PST 2002
 GRB/xml
 
