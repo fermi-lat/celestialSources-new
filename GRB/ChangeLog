@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: omodei  Wed Jan 15 09:37:01 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBICompton.h GRBShell.cxx 
+	GRBShell.h GRBShock.cxx GRBShock.h RadiationProcess.h 
+	SpectObj.h 
+Log Message:
+Add more Documrntation
+    *
+------------------------------------------------------------
 User: omodei  Tue Jan 14 07:21:14 PST 2003
 GRB/src/test/other
 
