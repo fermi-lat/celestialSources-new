@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu May 30 10:11:44 PDT 2002
+GRB/src/test/other
+
+Added Files:
+	GRBROOTtest.cxx GRBTest.cxx 
+Log Message:
+Major modifications. created GRB Service, and added GRBTestAlg.
+    *
+------------------------------------------------------------
+User: omodei  Thu May 30 10:11:44 PDT 2002
 GRB/src/test
 
 Modified Files:
