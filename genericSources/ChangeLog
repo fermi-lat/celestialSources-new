@@ -1,4 +1,41 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1, operation: add
+Package: genericSources
+User: jchiang  Mon Dec 13 13:37:58 2004
+Files:
+  genericSources/.cvsignore  1.1.1.1
+  genericSources/ChangeLog  1.24
+  genericSources/cmt/requirements  1.8
+  genericSources/data/3c279Template.dat  1.1.1.1
+  genericSources/data/GemingaTemplate.dat  1.1.1.1
+  genericSources/data/pks1622-297_Template.dat  1.2
+  genericSources/data/CrabTemplate.dat  1.1.1.1
+  genericSources/doc/release.notes  1.5
+  genericSources/genericSources/GaussianSource.h  1.1.1.1
+  genericSources/genericSources/SimpleTransient.h  1.1.1.1
+  genericSources/genericSources/PeriodicSource.h  1.1.1.1
+  genericSources/genericSources/MapSource.h  1.2
+  genericSources/genericSources/TransientTemplate.h  1.2
+  genericSources/genericSources/Pulsar.h  1.1.1.1
+  genericSources/genericSources/Isotropic.h  1.1.1.1
+  genericSources/src/FitsImage.h  1.3
+  genericSources/src/Pulsar.cxx  1.3
+  genericSources/src/TransientTemplate.cxx  1.5
+  genericSources/src/Util.h  1.1
+  genericSources/src/mainpage.h  1.1
+  genericSources/src/FitsImage.cxx  1.3
+  genericSources/src/PeriodicSource.cxx  1.2
+  genericSources/src/SimpleTransient.cxx  1.1.1.1
+  genericSources/src/Util.cxx  1.1
+  genericSources/src/MapSource.cxx  1.5
+  genericSources/src/GaussianSource.cxx  1.1.1.1
+  genericSources/src/Isotropic.cxx  1.1.1.1
+  genericSources/src/test/test.cxx  1.2
+  genericSources/xml/source_library.xml  1.2
+
+    *
+------------------------------------------------------------
 User: jchiang  Mon Dec 13 13:37:30 PST 2004
 celestialSources/genericSources/src
 
