@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Jan 14 09:09:43 PST 2005
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h PulsarSim.h 
+Log Message:
+Multiple PSR bugs fixed; Begin of Doxy documentation
+    *
+------------------------------------------------------------
 User: razzano  Fri Jan 14 08:51:52 PST 2005
 celestialSources/Pulsar/doc
 
