@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Jan 30 21:53:33 PST 2005
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add SpectralTransient class for AGN modeling
+    *
+------------------------------------------------------------
 User: jchiang  Fri Jan 21 08:20:47 PST 2005
 celestialSources/genericSources/src
 
