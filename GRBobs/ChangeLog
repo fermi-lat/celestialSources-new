@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Feb 24 04:24:46 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx GRBobsmanager.cxx 
+Log Message:
+Review the BATSE normalization. Preparing for DC2
+    *
+------------------------------------------------------------
+User: omodei  Thu Feb 24 04:24:46 PST 2005
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
