@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Thu Jun 27 12:14:23 PDT 2002
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.cxx 
+Log Message:
+fixed a bug in nextEnergy and nextTime
+    *
+------------------------------------------------------------
 User: omodei  Thu Jun 27 11:24:02 PDT 2002
 GRB/xml
 
