@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Apr  4 13:39:04 PDT 2005
+celestialSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+comment out use statements; tagging v0r5
+    *
+------------------------------------------------------------
 User: jchiang  Mon Apr  4 13:39:03 PDT 2005
 celestialSources/cmt
 
