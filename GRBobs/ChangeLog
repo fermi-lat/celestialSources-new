@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Feb  8 02:08:10 PST 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+remove obsolete file, add GBM spectrum
+    *
+------------------------------------------------------------
+User: omodei  Tue Feb  8 02:08:10 PST 2005
 celestialSources/GRBobs/src
 
 Modified Files:
