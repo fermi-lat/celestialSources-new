@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Aug  1 05:03:53 PDT 2002
+GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h GRBSim.cxx GRBSpectrum.cxx 
+Log Message:
+TDSreadFluxAlg now reads also the reconstructed events. Change the GRB library
+    *
+------------------------------------------------------------
 User: omodei  Thu Aug  1 05:03:52 PDT 2002
 GRB/src
 
