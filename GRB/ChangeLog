@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: cohen  Tue Jan 21 09:05:19 PST 2003
+GRB/src/GRB
+
+Modified Files:
+	GRBSpectrum.h SpectObj.cxx SpectObj.h 
+Log Message:
+more doc
+    *
+------------------------------------------------------------
+User: cohen  Tue Jan 21 09:05:19 PST 2003
 GRB/src
 
 Modified Files:
