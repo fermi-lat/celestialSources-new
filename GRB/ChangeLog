@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Aug  1 05:03:53 PDT 2002
+GRB/xml
+
+Modified Files:
+	GRB_user_library.xml 
+Log Message:
+TDSreadFluxAlg now reads also the reconstructed events. Change the GRB library
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug  1 05:03:53 PDT 2002
 GRB/src/test
 
 Modified Files:
