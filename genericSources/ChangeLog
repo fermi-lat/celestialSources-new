@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Oct 11 08:25:24 PDT 2004
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fix for TransientTemplate sources with zero flux entries
+    *
+------------------------------------------------------------
 User: jchiang  Mon Oct 11 08:25:23 PDT 2004
 celestialSources/genericSources/cmt
 
