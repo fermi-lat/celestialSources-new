@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sat Feb 19 08:22:11 PST 2005
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	MapCube.h SpectralTransient.h 
+Log Message:
+be able to read SpectralTransient light curves from FITS file
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p1, operation: add
 Package: genericSources
