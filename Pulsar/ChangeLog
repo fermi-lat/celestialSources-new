@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Jan 17 06:45:30 PST 2005
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h PulsarSim.h PulsarSpectrum.h 
+Log Message:
+Doxy Documentation added; Added testPulsar library
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p1, operation: add
 Package: Pulsar
