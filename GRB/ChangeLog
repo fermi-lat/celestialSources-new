@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jul  2 02:56:00 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx GRBTest.cxx 
+Log Message:
+Speed up the code
+    *
+------------------------------------------------------------
 User: omodei  Tue Jul  2 02:54:58 PDT 2002
 GRB/src/GRB
 
