@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: sbansal  Tue Aug 13 13:00:34 PDT 2002
+GRB/xml
+
+Modified Files:
+	GRB_user_library.xml 
+Log Message:
+added parameters to GRBobsSpectrum_GAL
+    *
+------------------------------------------------------------
 User: omodei  Thu Aug  1 06:32:20 PDT 2002
 GRB/src/test
 
