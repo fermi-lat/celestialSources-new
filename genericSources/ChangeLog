@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: jchiang  Thu Oct 21 08:50:12 PDT 2004
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx TransientTemplate.cxx 
+Removed Files:
+	FitsImage.cxx FitsImage.h 
+Log Message:
+remove in favor of st_facilities
+    *
+------------------------------------------------------------
+User: jchiang  Thu Oct 21 08:50:12 PDT 2004
 celestialSources/genericSources/genericSources
 
 Modified Files:
