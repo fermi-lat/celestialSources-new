@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: sbansal  Fri Jan  9 12:14:59 PST 2004
+GRB/src/GRBmaker
+
+Modified Files:
+	GRBobsSpectrum.cxx GRBurst.cxx 
+Log Message:
+Modified Interval, Energy and Dir methods.  
+
+    *
+------------------------------------------------------------
 User: cohen  Tue Dec 30 05:19:36 PST 2003
 GRB/src/GRBmaker
 
