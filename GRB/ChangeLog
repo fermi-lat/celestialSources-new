@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jul 25 09:13:26 PDT 2002
+GRB/src/test/other
+
+Modified Files:
+	GRBobsTester.cxx 
+Log Message:
+Fixed the path of the include files
+    *
+------------------------------------------------------------
 User: omodei  Thu Jul 25 09:12:34 PDT 2002
 GRB/src/test/other
 
