@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Thu Aug  1 05:03:53 PDT 2002
+GRB/src/test
+
+Modified Files:
+	GRBParam.txt GRBtestAlgOptions.txt TDSreadFluxOptions.txt 
+	jobOptions.txt test_jobOptions.txt 
+Log Message:
+TDSreadFluxAlg now reads also the reconstructed events. Change the GRB library
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug  1 05:03:53 PDT 2002
 GRB/src/GRB
 
 Modified Files:
