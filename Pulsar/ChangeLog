@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Nov 10 02:48:33 PST 2004
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+Fixed PulsarROOTtest,removed some pointers
+    *
+------------------------------------------------------------
 User: razzano  Wed Nov 10 01:57:35 PST 2004
 celestialSources/Pulsar/xml
 
