@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jan 20 02:30:11 PST 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	rh9_gcc32.make 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
 User: omodei  Thu Jan 20 02:30:10 PST 2005
 celestialSources/GRBobs/GRBobs
 
