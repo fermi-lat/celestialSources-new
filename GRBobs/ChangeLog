@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Apr  7 07:23:33 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+comment out printout code that does not compile on windows
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r3p1, operation: add
 Package: GRBobs
