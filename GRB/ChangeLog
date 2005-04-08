@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Fri Apr  8 10:45:21 PDT 2005
-celestialSources/GRB/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-patch tag for windows build
-    *
-------------------------------------------------------------
-User: burnett  Fri Apr  8 10:45:21 PDT 2005
-celestialSources/GRB/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-patch tag for windows build
-    *
-------------------------------------------------------------
 User: burnett  Thu Apr  7 07:31:14 PDT 2005
 celestialSources/GRB/src/GRB
 
