@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: cohen  Sun Apr 10 17:12:34 PDT 2005
+celestialSources/GRBobs/cmt
+
+Removed Files:
+	Makefile 
+Log Message:
+fixes and cosmetics
+
+    *
+------------------------------------------------------------
+User: cohen  Sun Apr 10 17:12:34 PDT 2005
 celestialSources/GRBobs/src
 
 Modified Files:
