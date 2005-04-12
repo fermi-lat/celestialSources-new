@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Apr 12 02:05:28 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsPulse.h GRBobsmanager.h 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
 User: cohen  Sun Apr 10 17:12:34 PDT 2005
 celestialSources/GRBobs/cmt
 
