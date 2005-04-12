@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Apr 12 01:12:45 PDT 2005
+celestialSources/GRB/xml
+
+Modified Files:
+	GRB_user_library.xml 
+Log Message:
+Remove some output, solve the execution problem
+    *
+------------------------------------------------------------
+User: omodei  Tue Apr 12 01:12:45 PDT 2005
 celestialSources/GRB/src/GRB
 
 Modified Files:
