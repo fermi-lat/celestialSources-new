@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Apr 20 18:23:55 PDT 2005
+celestialSources/genericSources/xml
+
+Modified Files:
+	source_library.xml 
+Log Message:
+use keyValueTokenize in MapCube, MapSource; tagging v1r3
+    *
+------------------------------------------------------------
+User: jchiang  Wed Apr 20 18:23:55 PDT 2005
 celestialSources/genericSources/src/test
 
 Modified Files:
