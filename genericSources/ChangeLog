@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Wed Apr 20 17:02:26 PDT 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	MapCube.cxx MapSource.cxx 
+Log Message:
+make use of Util::keyValueTokenize to make the parameters string more user friendly
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r2p3, operation: add
 Package: genericSources
