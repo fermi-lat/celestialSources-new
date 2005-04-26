@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Apr 26 16:51:15 PDT 2005
+celestialSources/celestialSources
+
+Added Files:
+	SpectrumFactoryLoader.h 
+Log Message:
+add SpectrumFactoryLoader class
+    *
+------------------------------------------------------------
 User: jchiang  Tue Apr 26 16:50:24 PDT 2005
 celestialSources/celestialSources
 
