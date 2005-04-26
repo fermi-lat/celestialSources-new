@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Apr 26 16:51:15 PDT 2005
+celestialSources/src/test
+
+Added Files:
+	test.cxx 
+Log Message:
+add SpectrumFactoryLoader class
+    *
+------------------------------------------------------------
+User: jchiang  Tue Apr 26 16:51:15 PDT 2005
 celestialSources/src
 
 Added Files:
