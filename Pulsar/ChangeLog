@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Apr 27 07:29:13 PDT 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Added GetPulsarFromDataList
+    *
+------------------------------------------------------------
 User: razzano  Wed Apr 27 07:29:12 PDT 2005
 celestialSources/Pulsar/data
 
