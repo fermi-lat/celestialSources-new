@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Apr 27 15:11:40 PDT 2005
+celestialSources/celestialSources
+
+Modified Files:
+	SpectrumFactoryLoader.h 
+Log Message:
+change spec for windows build; make names available
+    *
+------------------------------------------------------------
 User: jchiang  Wed Apr 27 12:39:17 PDT 2005
 celestialSources/src
 
