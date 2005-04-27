@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Wed Apr 27 07:29:13 PDT 2005
+celestialSources/Pulsar/xml
+
+Modified Files:
+	Pulsar_user_library.xml 
+Log Message:
+Added GetPulsarFromDataList
+    *
+------------------------------------------------------------
+User: razzano  Wed Apr 27 07:29:13 PDT 2005
 celestialSources/Pulsar/src
 
 Modified Files:
