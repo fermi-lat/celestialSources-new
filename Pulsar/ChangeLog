@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Apr 27 07:29:12 PDT 2005
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h PulsarSpectrum.h 
+Log Message:
+Added GetPulsarFromDataList
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p6, operation: add
 Package: Pulsar
