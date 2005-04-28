@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Apr 28 04:14:17 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+add doc and clean code
+    *
+------------------------------------------------------------
 User: omodei  Thu Apr 28 04:14:16 PDT 2005
 celestialSources/GRBobs/src/test
 

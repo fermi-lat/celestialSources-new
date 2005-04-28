@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Thu Apr 28 04:15:13 PDT 2005
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBShock.h GRBSim.cxx GRBSim.h GRBengine.h GRBmanager.cxx 
+	GRBmanager.h 
+Log Message:
+add doc and clean code
+    *
+------------------------------------------------------------
 User: omodei  Mon Apr 18 10:06:29 PDT 2005
 celestialSources/GRB/src/GRB
 
