@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Apr 27 21:26:39 PDT 2005
+celestialSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tagging after removing GRBobs
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p2, operation: add
 Package: celestialSources
