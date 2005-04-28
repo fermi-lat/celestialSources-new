@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r0p3, operation: add
+Package: celestialSources
+User: burnett  Wed Apr 27 21:27:39 2005
+Files:
+  celestialSources/src/mainpage.h  1.1.1.1
+  celestialSources/src/SpectrumFactoryLoader.cxx  1.4
+  celestialSources/src/test/test.cxx  1.1
+  celestialSources/celestialSources/SpectrumFactoryLoader.h  1.2
+  celestialSources/cmt/requirements  1.28
+  celestialSources/doc/release.notes  1.19
+
+    *
+------------------------------------------------------------
 User: burnett  Wed Apr 27 21:26:39 PDT 2005
 celestialSources/src
 
