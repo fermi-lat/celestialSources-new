@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Apr 28 10:17:21 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx 
+Log Message:
+add cmath for pow and fabs. Tentative windows compatibility.
+    *
+------------------------------------------------------------
 User: omodei  Thu Apr 28 04:14:17 PDT 2005
 celestialSources/GRBobs/xml
 
