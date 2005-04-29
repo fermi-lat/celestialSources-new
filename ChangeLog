@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Thu Apr 28 19:33:41 PDT 2005
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+add GRBobs
+    *
+------------------------------------------------------------
+User: burnett  Thu Apr 28 19:33:41 PDT 2005
 celestialSources/doc
 
 Modified Files:
