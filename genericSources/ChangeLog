@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue May  3 12:35:30 PDT 2005
+celestialSources/genericSources/src
+
+Removed Files:
+	sources.in 
+Log Message:
+remove swig stuff (now in pySources); tagging v1r3p1
+    *
+------------------------------------------------------------
 User: jchiang  Tue May  3 12:35:29 PDT 2005
 celestialSources/genericSources/doc
 
