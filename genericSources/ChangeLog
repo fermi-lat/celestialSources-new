@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue May  3 12:35:29 PDT 2005
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+remove swig stuff (now in pySources); tagging v1r3p1
+    *
+------------------------------------------------------------
+User: jchiang  Tue May  3 12:35:29 PDT 2005
 celestialSources/genericSources/cmt
 
 Modified Files:
