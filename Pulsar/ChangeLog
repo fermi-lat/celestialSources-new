@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: razzano  Thu May  5 07:43:07 PDT 2005
+celestialSources/Pulsar/data
+
+Modified Files:
+	PulsarDataList.txt 
+Added Files:
+	PSRCRABTimeProfile.txt PSRVELATimeProfile.txt 
+Log Message:
+Parameters rearranged in XML and PulsarDataList; Crab and Vela Profiles added
+    *
+------------------------------------------------------------
+User: razzano  Thu May  5 07:43:07 PDT 2005
 celestialSources/Pulsar/Pulsar
 
 Modified Files:
