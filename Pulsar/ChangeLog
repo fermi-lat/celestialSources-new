@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri May  6 08:57:53 PDT 2005
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+fixed compilation problems
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p7, operation: add
 Package: Pulsar
