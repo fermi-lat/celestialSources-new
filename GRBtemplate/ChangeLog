@@ -1,0 +1,31 @@
+------------------------------------------------------------
+User: omodei  Fri May  6 08:59:22 PDT 2005
+celestialSources/GRBtemplate
+
+Log Message:
+Fisrt Import of GRBtemplate: read ascii file and convert into TH2D
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0r1
+		
+N celestialSources/GRBtemplate/.cvsignore
+N celestialSources/GRBtemplate/cmt/Makefile
+N celestialSources/GRBtemplate/cmt/requirements
+N celestialSources/GRBtemplate/cmt/rh9_gcc32.make
+N celestialSources/GRBtemplate/cmt/setup.csh
+N celestialSources/GRBtemplate/cmt/setup.sh
+N celestialSources/GRBtemplate/cmt/cleanup.csh
+N celestialSources/GRBtemplate/cmt/cleanup.sh
+N celestialSources/GRBtemplate/src/GRBtemplateManager.cxx
+N celestialSources/GRBtemplate/src/GRBtemplateSim.cxx
+N celestialSources/GRBtemplate/src/test/other/GRBROOTtest.cxx
+N celestialSources/GRBtemplate/GRBtemplate/GRBtemplateManager.h
+N celestialSources/GRBtemplate/GRBtemplate/GRBtemplateSim.h
+N celestialSources/GRBtemplate/data/GRBTMP000000.dat
+N celestialSources/GRBtemplate/data/GenerateFakeBurst.C
+
+No conflicts created by this import
+
+    *
