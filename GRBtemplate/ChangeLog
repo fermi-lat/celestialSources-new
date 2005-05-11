@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: omodei  Wed May 11 02:14:50 PDT 2005
+celestialSources/GRBtemplate/data
+
+Modified Files:
+	GRBTMP000000.dat GenerateFakeBurst.C 
+Added Files:
+	pulse_002.dat 
+Log Message:
+Add the pulse profile from Felix Ryde & Milan Battelino
+
+    *
+------------------------------------------------------------
 User: omodei  Fri May  6 08:59:22 PDT 2005
 celestialSources/GRBtemplate
 
