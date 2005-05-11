@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Wed May 11 02:14:50 PDT 2005
+celestialSources/GRBtemplate/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add the pulse profile from Felix Ryde & Milan Battelino
+
+    *
+------------------------------------------------------------
+User: omodei  Wed May 11 02:14:50 PDT 2005
 celestialSources/GRBtemplate/src
 
 Modified Files:
