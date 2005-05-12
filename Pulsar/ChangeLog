@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Thu May 12 09:21:02 PDT 2005
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+multiple ephemerides added
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p8, operation: add
 Package: Pulsar
