@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jun  7 09:19:34 PDT 2005
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBConstants.h GRBSim.cxx 
+Log Message:
+Compute PeakFlux
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r1p8, operation: add
 Package: GRB
