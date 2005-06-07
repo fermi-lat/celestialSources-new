@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jun  7 09:04:19 PDT 2005
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+add Peak Flux calculation
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r1p4, operation: add
 Package: SpectObj
