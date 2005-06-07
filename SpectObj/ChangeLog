@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jun  7 09:04:20 PDT 2005
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+add Peak Flux calculation
+    *
+------------------------------------------------------------
 User: omodei  Tue Jun  7 09:04:19 PDT 2005
 celestialSources/SpectObj/SpectObj
 
