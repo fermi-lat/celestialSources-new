@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Jun  7 09:19:34 PDT 2005
+celestialSources/GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Compute PeakFlux
+    *
+------------------------------------------------------------
+User: omodei  Tue Jun  7 09:19:34 PDT 2005
 celestialSources/GRB/src/test
 
 Modified Files:
