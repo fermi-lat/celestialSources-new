@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jun 14 16:07:06 PDT 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	FitsImage.cxx FitsImage.h MapCube.cxx 
+Log Message:
+implement submap for MapCube
+    *
+------------------------------------------------------------
 User: jchiang  Tue Jun 14 16:07:05 PDT 2005
 celestialSources/genericSources/genericSources
 
