@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jun 14 16:07:05 PDT 2005
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	MapSource.h 
+Log Message:
+implement submap for MapCube
+    *
+------------------------------------------------------------
 User: jchiang  Tue Jun 14 11:02:35 PDT 2005
 celestialSources/genericSources/src
 
