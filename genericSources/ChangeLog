@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jun 14 11:02:35 PDT 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	MapCube.cxx MapSource.cxx 
+Added Files:
+	ConstParMap.h 
+Log Message:
+use ConstParMap in MapCube as well
+    *
+------------------------------------------------------------
 User: jchiang  Tue Jun 14 09:20:06 PDT 2005
 celestialSources/genericSources/src
 
