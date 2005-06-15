@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Jun 15 14:57:40 PDT 2005
+celestialSources/SpectObj/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix to make include path available
+    *
+------------------------------------------------------------
 User: omodei  Tue Jun  7 09:04:20 PDT 2005
 celestialSources/SpectObj/src
 

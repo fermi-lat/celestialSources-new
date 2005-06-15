@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Wed Jun 15 14:54:40 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+minor fix for  GPS move to astro namespace
+    *
+------------------------------------------------------------
+User: burnett  Wed Jun 15 14:54:40 PDT 2005
 celestialSources/GRBobs/doc
 
 Modified Files:
