@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Jun 15 14:54:40 PDT 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+minor fix for  GPS move to astro namespace
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p0, operation: add
 Package: GRBobs
