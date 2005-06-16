@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Jun 15 19:28:30 PDT 2005
+celestialSources/GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+adjust for GRB move to astro namespace
+    *
+------------------------------------------------------------
 User: omodei  Tue Jun  7 09:19:34 PDT 2005
 celestialSources/GRB/src/test/other
 
