@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Wed Jun 15 19:28:31 PDT 2005
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBmanager.cxx 
+Log Message:
+adjust for GRB move to astro namespace
+    *
+------------------------------------------------------------
+User: burnett  Wed Jun 15 19:28:31 PDT 2005
 celestialSources/GRB/doc
 
 Modified Files:
