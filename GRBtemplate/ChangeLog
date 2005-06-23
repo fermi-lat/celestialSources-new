@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Jun 23 10:46:39 PDT 2005
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx 
+Log Message:
+GPS namespace included and some minor changes in root plots
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 10:46:39 PDT 2005
 celestialSources/GRBtemplate/cmt
 
 Modified Files:
