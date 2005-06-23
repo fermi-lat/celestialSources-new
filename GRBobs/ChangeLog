@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jun 23 10:41:24 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Modify some distributions. Stretch as a function of the peak flux included.
+    *
+------------------------------------------------------------
 User: omodei  Thu Jun 23 10:41:23 PDT 2005
 celestialSources/GRBobs/src/test/other
 
