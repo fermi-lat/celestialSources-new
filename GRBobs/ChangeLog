@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jun 23 12:15:58 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx 
+Log Message:
+removing a std::cout
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p3, operation: add
 Package: GRBobs
