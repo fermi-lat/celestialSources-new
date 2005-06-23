@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r0p2, operation: add
+Package: GRBobs
+User: omodei  Thu Jun 23 10:42:13 2005
+Files:
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.4
+
+    *
+------------------------------------------------------------
 User: omodei  Thu Jun 23 10:41:24 PDT 2005
 celestialSources/GRBobs/xml
 
