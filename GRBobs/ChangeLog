@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jun 23 12:09:23 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+remove a DEBUG flag
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p2, operation: add
 Package: GRBobs
