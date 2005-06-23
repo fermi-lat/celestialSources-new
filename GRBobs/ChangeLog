@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Thu Jun 23 10:41:22 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsSim.cxx 
+	GRBobsengine.cxx GRBobsmanager.cxx 
+Log Message:
+Modify some distributions. Stretch as a function of the peak flux included.
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 10:41:22 PDT 2005
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
