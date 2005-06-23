@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Jun 23 10:37:25 PDT 2005
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBConstants.h GRBSim.cxx 
+Log Message:
+Minor Changes (root plots)
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r1p9, operation: add
 Package: GRB
