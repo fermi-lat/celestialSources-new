@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lreyes  Thu Jun 30 08:30:13 PDT 2005
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	EblAtten.h 
+Log Message:
+Two new models for EBL attenuation
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r4p1, operation: add
 Package: genericSources
