@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lreyes  Thu Jun 30 08:30:14 PDT 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	EblAtten.cxx IRB_routines.cxx 
+Log Message:
+Two new models for EBL attenuation
+
+    *
+------------------------------------------------------------
 User: lreyes  Thu Jun 30 08:30:13 PDT 2005
 celestialSources/genericSources/genericSources
 
