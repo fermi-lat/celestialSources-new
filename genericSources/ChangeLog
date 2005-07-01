@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Jun 30 21:21:08 PDT 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	SpectralTransient.cxx 
+Log Message:
+add bug fixes from Luis
+    *
+------------------------------------------------------------
 User: lreyes  Thu Jun 30 09:21:02 PDT 2005
 celestialSources/genericSources/src
 
