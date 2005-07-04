@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Jul  4 07:59:43 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx 
+Log Message:
+Normalization to PF corrected
+    *
+------------------------------------------------------------
 User: omodei  Mon Jul  4 07:59:42 PDT 2005
 celestialSources/GRBobs/GRBobs
 
