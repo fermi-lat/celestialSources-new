@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Jul  4 07:59:42 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+Normalization to PF corrected
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p4, operation: add
 Package: GRBobs
