@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Jul  8 11:11:09 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+new Generate library
+    *
+------------------------------------------------------------
+User: omodei  Fri Jul  8 11:11:09 PDT 2005
 celestialSources/GRBobs/src/test
 
 Modified Files:
