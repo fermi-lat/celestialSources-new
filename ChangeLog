@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Jul  8 11:24:43 PDT 2005
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+added GRBobsmanager SpectrumFactory
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p4, operation: add
 Package: celestialSources
