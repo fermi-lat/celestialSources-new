@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Mon Jul 11 01:40:58 PDT 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+Code cleaned and Doxy documentation updated
+    *
+------------------------------------------------------------
+User: razzano  Mon Jul 11 01:40:58 PDT 2005
 celestialSources/Pulsar/doc
 
 Modified Files:
