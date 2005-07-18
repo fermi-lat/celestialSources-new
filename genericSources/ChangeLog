@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jul 18 15:03:14 PDT 2005
+celestialSources/genericSources/xml
+
+Modified Files:
+	source_library.xml 
+Log Message:
+use stringValueTokenize syntax in SpectralTransient example
+    *
+------------------------------------------------------------
 User: jchiang  Mon Jul 18 15:00:39 PDT 2005
 celestialSources/genericSources/src
 
