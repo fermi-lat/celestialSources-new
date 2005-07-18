@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Jul 18 15:00:39 PDT 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	SpectralTransient.cxx 
+Log Message:
+add logParabola source
+    *
+------------------------------------------------------------
+User: jchiang  Mon Jul 18 15:00:39 PDT 2005
 celestialSources/genericSources/genericSources
 
 Modified Files:
