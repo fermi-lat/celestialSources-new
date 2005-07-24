@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Sun Jul 24 09:59:55 PDT 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Database ASCII file implented;possible to input frequencies and not only periods;fixed barycentric decorrections incomplatibility; dox doc added
+    *
+------------------------------------------------------------
+User: razzano  Sun Jul 24 09:59:55 PDT 2005
 celestialSources/Pulsar/data
 
 Modified Files:
