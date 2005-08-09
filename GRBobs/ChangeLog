@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: omodei  Tue Aug  9 11:17:17 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsSim.h GRBobsmanager.h 
+Added Files:
+	SpectralComponent.h 
+Log Message:
+Add the high energy extra component and a GRB test program
+    *
+------------------------------------------------------------
 User: omodei  Fri Jul  8 11:11:10 PDT 2005
 celestialSources/GRBobs/xml
 
