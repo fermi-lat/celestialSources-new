@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Aug  9 11:17:19 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Add the high energy extra component and a GRB test program
+    *
+------------------------------------------------------------
 User: omodei  Tue Aug  9 11:17:18 PDT 2005
 celestialSources/GRBobs/src/test/other
 
