@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: omodei  Tue Aug  9 11:17:18 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Added Files:
+	testGRB.cxx 
+Log Message:
+Add the high energy extra component and a GRB test program
+    *
+------------------------------------------------------------
 User: omodei  Tue Aug  9 11:17:17 PDT 2005
 celestialSources/GRBobs/src
 
