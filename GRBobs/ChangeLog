@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Aug  9 11:20:14 PDT 2005
+celestialSources/GRBobs/src
+
+Added Files:
+	LoadTree.C 
+Log Message:
+Add a root macro for visualizeing the tree creatd by the test program
+    *
+------------------------------------------------------------
 User: omodei  Tue Aug  9 11:17:19 PDT 2005
 celestialSources/GRBobs/xml
 
