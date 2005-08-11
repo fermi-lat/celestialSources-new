@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Thu Aug 11 07:37:36 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx GRBobsengine.cxx 
+	GRBobsmanager.cxx LoadTree.C 
+Log Message:
+Redo the random orientation in the sky
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug 11 07:37:36 PDT 2005
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
