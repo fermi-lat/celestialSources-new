@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Aug 11 07:37:37 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Redo the random orientation in the sky
+    *
+------------------------------------------------------------
 User: omodei  Thu Aug 11 07:37:36 PDT 2005
 celestialSources/GRBobs/src/test/other
 
