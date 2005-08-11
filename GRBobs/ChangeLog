@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Aug 11 07:37:36 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Redo the random orientation in the sky
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug 11 07:37:36 PDT 2005
 celestialSources/GRBobs/src
 
 Modified Files:
