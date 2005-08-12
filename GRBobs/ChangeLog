@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Aug 12 06:36:11 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx LoadTree.C 
+Log Message:
+add different lat flux in the test prog
+    *
+------------------------------------------------------------
 User: omodei  Thu Aug 11 07:37:37 PDT 2005
 celestialSources/GRBobs/xml
 
