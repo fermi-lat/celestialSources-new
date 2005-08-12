@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Aug 12 06:43:06 PDT 2005
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+Add grbobsmanager spectrum in the factory loader
+    *
+------------------------------------------------------------
 User: golpa  Fri Jul 15 16:04:35 PDT 2005
 celestialSources/cmt
 
