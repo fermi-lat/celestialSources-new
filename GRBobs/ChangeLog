@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Aug 12 06:36:12 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+add different lat flux in the test prog
+    *
+------------------------------------------------------------
+User: omodei  Fri Aug 12 06:36:12 PDT 2005
 celestialSources/GRBobs/src/test
 
 Modified Files:
