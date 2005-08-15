@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Aug 15 10:56:11 PDT 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+Datalist updated, bugs fixed
+    *
+------------------------------------------------------------
 User: razzano  Mon Aug 15 10:56:10 PDT 2005
 celestialSources/Pulsar/doc
 
