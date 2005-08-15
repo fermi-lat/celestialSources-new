@@ -1,4 +1,31 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r0p10, operation: add
+Package: Pulsar
+User: razzano  Mon Aug 15 11:30:34 2005
+Files:
+  Pulsar/ChangeLog  1.183
+  Pulsar/Pulsar/PulsarConstants.h  1.18
+  Pulsar/Pulsar/PulsarSpectrum.h  1.26
+  Pulsar/Pulsar/PulsarSim.h  1.11
+  Pulsar/cmt/requirements  1.9
+  Pulsar/data/TestPulsarDataList.txt  1.1
+  Pulsar/data/PSRMUROTimeProfile.txt  1.1
+  Pulsar/data/PSRVELATimeProfile.txt  1.1
+  Pulsar/data/PSRCRABTimeProfile.txt  1.1
+  Pulsar/data/PulsarDataList.txt  1.26
+  Pulsar/doc/release.notes  1.7
+  Pulsar/doc/NJSnForm.jpg  1.1
+  Pulsar/doc/DoxyFile  1.5
+  Pulsar/src/mainpage.h  1.3
+  Pulsar/src/PulsarSim.cxx  1.23
+  Pulsar/src/PulsarSpectrum.cxx  1.50
+  Pulsar/src/test/other/PulsarROOTtest.cxx  1.21
+  Pulsar/xml/Pulsar_test_library.xml  1.4
+  Pulsar/xml/Pulsar_user_library.xml  1.16
+
+    *
+------------------------------------------------------------
 User: razzano  Mon Aug 15 11:28:05 PDT 2005
 celestialSources/Pulsar/data
 
