@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Aug 22 07:50:54 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Remove a cout
+    *
+------------------------------------------------------------
 User: omodei  Mon Aug 22 07:50:53 PDT 2005
 celestialSources/GRBobs/src
 
