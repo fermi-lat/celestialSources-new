@@ -1,5 +1,86 @@
 ------------------------------------------------------------
 TAG
+Tag name: v0r1p6, operation: add
+Package: SpectObj
+User: omodei  Fri Aug 12 06:37:55 2005
+Files:
+  SpectObj/ChangeLog  1.57
+  SpectObj/SpectObj/SpectObj.h  1.15
+  SpectObj/cmt/requirements  1.5
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.31
+
+    *
+------------------------------------------------------------
+User: omodei  Fri Aug 12 06:37:29 PDT 2005
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Works with the extra component 
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug 11 07:44:32 PDT 2005
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+add a iostream that caused an error
+    *
+------------------------------------------------------------
+User: omodei  Fri Jul  8 03:34:09 PDT 2005
+celestialSources/SpectObj/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Adding author
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r1p5, operation: add
+Package: SpectObj
+User: burnett  Wed Jun 15 15:03:51 2005
+Files:
+  SpectObj/ChangeLog  1.53
+  SpectObj/SpectObj/SpectObj.h  1.14
+  SpectObj/cmt/requirements  1.4
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.30
+
+    *
+------------------------------------------------------------
+User: burnett  Wed Jun 15 14:57:40 PDT 2005
+celestialSources/SpectObj/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix to make include path available
+    *
+------------------------------------------------------------
+User: omodei  Tue Jun  7 09:04:20 PDT 2005
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+add Peak Flux calculation
+    *
+------------------------------------------------------------
+User: omodei  Tue Jun  7 09:04:19 PDT 2005
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+add Peak Flux calculation
+    *
+------------------------------------------------------------
+TAG
 Tag name: v0r1p4, operation: add
 Package: SpectObj
 User: razzano  Wed Mar 30 06:31:00 2005
