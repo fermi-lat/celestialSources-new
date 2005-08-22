@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Aug 22 06:59:37 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Change FoV and library
+    *
+------------------------------------------------------------
 User: omodei  Mon Aug 22 06:59:36 PDT 2005
 celestialSources/GRBobs/src/test/other
 
