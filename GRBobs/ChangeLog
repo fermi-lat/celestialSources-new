@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Aug 22 06:59:36 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Change FoV and library
+    *
+------------------------------------------------------------
+User: omodei  Mon Aug 22 06:59:36 PDT 2005
 celestialSources/GRBobs/src
 
 Modified Files:
