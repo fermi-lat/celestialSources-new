@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: omodei  Mon Aug 22 06:39:27 PDT 2005
-celestialSources/GRB/src/GRB
-
-Modified Files:
-	GRBConstants.cxx GRBSim.cxx GRBmanager.cxx 
-Log Message:
-
-    *
-------------------------------------------------------------
 TAG
 Tag name: v4r2, operation: add
 Package: GRB
