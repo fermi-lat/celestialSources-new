@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Aug 22 07:03:26 PDT 2005
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Remove a cout
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r1p6, operation: add
 Package: SpectObj
