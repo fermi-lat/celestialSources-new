@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Aug 22 06:59:36 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+Change FoV and library
+    *
+------------------------------------------------------------
 User: omodei  Fri Aug 12 06:36:13 PDT 2005
 celestialSources/GRBobs/xml
 
