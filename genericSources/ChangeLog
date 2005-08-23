@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Tue Aug 23 09:07:21 PDT 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	EblAtten.cxx 
+Log Message:
+New EBL Model: Kneiske, Hartmann et al
+    *
+------------------------------------------------------------
 User: lreyes  Tue Aug 23 09:06:48 PDT 2005
 celestialSources/genericSources/src
 
