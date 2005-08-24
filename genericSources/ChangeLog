@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Tue Aug 23 17:29:02 PDT 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	SpectralTransient.cxx 
+Log Message:
+change labels for Ebl models to agree with papers
+    *
+------------------------------------------------------------
 User: lreyes  Tue Aug 23 17:28:52 PDT 2005
 celestialSources/genericSources/src
 
