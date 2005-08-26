@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Thu Aug 25 17:40:19 PDT 2005
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBSim.cxx GRBConstants.cxx GRBConstants.h 
+Log Message:
+change the QG parameter argument passing
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r2p1, operation: add
 Package: GRB
