@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Aug 29 16:17:11 PDT 2005
+celestialSources/eblAtten/src/test
+
+Added Files:
+	test.cxx 
+Log Message:
+add simple test program
+    *
+------------------------------------------------------------
+User: jchiang  Mon Aug 29 16:17:11 PDT 2005
 celestialSources/eblAtten/cmt
 
 Modified Files:
