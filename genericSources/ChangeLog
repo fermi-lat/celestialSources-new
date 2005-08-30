@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Aug 30 08:07:59 PDT 2005
+celestialSources/genericSources/data
+
+Added Files:
+	map_cube_example.fits 
+Log Message:
+add MapCube example without GTI and EBOUNDS extension
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r5, operation: add
 Package: genericSources
