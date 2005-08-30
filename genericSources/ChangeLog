@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Aug 29 17:16:51 PDT 2005
+celestialSources/genericSources/genericSources
+
+Removed Files:
+	EblAtten.h 
+Log Message:
+remove EBL-related code; use new eblAtten package
+    *
+------------------------------------------------------------
+User: jchiang  Mon Aug 29 17:16:51 PDT 2005
 celestialSources/genericSources/cmt
 
 Modified Files:
