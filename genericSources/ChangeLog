@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Thu Sep  1 11:59:42 PDT 2005
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+allow clients to set EblModel in SpectralTransient; tagging v1r5p1
+    *
+------------------------------------------------------------
+User: jchiang  Thu Sep  1 11:59:42 PDT 2005
 celestialSources/genericSources/cmt
 
 Modified Files:
