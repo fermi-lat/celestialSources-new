@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Thu Sep  1 11:55:49 PDT 2005
+celestialSources/eblAtten/src
+
+Modified Files:
+	EblAtten.cxx 
+Log Message:
+make ebl models not appropriate for GLAST inaccessible
+    *
+------------------------------------------------------------
+User: jchiang  Thu Sep  1 11:55:49 PDT 2005
 celestialSources/eblAtten/eblAtten
 
 Modified Files:
