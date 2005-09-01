@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Sep  1 08:26:44 PDT 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	SpectralTransient.cxx 
+Log Message:
+allow users to specify attenuation model.
+    *
+------------------------------------------------------------
 User: jchiang  Tue Aug 30 08:07:59 PDT 2005
 celestialSources/genericSources/data
 
