@@ -1,4 +1,20 @@
 ------------------------------------------------------------
+TAG
+Tag name: v0r1, operation: add
+Package: eblAtten
+User: jchiang  Thu Sep  1 11:58:09 2005
+Files:
+  eblAtten/.cvsignore  1.1.1.1
+  eblAtten/ChangeLog  1.8
+  eblAtten/cmt/requirements  1.3
+  eblAtten/doc/release.notes  1.2
+  eblAtten/eblAtten/EblAtten.h  1.2
+  eblAtten/src/EblAtten.cxx  1.2
+  eblAtten/src/IRB_routines.cxx  1.1.1.1
+  eblAtten/src/test/test.cxx  1.1
+
+    *
+------------------------------------------------------------
 User: jchiang  Thu Sep  1 11:57:52 PDT 2005
 celestialSources/eblAtten/doc
 
