@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Wed Sep  7 14:20:37 PDT 2005
+celestialSources/eblAtten/src
+
+Modified Files:
+	IRB_routines.cxx 
+Log Message:
+New models: Primack05 and Kneiske_HighUV
+    *
+------------------------------------------------------------
 TAG
 Tag name: v0r1p1, operation: add
 Package: eblAtten
