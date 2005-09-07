@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Sep  7 05:42:25 PDT 2005
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBSim.cxx 
+Log Message:
+Changed GBM file extension
+    *
+------------------------------------------------------------
 User: cohen  Thu Aug 25 17:40:19 PDT 2005
 celestialSources/GRB/src/GRB
 
