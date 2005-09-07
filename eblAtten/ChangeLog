@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Wed Sep  7 14:20:54 PDT 2005
+celestialSources/eblAtten/src
+
+Modified Files:
+	EblAtten.cxx 
+Log Message:
+New models: Primack05 and Kneiske_HighUV
+    *
+------------------------------------------------------------
 User: lreyes  Wed Sep  7 14:20:37 PDT 2005
 celestialSources/eblAtten/src
 
