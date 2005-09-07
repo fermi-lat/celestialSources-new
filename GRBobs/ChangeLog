@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Sep  7 03:18:42 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GenerateXMLLibrary.C 
+Log Message:
+remove stat box from plot
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r0p0, operation: add
 Package: GRBobs
