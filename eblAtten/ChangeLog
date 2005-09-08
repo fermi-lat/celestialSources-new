@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Thu Sep  8 09:12:36 PDT 2005
+celestialSources/eblAtten/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Reduce Kneiske's models energy range to GLAST's range
+    *
+------------------------------------------------------------
 User: lreyes  Thu Sep  8 08:54:42 PDT 2005
 celestialSources/eblAtten/src
 
