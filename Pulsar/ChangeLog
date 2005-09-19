@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Sep 19 05:43:40 PDT 2005
+celestialSources/Pulsar/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+GPS bug fixed, Db output bug fixed
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p10, operation: add
 Package: Pulsar
