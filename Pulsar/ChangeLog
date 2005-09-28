@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Sep 28 02:21:34 PDT 2005
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h 
+Log Message:
+MJDREF fixed, PSRMURO Added
+    *
+------------------------------------------------------------
 User: razzano  Mon Sep 19 05:43:41 PDT 2005
 celestialSources/Pulsar/src
 
