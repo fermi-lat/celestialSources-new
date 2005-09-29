@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Thu Sep 29 09:14:37 PDT 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+initial import of new datalist organization
+    *
+------------------------------------------------------------
+User: razzano  Thu Sep 29 09:14:37 PDT 2005
 celestialSources/Pulsar/data
 
 Modified Files:
