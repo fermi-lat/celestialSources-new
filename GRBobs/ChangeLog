@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Oct  3 06:05:06 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+Added SWIFT informations
+    *
+------------------------------------------------------------
 User: omodei  Mon Oct  3 01:24:28 PDT 2005
 celestialSources/GRBobs/src
 
