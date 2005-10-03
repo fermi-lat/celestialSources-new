@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Oct  3 01:24:28 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx 
+Log Message:
+changed output file names for GBM
+    *
+------------------------------------------------------------
 User: omodei  Wed Sep  7 03:18:42 PDT 2005
 celestialSources/GRBobs/xml
 
