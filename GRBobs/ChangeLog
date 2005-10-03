@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Oct  3 06:05:06 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx 
+Log Message:
+Added SWIFT informations
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct  3 06:05:06 PDT 2005
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
