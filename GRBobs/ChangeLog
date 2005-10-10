@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Oct 10 06:38:10 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Add useful information for SWIFT output as well as redshift attenuation
+    *
+------------------------------------------------------------
 User: omodei  Mon Oct 10 06:38:08 PDT 2005
 celestialSources/GRBobs/src/test/other
 
