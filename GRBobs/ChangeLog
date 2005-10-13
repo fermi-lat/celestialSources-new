@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Oct 13 09:22:32 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Fluence and Peak flux normalization available.
+    *
+------------------------------------------------------------
 User: omodei  Thu Oct 13 09:22:31 PDT 2005
 celestialSources/GRBobs/src/test
 
