@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Oct 13 09:22:30 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsmanager.cxx 
+Log Message:
+Fluence and Peak flux normalization available.
+    *
+------------------------------------------------------------
+User: omodei  Thu Oct 13 09:22:30 PDT 2005
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
