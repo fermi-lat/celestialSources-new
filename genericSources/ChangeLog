@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Oct 12 23:08:07 PDT 2005
+celestialSources/genericSources/genericSources
+
+Added Files:
+	FitsTransient.h 
+Log Message:
+add FitsTransient class
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r5p1, operation: add
 Package: genericSources
