@@ -1,5 +1,18 @@
 ------------------------------------------------------------
 TAG
+Tag name: v1r0p1, operation: add
+Package: SpectObj
+User: omodei  Fri Oct 14 03:32:12 2005
+Files:
+  SpectObj/ChangeLog  1.59
+  SpectObj/SpectObj/SpectObj.h  1.15
+  SpectObj/cmt/requirements  1.5
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.32
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r0p0, operation: add
 Package: SpectObj
 User: omodei  Mon Aug 22 07:03:53 2005
