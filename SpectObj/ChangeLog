@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Oct 14 03:33:30 PDT 2005
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Add redshift dependence
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p1, operation: add
 Package: SpectObj
