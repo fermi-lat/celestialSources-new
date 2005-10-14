@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Oct 14 07:07:33 PDT 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Added time and energy dilation due to the redshift
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r0p1, operation: add
 Package: GRBobs
