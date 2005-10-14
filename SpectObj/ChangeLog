@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r0p2, operation: add
+Package: SpectObj
+User: omodei  Fri Oct 14 03:34:14 2005
+Files:
+  SpectObj/ChangeLog  1.65
+  SpectObj/SpectObj/SpectObj.h  1.16
+  SpectObj/cmt/requirements  1.6
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.33
+
+    *
+------------------------------------------------------------
 User: omodei  Fri Oct 14 03:33:30 PDT 2005
 celestialSources/SpectObj/src
 
