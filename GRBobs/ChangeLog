@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Oct 14 07:07:33 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx 
+Log Message:
+Added time and energy dilation due to the redshift
+    *
+------------------------------------------------------------
+User: omodei  Fri Oct 14 07:07:33 PDT 2005
 celestialSources/GRBobs/cmt
 
 Modified Files:
