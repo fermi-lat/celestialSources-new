@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Oct 14 07:07:35 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Added time and energy dilation due to the redshift
+    *
+------------------------------------------------------------
 User: omodei  Fri Oct 14 07:07:34 PDT 2005
 celestialSources/GRBobs/src/test
 
