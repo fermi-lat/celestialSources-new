@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Oct 18 05:26:31 PDT 2005
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+add cmath and cstdlib
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p2, operation: add
 Package: SpectObj
