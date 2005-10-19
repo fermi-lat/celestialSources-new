@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Oct 19 09:46:22 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+Bug fixed for the redshift dependence
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r0p4, operation: add
 Package: GRBobs
