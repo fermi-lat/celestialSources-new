@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Oct 19 08:24:14 PDT 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Change SpectrObj version required
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r0p2, operation: add
 Package: GRBobs
