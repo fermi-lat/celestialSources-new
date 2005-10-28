@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Oct 28 16:21:06 PDT 2005
+celestialSources/genericSources/src
+
+Added Files:
+	SourcePopulation.cxx 
+Log Message:
+add SourcePopulation class
+    *
+------------------------------------------------------------
 User: jchiang  Fri Oct 28 16:21:05 PDT 2005
 celestialSources/genericSources/genericSources
 
