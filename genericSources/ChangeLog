@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Oct 28 21:23:30 PDT 2005
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	SourcePopulation.h SpectralTransient.h 
+Log Message:
+implement SourcePopulation::interval correctly; add optional scale factor for EBL optical depth; clean up header files
+    *
+------------------------------------------------------------
 User: jchiang  Fri Oct 28 16:53:08 PDT 2005
 celestialSources/genericSources/genericSources
 
