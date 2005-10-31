@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Oct 31 13:00:17 PST 2005
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+add test files for new sources; tagging v1r6
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 31 13:00:17 PST 2005
 celestialSources/genericSources/data
 
 Added Files:
