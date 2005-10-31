@@ -1,0 +1,423 @@
+------------------------------------------------------------
+User: jchiang  Mon Feb  7 16:26:42 PST 2005
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tagging v1r1
+    *
+------------------------------------------------------------
+User: jchiang  Mon Feb  7 16:26:42 PST 2005
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tagging v1r1
+    *
+------------------------------------------------------------
+User: jchiang  Mon Feb  7 16:20:56 PST 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	MapCube.cxx MapSource.cxx sources.in 
+Log Message:
+MapCube source with position dependent differential spectrum
+    *
+------------------------------------------------------------
+User: jchiang  Mon Feb  7 16:20:56 PST 2005
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	MapCube.h 
+Log Message:
+MapCube source with position dependent differential spectrum
+    *
+------------------------------------------------------------
+User: jchiang  Mon Feb  7 16:20:55 PST 2005
+celestialSources/genericSources/data
+
+Modified Files:
+	testTemplate.dat 
+Log Message:
+MapCube source with position dependent differential spectrum
+    *
+------------------------------------------------------------
+User: jchiang  Sun Feb  6 19:24:54 PST 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	FitsImage.cxx FitsImage.h MapSource.cxx SpectralTransient.cxx 
+	Util.cxx Util.h sources.in 
+Added Files:
+	MapCube.cxx 
+Log Message:
+add MapCube source, refactoring other classes as needed
+    *
+------------------------------------------------------------
+User: jchiang  Sun Feb  6 19:24:54 PST 2005
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	MapSource.h SpectralTransient.h 
+Added Files:
+	MapCube.h 
+Log Message:
+add MapCube source, refactoring other classes as needed
+    *
+------------------------------------------------------------
+User: jchiang  Sun Feb  6 19:24:54 PST 2005
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add MapCube source, refactoring other classes as needed
+    *
+------------------------------------------------------------
+User: jchiang  Sun Jan 30 21:53:33 PST 2005
+celestialSources/genericSources/xml
+
+Modified Files:
+	source_library.xml 
+Log Message:
+add SpectralTransient class for AGN modeling
+    *
+------------------------------------------------------------
+User: jchiang  Sun Jan 30 21:53:33 PST 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx Pulsar.cxx 
+Added Files:
+	SpectralTransient.cxx sources.in 
+Log Message:
+add SpectralTransient class for AGN modeling
+    *
+------------------------------------------------------------
+User: jchiang  Sun Jan 30 21:53:33 PST 2005
+celestialSources/genericSources/genericSources
+
+Added Files:
+	SpectralTransient.h 
+Log Message:
+add SpectralTransient class for AGN modeling
+    *
+------------------------------------------------------------
+User: jchiang  Sun Jan 30 21:53:33 PST 2005
+celestialSources/genericSources/data
+
+Added Files:
+	testTemplate.dat 
+Log Message:
+add SpectralTransient class for AGN modeling
+    *
+------------------------------------------------------------
+User: jchiang  Sun Jan 30 21:53:33 PST 2005
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add SpectralTransient class for AGN modeling
+    *
+------------------------------------------------------------
+User: jchiang  Fri Jan 21 08:20:47 PST 2005
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx 
+Log Message:
+comment out diagnostic line
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1, operation: add
+Package: genericSources
+User: jchiang  Mon Dec 13 13:37:58 2004
+Files:
+  genericSources/.cvsignore  1.1.1.1
+  genericSources/ChangeLog  1.24
+  genericSources/cmt/requirements  1.8
+  genericSources/data/3c279Template.dat  1.1.1.1
+  genericSources/data/GemingaTemplate.dat  1.1.1.1
+  genericSources/data/pks1622-297_Template.dat  1.2
+  genericSources/data/CrabTemplate.dat  1.1.1.1
+  genericSources/doc/release.notes  1.5
+  genericSources/genericSources/GaussianSource.h  1.1.1.1
+  genericSources/genericSources/SimpleTransient.h  1.1.1.1
+  genericSources/genericSources/PeriodicSource.h  1.1.1.1
+  genericSources/genericSources/MapSource.h  1.2
+  genericSources/genericSources/TransientTemplate.h  1.2
+  genericSources/genericSources/Pulsar.h  1.1.1.1
+  genericSources/genericSources/Isotropic.h  1.1.1.1
+  genericSources/src/FitsImage.h  1.3
+  genericSources/src/Pulsar.cxx  1.3
+  genericSources/src/TransientTemplate.cxx  1.5
+  genericSources/src/Util.h  1.1
+  genericSources/src/mainpage.h  1.1
+  genericSources/src/FitsImage.cxx  1.3
+  genericSources/src/PeriodicSource.cxx  1.2
+  genericSources/src/SimpleTransient.cxx  1.1.1.1
+  genericSources/src/Util.cxx  1.1
+  genericSources/src/MapSource.cxx  1.5
+  genericSources/src/GaussianSource.cxx  1.1.1.1
+  genericSources/src/Isotropic.cxx  1.1.1.1
+  genericSources/src/test/test.cxx  1.2
+  genericSources/xml/source_library.xml  1.2
+
+    *
+------------------------------------------------------------
+User: jchiang  Mon Dec 13 13:37:30 PST 2004
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx Pulsar.cxx TransientTemplate.cxx 
+Added Files:
+	FitsImage.cxx FitsImage.h Util.cxx Util.h 
+Log Message:
+remove dependence on st_facilities
+    *
+------------------------------------------------------------
+User: jchiang  Mon Dec 13 13:37:29 PST 2004
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+remove dependence on st_facilities
+    *
+------------------------------------------------------------
+User: jchiang  Mon Dec 13 13:37:28 PST 2004
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove dependence on st_facilities
+    *
+------------------------------------------------------------
+User: jchiang  Wed Oct 27 18:00:49 PDT 2004
+celestialSources/genericSources/src
+
+Added Files:
+	mainpage.h 
+Log Message:
+move mainpage.h to src
+    *
+------------------------------------------------------------
+User: jchiang  Wed Oct 27 18:00:48 PDT 2004
+celestialSources/genericSources/genericSources
+
+Removed Files:
+	mainpage.h 
+Log Message:
+move mainpage.h to src
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 25 14:14:01 PDT 2004
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tagging v0r1p2
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 25 14:14:01 PDT 2004
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tagging v0r1p2
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 25 14:12:40 PDT 2004
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx Pulsar.cxx 
+Log Message:
+check for template file existence
+    *
+------------------------------------------------------------
+User: jchiang  Thu Oct 21 08:50:12 PDT 2004
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx TransientTemplate.cxx 
+Removed Files:
+	FitsImage.cxx FitsImage.h 
+Log Message:
+remove in favor of st_facilities
+    *
+------------------------------------------------------------
+User: jchiang  Thu Oct 21 08:50:12 PDT 2004
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	MapSource.h 
+Log Message:
+remove in favor of st_facilities
+    *
+------------------------------------------------------------
+User: jchiang  Thu Oct 21 08:50:12 PDT 2004
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove in favor of st_facilities
+    *
+------------------------------------------------------------
+User: jchiang  Tue Oct 12 09:54:03 PDT 2004
+celestialSources/genericSources/xml
+
+Modified Files:
+	source_library.xml 
+Log Message:
+add descriptions of params entries
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 11 08:26:10 PDT 2004
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tagging v0r1p1
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 11 08:25:24 PDT 2004
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fix for TransientTemplate sources with zero flux entries
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 11 08:25:23 PDT 2004
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix for TransientTemplate sources with zero flux entries
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 11 08:22:57 PDT 2004
+celestialSources/genericSources/src/test
+
+Modified Files:
+	test.cxx 
+Log Message:
+stop using iterators in TransientTemplate so that zero flux entries are handled correctly
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 11 08:22:56 PDT 2004
+celestialSources/genericSources/src
+
+Modified Files:
+	PeriodicSource.cxx TransientTemplate.cxx 
+Log Message:
+stop using iterators in TransientTemplate so that zero flux entries are handled correctly
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 11 08:22:55 PDT 2004
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	TransientTemplate.h 
+Log Message:
+stop using iterators in TransientTemplate so that zero flux entries are handled correctly
+    *
+------------------------------------------------------------
+User: jchiang  Mon Oct 11 08:22:54 PDT 2004
+celestialSources/genericSources/data
+
+Modified Files:
+	pks1622-297_Template.dat 
+Log Message:
+stop using iterators in TransientTemplate so that zero flux entries are handled correctly
+    *
+------------------------------------------------------------
+User: jchiang  Fri Aug 13 10:33:54 PDT 2004
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tagging v0r1
+    *
+------------------------------------------------------------
+User: jchiang  Fri Aug 13 10:33:53 PDT 2004
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tagging v0r1
+    *
+------------------------------------------------------------
+User: jchiang  Fri Aug 13 10:32:47 PDT 2004
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx TransientTemplate.cxx 
+Added Files:
+	FitsImage.cxx FitsImage.h 
+Log Message:
+remove Likelihood dependence by copying FitsImage code.
+    *
+------------------------------------------------------------
+User: jchiang  Fri Aug 13 10:32:46 PDT 2004
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove Likelihood dependence by copying FitsImage code.
+    *
+------------------------------------------------------------
+User: jchiang  Tue Jun 29 09:38:15 PDT 2004
+celestialSources/genericSources
+
+Log Message:
+initial import of generic sources for use by flux, obsSim, Gleam, etc. 
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N celestialSources/genericSources/.cvsignore
+N celestialSources/genericSources/cmt/requirements
+N celestialSources/genericSources/data/3c279Template.dat
+N celestialSources/genericSources/data/CrabTemplate.dat
+N celestialSources/genericSources/data/GemingaTemplate.dat
+N celestialSources/genericSources/data/pks1622-297_Template.dat
+N celestialSources/genericSources/doc/release.notes
+N celestialSources/genericSources/genericSources/GaussianSource.h
+N celestialSources/genericSources/genericSources/Isotropic.h
+N celestialSources/genericSources/genericSources/MapSource.h
+N celestialSources/genericSources/genericSources/PeriodicSource.h
+N celestialSources/genericSources/genericSources/Pulsar.h
+N celestialSources/genericSources/genericSources/SimpleTransient.h
+N celestialSources/genericSources/genericSources/TransientTemplate.h
+N celestialSources/genericSources/genericSources/mainpage.h
+N celestialSources/genericSources/src/GaussianSource.cxx
+N celestialSources/genericSources/src/Isotropic.cxx
+N celestialSources/genericSources/src/MapSource.cxx
+N celestialSources/genericSources/src/PeriodicSource.cxx
+N celestialSources/genericSources/src/Pulsar.cxx
+N celestialSources/genericSources/src/SimpleTransient.cxx
+N celestialSources/genericSources/src/TransientTemplate.cxx
+N celestialSources/genericSources/src/test/test.cxx
+N celestialSources/genericSources/xml/source_library.xml
+
+No conflicts created by this import
+
+    *
