@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Oct 31 06:42:32 PST 2005
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	SourcePopulation.h 
+Log Message:
+begin adding in EBL attenuation
+    *
+------------------------------------------------------------
 User: jchiang  Sun Oct 30 17:28:41 PST 2005
 celestialSources/genericSources/src
 
