@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: omodei  Wed Nov  9 03:18:40 PST 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Added Files:
+	GRBobs_user_library_Z.xml GRBobs_user_library_noZ.xml 
+	SWIFT_bursts.xml 
+Log Message:
+Modified the libraries
+    *
+------------------------------------------------------------
 User: omodei  Wed Nov  9 03:18:38 PST 2005
 celestialSources/GRBobs/src/test/other
 
