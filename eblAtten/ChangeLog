@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Tue Nov  8 16:18:18 PST 2005
+celestialSources/eblAtten/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Implementation of new Stecker's EBL model
+    *
+------------------------------------------------------------
 User: lreyes  Tue Nov  8 16:17:42 PST 2005
 celestialSources/eblAtten/cmt
 
