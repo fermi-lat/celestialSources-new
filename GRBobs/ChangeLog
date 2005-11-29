@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: cohen  Mon Nov 28 20:29:33 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+attempt at a fix to the time issue with the rotation: GRBobsmanager now inherits from Spectrum, and uses Spectrum::startTime() to get the launch time
+
+    *
+------------------------------------------------------------
+User: cohen  Mon Nov 28 20:29:33 PST 2005
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
