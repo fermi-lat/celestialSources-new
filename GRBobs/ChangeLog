@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Tue Nov 29 12:42:13 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+modify getGRBname in order to use info from missionStart and Spectrum::startTime()
+
+    *
+------------------------------------------------------------
 User: cohen  Mon Nov 28 20:29:33 PST 2005
 celestialSources/GRBobs/src
 
