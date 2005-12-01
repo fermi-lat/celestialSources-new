@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: mcenery  Thu Dec  1 07:08:34 PST 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GenerateXMLLibrary.C 
+Log Message:
+Add new redshift distributions based on SFR and redshift distribution
+for binary mergers.
+
+    *
+------------------------------------------------------------
 User: cohen  Wed Nov 30 12:55:11 PST 2005
 celestialSources/GRBobs/src
 
