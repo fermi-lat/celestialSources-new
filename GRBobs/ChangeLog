@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Dec  2 21:22:29 PST 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tagging minor changes for Gleam
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p2, operation: add
 Package: GRBobs
