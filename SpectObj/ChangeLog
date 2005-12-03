@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Dec  2 20:45:27 PST 2005
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+add file header  as expected by GLAST software standards
+    *
+------------------------------------------------------------
 User: burnett  Fri Dec  2 20:38:47 PST 2005
 celestialSources/SpectObj/src
 
