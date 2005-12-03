@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Dec  2 20:38:47 PST 2005
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+make debug output actually occur if one is  debugging.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1, operation: add
 Package: SpectObj
