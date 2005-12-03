@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r1p1, operation: add
+Package: SpectObj
+User: burnett  Fri Dec  2 21:00:30 2005
+Files:
+  SpectObj/ChangeLog  1.69
+  SpectObj/SpectObj/SpectObj.h  1.17
+  SpectObj/cmt/requirements  1.7
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.36
+
+    *
+------------------------------------------------------------
 User: burnett  Fri Dec  2 20:59:45 PST 2005
 celestialSources/SpectObj/cmt
 
