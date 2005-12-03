@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Dec  2 20:59:45 PST 2005
+celestialSources/SpectObj/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+taggiing after supressing debug output
+    *
+------------------------------------------------------------
 User: burnett  Fri Dec  2 20:59:44 PST 2005
 celestialSources/SpectObj/SpectObj
 
