@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Dec  4 09:23:06 PST 2005
+celestialSources/Pulsar/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+didn't get the path set consistenly
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p2, operation: add
 Package: Pulsar
