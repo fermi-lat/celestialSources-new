@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Sun Dec  4 09:23:06 PST 2005
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+didn't get the path set consistenly
+    *
+------------------------------------------------------------
+User: burnett  Sun Dec  4 09:23:06 PST 2005
 celestialSources/Pulsar/cmt
 
 Modified Files:
