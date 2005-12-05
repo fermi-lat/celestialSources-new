@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: omodei  Mon Dec  5 06:57:36 PST 2005
+celestialSources/GRB/src/test
+
+Added Files:
+	testGRB.cxx 
+Removed Files:
+	testMgr.cxx 
+Log Message:
+Renamed testMgr->testGRB; fov in grbmanager and rate in the libary changed
+    *
+------------------------------------------------------------
+User: omodei  Mon Dec  5 06:57:36 PST 2005
 celestialSources/GRB/src/GRB
 
 Modified Files:
