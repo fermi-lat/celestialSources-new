@@ -4,42 +4,42 @@
 //
 
 #include "GRBShell.h"
+#include <iostream>
+#include <math.h>
+#include <stdlib.h>
 
-using namespace cst;
+using namespace std;
 
-GRBShell::GRBShell(double g, double r, double dr, double e)
-{
-  m_g  = g;
-  m_r  = r;
-  m_dr = dr;
-  m_e  = e;
-  m_m  = e/(g*c2);
-  //  m_t  = t;
-  m_b=sqrt(1.0 - 1.0/(m_g*m_g));
+GRBShell::GRBShell(double gamma, double mass,double thickness, double radius) 
+  : m_gamma(gamma), m_mass(mass),m_thickness(thickness),m_radius(radius)
+{ 
 }
 
-GRBShell::GRBShell(double g, double r, double dr, double e, double m)
+
+
+double GRBShell::beta(const double gamma) 
 {
-  m_g  = g;
-  m_r  = r;
-  m_dr = dr;
-  m_e  = e; 
-  m_m  = m;
-  //  m_t  = t;
-  m_b=sqrt(1.0 - 1.0/(m_g*m_g));
+  if(gamma<1.0)
+    {
+      return 0;
+    }
+  else 
+    {
+      return sqrt(1. - 1./(gamma*gamma));  
+    }
 }
 
-void GRBShell::Evolve(double t)
-{
-  m_r  += c * GetBeta() * t;
-}
-//////////////////////////////////////////////////
-double GRBShell::GetVolume()
-{
-  return 4.*cst::pi * m_r * m_r * m_dr;
-}  
 
-double GRBShell::GetComPartDens() 
+void GRBShell::evolve(double dt) 
 {
-  return (m_e * cst::erg2meV)/(m_g*cst::mpc2)/GetComovingVolume(); //1/cm^3
+  //Interaction with the Inter Stellar Medium: 
+  if(m_radius>1.0e+17)
+    {
+      m_gamma=cst::viscosity+m_gamma*(1.0-cst::viscosity);
+    }
+  if(m_gamma<1.0) m_gamma=1.0;
+  m_radius += beta(m_gamma)*cst::c*dt;
+   // Expanding sells...
+  //  m_thickness=m_radius/pow(m_gamma,2)>m_thickness?m_radius/pow(m_gamma,2):m_thickness;
+  
 }

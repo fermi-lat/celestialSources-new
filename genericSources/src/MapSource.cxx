@@ -29,76 +29,24 @@
 
 #include "genericSources/MapSource.h"
 
-#include "ConstParMap.h"
-
 ISpectrumFactory &MapSourceFactory() {
    static SpectrumFactory<MapSource> myFactory;
    return myFactory;
 }
 
-MapSource::MapSource(const std::string & paramString) 
+MapSource::MapSource(const std::string &paramString) 
    : m_flux(1.), m_gamma(2), m_emin(30.), m_emax(1e5) {
-   
-   std::string fitsFile;
-   bool createSubMap(false);
-   
-   if (paramString.find("=") == std::string::npos) {
-// use the original params string interface
-      std::vector<std::string> params;
-      facilities::Util::stringTokenize(paramString, ", ", params);
-      
-      m_flux = std::atof(params[0].c_str());
-      m_gamma = std::atof(params[1].c_str());
-      fitsFile = params[2];
-      if (params.size() > 3) {
-         m_emin = std::atof(params[3].c_str());
-      }
-      if (params.size() > 4) {
-         m_emax = std::atof(params[4].c_str());
-      }
-      if (params.size() > 5) {
-         try {
-            m_lonMin = std::atof(params.at(5).c_str());
-            m_lonMax = std::atof(params.at(6).c_str());
-            m_latMin = std::atof(params.at(7).c_str());
-            m_latMax = std::atof(params.at(8).c_str());
-            createSubMap = true;
-         } catch (...) {
-            throw std::runtime_error("Error reading sub-map bounds.\n"
-                                     "There must be precisely 4 parameters "
-                                     "to describe a sub-map.");
-         }
-      }
-   } else {
-// use the map version
-      std::map<std::string, std::string> my_parmap;
-      facilities::Util::keyValueTokenize(paramString, ", ", my_parmap);
-      
-      genericSources::ConstParMap parmap(my_parmap);
-      m_flux = parmap.value("flux");
-      m_gamma = parmap.value("gamma");
-      fitsFile = parmap["fitsFile"];
-      if (parmap.size() > 3) {
-         m_emin = parmap.value("emin");
-      }
-      if (parmap.size() > 4) {
-         m_emax = parmap.value("emax");
-      }
-      if (parmap.size() > 5) {
-         try {
-            m_lonMin = parmap.value("lonMin");
-            m_lonMax = parmap.value("lonMax");
-            m_latMin = parmap.value("latMin");
-            m_latMax = parmap.value("latMax");
-            createSubMap = true;
-         } catch (...) {
-            throw std::runtime_error("Error reading sub-map bounds.\n"
-                                     "They must be specified with names "
-                                     "lonMin, lonMax, latMin, latMax.");
-         }
-      }
-   }
-   readFitsFile(fitsFile, createSubMap);
+
+   std::vector<std::string> params;
+   facilities::Util::stringTokenize(paramString, ", ", params);
+
+   m_flux = std::atof(params[0].c_str());
+   m_gamma = std::atof(params[1].c_str());
+   std::string fitsFile = params[2];
+   if (params.size() > 3) m_emin = std::atof(params[3].c_str());
+   if (params.size() > 4) m_emax = std::atof(params[4].c_str());
+
+   readFitsFile(fitsFile);
    makeIntegralDistribution(m_image);
 
 //    std::cerr << "Integral over the map: " 
@@ -189,53 +137,21 @@ double MapSource::mapValue(unsigned int i, unsigned int j) {
    return m_image[indx];
 }
 
-void MapSource::readFitsFile(std::string fitsFile, bool createSubMap) {
+void MapSource::readFitsFile(std::string fitsFile) {
    facilities::Util::expandEnvVar(&fitsFile);
 
    genericSources::Util::file_ok(fitsFile);
    genericSources::FitsImage fitsImage(fitsFile);
-   
-   m_mapIntegral = fitsImage.mapIntegral();
-   
-   if (createSubMap) {
-      getSubMapAxes(fitsImage);
-      fitsImage = genericSources::FitsImage::
-         sampledImage(fitsImage, m_lon, m_lat, fitsImage.coordSys());
-
-// rescale the flux by the sub-map integral
-      double new_integral = fitsImage.mapIntegral();
-      m_flux *= new_integral/m_mapIntegral;
-      m_mapIntegral = new_integral;
-   } else {
-      fitsImage.getAxisVector(0, m_lon);
-      fitsImage.getAxisVector(1, m_lat);
-   }
 
    fitsImage.getAxisNames(m_axisTypes);
+
+   fitsImage.getAxisVector(0, m_lon);
+   fitsImage.getAxisVector(1, m_lat);
+
    fitsImage.getCelestialArrays(m_lonArray, m_latArray);
 
    fitsImage.getSolidAngles(m_solidAngles);
    fitsImage.getImageData(m_image);
-}
-
-void MapSource::getSubMapAxes(const genericSources::FitsImage & fitsImage) {
-   std::vector<double> axis;
-   fitsImage.getAxisVector(0, axis);
-   double dx = std::fabs(axis.at(1) - axis.at(0));
-   m_lon.clear();
-   for (size_t i = 0; i < axis.size(); i++) {
-      if (m_lonMin - dx < axis.at(i) && axis.at(i) < m_lonMax + dx) {
-         m_lon.push_back(axis.at(i));
-      }
-   }
-   fitsImage.getAxisVector(1, axis);
-   dx = std::fabs(axis.at(1) - axis.at(0));
-   m_lat.clear();
-   for (size_t j = 0; j < axis.size(); j++) {
-      if (m_latMin - dx < axis.at(j) && axis.at(j) < m_latMax + dx) {
-         m_lat.push_back(axis.at(j));
-      }
-   }
 }
 
 void MapSource::

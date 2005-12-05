@@ -1,344 +1,452 @@
-#include <fstream>
+#include <iterator>
 #include <iostream>
+//#include <stdio.h>
+#include <algorithm>
+//#include <function.h>
+#include <vector>
+#include <cmath>
+#include <cassert>
+#include <string>
 
-#include "GRBConstants.h"
-#include "GRBShell.h"
-#include "GRBShock.h"
-#include "GRBengine.h"
+#include "CLHEP/Random/RandFlat.h"
+#include "CLHEP/Random/RandGauss.h"
+#include "CLHEP/Random/RandomEngine.h"
+#include "CLHEP/Random/RandGeneral.h"
+#include "CLHEP/Random/RandExponential.h"
+#include "CLHEP/Random/RanluxEngine.h"
 #include "GRBSim.h"
 
-#include "TFile.h"
-
-#include "TCanvas.h"
-#include "TF1.h"
-#include "TH1D.h"
-
-#define DEBUG 0
-
+/*------------------------------------------------------*/
 using namespace cst;
+using namespace std;
+/*------------------------------------------------------*/
+
+/*!
+ *  Utility class for the sort() algorithm of Shock vector: sort in 
+ *  decreasing order with respect to the observer time (in the GLAST reference frame).
+ */
+class ShockCmp{
+public:
+  bool operator()(const GRBShock& Sho1,const GRBShock& Sho2)
+  {
+    //    return const_cast<GRBShock&>(Sho1).tobs() < const_cast<GRBShock&>(Sho2).tobs();    
+    return Sho1.tobs() < Sho2.tobs();    
+  }
+};
+/*------------------------------------------------------*/
 
 
-//////////////////////////////////////////////////
-GRBSim::GRBSim(Parameters *params)
-  : m_params(params)
+GRBSim::GRBSim()
 {
-  m_GRBengine = new GRBengine(params);
-  m_fluence   = m_params->GetFluence(); 
-  if(DEBUG) 
-    std::cout<<" Fluence = "<<m_fluence<<std::endl;
+  cout<<"******Staring The GRB Simulation******"<<endl;
+  double temp1=(enmax/enmin);
+  double temp2=(1.0/(enstep));
+  double denergy = pow(temp1,temp2);
+  int en;
+  m_energy.clear();	
+  m_de.clear();
+  for(en=0;en<=enstep;en++)
+  {
+      m_energy.push_back(enmin*pow(denergy,en)); 
+  }
+  for(en=0;en<enstep;en++)
+  {
+      m_de.push_back(m_energy[en+1]-m_energy[en]);
+  }
+}	
+
+/*------------------------------------------------------*/
+GRBSim::~GRBSim()
+{
+  delete myParam;
+  
+  cout<<"*******Exiting The GRB Simulation ******"<<endl;
+}
+/*------------------------------------------------------*/
+
+
+double GRBSim::generateGamma(double gammaMin,double gammaMax) 
+{
+  HepRandom::setTheEngine(new RanluxEngine);
+  double dgamma = gammaMax - gammaMin;
+  return (gammaMin + (double (RandFlat::shoot(1.0)))*dgamma);
 }
 
-void GRBSim::GetUniqueName(const void *ptr, std::string & name)
+
+double GRBSim::GRBDuration(char* burst_type)
 {
-  std::ostringstream my_name;
-  my_name << reinterpret_cast<int> (ptr);
-  name = my_name.str();
-  gDirectory->Delete(name.c_str());
+  double dur;
+  //////////////////////////////////////////////////
+  // It determines if, in case of random selection of the parameters,
+  // the burst is long or short...
+  if (burst_type!="Short" && burst_type!="Long")
+    {
+      if (GRBConstants::SelectFlatRandom(0.0,1.0)<=0.3)
+	{burst_type="Short";}
+      else
+	{burst_type="Long";}
+    }  
+  if(burst_type=="Short")
+    {
+      double temp=GRBConstants::SelectGaussRandom(0.0,2.5);
+      dur=pow(10.,-temp);
+    }
+  else
+    {
+      double temp=GRBConstants::SelectGaussRandom(1.0,3.0);
+      dur=pow(10.,temp);
+    }
+  return dur;
 
 }
+  
 
-
-TH2D* GRBSim::Fireball()
+  
+bool GRBSim::CompareResults(double duration, double ftot)
 {
-  double *e = new double[Ebin +1];
-  for(int i = 0; i<=Ebin; i++)
-    {
-      e[i] = emin*pow(de,1.0*i); //keV
-    }
-  
-  //////////////////////////////////////////////////  
-  
-  std::vector<GRBShock*> Shocks = m_GRBengine->CreateShocksVector();
-  std::vector<GRBShock*>::iterator pos;
-  int nshocks = (int) Shocks.size();
-  if(DEBUG)
-    {
-      std::cout<<"Shock vector size: "<<nshocks<<std::endl;
-      for (pos=Shocks.begin();pos!=Shocks.end(); pos++)
-	{
-	  (*pos)->Print();
-	}
-    }
-  double meanDuration = 0;
-  for (pos=Shocks.begin(); pos!=Shocks.end(); pos++)
-    {
-      (*pos)->SetICComponent(m_params->GetInverseCompton());
-      if(DEBUG) (*pos)->Print();
-      meanDuration+=(*pos)->GetDuration();
-    }
-  meanDuration/=nshocks;
-  
-  //////////////////////////////////////////////////
-  double dtqg=0.0;
-  double max_tqg=0.0;
-  if(m_params->QG())
-    {
-      double dist = GetDistance();
-      double Ep = 1e19 * 1e6; //keV;
-      dtqg = dist/cst::c/Ep;
-      max_tqg = dtqg * 1e7;
-    }
+//  cout<<m_tmax<<" "<<duration<<endl;
+  bool c1=false;
+  //  bool c2=false;
+  if (m_tmax <= duration+duration/10. && m_tmax > duration-duration/10.) c1=true;
+  return c1;
+  //  if (m_duration <= duration+duration/10. && m_duration > duration-duration/10.)  
+}
 
-  //  int i=1;
-  static const double shift =0.0;
-  m_tfinal = Shocks.back()->GetTime() + meanDuration + shift + max_tqg;
-  Tbin     = TMath::Max(10,int(m_tfinal/TimeBinWidth));
-  if(Tbin>10000) Tbin=int(m_tfinal/GBMTimeBinWidth);
-  //  Tbin     = TMath::Min(Tbin,10000);
-  
-  if(DEBUG)  
-    std::cout<<"Tbin = "<<Tbin<<std::endl;
-  gDirectory->Delete("Nv");
-  m_Nv = new TH2D("Nv","Nv",Tbin,0.,m_tfinal,Ebin, e);
-  double dt = m_Nv->GetBinWidth(1);
-  std::string name;
-  GetUniqueName(m_Nv,name);
-  m_Nv->SetName(name.c_str());
-  
-  double t = 0.0;
-  double energy,tqg;
-  
-  for(int ti = 0; ti<Tbin; ti++)
-    {
-      t = ti*dt;
-      for(int ei = 0; ei < Ebin; ei++)
-	{
-	  double nv = m_Nv->GetBinContent(ti+1, ei+1);
-	  if(m_params->QG()) energy = m_params->rnd->Uniform(e[ei],e[ei+1]);
-	  else energy = e[ei];
-	  tqg    = t-shift-energy*dtqg;
-	  
-	  for (int i = 0; i< nshocks; i++)
-	    {
-	      GRBShock *ashock = Shocks[i];
-	      nv += ashock->ComputeFlux(tqg,energy);
-	    }
-	  m_Nv->SetBinContent(ti+1, ei+1, nv);
-	  // [ph/(cm² s keV)]
-	}
-    }
-  
-  TH2D *nph = Nph(m_Nv); //ph/cm²
-  
-  int ei1 = nph->GetYaxis()->FindBin(BATSE1);
-  int ei2 = nph->GetYaxis()->FindBin(BATSE5);
-  double F=0.0;
-  double en;
-  for (int ei = ei1; ei<=ei2; ei++)
-    {
-      en   = nph->GetYaxis()->GetBinCenter(ei);
-      for(int ti = 1; ti<=Tbin; ti++)
-	{
-	  F+= nph->GetBinContent(ti, ei) * en;//[keV/cm²]
-	}  
-    }
-  double norm = F*1.0e-3/(erg2meV); //erg/cm²  
-  /////////////////////////////////////////////////////////////
-  //         IMPORTANT m_Nv has to  be in [ph/(m² s keV)]    //
-  //////////////////////////////////////////////////
-  m_Nv->Scale(1.0e4 * m_fluence/norm);
-  if(DEBUG) 
-    m_params->PrintParameters();
-  
-  delete[] e;
-  delete nph;
+void GRBSim::MakeGRB(double time_offset)
+{
  
-  return m_Nv;
-}
-//////////////////////////////////////////////////
-TH2D *GRBSim::Nph(const TH2D *Nv)
-{
-  TH2D *Nph = (TH2D*) Nv->Clone(); // [ph/(m² s keV)]  
-  std::string name;
-  GetUniqueName(Nph,name);
-  Nph->SetName(name.c_str());
-
-  double dei;
-  double deltat = Nv->GetXaxis()->GetBinWidth(1);
-  
-  for (int ei = 0; ei<Ebin; ei++)
-    {
-      dei   = Nv->GetYaxis()->GetBinWidth(ei+1);
-      for(int ti = 0; ti<Tbin; ti++)
-	{
-	  Nph->SetBinContent(ti+1, ei+1, 
-			     Nph->GetBinContent(ti+1, ei+1)*dei*deltat); // [ph/(cm²)]  
-	}   
-    }
-  return Nph;
-}
-
-//////////////////////////////////////////////////
-void GRBSim::SaveNv()
-{
-  
-  m_Nv->SetXTitle("Time [s]");
-  m_Nv->SetYTitle("Energy [keV]");
-  m_Nv->SetZTitle("N_{v} [ph/m^2/s/keV]");
-  m_Nv->GetXaxis()->SetTitleOffset(1.5);
-  m_Nv->GetYaxis()->SetTitleOffset(1.5);
-  m_Nv->GetZaxis()->SetTitleOffset(1.2);
-  m_Nv->GetXaxis()->CenterTitle();
-  m_Nv->GetYaxis()->CenterTitle();
-  m_Nv->GetZaxis()->CenterTitle();
-  
-  char root_name[100];
-  sprintf(root_name,"grb_%d.root",(int)m_params->GetGRBNumber());
-  std::cout<<" Saving "<<root_name<<std::endl;
-  TFile mod(root_name,"RECREATE");
-  std::string name = m_Nv->GetName();
-  m_Nv->SetName("Nv"); // I need a default name.
-  m_Nv->Write();
-  mod.Close();
-  m_Nv->SetName(name.c_str());
-}
-
-//////////////////////////////////////////////////
-
-void GRBSim::SaveGBMDefinition(TString GRBname, double ra, double dec, double theta, double phi, double tstart)
-{
-  TString name = "GRB_";
-  name+=GRBname; 
-  name+=".DEF";
-  std::ofstream os(name,std::ios::out);
-  os<<"BURST DEFINITION FILE"<<std::endl;
-  os<<"Burst Name"<<std::endl;
-  os<<GRBname<<std::endl;
-  os<<"RA,DEC (deg):"<<std::endl;
-  os<<ra<<" "<<dec<<std::endl;
-  os<<"S/C azimuth, elevation (deg):"<<std::endl;
-  os<<phi<<" "<<theta<<std::endl;
-  os<<"Trigger Time (s):"<<std::endl;
-  os<<tstart<<std::endl;
-  os.close();
-}
-
-double LogFB(double *var, double *par)
-{
-  
-  // GRB function from Band et al.(1993) ApJ.,413:281-292
-  double a  = par[0];
-  double b  = par[0]+par[1];
-  
-  double LogE0     = par[2];
-  double LogNT     = par[3];
-  double LogE      = var[0];
-  static const double loge= log10(exp(1.));
-  double LogH,LogC; 
-  if((a-b)<=0) std::cout<<"WARNING"<<std::endl;
-  
-  LogH   = log10(a-b) + LogE0;  
-  LogC   = (a-b) * (LogH-2.0)-loge*pow(10.0,LogH-LogE0);
-
-  if(LogE <= LogH) 
-    return      LogNT + a * (LogE-2.0) - pow(10.0,LogE-LogE0)*loge; 
-  return LogC + LogNT + b * (LogE-2.0); // cm^(-2) s^(-1) keV^(-1) 
-}
-
-
-
-void GRBSim::GetGBMFlux(TString GRBname)
-{
   //////////////////////////////////////////////////
-  // GBM Spectrum:
-  TF1 band("grb_f",LogFB,log10(emin), 4.0, 4); 
-  band.SetParNames("a","b","logE0","Log10(Const)");
+  m_tmax=0.0;
+  //////////////////////////////////////////////////
   
-  band.SetParLimits(0,-2.0 , 2.0); // a
-  band.SetParLimits(1,-3.0 , -0.001); // b-a; b < a -> b-a < 0 !
-  band.SetParLimits(2,log10(emin),4.0);
+  //  double duration = 1.0;
+  //double duration_err = duration/10.;
+  double ftot;
+  bool GenerateAgain=true;
+  double duration = GRBDuration();
+  //  duration=pow(10.0,RandGauss::shoot(-0.4,0.3));
+  while (GenerateAgain)
+    {  
+      int nshock=0;
+      while (nshock==0)
+	{
+	  theShells.clear();
+	  theShocks.clear();
+	  try
+	    {
+	      myParam=new GRBConstants();
+	    }
+	  catch (char * )
+	    {
+	      std::cout<< "Failure initializing the GRB constants \n";
+	      //TODO LIST: still need to remove this, without getting a core dump!
+	      exit(1);
+	    }  
+	  
+	  myParam->MakeGRB();
+	  m_enph=myParam->EnergyPh();
+
+	  // Step 1: Creation of the shells
+	  double ei = myParam->Etot()/myParam->Nshell(); //erg
+	  int i;
+	  double time=0.0;
+	  // Gap of time between the emission of shells (at the engine)
+	  double time_em=(myParam->R0()+myParam->T0())/cst::c;
+	  
+	  double ttee=0.0;
+	  double gmax2= pow(myParam->GammaMax(),2);
+	  double gmin2= pow(myParam->GammaMin(),2);
+	  double tmax = myParam->Nshell()*100.0*time_em*(gmax2*gmax2/(gmax2-gmin2));
+	  double ddt= time_em/10.0;
+	  int shell_created=0;
+	  
+	  while (time<tmax && nshock<myParam->Nshell()-1)
+	    {
+	      if(shell_created<myParam->Nshell()) 
+		{
+		  if (ttee==0)      // if true-> it is time to create a shell
+		    {
+		      double gi = generateGamma(myParam->GammaMin(),myParam->GammaMax()); 
+		      
+		      if(myParam->Nshell()==2 && shell_created==1) 
+			{
+			  while(gi<=theShells[0].getGamma()) 
+			    {
+			      gi = generateGamma(myParam->GammaMin(),myParam->GammaMax()); 
+			    }
+			}
+		      
+		      double m = ei/(gi*cst::c2); // Shell mass
+		      
+		      GRBShell iShell(gi,m,myParam->T0(),0.0);
+		      theShells.push_back(iShell);
+		      shell_created++;
+		    }
+		}
+	      else
+		{
+		  ddt=tmax/1000.0 ;
+		}
+	      
+	      
+	      std::vector<GRBShell>::iterator itr;
+	      for(itr=theShells.begin();itr != theShells.end();++itr)
+		{
+		  (*itr).evolve(ddt);
+		}
+	      
+	      if(theShells.size()>1)
+		{
+		  for(i=1;i<theShells.size();i++)
+		    { 
+		      GRBShell Sh1 = theShells[i-1];
+		      GRBShell Sh2 = theShells[i];
+		      
+		      if(Sh1.getRadius()
+			 <= (Sh2.getRadius()+Sh2.getThickness())) 
+			{
+			  GRBShock iShock(Sh1, Sh2, time);
+			  theShocks.push_back(iShock);	
+			  theShells.erase(&theShells[i]);
+			  nshock++;
+			  //		      iShock.Write();
+			}
+		    }
+		}
+	      time+=ddt;
+	      ttee+=ddt;
+	      if(ttee>=time_em) ttee=0.0;
+	    }
+	}
+      /*------------------------------------------------------*/
+      /// Step 3: Sorting the shocks and setting t min=0
+      std::sort(theShocks.begin(), theShocks.end(), ShockCmp());
+      
+      double t0 = (theShocks.front()).tobs();
+      std::vector<GRBShock>::iterator itr;
+      for(itr=theShocks.begin();itr != theShocks.end();++itr)
+	{
+	  //shift of the shock observeed times, so that first 
+      //is at tobs=time_offset.
+	  (*itr).setTobs( (*itr).tobs() - t0 + time_offset);
+	}
+      
+      // Warning: tmax redeclared here!!
+      GRBShock last = theShocks.back();
+      
+      //Now compute the Flux sum produced in each Shock
+      m_tmax=1.0*(last.tobs()+last.duration());
+      cout<<"T max = "<<m_tmax<<endl;
+      if (m_tmax>1000.0) m_tmax=1000.0;
+      //////////////////////////////////////////////////
+      ftot=0;
+      for(itr=theShocks.begin();itr != theShocks.end();++itr)
+	{
+	  ftot+=(*itr).Eint();
+	}
+      if(myParam->Duration()>0.0) duration = myParam->Duration();
+      else duration=m_tmax;	
+      GenerateAgain = !CompareResults(duration,ftot);
+    }
+  //////////////////////////////////////////////////
+  // All is ok
+  ////////////////////////////////////////////////// 
   
-  double a,b,E0,Const;
-  TH1D GBM("GBM","GBM",Ebin,log10(emin),log10(emax));
-  GBM.SetMinimum(5);
-  GBM.SetMaximum(-5);
+  myParam->Print();
+  myParam->Save(cst::savef);
+  //Glast Direction
+//  m_grbdir=std::make_pair(((RandFlat::shoot(1.0))*1.4)
+//  			  -0.4,(RandFlat::shoot(1.0))*2*M_PI);
   
-  double t    = 0;
-  double tfinal = m_Nv->GetXaxis()->GetXmax();
-  double dt   = m_Nv->GetXaxis()->GetBinWidth(1);
-  int tbin = (int) tfinal/GBMTimeBinWidth;
+  
+  // Galactic Direction (l,b):
+  m_grbdir=std::make_pair(((RandFlat::shoot(1.0))*360.0)-180.,
+			  (RandFlat::shoot(1.0)*180.0)-90.);
+  
+  //  m_grbdir=std::make_pair(50.,-60);
+  
+  double qo=(1.0+3.0*cst::wzel)/2.0;
+  double Dist=(cst::c/(Hubble*1.0e+5)/pow(qo,2.0))*
+    (myParam->Redshift()*qo+(qo-1.0)*
+     (-1.0+sqrt(2.0*qo*myParam->Redshift()+1.0)))*cst::mpc2cm;
+  m_Area=(4.*cst::pi)*pow(Dist,2); // [cm^2]
+  
+  //////////////////////////////////////////////////
+  cout<<" Dist  of the source   = "<<Dist<<" cm "<<endl;
+  cout<<" Number of Shocks      = " <<theShocks.size()<< endl;
+  cout<<" Duration of the Burst = "<<m_tmax-time_offset<<endl;
+  cout<<" Total Energy Radiated = "<<ftot<<endl;
+  //////////////////////////////////////////////////
+
+  if (m_tmax-time_offset<2.)
+    {cout<<"The burst is Short "<<endl;}
+  else
+    {cout<<"The burst is Long "<<endl;}
+  double dt=(m_tmax-time_offset)/nstep;
+  std::vector<GRBShock>::iterator itr;
+  for(itr=theShocks.begin();itr != theShocks.end();++itr)
+    {
+      (*itr).FluxSum(m_de,m_energy,dt,true);
+    }
+}
+
+/*------------------------------------------------------*/
+std::vector<double> GRBSim::ComputeFlux(double time)
+{
+  //  cout<<"Compute the flux @ time ="<<time<<endl;
+  double norma;
+  double temp;
+  std::vector<double> spectrum(enstep+1,0.); //Same size then energy
+  if (time<=0) return spectrum;
+  std::vector<GRBShock>::iterator itr;
+  for(itr=theShocks.begin();itr != theShocks.end();++itr)
+    {
+      norma = ((*itr).Eint())/(m_Area); //erg/cm^2
+      std::vector<double>::iterator it;
+      int en=0;
+      for (it = spectrum.begin();it!=spectrum.end();++it)
+	{
+	  // temp is in 1/s/eV
+	  temp = (*itr).FluxAtT(m_energy[en],time,true);
+	  *it += (erg2MeV*1.0e+16)/m_energy[en]
+	    *norma*temp;
+	  // (10e+6 eV/erg) (1/eV) (erg/cm^2) (1/s/eV) = 1/cm^2/s/eV
+	  // converted in ->photons/s/MeV/m^2
+	  en++;
+	}
+    }
+   return spectrum;
+}
+
+/*------------------------------------------------------*/
+double GRBSim::IFlux(std::vector<double> spctrmVec,double enmin,double enmax)
+{
+  if(spctrmVec.size()==0) return 0.0;
+  std::vector<double>::iterator it_spec;
+  std::vector<double>::iterator it_ene;
+  std::vector<double>::iterator it_de;
+  
+  // rate of particle arrivals for enmin <= energy < enmax
+  double flux=0.0;
+  it_ene=m_energy.begin();
+  it_spec=spctrmVec.begin();
+  for(it_de= m_de.begin();it_de != m_de.end();++it_de)
+    // for (int en=0;en<enstep;en++)
+    {
+      if((*it_ene)>=enmin && (*it_ene)<enmax)
+	{  
+	  flux += (*it_ene)*(*it_spec)*(*it_de)*(1.0e-6);
+	  //eV/s/m^2
+	}
+      it_ene++;
+      it_spec++;
+    }
+  return flux;  
+}
+
+/*------------------------------------------------------*/
+double GRBSim::IRate(std::vector<double> spctrmVec,double enmin,double enmax)
+{
+  if(spctrmVec.size()==0) return 0.0;
+  std::vector<double>::iterator it_spec;
+  std::vector<double>::iterator it_ene;
+  std::vector<double>::iterator it_de;
+  
+  // rate of particle arrivals for enmin <= energy < enmax
+  double rate=0.0;
+  it_ene=m_energy.begin();
+  it_spec=spctrmVec.begin();
+  for(it_de= m_de.begin();it_de != m_de.end();++it_de)
+    // for (int en=0;en<enstep;en++)
+    {
+      if((*it_ene)>=enmin && (*it_ene)<enmax)
+	{  
+	  rate += (*it_spec)*(*it_de)*(1.0e-6);
+	  //ph/s/m^2
+	}
+      it_ene++;
+      it_spec++;
+    }
+  return rate;  
+}
+/*------------------------------------------------------*/
+
+double GRBSim::DrawPhotonFromSpectrum(std::vector<double> spctrmVec, 
+	float u, double enmin)
+{
+  // With std:iterator
+  std::vector<double>::iterator it_spec = spctrmVec.begin();  ;
+  std::vector<double>::iterator it_ene;
+  std::vector<double> Integral;
+  
+  if(spctrmVec.size()==0) return 0.0;
   /*
-    double t    = 0;
-    double dt   = m_Nv->GetXaxis()->GetBinWidth(1);
-    double tbin = m_Nv->GetXaxis()->GetNbins();
+  std::vector<double>::iterator minbin_it = 
+        find_if(m_energy.begin(), m_energy.end(), 
+        bind2nd(greater<double>(), enmin));
+        cout<<"minbin_it = "<<*minbin_it<<endl;     
+ //std::copy(spctrmVec.begin()+*minbin_it, spctrmVec.end(), Integral.begin());
   */
+  //STEP 1: we need to remove low energy part of the spectrum,
+  // in order to avoid drawing photons of no interest to GLAST.
+  // minbin: ebergy bin # after which the energy of a photon 
+  // will be above emin.
 
-  TString name = "GRB_";
-  name+=GRBname; 
-  name+=".lc";
-  std::ofstream os(name,std::ios::out);
+  int minbin=0;
+  for(it_ene= m_energy.begin();it_ene != m_energy.end();++it_ene)
+	{
+	if((*it_ene) >= enmin)
+		Integral.push_back(*it_spec);
+	else
+		minbin++;	
+	++it_spec;
+	}
+  if(u==0) return m_energy[minbin]*1.0e-9;
+  //STEP 2:Compute cumulative sum, and normalize to 1.
 
-  os<<"Sample Spectrum File "<<std::endl;
-  os<<tbin<<" bins"<<std::endl;
-  os<<"Norm   alf   beta  E_p "<<std::endl;
-#ifndef WIN32 // THB: Avoid need to link TCanvas on windows 
-  if(DEBUG)
-    {
-      TCanvas *GBMCanvas;
-      GBMCanvas = new TCanvas("GBMCanvas","GBMCanvas",500,400);
-      std::cout<<"Norm   alf   beta  E_p "<<std::endl;
-      GBM.Draw();
+  for(it_spec=Integral.begin()+1;it_spec!=Integral.end();++it_spec) 
+    { 
+     *(it_spec-1)-=Integral.front();
+      (*it_spec) += *(it_spec-1); 	//Computing cumulative sum
     }
-#endif
 
-  a =  -1.00;
-  b =  -2.25;
+  if( Integral.back() <=0 ) return 0.0;	
+  for(it_spec=Integral.begin();it_spec!=Integral.end();++it_spec) 
+    { 
+      (*it_spec) /= Integral.back(); 	//Normalizing to one
+    }
   
-  
-  while(t<tfinal)
+  if(Integral.back()!=1.0) return 0.0;	//This should never happen
+    
+//  std::vector<double>::iterator closer_u = 
+//       find_if(Integral.begin(), Integral.end(), bind2nd(greater<double>(), u));
+//  --closer_u;
+
+  //STEP 3: Find in the cumulative sum vector, the bin for which
+  //the flat random variable u is closest to the value of Integral
+
+  int nabove, nbelow, middle;   
+  nabove = Integral.size();
+  nbelow = 0;
+  int ibin =0;
+  while(nabove-nbelow > 1) 
     {
-      double ResolRatio = GBMTimeBinWidth/dt;      
-      int ti = m_Nv->GetXaxis()->FindBin(t);
-      t += GBMTimeBinWidth; //s 16 musec
-      
-      for(int ei = 0; ei < Ebin; ei++)
-	{
-	  //  Notice that Nv is in [ph/(m² s keV)]; nv is in [(ph)/(cm² s keV)]
-	  double nv = 0.0;
-	  for(int ii=0;ii<ResolRatio;ii++)
-	    nv+=m_Nv->GetBinContent(ti+ii,ei+1);
-	  nv = TMath::Max(1e-10,nv/ResolRatio); // [ph/( m² s keV)]
-	  nv = log10(nv)-4.0;                                           // [ph/(cm² s keV)]
-	  GBM.SetBinContent(ei+1 , nv);                                 // [ph/(cm² s keV)]
-	  GBM.SetBinError(ei+1 , nv/100.0);                             // arbitrary small error (1%)
-	}
-      double LogC0  = GBM.GetBinContent(GBM.FindBin(2.0));
-      double LogEp0 = 2.0;
-
-      band.SetParameters(a,b-a,LogEp0,LogC0);
-
-      if(LogC0>-5) 
-	{
-	  if(DEBUG)
-	    GBM.Fit("grb_f","r");	  
-	  else 
-	    GBM.Fit("grb_f","nqr");	  
-	} 
-      else 
-	{
-	  band.SetParameters(-2.0,-1.0,LogEp0,-8.0);
-	}
-      
-      a  = band.GetParameter(0);
-      b  = a+band.GetParameter(1);
-      E0    = pow(10.,band.GetParameter(2));
-      Const = pow(10.,band.GetParameter(3));
-      double Ep=TMath::Max(30.0,(2.0+a)*E0); 
-      os<<Const<<" "<<a<<" "<<b<<" "<<Ep<<" "<<std::endl;
-      
-      if(DEBUG)
-	{
-	  std::cout<<"t= "<<t<<" C= "<<Const<<" a= "<<a<<" b= "<<b<<" E0= "<<E0<<" Ep= "<<Ep<<std::endl;
-	  //gPad->SetLogx();
-	  //gPad->SetLogy();
-	  gPad->Update();
-	  TString gbmFlux= "GBMFlux";
-	  gbmFlux+=ti;
-	  gbmFlux+=".gif";
-	  if(ti%10==0) gPad->Print(gbmFlux);
-	}
-    }   
-  os.close();
-  //////////////////////////////////////////////////
-  //  delete[] e;
+      middle = (nabove+nbelow)/2;
+      if (u == Integral[middle-1]) 
+        {
+          ibin = middle-1;
+          break;
+        }
+      if (u  < Integral[middle-1]) nabove = middle;
+      else                         nbelow = middle;
+      ibin = nbelow-1;
+    }
+  //STEP4: retrurns the centered value of the energy at bin position
+  // determined at STEP 3 
+    
+  double ph = m_energy[ibin+minbin]+
+    (m_energy[ibin+minbin+1]-m_energy[ibin+minbin])*
+    (Integral[ibin+1] - u)/(Integral[ibin+1] - Integral[ibin]);
+    
+  return ph*1.0e-9; //returns value in GeV
 }
