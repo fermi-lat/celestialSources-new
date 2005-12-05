@@ -20,16 +20,13 @@
 #include "flux/CompositeSource.h"
 #include "flux/FluxMgr.h"
 
-ISpectrumFactory & FitsTransientFactory();
 ISpectrumFactory & GaussianSourceFactory();
 ISpectrumFactory & GRBmanagerFactory();
 ISpectrumFactory & IsotropicFactory();
-ISpectrumFactory & MapCubeFactory();
 ISpectrumFactory & MapSourceFactory();
 ISpectrumFactory & PeriodicSourceFactory();
 ISpectrumFactory & PulsarFactory();
 ISpectrumFactory & SimpleTransientFactory();
-ISpectrumFactory & SourcePopulationFactory();
 ISpectrumFactory & TransientTemplateFactory();
 
 class TestApp {
@@ -46,6 +43,7 @@ public:
          std::cerr << eObj.what() << std::endl;
       } catch (...) {
          std::cerr << "~TestApp:: Unknown exception." << std::endl;
+         throw;
       }
    }
 
@@ -109,7 +107,6 @@ void TestApp::parseCommandLine(int iargc, char * argv[]) {
 
 void TestApp::setSources() {
    char * srcNames[] = {"Galactic_diffuse",
-                        "Galactic_diffuse_0",
                         "simple_transient",
                         "transient_template",
                         "_3C279_June1991_flare",
@@ -118,12 +115,8 @@ void TestApp::setSources() {
                         "Crab_Pulsar",
                         "Geminga_Pulsar",
                         "gaussian_source",
-                        "Extragalactic_diffuse",
-                        "map_cube_source",
-                        "map_cube_source_0",
-                        "fits_spectrum",
-                        "source_population"};
-   std::vector<std::string> sourceNames(srcNames, srcNames+15);
+                        "Extragalactic_diffuse"};
+   std::vector<std::string> sourceNames(srcNames, srcNames+10);
 
    m_compositeSource = new CompositeSource();
    unsigned long nsrcs(0);
@@ -168,20 +161,18 @@ void TestApp::createEvents(const std::string & filename) {
 }
 
 void TestApp::load_sources() {
-   FitsTransientFactory();
    GaussianSourceFactory();
    IsotropicFactory();
-   MapCubeFactory();
    MapSourceFactory();
    PeriodicSourceFactory();
    PulsarFactory();
    SimpleTransientFactory();
-   SourcePopulationFactory();
    TransientTemplateFactory();
 }
 
 HepRotation TestApp::instrumentToCelestial(double time) {
-   astro::GPS *gps = astro::GPS::instance();
+//   astro::GPS *gps = astro::GPS::instance();
+   GPS *gps = GPS::instance();
    gps->getPointingCharacteristics(time);
    astro::SkyDir xAxis(gps->RAX(), gps->DECX());
    astro::SkyDir zAxis(gps->RAZ(), gps->DECZ());

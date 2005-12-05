@@ -1,20 +1,5 @@
 <source_library>
 <!-- MapSource version of the Galactic Diffuse model -->
-   <source name="Galactic_diffuse_0">
-      <spectrum escale="MeV">
-<!-- Total photon flux from the map (#/m^2/s) = 17.
-     Photon spectral index = 2.1
-     Fits file (plate-carree only) = $(FLUXROOT)/sources/gas_gal.fits
-     Minimum photon energy (MeV) = 30.
-     Maximum photon energy (MeV) = 2e5
--->
-         <SpectrumClass name="MapSource"
-          params="flux=17.,gamma=2.1,fitsFile=$(FLUXROOT)/sources/gas_gal.fits,emin=30.,emax=2e5"/>
-         <use_spectrum frame="galaxy"/>
-      </spectrum>
-   </source>
-
-<!-- MapSource version of the Galactic Diffuse model -->
    <source name="Galactic_diffuse">
       <spectrum escale="MeV">
 <!-- Total photon flux from the map (#/m^2/s) = 17.
@@ -25,29 +10,6 @@
 -->
          <SpectrumClass name="MapSource"
           params="17.,2.1,$(FLUXROOT)/sources/gas_gal.fits,30.,2e5"/>
-         <use_spectrum frame="galaxy"/>
-      </spectrum>
-   </source>
-
-<!-- Map with spectral variation -->
-   <source name="map_cube_source_0">
-      <spectrum escale="MeV">
-<!-- Total photon flux from the map (#/m^2/s) = 1.
-     Fits file (plate-carree only) = test_image.fits
--->
-         <SpectrumClass name="MapCube"
-          params="flux=1.,fitsFile=$(GENERICSOURCESROOT)/data/test_image.fits"/>
-         <use_spectrum frame="galaxy"/>
-      </spectrum>
-   </source>
-
-   <source name="map_cube_source">
-      <spectrum escale="MeV">
-<!-- Total photon flux from the map (#/m^2/s) = 1.
-     Fits file (plate-carree only) = test_image.fits
--->
-         <SpectrumClass name="MapCube"
-          params="1., $(GENERICSOURCESROOT)/data/test_image.fits"/>
          <use_spectrum frame="galaxy"/>
       </spectrum>
    </source>
@@ -191,37 +153,9 @@
 
    <source name="spectral_transient">
       <spectrum escale="MeV">
-<!-- 
-     mean flux = 0.1 (#/m^2/s) 
-     start time = 0 (MET s)
-     stop time = 1e4 (MET s)
-     template file name = $(GENERICSOURCESROOT)/data/testTemplate.dat
-     emin = 20 (MeV, this is the default)
-     emax = 2e5 (MeV, default)
-     lc # (in FITS file) = 0 (default)
-     z (redshift) = 0 (default)
-     useLogParabola = 0 (default)
--->
           <SpectrumClass name="SpectralTransient"
-          params="flux=1e-1, tstart=0., tstop=1e4, templateFile=$(GENERICSOURCESROOT)/data/testTemplate.dat, emin=20, emax=2e5, lc=0, z=0, useLogParabola=0"/>
+          params="1e-1, 0., 1e4, $(GENERICSOURCESROOT)/data/testTemplate.dat"/>
           <celestial_dir ra="193.4" dec="-5.82"/>
       </spectrum>
    </source>
-
-   <source name="fits_spectrum">
-      <spectrum escale="MeV">
-         <SpectrumClass name="FitsTransient"
-          params = "flux=1, tstart=0., tstop=1e4, fitsFile=$(GENERICSOURCESROOT)/data/fitsSpectrum.fits"/>
-         <celestial_dir ra="193.98" dec="-5.82"/>
-      </spectrum>
-   </source>
-
-   <source name="source_population">
-      <spectrum escale="MeV">
-         <SpectrumClass name="SourcePopulation"
-          params="$(GENERICSOURCESROOT)/data/sourcePop.dat, 1"/>
-         <use_spectrum frame="galaxy"/>
-      </spectrum>
-   </source>
-
 </source_library>

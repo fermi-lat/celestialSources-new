@@ -1,9 +1,3 @@
-/** @file SpectObj.cxx
-  @brief implemetation of SpectObj class
-
-  $Header$
-
-*/
 #include <string>
 #include <sstream>
 #include <iostream>
@@ -422,8 +416,7 @@ photon SpectObj::GetPhoton(double t0, double enph)
 	  ProbRest = myP - ProbRest;
 	}
       else 
-	{ 
-        if( DEBUG)
+	{
 	  std::cout << " Next Photon within the same period " << std::endl;
 	}
 

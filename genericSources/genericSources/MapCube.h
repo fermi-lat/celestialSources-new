@@ -76,6 +76,9 @@ private:
 
    void readEnergyVector(const std::string & fitsFile);
    
+   void readColumn(fitsfile * fptr, const std::string & colname,
+                   std::vector<double> & coldata) const;
+
    void makeCumulativeSpectra();
 
    double powerLawIntegral(double x1, double x2, double y1, double y2,
@@ -85,10 +88,7 @@ private:
       const;
 
    static bool cmpPair(const std::pair<double, double> & x, 
-                       const std::pair<double, double> & y);
-
-   void checkForNonPositivePixels() const;
-
+                       const std::pair<double, double> & y); 
 };
 
 #endif // mySpectrum_MapCube_h

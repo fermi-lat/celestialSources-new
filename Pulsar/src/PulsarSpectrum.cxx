@@ -27,8 +27,7 @@ ISpectrumFactory &PulsarSpectrumFactory()
  * to be used and the parameters specific for the choosen model. Then extracts from the
  * TXT DataList file the characteristics of the choosen pulsar (e.g. period, flux, period derivatives
  * ,ephemerides, flux, etc...)
- * The names of DataList files are defined in the file <i>PulsarDataList.txt</i><br>
- * The parameters are:<br>
+ * The parameters taken from <i>PulsarDataList.txt</i> are: <br>
  * <ul>
  *  <li> Pulsar name;
  *  <li> Flux, expressed in ph/cm2/s (E>100MeV);
@@ -71,7 +70,6 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
   m_f0 = 0.0;
   m_f1 = 0.0;
   m_f2 = 0.0;
-  m_N0 = 0.0;
   m_t0Init = 0.0;
   m_t0 = 0.0;
   m_t0End = 0.0;  
@@ -88,67 +86,27 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
   m_model      = std::atoi(parseParamList(params,5).c_str()); // choosen model
   m_seed       = std::atoi(parseParamList(params,6).c_str()); //Model Parameters: Random seed
   m_numpeaks   = std::atoi(parseParamList(params,7).c_str()); //Model Parameters: Number of peaks
+  double ppar1 = std::atof(parseParamList(params,8).c_str()); // model parameters
+  double ppar2 = std::atof(parseParamList(params,9).c_str());
+  double ppar3 = std::atof(parseParamList(params,10).c_str());
+  double ppar4 = std::atof(parseParamList(params,11).c_str());
 
- m_ppar1 = std::atof(parseParamList(params,8).c_str()); // model parameters
- m_ppar2 = std::atof(parseParamList(params,9).c_str());
- m_ppar3 = std::atof(parseParamList(params,10).c_str());
- m_ppar4 = std::atof(parseParamList(params,11).c_str());
-
-  //Retrieve pulsar data from a list of DataList file.
-  std::string pulsar_root = ::getenv("PULSARROOT");
+  int Retrieved = getPulsarFromDataList();
   
-  // if this is in the GLEAM environment, allow for separate path specified by env var PULSARDATA
-  std::string pulsar_data(pulsar_root+"/data/"); // the default, perhaps overriden
-
-  const char * gleam = ::getenv("PULSARDATA");
-  if( gleam!=0) {
-      pulsar_data =  std::string(gleam)+"/";
-  }
-  std::string ListFileName = pulsar_data + "PulsarDataList.txt";
-  
-  std::ifstream ListFile;
-  ListFile.open(ListFileName.c_str(), std::ios::in);
-  char DataListFileName[200];
-  std::string CompletePathFileName = "";
-
-  ListFile.getline(DataListFileName,200); 
-
-  int Retrieved = 0;
-  int AllRetrieved = 0;
- 
-  if (! ListFile.is_open()) 
+  if (DEBUG==0)
     {
-      std::cout << "Error opening file containing DataList files" << ListFileName  
-		<< " (check whether $PULSARROOT is set" << std::endl; 
-      exit(1);
-    }  else 
-      {
+      if (Retrieved == 1)
+	{
+	  std::cout << "Pulsar " << m_PSRname << " found in Datalist file! " << std::endl;
+	} 
+      else
+	{
+	  std::cout << "ERROR! Pulsar " << m_PSRname << " NOT found in Datalist.File...Exit. " << std::endl;
+	  exit(1);	
+	}
+    }
 
-	ListFile >> DataListFileName;
-	while (!ListFile.eof()) 
-	  {	
-	    CompletePathFileName = pulsar_data + std::string(DataListFileName);
-	    Retrieved = getPulsarFromDataList(CompletePathFileName);
-	    
-	    if (Retrieved == 1)
-	      {
-		std::cout << "Pulsar " << m_PSRname << " found in file " << CompletePathFileName << std::endl;
-		AllRetrieved = 1;
-	      } 
-	    ListFile >> DataListFileName ;	  
-
-	  }
-
-	if (AllRetrieved == 0)
-	  {
-	    std::cout << "Pulsar " << m_PSRname 
-		      << " not found in any DataList file.Please Check if PULSARROOT is correctly set " 
-		      << std::endl;
-	    exit(1);
-	  }
-      }
-
-  //Assign as starting ephemeris the first entry of the vectors... 
+  //Assign as ephemerides ONLY the first entry (don't use the multiple ephemerides)
   m_t0Init = m_t0InitVect[0];
   m_t0 = m_t0Vect[0];
   m_t0End = m_t0EndVect[0];
@@ -160,9 +118,9 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
   m_f2 = m_f2Vect[0];
   m_phi0 = m_phi0Vect[0];
 
-
   //Init SolarSystem stuffs useful for barycentric decorrections
 
+  //  astro::JulianDate JDStart(2007, 1, 1, 0.0);
   astro::JulianDate JDStart(StartMissionDateMJD+JDminusMJD);
   m_earthOrbit = new astro::EarthOrbit(JDStart); 
   
@@ -190,8 +148,7 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
       PulsarLog << "**   Ephemerides valid from " << m_t0InitVect[n] 
 		<< " to " << m_t0EndVect[n] << " (MJD): " << std::endl;
       PulsarLog << "**     Epoch (MJD) :  " << m_t0Vect[n] << std::endl;
-      PulsarLog << std::setprecision(8) << "**     TxBary (MJD) where fiducial point (phi=0) is reached : " 
-		<< m_txbaryVect[n] << std::endl;
+      PulsarLog << "**     TxBary (MJD) where fiducial point phi=0 is reached : " << m_txbaryVect[n] << std::endl;
       PulsarLog << "**     Phi0 (at Epoch t0) : " << m_phi0Vect[n] << std::endl;
       
       if (m_ephemType == "P")
@@ -213,7 +170,7 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
   PulsarLog << "**\n**   Enphmin : " << m_enphmin << " keV | Enphmax: " << m_enphmax << " keV" << std::endl;
   PulsarLog << "**   Mission started at (MJD) : " << StartMissionDateMJD << " (" 
 	    << std::setprecision(12) << (StartMissionDateMJD+JDminusMJD)*SecsOneDay 
-	    << " sec.)" << std::endl;
+	    << " sec.) - Jan,1 2007 00:00.00 (TT)" << std::endl;
   PulsarLog << "**************************************************" << std::endl;
 
   //Instantiate an object of PulsarSim class
@@ -223,7 +180,7 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
   if (m_model == 1)
     {
       PulsarLog << "**   Model chosen : " << m_model << " --> Using Phenomenological Pulsar Model " << std::endl;  
-      m_spectrum = new SpectObj(m_Pulsar->PSRPhenom(double(m_numpeaks), m_ppar1,m_ppar2,m_ppar3,m_ppar4),1);
+      m_spectrum = new SpectObj(m_Pulsar->PSRPhenom(double(m_numpeaks), ppar1,ppar2,ppar3,ppar4),1);
       m_spectrum->SetAreaDetector(EventSource::totalArea());
 
       PulsarLog << "**   Effective Area set to : " << m_spectrum->GetAreaDetector() << " m2 " << std::endl; 
@@ -239,7 +196,6 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
       std::cout << "ERROR!  Model choice not implemented " << std::endl;
       exit(1);
     }
-
 
   PulsarLog.close();
 
@@ -278,8 +234,7 @@ double PulsarSpectrum::flux(double time) const
  * \param time time to start the computing of the next photon
  *
  * This method find the time when the next photon will come. It takes into account decorrections due to
- * ephemerides and period derivatives and barycentric decorrections. This method also check for 
- * changes in the ephemerides validity range.
+ * ephemerides and period derivatives and barycentric decorrections.
  * For the ephemerides decorrections the parameters used are:
  * <ul>
  * <li> <i>Epoch</i>, espressed in MJD;</li>
@@ -290,81 +245,22 @@ double PulsarSpectrum::flux(double time) const
  * <br>
  * The barycentric decorrections takes into account conversion TDB->TT, Geometrical and Shapiro delays.
  * This method also calls the interval method in SpectObj class to determine the next photon in a rest-frame without 
- * ephemerides effects.
+ * ephemerides effects
  */
 double PulsarSpectrum::interval(double time)
 {  
 
   double timeTildeDecorr = time + (StartMissionDateMJD)*SecsOneDay; //Arrival time decorrected
-  double timeTilde = timeTildeDecorr + getBaryCorr(timeTildeDecorr); //should be corrected before applying ephem de-corrections
-  
-  double initTurns = getTurns(timeTilde); //Turns made at this time
-  double intPart; //Integer part
-  double tStart = modf(initTurns,&intPart)*m_period; // Start time for interval
 
   //Checks whether ephemerides (period,pdot, etc..) are within validity ranges
-  if (((timeTilde/SecsOneDay) < m_t0Init) || ((timeTilde/SecsOneDay) > m_t0End)) 
+  if (((timeTildeDecorr/SecsOneDay) < m_t0Init) || ((timeTildeDecorr/SecsOneDay) > m_t0End)) 
     {
-#if DEBUG
-      std::cout << "Warning!Time is out of range of validity for pulsar " << m_PSRname 
-		<< ": Switching to new ephemerides set..." << std::endl;
-#endif
-	for (int e=0; e < m_t0Vect.size();e++)
-	  if (((timeTilde/SecsOneDay) > m_t0InitVect[e]) && ((timeTilde/SecsOneDay) < m_t0EndVect[e])) 
-	    {
-	      // std::cout << "\n" << timeTilde -(StartMissionDateMJD)*SecsOneDay <<  " PulsarSpectrum Phase is " 
-	      // << std::setprecision(20) << getTurns(timeTilde) << "phi0 is " << m_phi0 << std::endl;
-
-	      m_t0Init = m_t0InitVect[e];
-	      m_t0 = m_t0Vect[e];
- 	      m_t0End = m_t0EndVect[e];
-	      m_f0 = m_f0Vect[e];
-	      m_f1 = m_f1Vect[e];
-	      m_f2 = m_f2Vect[e];
-	      m_period = m_periodVect[e];
-	      m_pdot = m_pdotVect[e];
-	      m_p2dot = m_p2dotVect[e];
-	      m_phi0 = m_phi0Vect[e];
-
-	      if (DEBUG)
-		{
-		  std::cout << "Valid Ephemerides set found:" << std::endl;
-		  std::cout << "MJD("<<m_t0Init<<"-"<<m_t0End<<") --> Epoch t0 = MJD " << m_t0 << std::endl; 
-		  std::cout << "f0 " << m_f0 << " f1 " << m_f1 << " f2 " << m_f2 << std::endl;
-		  std::cout << "Period " << m_period << " pdot " << m_pdot << " p2dot " << m_p2dot << std::endl;
-		}
-
-	      //Re-instantiate PulsarSim and SpectObj
-	      delete m_Pulsar;
-	      m_Pulsar = new PulsarSim(m_PSRname, m_seed, m_flux, m_enphmin, m_enphmax, m_period);
-
-	      if (m_model == 1)
-		{
-		  delete m_spectrum;
-		  m_spectrum = new SpectObj(m_Pulsar->PSRPhenom(double(m_numpeaks), m_ppar1,m_ppar2,m_ppar3,m_ppar4),1);
-		  m_spectrum->SetAreaDetector(EventSource::totalArea());
-		}
-
-	      m_N0 = m_N0 + initTurns - getTurns(timeTilde); //Number of turns at next t0
-	       double intN0;
-	       double N0frac = modf(m_N0,&intN0); // Start time for interval
-	       m_N0 = m_N0 - N0frac;
-	       //	       std::cout << std::setprecision(20) << " Turns now are " << initTurns  
-	       //              << " ; at t0 " << m_N0 << std::endl;	           
-	       
-	       //m_phi0 = m_phi0 - N0frac;
-	       
-	       if (DEBUG)
-		 {
-		   std::cout << std::setprecision(20) << " At Next t0 Number of Turns will be: " << m_N0 << std::endl;
-		 }
-	    }
-	// else
-	//	    {
-	//std::cout << "Warning! Valid ephemerides not found!Proceeding with the old ones" << std::endl; 
-	//}
+      if (DEBUG)
+	std::cout << " Warning: time is out of range of validity: continuing with the same ephemerides" << std::endl;
     }
-
+  
+  double timeTilde = timeTildeDecorr + getBaryCorr(timeTildeDecorr); //should be corrected before applying ephem de-corrections
+    
   if (DEBUG)
     {
       if ((int(timeTilde - (StartMissionDateMJD)*SecsOneDay) % 1000) < 1.5)
@@ -374,15 +270,16 @@ double PulsarSpectrum::interval(double time)
     }
 
 
-   //Ephemerides calculations...
-
+   //First part: Ephemerides calculations...
+  double initTurns = getTurns(timeTilde); //Turns made at this time
+  double intPart; //Integer part
+  double tStart = modf(initTurns,&intPart)*m_period; // Start time for interval
   double inte = m_spectrum->interval(tStart,m_enphmin); //deltaT (in system where Pdot = 0
   double inteTurns = inte/m_period; // conversion to # of turns
-  double totTurns = initTurns + inteTurns + m_phi0; //Total turns at the nextTimeTilde
+  double totTurns = initTurns + inteTurns; //Total turns at the nextTimeTilde
+
   double nextTimeTilde = retrieveNextTimeTilde(timeTilde, totTurns, (ephemCorrTol/m_period));
-
-
-  double nextTimeDecorr = getDecorrectedTime(nextTimeTilde); //Barycentric decorrections
+  double nextTimeDecorr = getDecorrectedTime(nextTimeTilde);
  
   if (DEBUG)
     { 
@@ -393,9 +290,10 @@ double PulsarSpectrum::interval(double time)
      std::cout << " nextTimeTilde decorrected (TT)is" << nextTimeDecorr - (StartMissionDateMJD)*SecsOneDay << "sec." << std::endl;
      std::cout << " corrected is " << nextTimeDecorr + getBaryCorr(nextTimeDecorr) - (StartMissionDateMJD)*SecsOneDay << std::endl;
      std::cout << " interval is " <<  nextTimeDecorr - timeTildeDecorr << std::endl;
-    }
+  }
   
   return nextTimeDecorr - timeTildeDecorr; //interval between the de-corected times
+
 }
 
 /////////////////////////////////////////////
@@ -408,14 +306,12 @@ double PulsarSpectrum::interval(double time)
  * f(t) = f<sub>0</sub> + f<sub>1</sub>(t - t<sub>0</sub>) +
  *      f<sub>2</sub>/2(t - t<sub>0</sub>)<sup>2</sup>.
  * <br>The number of turns is related to the ephemerides as:<br>
- * dN(t) = N<sub>0</sub> + phi<sub>0</sub> + f<sub>0</sub> + f<sub>1</sub>(t-t<sub>0</sub>) + 1/2f<sub>2</sub>(t-t<sub>0</sub>)<sup>2</sup>
+ * dN(t) = f<sub>0</sub> + f<sub>1</sub>(t-t<sub>0</sub>) + 1/2f<sub>2</sub>(t-t<sub>0</sub>)<sup>2</sup>
  * </blockquote>
  * <br>where 
  * <blockquote>
  *<ul>
- * <li> t<sub>0</sub> is an ephemeris epoch.In this simulator epoch must be expressed in MJD;</li>
- * <li> N<sub>0</sub> is the number of turns at epoch t<sub>0</sub>;
- * <li> phi<sub>0</sub> is the phase shift at epoch t<sub>0</sub>;
+ * <li> t<sub>0</sub> is an ephemeris epoch.In this simulator epoch must be expressed in MJD</li>
  * <li>f<sub>0</sub> pulse frequency at time t<sub>0</sub> (usually given in Hz)</li>,
  * <li>f<sub>1</sub> the 1st time derivative of frequency at time t< sub>0</sub> (Hz s<sup>-1</sup>);</li>
  * <li>f<sub>2</sub> the 2nd time derivative of frequency at time t<sub>0</sub> (Hz s<sup>-2</sup>).</li>
@@ -426,7 +322,7 @@ double PulsarSpectrum::interval(double time)
 double PulsarSpectrum::getTurns( double time )
 {
   double dt = time - m_t0*SecsOneDay;
-  return m_phi0 + m_N0 + m_f0*dt + 0.5*m_f1*dt*dt + ((m_f2*dt*dt*dt)/6.0);
+  return m_phi0 + m_f0*dt + 0.5*m_f1*dt*dt + ((m_f2*dt*dt*dt)/6.0);
 }
 
 /////////////////////////////////////////////
@@ -436,7 +332,7 @@ double PulsarSpectrum::getTurns( double time )
  * \param err Phase tolerance between totalTurns and the number of turns at nextTime
  *
  * <br>In this method a recursive way is used to find the <i>nextTime</i>. Starting at <i>tTilde</i>, the method returns 
- * nextTime, the time where the number of turns completed by the pulsar is equal to totalTurns (within the choosen tolerance).  
+ * nextTime, the time where the number of turns completed by the pulsar is equal to totalTurns.  
  */
 double PulsarSpectrum::retrieveNextTimeTilde( double tTilde, double totalTurns, double err )
 {
@@ -501,6 +397,7 @@ double PulsarSpectrum::retrieveNextTimeTilde( double tTilde, double totalTurns, 
 double PulsarSpectrum::getBaryCorr( double ttInput )
 {
   //Start Date;
+  //  astro::JulianDate ttJD(2007, 1, 1, 0.0);
   astro::JulianDate ttJD(StartMissionDateMJD+JDminusMJD);
   ttJD = ttJD+(ttInput - (StartMissionDateMJD)*SecsOneDay)/SecsOneDay;
 
@@ -515,18 +412,8 @@ double PulsarSpectrum::getBaryCorr( double ttInput )
   double timeMET = ttInput - (StartMissionDateMJD)*SecsOneDay;
   Hep3Vector scPos;
 
-  //Exception error in case of time not in the range of available position (when using a FT2 file)
-
-  try {
+  if (timeMET > 0.)
     scPos = astro::GPS::instance()->position(timeMET);
-  }  catch (std::runtime_error  & eObj) {
-    // check to see this is the exception I want to ignore, rethrowing if it is not:
-    std::string message(eObj.what());
-    if (message.find("WARNING: Time out of Range!") == std::string::npos) {
-      throw;
-    }
-    // if so, do nothing....
-  }
 
   //Correction due to geometric time delay of light propagation 
   Hep3Vector GeomVect = (scPos/clight) - m_solSys.getBarycenter(ttJD);
@@ -557,7 +444,7 @@ double PulsarSpectrum::getBaryCorr( double ttInput )
  * \param CorrectedTime Photon arrival time at SSB (TDB expressed in MJD)
  *
  * <br>
- * This method returns the correspondent decorrected time starting from a photon arrival time
+ * This method returns the correspondant decorrected time starting from a photon arrival time
  * at the Solar System barycenter expressed in Barycentric Dynamical Time. This function uses the bisection method
  * for inverting barycentric corrections <br>
  * The corrections implemented at the moment are:
@@ -569,6 +456,8 @@ double PulsarSpectrum::getBaryCorr( double ttInput )
  */
 double PulsarSpectrum::getDecorrectedTime(double CorrectedTime)
 {
+
+  //Second part: baycentric decorrection
   //Use the bisection method to find the inverse of the de-corrected time, i.e. the time (in TT)
   //that after correction is equal to Time in TDB
 
@@ -611,12 +500,13 @@ double PulsarSpectrum::getDecorrectedTime(double CorrectedTime)
  *
  * <br>
  * This method gets from the ASCII <i>PulsarDatalist.txt</i> file stored in <i>/data</i> directory)
- * the names of the files that contain the pulsars parameters. The default one is <i>BasicDataList.txt</i>.
- * This method returns a integer status code (1 is Ok, 0 is failure)
+ * the pulsar parameters and returns a integer status code (1 is Ok, 0 is failure)
  */
-int PulsarSpectrum::getPulsarFromDataList(std::string sourceFileName)
+int PulsarSpectrum::getPulsarFromDataList()
 {
   int Status = 0;
+  std::string pulsar_root = ::getenv("PULSARROOT");
+  std::string sourceFileName = pulsar_root + "/data/PulsarDataList.txt";
   std::ifstream PulsarDataTXT;
   
   if (DEBUG)
@@ -642,7 +532,7 @@ int PulsarSpectrum::getPulsarFromDataList(std::string sourceFileName)
   double flux, ephem0, ephem1, ephem2, t0Init, t0, t0End, txbary, phi0, period, pdot, p2dot, f0, f1, f2, phas;
   char ephemType[15] = "";
 
-  while (PulsarDataTXT.eof() != 1)
+  while ( PulsarDataTXT.eof() != 1)
     {
 
       PulsarDataTXT >> tempName >> flux >> ephemType >> ephem0 >> ephem1 >> ephem2 >> t0Init >> t0 >> t0End  >> txbary;
@@ -670,6 +560,7 @@ int PulsarSpectrum::getPulsarFromDataList(std::string sourceFileName)
 	      f1 = -pdot/(period*period);
 	      f2 = 2*pow((pdot/period),2.0)/period - p2dot/(period*period);
 
+
 	    } 
 	  else if (std::string(ephemType) == "F")
 	    {
@@ -686,18 +577,9 @@ int PulsarSpectrum::getPulsarFromDataList(std::string sourceFileName)
 	  m_f0Vect.push_back(f0);
 	  m_f1Vect.push_back(f1);
 	  m_f2Vect.push_back(f2);
-
-	  double dt = (txbary-t0)*SecsOneDay;
-
-	  phi0 = -1.0*(f0*dt
-		       + (f1/2.0)*dt*dt
-		       + (f2/6.0)*dt*dt*dt); 
-	
+	  
+	  phi0 = -1.0*(f0*(txbary-t0) + 0.5*f1*(pow((txbary-t0),2)) + (1/6)*f1*(pow((txbary-t0),2))); 
 	  phi0 = modf(phi0,&phas);
-
-	  if (phi0 < 0. ) 
-	    phi0++;
-
 	  m_phi0Vect.push_back(phi0);
 	  
 	}
@@ -761,19 +643,21 @@ int PulsarSpectrum::saveDbTxtFile()
     {
       DbOutputFile << "\"" << m_PSRname << std::setprecision(5) << "\" " << m_RA << " " << m_dec << " ";
       tempFract = modf(m_t0Vect[ep],&tempInt);
-      DbOutputFile << std::setprecision (8) << tempInt << " " << tempFract << " ";
+      DbOutputFile << std::setprecision (6) << tempInt << " " << tempFract << " ";
     
       tempFract = getDecorrectedTime(m_txbaryVect[ep]*SecsOneDay)/SecsOneDay;
 
-
       tempFract = modf(tempFract,&tempInt);
-      DbOutputFile << std::setprecision (8) << tempInt << " " << tempFract << " ";
+      DbOutputFile << std::setprecision (6) << tempInt << " " << tempFract << " ";
 
       tempFract = modf(m_txbaryVect[ep],&tempInt);
-      DbOutputFile << std::setprecision (8) << tempInt << " " << tempFract << " ";
+      DbOutputFile << std::setprecision (6) << tempInt << " " << tempFract << " ";
 
-      DbOutputFile << std::setprecision(14) << m_f0Vect[ep] << " " << m_f1Vect[ep] << " " << m_f2Vect[ep] << " 0.0 " 
-		   << m_t0InitVect[ep] << " " << m_t0EndVect[ep] 
+      //f0 = 1.0/m_periodVect[ep];
+      //f1 = -m_pdotVect[ep]/(m_periodVect[ep]*m_periodVect[ep]);
+      //f2 = 2*pow((m_pdotVect[ep]/m_periodVect[ep]),2.0)/m_periodVect[ep] - m_p2dotVect[ep]/(m_periodVect[ep]*m_periodVect[ep]);
+
+      DbOutputFile << std::setprecision(14) << m_f0Vect[ep] << " " << m_f1Vect[ep] << " " << m_f2Vect[ep] << " 0.0 " << m_t0InitVect[ep] << " " << m_t0EndVect[ep] 
       		   << " F \"JPL DE200\" P" << std::endl;
 
     }
