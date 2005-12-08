@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Wed Dec  7 20:30:48 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+catch the GPS exception if the burst is off limit, remove a warning about unused ene_prompt, fix the precision of the output for MET
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p5, operation: add
 Package: GRBobs
