@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 TAG
+Tag name: ScienceToolsv6r2, operation: add
+Package: celestialSources
+User: glast  Wed Dec 14 10:49:26 2005
+Files:
+  celestialSources/.cvsignore  1.1.1.1
+  celestialSources/ChangeLog  1.105
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r1, operation: add
 Package: celestialSources
 User: jchiang  Mon Oct 31 13:03:45 2005
