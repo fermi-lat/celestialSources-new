@@ -2,6 +2,22 @@
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: eblAtten
+User: glast  Wed Dec 14 10:50:41 2005
+Files:
+  eblAtten/.cvsignore  1.1.1.1
+  eblAtten/ChangeLog  1.29
+  eblAtten/cmt/requirements  1.9
+  eblAtten/doc/release.notes  1.7
+  eblAtten/eblAtten/EblAtten.h  1.4
+  eblAtten/src/EblAtten.cxx  1.4
+  eblAtten/src/IRB_routines.cxx  1.4
+  eblAtten/src/test/test.cxx  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceToolsv6r2, operation: add
+Package: eblAtten
 User: glast  Wed Dec 14 10:49:34 2005
 Files:
 

@@ -2,6 +2,15 @@
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: Pulsar
+User: glast  Wed Dec 14 10:49:58 2005
+Files:
+  Pulsar/data/BasicDataList.txt  1.6
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceToolsv6r2, operation: add
+Package: Pulsar
 User: glast  Wed Dec 14 10:49:37 2005
 Files:
   Pulsar/ChangeLog  1.195

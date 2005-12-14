@@ -2,6 +2,25 @@
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: genericSources
+User: glast  Wed Dec 14 10:49:51 2005
+Files:
+  genericSources/data/map_cube_example.fits  1.1
+  genericSources/data/test_image.fits  1.1
+  genericSources/data/fitsSpectrum.fits  1.1
+  genericSources/data/sourcePop.dat  1.1
+  genericSources/genericSources/SourcePopulation.h  1.6
+  genericSources/genericSources/FitsTransient.h  1.1
+  genericSources/src/SourcePopulation.cxx  1.5
+  genericSources/src/dgaus8.h  1.1
+  genericSources/src/dgaus8.c  1.1
+  genericSources/src/FitsTransient.cxx  1.4
+  genericSources/src/ConstParMap.h  1.2
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceToolsv6r2, operation: add
+Package: genericSources
 User: glast  Wed Dec 14 10:49:39 2005
 Files:
   genericSources/.cvsignore  1.1.1.1

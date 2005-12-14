@@ -2,6 +2,30 @@
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: GRB
+User: glast  Wed Dec 14 10:50:21 2005
+Files:
+  GRB/cmt/.cvsignore  1.1
+  GRB/src/GRB/GRBengine.h  1.13
+  GRB/src/GRB/GRBengine.cxx  1.28
+  GRB/src/GRBmaker/GrbGlobalData.cxx  1.5
+  GRB/src/GRBmaker/GbmGrb.h  1.4
+  GRB/src/GRBmaker/GrbGlobalData.h  1.3
+  GRB/src/GRBmaker/GRBurst.cxx  1.7
+  GRB/src/GRBmaker/LatGrb.h  1.4
+  GRB/src/GRBmaker/GRBurst.h  1.3
+  GRB/src/GRBmaker/LatGrb.cxx  1.5
+  GRB/src/GRBmaker/GbmGrb.cxx  1.4
+  GRB/src/LatGRBAlert/LatGRBAlert.h  1.2
+  GRB/src/LatGRBAlert/LatGRBAlertConstants.h  1.3
+  GRB/src/LatGRBAlert/LatGRBAlert.cxx  1.2
+  GRB/src/test/testGRB.cxx  1.1
+  GRB/src/test/other/compile.C  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceToolsv6r2, operation: add
+Package: GRB
 User: glast  Wed Dec 14 10:49:33 2005
 Files:
   GRB/.cvsignore  1.1.1.1

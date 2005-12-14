@@ -2,6 +2,14 @@
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: SpectObj
+User: glast  Wed Dec 14 10:50:07 2005
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceToolsv6r2, operation: add
+Package: SpectObj
 User: glast  Wed Dec 14 10:49:33 2005
 Files:
   SpectObj/ChangeLog  1.68
