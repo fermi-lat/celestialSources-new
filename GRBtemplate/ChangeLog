@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Dec 16 08:38:09 PST 2005
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx GRBtemplateSim.cxx 
+Log Message:
+Add the xml library, and facilities for expanding a variable
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 08:38:09 PST 2005
 celestialSources/GRBtemplate/cmt
 
 Modified Files:
