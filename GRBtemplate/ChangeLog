@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Dec 16 08:38:09 PST 2005
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	cleanup.csh cleanup.sh rh9_gcc32.make setup.csh setup.sh 
+Log Message:
+Add the xml library, and facilities for expanding a variable
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 08:38:09 PST 2005
 celestialSources/GRBtemplate/GRBtemplate
 
 Modified Files:
