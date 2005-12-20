@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Dec 20 03:17:27 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx 
+Log Message:
+Add a random number generator for galactic coord
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: GRBobs
