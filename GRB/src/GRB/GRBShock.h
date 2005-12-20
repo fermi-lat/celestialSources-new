@@ -1,141 +1,205 @@
 /*!
  * \class GRBShock
  *
- * \brief This class implements the shock physics.
+ * \brief This class implements the shock between 2 shells.
  * 
- * Computes the shock dynamics between two shells which are colliding one against the other.
- 
- * This class calculates the magnetic field and the parameters to determine
- * the distribution of the shocked accelerated electrons (assumed power law).
- * 
+ * All the parameters that are needed to calculate the emission are 
+ * calculated here. 
+ * This class calculates the shell which is the result after the shock, the magnetic field and the parameters that determine the distribution of the accelerated electrons.
+ * Than it calculates the synchrotron and the inverse Compton emission.   
+ *
  * \author Nicola Omodei       nicola.omodei@pi.infn.it 
  * \author Johann Cohen-Tanugi johann.cohen@pi.infn.it
  *
  */
-#ifndef GRBSHOCK_HH
-#define GRBSHOCK_HH 1
 
-#include "GRBConstants.h"
+#include <vector>
 #include "GRBShell.h"
 
-//////////////////////////////////////////////////
-class GRBShock
-{
- public:
-  /* Constructor
-     \param FS is the forward shell (slower shell)
-     \param BS is the backward shell (faster shell)
-     \params tshock is the shock time as measured from the central engine
-     \param p is the power law index for the distribution of accelerated electrons
-  */
-  GRBShock(GRBShell *FS, GRBShell *BS, double tshock, double p=2.5);
-  /// Destructor: delete the merged shell
-  ~GRBShock()
-    {
-      delete MS;
-    }
-  /// return the merged shell
-  GRBShell *MergedShell() {return MS;}
-  
-  void SetTime(double time);
+#ifndef GRBSHOCK_H
+#define GRBSHOCK_H 1
 
-  inline   void SetICComponent(double ic){m_IC = ic;}
+
+class GRBShock 
+{
   
-  double GetTime(){return tsh;}
-  double GetRadius(){return rf;}
-  /*! 
-    \brief Compute the characteristic synchrotron energy
-    
-    \param g: Lorentz factor of the emitting electron
-    The characteristic synchrotron energy, in the emitter co-moving frame, is then:
-    \f$ E_{syn}(\gamma)=1.73e-11\frac{B}{Gauss}\gamma^2\f$ (kev)
-  */
-  inline double EsynCom(double g){ return 1.73e-11 * B * pow(g,2.0);} //kev
-  /// return the  observed synchrotron energy
-  inline double EsynObs(double g){ return EsynCom(g)* gf;} //kev
-  /// Return the Lorentz factor of an electron given its characteristic synchrotron energy
-  inline double GammaElectron(double Eobs){return TMath::Max(1.0,sqrt(5.8e10*Eobs/(B * gf)));}
-  /// Return the total emitted power by an electron with Lorentz factor g (KeV/s)
-  inline double Psyn(double g)   { return 1.0e-6 * pow(B,2.) *pow(g,2.0);}     
-  /// Return the duration of the produced pulse, assuming geometrical lag (angular spreading time) and electron cooling
-  inline   double GetDuration(){return  sqrt(ta*ta + tc*tc + pow(ts0/GammaElectron(20.0),2.));}
-  /// Return the conversion efficiency of energy by the shock
-  inline double GetEfficiency(){return eff;}
+ public:
+
   /*!
-    Represents the pulse shape as a function of:
-    \param time in the observed frame
-    \param energy in the emitter frame
-    
-  */
-  double Peak(double time, double energy);
+   * \brief Constructor: computes the results of the shock between 2 shells.
+   *
+   * The constructor removes the second shell after having added its content 
+   * to the first one. It also initializes several variables.
+   * \param Sh1 front shell, the only one remaining after shock  
+   * \param Sh2 back shell, deleted after shock.
+   * \param time instant of the shock in the local frame
+   */
+  GRBShock(GRBShell, GRBShell, double time);
+
+  //! destructor
+  ~GRBShock() { } 
+  
+  //Accessors:
+  //! The time is evaluated in the Shell reference frame
+  //  inline double time() {return m_time;}
+  //! This is the time seen by GLAST
+  inline double tobs() const {return m_tobs;}
+  //! Radius of the resulting Shell 
+  inline double Radius() const {return m_radius;}
+  /*! \brief Internal energy. 
+   *
+   * Is calculated as the difference of the 
+   * kinatic energies before and after the collision:
+   *\f$E_{int}=m_1c^{2}(\gamma_1-\Gamma_f)+m_2c^{2}(\Gamma_2-\Gamma_f)\f$
+   */  
+  inline double Eint() const {return m_Eint;}
+  /*! \brief The Lorentz factor af the resulting Shell.
+   *
+   *It is:
+   * \f$\Gamma_f\approx\sqrt{\frac{m_1\Gamma_1+m_2\Gamma_2}{m_1/\Gamma_1*m_2/\Gamma_2}}\f$
+   */
+  inline double gf() const {return m_gf;}
+  
+  /*! \brief Returns the comoving volume associated to the resulting Shell.
+   *
+   * This methods calls the VolCom() method of GRBShell
+   */
+  inline double VolCom() const {return m_VolCom;}
+
+  /*!\brief Is the Total number of barions.
+   * 
+   * Defined as \f$E_{int}/\gamma m_{p}c^{2}\f$
+   * The density of the particles \f$(n_p)\f$ is the ratio 
+   * between the total number of and the comoving volume.
+   */
+  inline double npart() const {return m_npart;}
+
+  /*!\brief The Magnetic Field (in Gauss).
+   * 
+   * The dimensionless parameter \f$\epsilon_B\f$ mesaures the ratio
+   * of the magnetic field energy density and the total internal energy.
+   * After some simplification:
+   * \f$B_{eq}\propto (\epsilon_B)^{1/2}(n_p)^{1/2}*\Gamma_f\f$
+   *
+   */
+  inline double Beq() const {return m_Beq;}
+  
+  /*!\brief Normalization to the correct emitted flux
+   *
+   * This metod is used only for normalize the spectrum, and the value is 
+   * set by GRBSim.
+   */
+  //  inline double Sum() {return m_sum;}
+
+  //Set functions:
+
+  /*! \brief Set the observer time (in the GLAST frame)
+   */
+  inline void setTobs(double value) {m_tobs = value;}
+  //  inline void setSum(double value)  {m_sum=value;}
+
+
+  //high level functions:
+
+  //! A printout utility.
+  void Write();
+  
+  double Umag(double B);
+  double Bfield(double Ub);
+
+  /*!\brief Calculates the synchrotron critical energy (in eV)
+   * for an electron.
+   *
+   * \f$E_{syn}\propto(\Gamma_f B_{eq})(\gamma_e)^2\f$ 
+   * \param gammae is the Lorentz factor of the electron \f$\gamma_e\f$ 
+    */
+  double Esyn(double gammae);
+  double Gamma(double esyn);
+  double Psyn(double gammae);
+  /*!\brief Calculates the Inverse Compton emission energy (in eV)
+   *
+   * If \f$h\nu_{in}\f$ is the energy of the incoming photon, and \f$\gamma_e\f$
+   * is the Lorentz factor of the incoming electron, the energy 
+   * of the resulting photons will be:
+   * \f$h\nu_{fin}\approx h\nu_{in}\gamma_e\f$
+   */
+  double Eic(double gamme,double nic=1.0/* order of IC*/);
+
   /*!
-    Represents the synchrotron spectrum as a function of:
-    \param time in the observed frame
-    \param energy in the emitter frame
-  */
-  double SynSpectrum(double time, double energy);
-  /*!
-    Represents the Inverse Compton spectrum as a function of:
-    \param time in the observed frame
-    \param energy in the emitter frame
-  */
-  double ICSpectrum(double time, double energy);
-  /// Compute the flux \f$ N(e) \f$ in units of (\f$ ph/(cm^2~s~keV)\f$)
-  double ComputeFlux(double time, double energy);
-  /// Print out method (for debugging)
-  void Print();
-  /// return the internal observed energy
-  inline double GetEintO(){return eint_o;}
-  /// return the internal co-moving energy
-  inline double GetEintC(){return eint_c;}
-  /// return the Lorentz factor of the merged shell
-  inline double GetGammaf(){return gf;}
-  /// Return the energy density after the shock (the shocked energy density)
-  inline double GetEshock(){return nsh* gsh* cst::mpc2;}
-  /*! 
-    Return the ratio between the synchrotron energy and 
-    the square of the Lorentz factor of the emitting electron: \f$ \frac{E_{syn}(\gamma)}{\gamma^2}\f$ (kev)
-  */
-  inline double GetEsyn(){return Es0;}
-  // Return the peak energy in the Fast Cooling Regime
-  inline double GetPeak()
-    {
-      return Es0*gem*gem;
-    }
+   * Not yet documented!
+   */
+  double OpticalDepth(double energy);
+  
+  /*! \brief The synchrotron cooling time.
+   *
+   * It depends on the energy  of the observed photon.
+   * \f$t_{syn}\propto B_{eq}^{-5/2}\sqrt{\Gamma_f/phenergy}\f$
+   * \param phenergy is the energy of the observed photon
+   * \param B_field is the equipartition magnetic field
+   */ 
+  double tsyn(double phenergy);
+
+  //! Return the approximative duration of the shock
+  double duration();
+  
+  /*! \brief Fast Rise Exponential Decay.
+   *
+   * This method calculates the temporal behaviour of the spectrum.
+   * The temporal profile is well approximated by
+   * a double exponential law. In which 
+   * the rise time depends on the geometrical size of the shell, 
+   * while the decay time depends on the cooling time of the 
+   * processes (Syn, IC, ...).
+   */
+  double fred(double tt, double riset, double decayt);
+  
+  //! Calculates the Synchrotron component of the spectrum. 
+  double Fsyn(double ee, double tt);
+  //! Calculate the Inverse compton part of the spectrum.
+  double Fic(double ee, double tt);
+
+  //! It computes the normalization constant for the Flux
+  //! \param energy_step the vector that contains the energy steps
+  //! \param energy the vector that contains the energy values
+  //! \param time_step is the time step
+  //! \param flagIC if =0 only the syncrothron component is taken into account for computing the normalization
+  
+  void FluxSum(std::vector<double> energy_step,std::vector<double> energy,
+		 double time_step, bool flagIC);
+  
+  //!Returns the flux at time \param time and at \param energy.If \param flagIC if =0 only the syncrothron component is taken into account
+  double FluxAtT(double energy, double time, bool flagIC);
   
  private:
-  GRBShell *MS;
-  double tsh;
-  double eff;
-  double gf,ei,ef,mf, eint_o,eint_c,rf,drf;
-  double nsh,esh,gsh,B;
-  double ta,tar,tc;
-  double Es0,ts0;
-  double gem,gec,geM;
-  double m_p;
-  double m_IC;
+  //  double m_time;
+  /*! \brief When the time is set also the observed time is calculated. 
+   * 
+   * The relation between the times in the two different reference frame is:
+   * \f$t_{obs}=t-r(t)/c\f$
+   */
+  double m_tobs;
+  double m_radius;
+  double m_mass;
+  double m_thickness;
+  double m_Eint;
+  double m_gsh;
+  double m_VolCom;
+  double m_npart;
+  double m_n1;
+  
+  double m_geabs;
+  double m_gemin;
+  double m_gemax;
+  double m_gecoo;
+  
+  // double m_tsyn;
+  double m_riset;
+  double m_sum;
+  
+  double m_gf;
+  double m_gr;
+  double m_gi;
+  double m_Beq;
   
 };
-
-//////////////////////////////////////////////////
-/*!
-  \class ShockCmp
-  
-  \brief This class allows the sorting of the GRBShock vector
-  
-  It sort the shock vector in ascending order
-  
-*/
-
-
-class ShockCmp
-{
-public:
-  bool operator()(GRBShock *S1,GRBShock *S2)
-  {
-    return (S1->GetTime() < S2->GetTime());    
-  }
-};
-
-//////////////////////////////////////////////////
 #endif

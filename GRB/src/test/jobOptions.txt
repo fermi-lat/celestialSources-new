@@ -1,0 +1,19 @@
+//##############################################################
+//
+// Job options file for GRB test program
+//
+//==================================================
+// This will call GRBtestAlg		
+//#include "$GRBROOT/src/test/GRBtestAlgOptions.txt"
+
+// This will test the simulation program...
+//#include "$GRBROOT/src/test/TDSreadFluxOptions.txt"
+
+// This will test the LatTrigger algorithm
+#include "$GRBROOT/src/test/LatTriggerOptions.txt"
+
+//==============================================================
+//
+// End of job options file
+//
+//##############################################################

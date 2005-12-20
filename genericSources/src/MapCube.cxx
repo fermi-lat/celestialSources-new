@@ -30,64 +30,20 @@
 
 #include "genericSources/MapCube.h"
 
-#include "ConstParMap.h"
-
 ISpectrumFactory &MapCubeFactory() {
    static SpectrumFactory<MapCube> myFactory;
    return myFactory;
 }
 
-MapCube::MapCube(const std::string & paramString) : MapSource() {
+MapCube::MapCube(const std::string &paramString) : MapSource() {
 
-   std::string fitsFile;
-   bool createSubMap(false);
+   std::vector<std::string> params;
+   facilities::Util::stringTokenize(paramString, ", ", params);
 
-   if (paramString.find("=") == std::string::npos) {
-      std::vector<std::string> params;
-      facilities::Util::stringTokenize(paramString, ", ", params);
-      
-      m_flux = std::atof(params[0].c_str());
-      fitsFile = params[1];
-      if (params.size() > 2) {
-         try {
-            m_lonMin = std::atof(params.at(2).c_str());
-            m_lonMax = std::atof(params.at(3).c_str());
-            m_latMin = std::atof(params.at(4).c_str());
-            m_latMax = std::atof(params.at(5).c_str());
-            createSubMap = true;
-         } catch (...) {
-            throw std::runtime_error("Error reading sub-map bounds.\n"
-                                     "There must be precisely 4 parameters "
-                                     "to describe a sub-map.");
-         }
-      }
-   } else {
-      std::map<std::string, std::string> params;
-      facilities::Util::keyValueTokenize(paramString, ", ", params);
-      
-      genericSources::ConstParMap parmap(params);
-      
-      m_flux = parmap.value("flux");
-      fitsFile = parmap["fitsFile"];
-      if (parmap.size() > 2) {
-         try {
-            m_lonMin = parmap.value("lonMin");
-            m_lonMax = parmap.value("lonMax");
-            m_latMin = parmap.value("latMin");
-            m_latMax = parmap.value("latMax");
-            createSubMap = true;
-         } catch (...) {
-            throw std::runtime_error("Error reading sub-map bounds.\n"
-                                     "They must be specified with names "
-                                     "lonMin, lonMax, latMin, latMax.");
-         }
-      }
-   }
+   m_flux = std::atof(params[0].c_str());
+   std::string fitsFile = params[1];
 
-   facilities::Util::expandEnvVar(&fitsFile);
-
-   readFitsFile(fitsFile, createSubMap);
-   checkForNonPositivePixels();
+   readFitsFile(fitsFile);
    readEnergyVector(fitsFile);
    makeCumulativeSpectra();
    std::vector<double> totalCounts(m_solidAngles.size());
@@ -98,16 +54,6 @@ MapCube::MapCube(const std::string & paramString) : MapSource() {
 
 //    std::cerr << "Integral over the map: " 
 //              << m_mapIntegral << std::endl;
-}
-
-void MapCube::checkForNonPositivePixels() const {
-   std::vector<double>::const_iterator pixel = m_image.begin();
-   for ( ; pixel != m_image.end(); ++pixel) {
-      if (*pixel <= 0) {
-         throw std::runtime_error("MapCube: There are negative or zero-valued"
-                                  " pixels in the FITS image.");
-      }
-   }
 }
 
 float MapCube::operator()(float xi) const {
@@ -136,12 +82,12 @@ double MapCube::energy(double time) {
 
 double MapCube::mapValue(unsigned int i, unsigned int j, unsigned int k) {
    unsigned int indx = k*m_lon.size()*m_lat.size() + j*m_lon.size() + i;
-   return m_image.at(indx);
+   return m_image[indx];
 }
 
 void MapCube::readEnergyVector(const std::string & fitsFile) {
 
-   std::string routineName("MapCube::readEnergyVector");
+   std::string routineName("readEnergyVector");
 
    int hdu = genericSources::FitsImage::findHdu(fitsFile, "ENERGIES");
    
@@ -155,9 +101,33 @@ void MapCube::readEnergyVector(const std::string & fitsFile) {
    fits_movabs_hdu(fptr, hdu, &hdutype, &status);
    genericSources::FitsImage::fitsReportError(status, routineName);
 
-   genericSources::FitsImage::readColumn(fptr, "Energy", m_energies);
+   long nrows(0);
+   fits_get_num_rows(fptr, &nrows, &status);
+   genericSources::FitsImage::fitsReportError(status, routineName);
+
+   readColumn(fptr, "Energy", m_energies);
 
    fits_close_file(fptr, &status);
+   genericSources::FitsImage::fitsReportError(status, routineName);
+}
+
+void MapCube::readColumn(fitsfile * fptr, const std::string & colname,
+                         std::vector<double> & coldata) const {
+   std::string routineName("MapCube::readColumn");
+   int status(0);
+   int colnum(0);
+   fits_get_colnum(fptr, CASEINSEN, const_cast<char *>(colname.c_str()),
+                   &colnum, &status);
+   genericSources::FitsImage::fitsReportError(status, routineName);
+
+   long nrows(0);
+   fits_get_num_rows(fptr, &nrows, &status);
+   genericSources::FitsImage::fitsReportError(status, routineName);
+
+   int anynul(0), nulval(0);
+   coldata.resize(nrows);
+   fits_read_col(fptr, TDOUBLE, colnum, 1, 1, nrows, &nulval, &coldata[0],
+                 &anynul, &status);
    genericSources::FitsImage::fitsReportError(status, routineName);
 }
 

@@ -1,239 +1,542 @@
-#include <vector>
 #include <iostream>
-#include <fstream>
-#include <cmath>
+
+#include <stdio.h>
+
+#include <string>
+
+
+
+//#include <time.h>
+
+#include <ctime>
+
+
+
+//#include "src/FluxException.h" // defines FATAL_MACRO
 
 #include "GRBConstants.h"
 
-#define DEBUG  1
+#include "facilities/Util.h"
 
-Parameters::Parameters()
-  : m_QG(false)
-{
-  rnd = new TRandom();
-  SetGRBNumber(UInt_t(rnd->GetSeed()));
-  m_Type=0;
-  SetGBMOutput(false);
-}
+#include "CLHEP/Random/RandFlat.h"
 
-void Parameters::SetGRBNumber(UInt_t GRBnumber)
-{
-  m_GRBnumber = GRBnumber;
-  rnd->SetSeed(m_GRBnumber);
-  double tmp;
-  tmp = rnd->Uniform();
-}
+#include "CLHEP/Random/RandGauss.h"
 
-//////////////////////////////////////////////////
-double Parameters::GetBATSEFluence()
-{
-  using std::pow;
-  if (m_Type==1)
-    return pow(10.0,(double)rnd->Gaus(-6.3,0.57)); //erg/cm^2 (Short Bursts)
-  return pow(10.0,(double)rnd->Gaus(-5.4,0.62)); //erg/cm^2 (Long Burst)
-}
-//////////////////////////////////////////////////
 
-double Parameters::GetBATSEDuration()
+
+using namespace std;
+
+
+
+GRBConstants::GRBConstants()
+
 {
-  using std::pow;
-  if (m_Type==1)
-    return pow(10.0,(double)rnd->Gaus(-0.2,0.55)); // (Short Bursts)
-  return pow(10.0,(double)rnd->Gaus(1.46,0.49)); // (Long Burst)
+
+  InitializeRandom();
+
+  ReadParam();
+
 }
 
 
-//////////////////////////////////////////////////
 
-void Parameters::SetGalDir(double l, double b)
+void GRBConstants::InitializeRandom()
+
 {
-  double r1 = rnd->Uniform();
-  double r2 = rnd->Uniform();
-  
-  double ll = (l<=180.0 && l>=-180.0) ? l : 180.-360.*r1;
-  double bb = (b<=90.0 && b>=-90.0)   ? b : ((180.0/TMath::Pi())*acos(1.0-2.0*r2)-90.0);
-  m_GalDir=std::make_pair(ll,bb);
-  m_GalDir=std::make_pair(ll,bb);
-}
 
-//////////////////////////////////////////////////
+  int ini;
 
-void Parameters::SetFluence(double fluence)
-{
-  if(fluence == 0)  
-    m_Fluence = GetBATSEFluence();
-  else
+  time_t ctime;
+
+  if (time(&ctime)==time_t(-1))
+
     {
-      m_Fluence = fluence;
-      double tmp;
-      tmp = rnd->Uniform();//THB: this needed parentheses
+
+      cout<<" Time() not defined for this processor "<<endl;
+
+      ini=1;
+
     }
+
+  ini=(ctime);
+
+  HepRandom::setTheSeed(ini);
+
 }
 
-void Parameters::SetEtot(double etot)
-{
-  m_Etot = (etot>0.0) ? etot : pow(10.0,rnd->Gaus(51.,0.5)); //erg
-}
 
-void Parameters::SetInitialSeparation(double initialSeparation)
-{
-  m_InitialSeparation = (initialSeparation>0.0) ? initialSeparation : pow(10.,rnd->Uniform(7.0,10.0));
-}
 
-void Parameters::SetInitialThickness(double initialThickness)
-{
-  m_InitialThickness = (initialThickness>0.0) ? initialThickness : pow(10.,rnd->Uniform(7.0,10.0));
-}
-  
-void Parameters::SetGammaMin(double gmin)
-{
-  m_Gmin = (gmin>=1.0) ? gmin : 100.0;
-}
+void GRBConstants::ReadParam(){    
 
-void Parameters::SetGammaMax(double gmax)
-{
-  m_Gmax = (gmax>=1.0 && gmax>=m_Gmin) ? gmax : 10.0*m_Gmin;
-}
+  char buf[100];
 
-void Parameters::SetInverseCompton(double ic)
-{
-  m_InverseCompton = (ic>=0.0) ? ic : rnd->Uniform(0.,10.);
-}
+  std::string paramFile = "$(GRBROOT)/src/test/GRBParam.txt";
 
-//..................................................
+  facilities::Util::expandEnvVar(&paramFile);
 
-void Parameters::SetParameters(double fluence, double etot, double r0, double dr0, double gmin, double gmax, double ic)
-{
-  SetGalDir(-200,-200);
-  SetEtot(etot);
-  SetFluence(fluence);
-  SetInitialSeparation(r0);
-  SetInitialThickness(dr0);		
-  SetGammaMin(gmin);
-  SetGammaMax(gmax);
-  SetInverseCompton(ic);
-}
+  ifstream f1(paramFile.c_str());
 
-void Parameters::ComputeParametersFromFile(std::string paramFile, int NGRB)
-{
-  using std::fabs; using std::pow;
-  std::ifstream f1(paramFile.c_str());
-  if (!f1.is_open()) 
+  if (! f1.is_open()) 
+
     {
-      std::cout<<"GRBConstants: Error Opening paramFile\n";
+
+      cout<<"Error Opening $(GRBROOT)/src/test/GRBParam.txt\n";
+
       exit(1);
+
     }
-  double fluence,r0,dr0;
-  double gmin,gmax,etot,ic;
-  double ep,Eco;
-  char type;
-  
-  int GBM,QG;
-  
-  char buf[200];
+
   f1.getline(buf,100);
-  /// First the parameter file is read
-  int i=1;
-  while(i<=NGRB && f1.getline(buf,100))
+
+  sscanf(buf,"%d",&m_nshell);
+
+  
+
+  f1.getline(buf,100);
+
+  sscanf(buf,"%lf",&m_redshift);
+
+  
+
+  f1.getline(buf,100);
+
+  sscanf(buf,"%lf",&m_etot);
+
+  
+
+  f1.getline(buf,100);
+
+  sscanf(buf,"%lf",&m_r0);
+
+  
+
+  f1.getline(buf,100);
+
+  sscanf(buf,"%lf",&m_t0);
+
+    
+
+  f1.getline(buf,100);
+
+  sscanf(buf,"%lf",&m_g0);
+
+   
+
+  f1.getline(buf,100);
+
+  sscanf(buf,"%lf",&m_g1);
+
+  if(m_g1<=m_g0) m_g1=0;
+
+  m_GenerateAgain=false;
+
+  m_duration=0;
+
+  if(m_nshell*m_redshift*m_etot*m_r0*m_t0*m_g0*m_g1==0)
+
     {
-      if(sscanf(buf,"%lf %s %lf %lf %lf %d %d",&fluence,&type,&Eco,&ep,&ic,&GBM,&QG)<=0) break;
-      i++;
-    } 
-  i--;
+
+      m_GenerateAgain=true;
+
+      f1.getline(buf,100);
+
+      sscanf(buf,"%lf",&m_duration);
+
+    }
+
+  f1.getline(buf,100);
+
+  f1.getline(buf,100);
+
+  sscanf(buf,"%lf",&m_enph);
+
   f1.close();
-	
-  if(i<NGRB)
-    {
-      std::ifstream f2(paramFile.c_str());
-      f2.getline(buf,100);
 
-      for(int j = 1; j<=(NGRB %i);j++)
-	{
-	  f2.getline(buf,100);
-	  if(sscanf(buf,"%lf %s %lf %lf %lf %d %d",&fluence,&type,&Eco,&ep,&ic,&GBM,&QG)<=0);
-	}
-      f2.close();
-    }
-  //////////////////////////////////////////////////
-  //  if(QG>0)
-  //    std::cout<<"Lorentz Violation effect enabled!"<<std::endl;
-  SetQGOutput(QG>0);
-  /// Sets the bolean flag for GBM output
-  if (GBM>0) 
-    SetGBMOutput(true);
-  /// Set the type: m_Type=1 for Short bursts, 2 for longs
-  /// If type is not decleared, it is extracted randomly
-  SetGRBNumber(UInt_t(65540+NGRB));  
-  if(type=='S' || type =='s')
-    m_Type=1;
-  else if(type=='L' || type =='l')
-    m_Type=2;
-  else 
-    m_Type=((rnd->Uniform()<=0.25) ? 1 : 2);
   
-  m_Duration = GetBATSEDuration();
-
-  double gmax_gmin=2.0;  
-  double E52   = 1.0;
-  double Ep100 = ep/100.0;
-  double ae3   = cst::ae * 3.;
-  double ab3   = cst::ab * 3.;
-  double g100=0;
-  double r10=0;
-  double G=0.0;
-  double d7=0.0;
-  double tv=0.0;
-  
-  if (Eco<1.0) Eco = rnd->Uniform(3.0,10.0);
-  if(m_Type==1) // SHORT BURSTS
-    {
-      tv  = m_Duration;
-      if(ep==0) ep = pow(10.,log10(235.0)+log10(1.75) * rnd->Gaus());
-    }
-  else // LONG BURSTS
-    {
-      tv  = TMath::Max(m_Duration/50.0,pow(10.0,rnd->Gaus(0.0,0.5))); ///FWHM @ 20ke
-      if(ep==0) ep = 0.5 * pow(10.,log10(235.0)+log10(1.75) * rnd->Gaus());
-    }
-  //////////////////////////////////////////////////
-  G   =  40.5 * Eco;
-  g100=G/100.0;
-  
-  Ep100 = ep/100.0;
-  d7  =  13.6 * E52 * ab3 * pow(ae3,4.0)/(pow(Eco,4.0)*pow(Ep100*tv,2.0)*pow(cst::csi,4.0));
-  dr0 =   1e7 * d7;
-  
-  r0    =  2.0 * cst::c * tv;
-  r10   =   r0 * 1.0e-10;
-  
-  //////////////////////////////////////////////////
-  ep = 100.0*Ep100;
-  
-  if(DEBUG) 
-    std::cout<<"Expected Ep= "<<ep<<" Gamma = "<<G<<" Ecut-off : "<<G/40.5<<" GeV, Rsh = "<<r0*G*G<<" tv "<<tv<<std::endl;
-  ////////////////////////////////////////////////// 
-  etot = 1e52*E52;
-  gmin = 2.*G/(gmax_gmin + 1.);
-  gmax = gmax_gmin*gmin;
-
-  SetParameters(fluence,etot,r0,dr0,gmin,gmax,ic);
 
 }
 
-void Parameters::PrintParameters()
+
+
+double GRBConstants::MakeGRB()
+
 {
-  std::cout<<"--------------------------------------------------"<<std::endl;
-  std::cout<<"-GRB NUMBER :  ---------------> "<<m_GRBnumber<<std::endl;
-  std::cout<<" Duaration (T90)             = "<<m_Duration<<" s "<<std::endl;
-  std::cout<<" Etot                        = "<<m_Etot<<" Erg "<<std::endl;
-  std::cout<<" Fluence in the Batse Range  = "<<m_Fluence<<" erg/cm^2/s"<<std::endl;
-  std::cout<<" Initial Separation          = "<<m_InitialSeparation<<" cm"<<std::endl;
-  std::cout<<" Initial Thickness           = "<<m_InitialThickness<<" cm"<<std::endl;
-  std::cout<<" Minimum Lorentsz Factor     = "<<m_Gmin<<std::endl;
-  std::cout<<" Maximum Lorentsz Factor     = "<<m_Gmax<<std::endl;
-  std::cout<<" Inverse Compton Parameter   = "<<m_InverseCompton<<std::endl;
-  if(m_GBM) 
-    std::cout<<" for this bursts will be generated the GBM output "<<std::endl;
-  if(m_QG)
-    std::cout<<" Lorentz Violation set to true for this burst "<<std::endl;
+
+  setDuration(m_duration);
+
+  setNshell(m_nshell);
+
+  setRedshift(m_redshift);
+
+  setEtot(m_etot);
+
+  setR0(m_r0);
+
+  setT0(m_t0);
+
+  setGammaMin(m_g0);
+
+  setGammaMax(m_g1);
+
+  setEnergyPh(m_enph);
+
+  return 0;
+
 }
+
+
+
+double GRBConstants::SelectFlatRandom(double min, double max)
+
+{
+
+  return min+(max-min)*RandFlat::shoot(1.0);
+
+}
+
+
+
+double GRBConstants::SelectGaussRandom(double min, double max)
+
+{
+
+  double temp=0.0;
+
+  while (temp<=0)
+
+    {
+
+      temp = RandGauss::shoot((max+min)/2,(max-min)/2*0.7);
+
+    }
+
+  return temp; 
+
+
+
+}
+
+
+
+void GRBConstants::Print()
+
+{
+
+  // cout<<"Read the file: "<<paramFile.c_str()<<endl;
+
+  cout<<"********** Selected Parameters: **********"<<endl;
+
+  cout<<" Number of shells               = "<<Nshell()<<endl;
+
+  cout<<" Redshift of the Source         = "<<Redshift()<<endl;
+
+  cout<<" Total Energy at the Source     = "<<Etot()<<endl;
+
+  cout<<" Initial separation (cm)        = "<<R0()<<endl;
+
+  cout<<" Initial thickness  (cm)        = "<<T0()<<endl;
+
+  cout<<" Minimum Lorentz factor         = "<<GammaMin()<<endl;
+
+  cout<<" Maximum Lorentz factor         = "<<GammaMax()<<endl;
+
+  cout<<"*******************************************"<<endl;
+
+}
+
+
+
+void GRBConstants::Save(bool flag)
+
+{
+
+  if(flag)
+
+    {
+
+      m_paramFile=cst::paramFile;
+
+      facilities::Util::expandEnvVar(&m_paramFile);
+
+      cout<<"Save Parameters into the file: "<<m_paramFile.c_str()<<endl;
+
+      ofstream f2(m_paramFile.c_str(),ios::app);
+
+      if (! f2.is_open()) 
+
+	{
+
+	  cout<<"Error Opening "<<m_paramFile<<endl;
+
+	  exit(1);
+
+	}
+
+      
+
+      f2<<Nshell()<<endl;
+
+      f2<<Redshift()<<endl;
+
+      f2<<Etot()<<endl;
+
+      f2<<R0()<<endl;
+
+      f2<<T0()<<endl;
+
+      f2<<GammaMin()<<endl;
+
+      f2<<GammaMax()<<endl;
+
+      f2.close();
+
+    }
+
+}
+
+
+
+void GRBConstants::setNshell(int value){
+
+  if (value == 0)
+
+    {
+
+      m_nshell=0;
+
+      while(m_nshell<2)
+
+	{
+
+	  if (m_burst_type=="Short"){m_nshell=int(SelectGaussRandom(4,10));}
+
+	  else {m_nshell=int(SelectGaussRandom(10,100));}
+
+	}
+
+    }
+
+  else
+
+    {
+
+      m_nshell=value;
+
+    }
+
+  if(m_nshell<2) m_nshell=2;
+
+}
+
+
+
+
+
+void GRBConstants::setRedshift(double value){
+
+  value==0 ? m_redshift=SelectFlatRandom(0.1,3):m_redshift=value;
+
+}
+
+
+
+void GRBConstants::setEtot(double value){
+
+  double temp;
+
+  if (value==0)
+
+    {
+
+      temp=SelectGaussRandom(51,55);
+
+      m_etot=pow(10,temp);
+
+    }
+
+  else
+
+    {
+
+      m_etot=value;
+
+    }
+
+}
+
+
+
+void GRBConstants::setR0(double value){
+
+  if (value==0)
+
+    {
+
+      if(m_burst_type=="Short")
+
+	{
+
+	  double temp=SelectGaussRandom(pow(10,6.),pow(10,10.));
+
+	  m_r0=temp;
+
+	}
+
+      else
+
+	{
+
+	  double temp=SelectGaussRandom(pow(10,6.),pow(10,10.));
+
+	  m_r0=temp;
+
+	}
+
+    }
+
+  else
+
+    {
+
+      m_r0=value;
+
+    }  
+
+}
+
+
+
+void GRBConstants::setT0(double value){
+
+  if (value==0)
+
+    {
+
+      if(m_burst_type=="Short")
+
+	{
+
+	  double temp=SelectGaussRandom(5.,10.);
+
+	  m_t0=pow(10,temp);
+
+	}
+
+      else
+
+	{
+
+	  double temp=SelectGaussRandom(5.,10.);
+
+	  m_t0=pow(10,temp);
+
+	}
+
+    }
+
+  else
+
+    {
+
+      m_t0=value;
+
+    }  
+
+}
+
+
+
+void GRBConstants::setGammaMin(double value){
+
+  if (value==0)
+
+    {
+
+      if(m_burst_type=="Short")
+
+	{
+
+	  m_g0=SelectGaussRandom(50,200);
+
+	}
+
+      else
+
+	{
+
+	  m_g0=SelectGaussRandom(90,110);
+
+	}
+
+    }
+
+  else
+
+    {
+
+      m_g0=value;
+
+    }  
+
+}
+
+
+
+
+
+
+
+void GRBConstants::setGammaMax(double value){
+
+  value==0 ? m_g1=SelectGaussRandom(2*m_g0,100*m_g0):m_g1=value;
+
+}
+
+
+
+void GRBConstants::setDuration(double value){
+
+  m_duration=value;
+
+  if (value<2.0)
+
+    {m_burst_type="Short";}
+
+  else
+
+    {m_burst_type="Long";}  
+
+}
+
+
+
+/*
+
+  bool GRBConstants::CompareResults(double duration, double ftot)
+
+  {
+
+  
+
+  if(!m_GenerateAgain) 
+
+  if (duration<=1000.0) return true;
+
+  
+
+  bool c1=false;
+
+  //  bool c2=false;
+
+  
+
+  if (m_duration <= duration+duration/10. && m_duration > duration-duration/10.) c1=true;
+
+  return c1;
+
+  //  if (m_duration <= duration+duration/10. && m_duration > duration-duration/10.)  
+
+  }
+
+*/
+
