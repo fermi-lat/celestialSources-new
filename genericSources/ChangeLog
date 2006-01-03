@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jan  3 10:50:55 PST 2006
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	MapCube.h 
+Log Message:
+identify invalid file name in exception message
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6p3, operation: add
 Package: genericSources
