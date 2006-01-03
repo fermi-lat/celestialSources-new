@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jan  3 10:50:56 PST 2006
+celestialSources/genericSources/src
+
+Modified Files:
+	MapCube.cxx 
+Log Message:
+identify invalid file name in exception message
+    *
+------------------------------------------------------------
 User: jchiang  Tue Jan  3 10:50:55 PST 2006
 celestialSources/genericSources/genericSources
 
