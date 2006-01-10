@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Jan 10 00:29:52 PST 2006
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+If a burst is already ended before the start of the run, it is not built
+    *
+------------------------------------------------------------
+User: omodei  Tue Jan 10 00:29:52 PST 2006
 celestialSources/GRBobs/src
 
 Modified Files:
