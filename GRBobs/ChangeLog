@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jan 10 00:29:52 PST 2006
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsSim.h GRBobsmanager.h 
+Log Message:
+If a burst is already ended before the start of the run, it is not built
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p7, operation: add
 Package: GRBobs
