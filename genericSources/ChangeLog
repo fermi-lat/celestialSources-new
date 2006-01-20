@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Jan 19 18:51:28 PST 2006
+celestialSources/genericSources/src
+
+Modified Files:
+	SpectralTransient.cxx 
+Log Message:
+add attenuation back in to SpectralTransient calculation (left out inadvertantly when event generation was refactored
+    *
+------------------------------------------------------------
 User: jchiang  Tue Jan  3 10:50:56 PST 2006
 celestialSources/genericSources/src
 
