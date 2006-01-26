@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Thu Jan 26 09:33:26 PST 2006
+celestialSources/GRBobs/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Bug fixed with the time binning for long bursts (>160 s)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p8, operation: add
 Package: GRBobs
