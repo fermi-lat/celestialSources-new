@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sat Jan 28 16:16:26 PST 2006
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove duplicate event times; tagging v1r6p5
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6p4, operation: add
 Package: genericSources
