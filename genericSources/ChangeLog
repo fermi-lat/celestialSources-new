@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Sat Jan 28 16:16:27 PST 2006
+celestialSources/genericSources/src
+
+Modified Files:
+	SpectralTransient.cxx 
+Log Message:
+remove duplicate event times; tagging v1r6p5
+    *
+------------------------------------------------------------
+User: jchiang  Sat Jan 28 16:16:27 PST 2006
 celestialSources/genericSources/doc
 
 Modified Files:
