@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Jan 30 11:41:00 PST 2006
+celestialSources/GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Add Darwin (Mac) flag for root LIBS
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: GRB

@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Jan 30 11:37:57 PST 2006
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Add Darwin (Mac) flag for ROOT lib
+
+    *
+------------------------------------------------------------
 User: cohen  Mon Jan 30 11:15:56 PST 2006
 celestialSources/GRBobs/cmt
 
