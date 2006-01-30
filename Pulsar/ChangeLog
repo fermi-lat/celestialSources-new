@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Jan 30 08:13:00 PST 2006
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+REdirect output for Root, Log and TimeProfile to a PsrOutput directory
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: Pulsar
