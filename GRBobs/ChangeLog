@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Mon Jan 30 11:15:56 PST 2006
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Darwin fix, as per Navid request
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p9, operation: add
 Package: GRBobs
