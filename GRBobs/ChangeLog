@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: omodei  Tue Jan 31 11:03:07 PST 2006
-celestialSources/GRBobs/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-Earth occultation avoid GBM generation file
-    *
-------------------------------------------------------------
-User: omodei  Tue Jan 31 11:03:05 PST 2006
-celestialSources/GRBobs/GRBobs
-
-Modified Files:
-	GRBobsmanager.h 
-Log Message:
-Earth occultation avoid GBM generation file
-    *
-------------------------------------------------------------
 User: omodei  Tue Jan 31 08:54:15 PST 2006
 celestialSources/GRBobs/src
 
