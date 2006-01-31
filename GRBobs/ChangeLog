@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jan 31 08:54:13 PST 2006
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsmanager.h 
+Log Message:
+Parameters are in observer reference frame (not in the GRB reference frame)
+    *
+------------------------------------------------------------
 User: omodei  Mon Jan 30 11:37:57 PST 2006
 celestialSources/GRBobs/cmt
 
