@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jan 31 23:15:31 PST 2006
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	TF1Map.h TF1Spectrum.h 
+Log Message:
+make TF1 data members mutable to avoid const problems; correct sampling from gamma=1 photon spectra
+    *
+------------------------------------------------------------
 User: cohen  Tue Jan 31 18:43:36 PST 2006
 celestialSources/genericSources/genericSources
 
