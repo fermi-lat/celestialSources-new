@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Tue Jan 31 17:44:26 PST 2006
+celestialSources/genericSources/genericSources
+
+Added Files:
+	TF1Map.h TF1Spectrum.h 
+Log Message:
+add two new sources based on a TF1 formula to define the spectrum
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6p5, operation: add
 Package: genericSources
