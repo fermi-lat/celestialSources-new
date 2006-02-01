@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Wed Feb  1 10:39:20 PST 2006
+celestialSources/genericSources/src
+
+Modified Files:
+	TF1Map.cxx TF1Spectrum.cxx 
+Log Message:
+add a parameter to set the TF1 grid binning
+
+    *
+------------------------------------------------------------
 User: cohen  Wed Feb  1 10:31:49 PST 2006
 celestialSources/genericSources/src
 
