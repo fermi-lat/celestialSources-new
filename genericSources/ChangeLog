@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: cohen  Tue Jan 31 17:44:28 PST 2006
+celestialSources/genericSources/xml
+
+Modified Files:
+	source_library.xml 
+Log Message:
+add two new sources based on a TF1 formula to define the spectrum
+
+    *
+------------------------------------------------------------
+User: cohen  Tue Jan 31 17:44:28 PST 2006
 celestialSources/genericSources/src/test
 
 Modified Files:
