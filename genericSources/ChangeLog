@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Thu Feb  2 23:52:32 PST 2006
+celestialSources/genericSources/data
+
+Modified Files:
+	dm120gev.dat 
+Log Message:
+remove one parameter and fix windows build
+
+    *
+------------------------------------------------------------
 User: cohen  Thu Feb  2 23:52:31 PST 2006
 celestialSources/genericSources/cmt
 
