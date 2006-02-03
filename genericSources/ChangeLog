@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: cohen  Thu Feb  2 23:52:33 PST 2006
+celestialSources/genericSources/xml
+
+Modified Files:
+	source_library.xml 
+Log Message:
+remove one parameter and fix windows build
+
+    *
+------------------------------------------------------------
+User: cohen  Thu Feb  2 23:52:33 PST 2006
 celestialSources/genericSources/src
 
 Modified Files:
