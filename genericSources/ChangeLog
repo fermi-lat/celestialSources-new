@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Thu Feb  2 17:43:31 PST 2006
+celestialSources/genericSources/src/test
+
+Modified Files:
+	test.cxx 
+Log Message:
+change name of FILESpectrumMap to FileSpectrumMap and add FileSpectrum
+
+    *
+------------------------------------------------------------
 User: cohen  Thu Feb  2 17:43:30 PST 2006
 celestialSources/genericSources/src
 
