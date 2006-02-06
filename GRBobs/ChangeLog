@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb  6 10:39:58 PST 2006
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsSim.h GRBobsmanager.h 
+Log Message:
+Remove TString dependences
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p10, operation: add
 Package: GRBobs
