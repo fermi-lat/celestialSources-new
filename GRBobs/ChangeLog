@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb  6 14:04:37 PST 2006
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+Using ostringstream
+
+    *
+------------------------------------------------------------
 User: omodei  Mon Feb  6 10:41:07 PST 2006
 celestialSources/GRBobs/cmt
 
