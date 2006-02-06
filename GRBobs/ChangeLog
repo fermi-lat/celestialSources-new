@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb  6 10:39:59 PST 2006
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx GRBobsmanager.cxx 
+Log Message:
+Remove TString dependences
+
+    *
+------------------------------------------------------------
 User: omodei  Mon Feb  6 10:39:58 PST 2006
 celestialSources/GRBobs/GRBobs
 
