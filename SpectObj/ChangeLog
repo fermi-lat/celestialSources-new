@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb  6 10:50:49 PST 2006
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Changed the Peak Flux computation
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: SpectObj
