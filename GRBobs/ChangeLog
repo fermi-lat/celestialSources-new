@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Feb  7 07:37:28 PST 2006
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx GRBobsengine.cxx 
+Log Message:
+Solved some mem leaks
+    *
+------------------------------------------------------------
+User: omodei  Tue Feb  7 07:37:28 PST 2006
 celestialSources/GRBobs/cmt
 
 Modified Files:
