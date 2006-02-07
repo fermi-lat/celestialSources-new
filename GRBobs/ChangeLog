@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Feb  7 07:37:29 PST 2006
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	testGRB.cxx 
+Log Message:
+Solved some mem leaks
+    *
+------------------------------------------------------------
 User: omodei  Tue Feb  7 07:37:28 PST 2006
 celestialSources/GRBobs/src
 
