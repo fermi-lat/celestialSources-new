@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Feb  7 07:37:28 PST 2006
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Solved some mem leaks
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p11, operation: add
 Package: GRBobs
