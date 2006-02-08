@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Wed Feb  8 01:50:01 PST 2006
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsengine.h 
+Log Message:
+Replaced ugly circle with Joanne stylish suggestion.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p12, operation: add
 Package: GRBobs
