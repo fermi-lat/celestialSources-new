@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Wed Feb  8 11:10:56 PST 2006
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx GRBobsengine.cxx 
+Log Message:
+Set gDirectory(0) for all the TH1 objects
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1cl0, operation: add
 Package: GRBobs
