@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: usher  Wed Feb  8 08:35:40 PST 2006
+celestialSources/GRB/src/GRBmaker
+
+Modified Files:
+      Tag: GR-v7r3p20-newext
+	GRBmaker.cxx GRBobsUtilities.cxx GRBobsUtilities.h 
+	GRBpulse.cxx GRBpulse.h GRBurst.cxx GRBurst.h GbmGrb.cxx 
+	GbmGrb.h GrbGlobalData.cxx GrbGlobalData.h LatGrb.cxx LatGrb.h 
+Log Message:
+    *
+------------------------------------------------------------
 User: usher  Wed Feb  8 08:35:38 PST 2006
 celestialSources/GRB/src/GRB
 
