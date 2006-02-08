@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: usher  Wed Feb  8 09:48:13 PST 2006
+celestialSources/genericSources/src
+
+Modified Files:
+      Tag: GR-v7r3p20-newext
+	FitsTransient.cxx GaussianSource.cxx Isotropic.cxx MapCube.cxx 
+	MapSource.cxx PeriodicSource.cxx Pulsar.cxx 
+	SimpleTransient.cxx SourcePopulation.cxx SpectralTransient.cxx 
+	TransientTemplate.cxx Util.cxx 
+Log Message:
+    *
+------------------------------------------------------------
 User: usher  Wed Feb  8 09:48:07 PST 2006
 celestialSources/genericSources/genericSources
 
