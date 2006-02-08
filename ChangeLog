@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r1cl0, operation: add
+Package: celestialSources
+User: usher  Wed Feb  8 10:06:51 2006
+Files:
+  celestialSources/.cvsignore  1.1.1.1.12.1
+  celestialSources/ChangeLog  1.105
+
+    *
+------------------------------------------------------------
 User: usher  Wed Feb  8 10:06:28 PST 2006
 celestialSources/doc
 
