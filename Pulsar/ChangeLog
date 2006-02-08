@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Wed Feb  8 10:00:51 PST 2006
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+      Tag: GR-v7r3p20-newext
+	PulsarConstants.h PulsarSpectrum.h 
+Log Message:
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p4, operation: add
 Package: Pulsar
