@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Feb  9 09:01:00 PST 2006
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Eliminate unneeded (and untrue) 'const' in argument for GetUniqueName
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Feb  9 09:00:33 PST 2006
 celestialSources/SpectObj/SpectObj
 
