@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Feb  9 15:47:19 PST 2006
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+replace TRandom with CLHEP
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p4, operation: add
 Package: SpectObj
