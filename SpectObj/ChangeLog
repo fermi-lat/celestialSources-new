@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Feb  9 15:47:25 PST 2006
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+replace TRandom with CLHEP
+    *
+------------------------------------------------------------
 User: burnett  Thu Feb  9 15:47:19 PST 2006
 celestialSources/SpectObj/SpectObj
 
