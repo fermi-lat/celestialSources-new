@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Feb  9 09:00:33 PST 2006
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Eliminate unneeded (and untrue) 'const' in argument for GetUniqueName
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p3, operation: add
 Package: SpectObj
