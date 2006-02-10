@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Feb 10 10:56:40 PST 2006
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+faint pulsar fix
+    *
+------------------------------------------------------------
 User: omodei  Fri Feb 10 03:56:50 PST 2006
 celestialSources/Pulsar/Pulsar
 
