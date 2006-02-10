@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Feb  9 16:26:53 PST 2006
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Move nested class defn of UniformRandom from .cxx file to .h to satisfy gcc
+
+    *
+------------------------------------------------------------
 User: burnett  Thu Feb  9 15:47:25 PST 2006
 celestialSources/SpectObj/src
 
