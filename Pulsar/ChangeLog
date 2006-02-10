@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Fri Feb 10 03:56:49 PST 2006
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Faint pulsar problem solved (?)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1cl0, operation: add
 Package: Pulsar
