@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Feb 10 20:52:43 PST 2006
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Faint pulsar fix - part 2
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p5, operation: add
 Package: Pulsar
