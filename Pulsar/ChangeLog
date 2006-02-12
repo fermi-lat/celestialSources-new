@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Sun Feb 12 11:56:20 PST 2006
+celestialSources/Pulsar/src/test/other
+
+Modified Files:
+	PulsarROOTtest.cxx 
+Log Message:
+Added interval distribution on testPulsarROOT
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p6, operation: add
 Package: Pulsar
