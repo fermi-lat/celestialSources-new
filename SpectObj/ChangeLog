@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Sun Feb 12 13:29:18 PST 2006
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Changed GetPhoton extraction method to be Poissonian-compatible
+    *
+------------------------------------------------------------
+User: razzano  Sun Feb 12 13:29:18 PST 2006
 celestialSources/SpectObj/SpectObj
 
 Modified Files:
