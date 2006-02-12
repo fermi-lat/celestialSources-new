@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Sun Feb 12 15:19:21 PST 2006
+celestialSources/Pulsar/src/test/other
+
+Modified Files:
+	PulsarROOTtest.cxx 
+Log Message:
+While loop removed for now
+    *
+------------------------------------------------------------
+User: razzano  Sun Feb 12 15:19:21 PST 2006
 celestialSources/Pulsar/src
 
 Modified Files:
