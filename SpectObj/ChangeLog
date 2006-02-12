@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Sun Feb 12 13:29:18 PST 2006
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Changed GetPhoton extraction method to be Poissonian-compatible
+    *
+------------------------------------------------------------
 User: jrb  Thu Feb  9 16:27:00 PST 2006
 celestialSources/SpectObj/src
 
