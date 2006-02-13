@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb 13 03:22:42 PST 2006
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Modified the destructor (delete a pointer)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p5, operation: add
 Package: SpectObj
