@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb 13 02:57:40 PST 2006
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsSim.h 
+Log Message:
+Removing const from GetUniqueName
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p14, operation: add
 Package: GRBobs
