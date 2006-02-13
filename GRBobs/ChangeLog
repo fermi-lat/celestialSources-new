@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb 13 02:57:41 PST 2006
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx 
+Log Message:
+Removing const from GetUniqueName
+
+    *
+------------------------------------------------------------
 User: omodei  Mon Feb 13 02:57:40 PST 2006
 celestialSources/GRBobs/GRBobs
 
