@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Feb 14 02:11:15 PST 2006
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+PULSAROUTFILES implementation added
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p8, operation: add
 Package: Pulsar
