@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Feb 17 10:40:12 PST 2006
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Fix for VC8 compilation problems
+    *
+------------------------------------------------------------
 User: razzano  Fri Feb 17 10:40:09 PST 2006
 celestialSources/Pulsar/doc
 
