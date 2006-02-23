@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Thu Feb 23 02:25:04 PST 2006
+celestialSources/GRB/data
+
+Added Files:
+	GRBParam.txt 
+Log Message:
+add data directory
+
+    *
+------------------------------------------------------------
 User: omodei  Thu Feb 23 02:24:43 PST 2006
 celestialSources/GRB/src/test/other
 
