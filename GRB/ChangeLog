@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: omodei  Thu Feb 23 02:24:43 PST 2006
+celestialSources/GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add data directory
+
+    *
+------------------------------------------------------------
+User: omodei  Thu Feb 23 02:24:43 PST 2006
 celestialSources/GRB/src/GRB
 
 Modified Files:
