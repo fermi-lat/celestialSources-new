@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Thu Feb 23 02:24:43 PST 2006
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBmanager.cxx 
+Log Message:
+Add data directory
+
+    *
+------------------------------------------------------------
 User: omodei  Thu Feb 23 02:19:48 PST 2006
 celestialSources/GRB/data
 
