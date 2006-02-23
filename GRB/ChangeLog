@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Feb 23 02:11:33 PST 2006
+celestialSources/GRB/src/data
+
+Log Message:
+Directory /nfs/slac/g/glast/ground/cvs/celestialSources/GRB/src/data added to the repository
+--> Using per-directory sticky tag `v4r2p2'
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1cl0, operation: add
 Package: GRB
