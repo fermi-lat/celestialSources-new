@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Tue Mar 21 16:46:09 PST 2006
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx 
+Log Message:
+wrap a submap around longitude/RA boundaries
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6p9, operation: add
 Package: genericSources
