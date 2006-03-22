@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Wed Mar 22 14:17:35 PST 2006
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+set the ROOT random seed from CLHEP singleton
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p3, operation: add
 Package: celestialSources
