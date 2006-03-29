@@ -1,4 +1,75 @@
 ------------------------------------------------------------
+User: jchiang  Wed Mar 29 12:19:15 PST 2006
+celestialSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tagging v1r1p4
+    *
+------------------------------------------------------------
+User: jchiang  Wed Mar 29 12:19:15 PST 2006
+celestialSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tagging v1r1p4
+    *
+------------------------------------------------------------
+User: cohen  Wed Mar 22 14:17:35 PST 2006
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+set the ROOT random seed from CLHEP singleton
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r1p3, operation: add
+Package: celestialSources
+User: burnett  Tue Mar 14 12:06:24 2006
+Files:
+  celestialSources/.cvsignore  1.1.1.1
+  celestialSources/ChangeLog  1.113
+  celestialSources/celestialSources/SpectrumFactoryLoader.h  1.2
+  celestialSources/cmt/requirements  1.35
+  celestialSources/doc/release.notes  1.24
+  celestialSources/src/mainpage.h  1.1.1.1
+  celestialSources/src/SpectrumFactoryLoader.cxx  1.11
+  celestialSources/src/test/test.cxx  1.1
+
+    *
+------------------------------------------------------------
+User: burnett  Tue Mar 14 12:05:48 PST 2006
+celestialSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+    *
+------------------------------------------------------------
+User: burnett  Tue Mar 14 12:04:46 PST 2006
+celestialSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+
+    *
+------------------------------------------------------------
+User: burnett  Tue Mar 14 12:04:45 PST 2006
+celestialSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1cl0, operation: add
 Package: celestialSources
