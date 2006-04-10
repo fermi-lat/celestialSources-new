@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: cohen  Mon Apr 10 13:02:29 PDT 2006
+celestialSources/DarkMatter/sources/DS_DC2
+
+Added Files:
+	liste.dat param.dat res100MeVBisBis.txt res10MeVBisBis.txt 
+	rndm00000060.dat rndm00000080.dat rndm00000100.dat 
+	rndm00000120.dat rndm00000140.dat rndm00000160.dat 
+	rndm00000180.dat 
+Log Message:
+update directory
+
+    *
+------------------------------------------------------------
 User: cohen  Mon Apr 10 13:02:28 PDT 2006
 celestialSources/DarkMatter/sources
 
