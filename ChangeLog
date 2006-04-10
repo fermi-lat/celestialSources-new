@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: jchiang  Sun Apr  9 20:17:14 PDT 2006
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Added Files:
+	TRandom4.cxx 
+Log Message:
+add TRandom4 and use in SpectrumFactoryLoader
+    *
+------------------------------------------------------------
+User: jchiang  Sun Apr  9 20:17:14 PDT 2006
 celestialSources/cmt
 
 Modified Files:
