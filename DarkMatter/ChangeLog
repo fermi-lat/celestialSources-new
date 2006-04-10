@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: cohen  Mon Apr 10 13:02:28 PDT 2006
+celestialSources/DarkMatter/cmt
+
+Modified Files:
+	requirements 
+Removed Files:
+	Makefile cleanup.csh cleanup.sh rh9_gcc32.make setup.csh 
+	setup.sh 
+Log Message:
+update directory
+
+    *
+------------------------------------------------------------
 User: cohen  Mon Apr 10 12:56:23 PDT 2006
 celestialSources/DarkMatter/sources/DS_DC2/above100MeV
 
