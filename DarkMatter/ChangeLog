@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: cohen  Mon Apr 10 13:02:28 PDT 2006
+celestialSources/DarkMatter/sources
+
+Removed Files:
+	DM_10GeV.txt DM_20GeV.txt DM_30GeV.txt darksusy_example.txt 
+Log Message:
+update directory
+
+    *
+------------------------------------------------------------
+User: cohen  Mon Apr 10 13:02:28 PDT 2006
 celestialSources/DarkMatter/cmt
 
 Modified Files:
