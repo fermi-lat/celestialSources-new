@@ -175,26 +175,8 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
 
 
   //writes out an output log file
-  //  std::string logLabel = "PsrOutput/" + m_PSRname + "Log.txt";
 
-  //Redirect output to a subdirectory
-  const char * pulsarOutDir = ::getenv("PULSAROUTFILES");
-
-  std::string logLabel;
-  // override obssim if running in Gleam environment
-  if( pulsarOutDir!=0) 
-    logLabel = std::string(pulsarOutDir) + "/" + m_PSRname + "Log.txt";
-  else
-    logLabel = m_PSRname + "Log.txt";
-
-  //  std::string nameProfile = "PsrOutput/" + m_name + "TimeProfile.txt";
-
-
-
-
-
-
-
+  std::string logLabel = "PsrOutput/" + m_PSRname + "Log.txt";
   ofstream PulsarLog(logLabel.c_str());
   
   PulsarLog << "\n********   PulsarSpectrum Log for pulsar" << m_PSRname << std::endl;
@@ -318,9 +300,19 @@ double PulsarSpectrum::flux(double time) const
 double PulsarSpectrum::interval(double time)
 {  
   
+  if(!m_ff)
+    {
+      double tff =  Spectrum::startTime();
+      m_ff=true;
+      do{
+	  tff+=interval(tff);
+      }
+      while(tff<time);
+      return tff+interval(tff)-time;
+    }
+  
   double timeTildeDecorr = time + (StartMissionDateMJD)*SecsOneDay; //Arrival time decorrected
-  //this should be corrected before applying barycentryc decorr + ephem de-corrections
-  double timeTilde = timeTildeDecorr + getBaryCorr(timeTildeDecorr); 
+  double timeTilde = timeTildeDecorr + getBaryCorr(timeTildeDecorr); //should be corrected before applying ephem de-corrections
   
   double initTurns = getTurns(timeTilde); //Turns made at this time
   double intPart; //Integer part
@@ -333,7 +325,7 @@ double PulsarSpectrum::interval(double time)
       std::cout << "Warning!Time is out of range of validity for pulsar " << m_PSRname 
 		<< ": Switching to new ephemerides set..." << std::endl;
 #endif
-	for (unsigned int e=0; e < m_t0Vect.size();e++)
+	for (int e=0; e < m_t0Vect.size();e++)
 	  if (((timeTilde/SecsOneDay) > m_t0InitVect[e]) && ((timeTilde/SecsOneDay) < m_t0EndVect[e])) 
 	    {
 	      // std::cout << "\n" << timeTilde -(StartMissionDateMJD)*SecsOneDay <<  " PulsarSpectrum Phase is " 
@@ -537,7 +529,7 @@ double PulsarSpectrum::getBaryCorr( double ttInput )
   double tdb_min_tt = m_earthOrbit->tdb_minus_tt(ttJD);
 
   double timeMET = ttInput - (StartMissionDateMJD)*SecsOneDay;
-  CLHEP::Hep3Vector scPos;
+  Hep3Vector scPos;
 
   //Exception error in case of time not in the range of available position (when using a FT2 file)
 
@@ -553,11 +545,11 @@ double PulsarSpectrum::getBaryCorr( double ttInput )
   }
 
   //Correction due to geometric time delay of light propagation 
-  CLHEP::Hep3Vector GeomVect = (scPos/clight) - m_solSys.getBarycenter(ttJD);
+  Hep3Vector GeomVect = (scPos/clight) - m_solSys.getBarycenter(ttJD);
   double GeomCorr = GeomVect.dot(m_PulsarVectDir);
 
   //Correction due to Shapiro delay.
-  CLHEP::Hep3Vector sunV = m_solSys.getSolarVector(ttJD);
+  Hep3Vector sunV = m_solSys.getSolarVector(ttJD);
 
   // Angle of source-sun-observer
   double costheta = - sunV.dot(m_PulsarVectDir) / ( sunV.mag() * m_PulsarVectDir.mag() );
@@ -780,7 +772,7 @@ int PulsarSpectrum::saveDbTxtFile()
 
   //Writes out the infos of the file
   DbOutputFile.open(DbOutputFileName.c_str(),std::ios::app);
-  double tempInt, tempFract;
+  double tempInt, tempFract, f0, f1, f2;
   for (unsigned int ep = 0; ep < m_periodVect.size(); ep++)
     {
       DbOutputFile << "\"" << m_PSRname << std::setprecision(5) << "\" " << m_RA << " " << m_dec << " ";
