@@ -1,4 +1,31 @@
 ------------------------------------------------------------
+User: jchiang  Sun Feb 12 16:53:14 PST 2006
+celestialSources/SpectObj/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+tagging v1r1p5
+    *
+------------------------------------------------------------
+User: razzano  Sun Feb 12 13:29:18 PST 2006
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Changed GetPhoton extraction method to be Poissonian-compatible
+    *
+------------------------------------------------------------
+User: razzano  Sun Feb 12 13:29:18 PST 2006
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Changed GetPhoton extraction method to be Poissonian-compatible
+    *
+------------------------------------------------------------
 User: jrb  Thu Feb  9 16:27:00 PST 2006
 celestialSources/SpectObj/src
 
