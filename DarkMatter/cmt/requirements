@@ -1,9 +1,0 @@
-package DarkMatter
-version v0
-
-author Johann Cohen-Tanugi <cohen@slac.stanford.edu> 
- 
-# $Id$
- 
-set DARKMATTERROOT "/data1/DM/DarkMatter/JCT"
-
