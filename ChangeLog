@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r1p5, operation: add
+Package: celestialSources
+User: jchiang  Wed May 17 11:54:51 2006
+Files:
+  celestialSources/celestialSources/SpectrumFactoryLoader.h  1.2
+  celestialSources/celestialSources/TRandom4.h  1.2
+
+    *
+------------------------------------------------------------
 User: jchiang  Wed May 17 11:54:25 PDT 2006
 celestialSources/src
 
