@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed May 17 13:07:47 PDT 2006
+celestialSources/pySources/python
+
+Modified Files:
+	test_sources.py 
+Log Message:
+updates for newer GlastPolicy
+    *
+------------------------------------------------------------
+User: jchiang  Wed May 17 13:07:47 PDT 2006
 celestialSources/pySources/cmt
 
 Modified Files:
