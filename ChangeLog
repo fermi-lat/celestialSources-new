@@ -2,6 +2,21 @@
 TAG
 Tag name: v1r1p5, operation: add
 Package: celestialSources
+User: jchiang  Wed May 17 11:55:34 2006
+Files:
+  celestialSources/cmt/requirements  1.38
+  celestialSources/doc/release.notes  1.26
+  celestialSources/src/mainpage.h  1.1.1.1
+  celestialSources/src/TRandom4.cxx  1.2
+  celestialSources/src/SpectrumFactoryLoader.cxx  1.15
+  celestialSources/src/test/test.cxx  1.1
+  celestialSources/ChangeLog  1.138
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r1p5, operation: add
+Package: celestialSources
 User: jchiang  Wed May 17 11:54:51 2006
 Files:
   celestialSources/celestialSources/SpectrumFactoryLoader.h  1.2
