@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed May 17 11:54:23 PDT 2006
+celestialSources/celestialSources
+
+Modified Files:
+	TRandom4.h 
+Log Message:
+clean up TRandom4 comments and usage; tagging v1r1p5
+    *
+------------------------------------------------------------
 User: jchiang  Mon Apr 10 08:10:22 PDT 2006
 celestialSources/src
 
