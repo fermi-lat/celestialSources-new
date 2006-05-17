@@ -3,8 +3,6 @@
 #include <vector>
 #include <fstream>
 #include <time.h>
-//#include <strings.h>
-
 
 #include "TROOT.h"
 #include "TApplication.h"
@@ -30,9 +28,9 @@ const double nLoops = 970787;//=1day of Vela;
 
 //////////////////////////////////////////////////
 
-TH2D *Load(std::string name="pulsar.root")
+TH2D *Load(char name[100]="pulsar.root")
 {
-  TFile *mod = new TFile(name.c_str());
+  TFile *mod = new TFile(name);
   TH2D *Nv = (TH2D*) mod->Get("Nv"); //ph m^(-2) s^(-1) keV^(-1)
     
   TMIN = Nv->GetXaxis()->GetXmin();
@@ -67,14 +65,7 @@ void MakePulsar()
 }//[in-charge]
 
 
-//Make a Poisson distribution
-Double_t poissonf(Double_t*x,Double_t*par)                                         
-{                                                                              
-  return par[0]*TMath::Poisson(x[0],par[1]);
-} 
-
-//void PlotPulsar(double enph = 0,char name[100]="pulsar.root")
-void PlotPulsar(double enph = 0,std::string name="pulsar.root")
+void PlotPulsar(double enph = 0,char name[100]="pulsar.root")
 {
 
   std::cout << "\n**** Plotting Pulsar Simulator Results..." << std::endl;
@@ -150,25 +141,6 @@ void PlotPulsar(double enph = 0,std::string name="pulsar.root")
   TCanvas *csp = new TCanvas("csp","csp");
   csp->SetLogx();
   csp->SetLogy();
-
-  //Canvas for intervl distribution
-
-  TCanvas *cInt = new TCanvas("cInt","Interval",600,800);
-  cInt->Divide(1,2);
-  cInt->cd(1);
-  gPad->SetLogy();
-
-  double RunLength = 150.; //lenght of single run in seconds
-  int RunCounts =0; // count in a Single Run;
-  double RunTime = 0.; //current time in a single run;
-  TH1D *hInt = new TH1D("hInt","Interval Distribution",250,0.,500);
-  TH1D *hRun = new TH1D("hRun","Counts in a Run",50,0.,100.);
-
-  TF1 *pois = new TF1("pois",poissonf,0,100,2); // x in [0;10], 2parameters                  
-  pois->SetParName(0,"Const");                                                
-  pois->SetParName(1,"#mu");    
-  pois->SetParameter(0,1);                                              
-  pois->SetParameter(1,18); 
 
   //Init lightCurves
 
@@ -254,11 +226,6 @@ void PlotPulsar(double enph = 0,std::string name="pulsar.root")
       double flux;
       int i = 0;
       time = sp->interval(0.0,enph); // s
-      //Fill histogram with first interval 
-      hInt->Fill(time);
-      RunTime+=time;
-      RunCounts++;
-
       std::cout << "Extracting photon above " << enph << std::endl;
 
 
@@ -266,22 +233,6 @@ void PlotPulsar(double enph = 0,std::string name="pulsar.root")
       while(time < nLoops*TMAX && time>=0)
 	{
 	  Interval = sp->interval(time,enph); // s  
-	  //Fill Interval distribution
-	  hInt->Fill(Interval);
-
-	  //test poisson distribution
-	  if (RunTime > RunLength)
-	    {
-	      RunTime =0.;
-	      hRun->Fill(RunCounts);
-	      RunCounts=0;
-	    }
-
-	  RunTime+=Interval;
-	  RunCounts++;
-
-
-
 	  energy   = sp->energy(time,enph);   // keV
 	  flux     = sp->flux(time,enph);     // ph/s
 	  
@@ -329,18 +280,6 @@ void PlotPulsar(double enph = 0,std::string name="pulsar.root")
       Counts->SetStats(1);
       Counts->Draw("E1same");
       Counts->SetStats(1);
-
-      cInt->cd(1);
-      gStyle->SetStatFontSize(0.05);
-      gStyle->SetOptFit(1111);
-      hInt->Fit("expo");
-      hInt->Draw();
-
-      cInt->cd(2);
-      gStyle->SetOptFit(1111);
-      hRun->Fit("pois");
-      hRun->Draw();
-      
     }
 
   TLegend *lcleg = new TLegend(0.30,0.89,0.88,1.0);
@@ -372,8 +311,8 @@ void PlotPulsar(double enph = 0,std::string name="pulsar.root")
 
 
   
-      //  int en2 = Fv->GetXaxis()->FindBin(EnNormMin);
-      //  int en3 = Fv->GetXaxis()->FindBin(EnNormMax);
+      int en2 = Fv->GetXaxis()->FindBin(EnNormMin);
+      int en3 = Fv->GetXaxis()->FindBin(EnNormMax);
       std::cout<<" Photons Extracted : = "<<Lc->GetEntries()<<std::endl;
       //std::cout<<" flux (exp)        : = "<<Counts->Integral(en2,en3)/(1e4*nLoops*AreaDetector)<<" ph/m^2"<<std::endl;
       //std::cout<<" flux (exp)        : = "<<Counts->Integral(0,EBIN,"width")*1.0e-7/erg2meV<<" erg/cm^2"<<std::endl;
@@ -391,7 +330,7 @@ void PlotPulsar(double enph = 0,std::string name="pulsar.root")
 
       Lc->Draw("epsame");            
 
-      std::cout << " Photon expecteed : " << Lct_EXT->Integral(0,TBIN) << "+/-" << sqrt(Lct_EXT->Integral(0,TBIN)) << " ph." << std::endl;  
+      std::cout << " Photon expecteed : " << Lct_EXT->Integral(0,TBIN) << " ph. " << std::endl;  
 
     } 
   else
@@ -452,21 +391,9 @@ int main(int argc, char** argv)
 
   
 
-  //  char name[100];
-  //  sprintf(name,"PsrOutput/PSRVELAroot.root");
+  char name[100];
+  sprintf(name,"PSRVELAroot.root");
   
-  //Redirect output to a subdirectory
-  //const char * pulsarOutDir = ::getenv("PULSAROUTFILES");
-  std::string pulsarOutDir = ::getenv("PULSAROUTFILES");
-
-  std::string name;
-
-  // override obssim if running in Gleam environment
-  if( pulsarOutDir!=0) 
-    name = pulsarOutDir + "/PSRVELAroot.root";
-  else
-    name = "PSRVELAroot.root";
-
   std::cout << "**  Photons simulated on a period of " << Period*nLoops << " s. " << std::endl;
   PlotPulsar(enph,name);  
 
