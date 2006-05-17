@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed May 17 11:54:25 PDT 2006
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+clean up TRandom4 comments and usage; tagging v1r1p5
+    *
+------------------------------------------------------------
+User: jchiang  Wed May 17 11:54:25 PDT 2006
 celestialSources/doc
 
 Modified Files:
