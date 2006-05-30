@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: cohen  Tue May 30 10:53:43 PDT 2006
+celestialSources/genericSources/xml
+
+Modified Files:
+	source_library.xml 
+Log Message:
+cosmetic changes, documentation added, XML library modified so that the particle_name is set to gamma
+
+    *
+------------------------------------------------------------
+User: cohen  Tue May 30 10:53:43 PDT 2006
 celestialSources/genericSources/src/test
 
 Modified Files:
