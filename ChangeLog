@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Tue May 30 10:53:42 PDT 2006
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	FileSpectrumMap.h TF1Map.h TF1Spectrum.h 
+Log Message:
+cosmetic changes, documentation added, XML library modified so that the particle_name is set to gamma
+
+    *
+------------------------------------------------------------
 User: jchiang  Wed May 24 08:06:13 PDT 2006
 celestialSources/pySources/cmt
 
