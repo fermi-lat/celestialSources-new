@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: cohen  Wed Jun  7 16:18:19 PDT 2006
+celestialSources/DarkMatter/src
+
+Added Files:
+	LineOfSight.cxx LineOfSight.h Profile.cxx globals.h 
+	haloProfile.cxx 
+Log Message:
+adding code to compute profile
+
+    *
+------------------------------------------------------------
 User: cohen  Wed Jun  7 16:18:18 PDT 2006
 celestialSources/DarkMatter/DarkMatter
 
