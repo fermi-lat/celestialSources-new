@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Thu Jun  8 22:32:20 PDT 2006
+celestialSources/genericSources/src
+
+Modified Files:
+	FileSpectrum.cxx 
+Log Message:
+major refactoring of FileSpectrum internals
+    *
+------------------------------------------------------------
+User: jchiang  Thu Jun  8 22:32:20 PDT 2006
 celestialSources/genericSources/genericSources
 
 Modified Files:
