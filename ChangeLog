@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Jun 11 15:19:24 PDT 2006
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+more FileSpectrum refactoring; tagging v1r6p12
+    *
+------------------------------------------------------------
 User: jchiang  Sat Jun 10 17:09:39 PDT 2006
 celestialSources/genericSources/src
 
