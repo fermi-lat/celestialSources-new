@@ -78,7 +78,6 @@ class PulsarSpectrum : public ISpectrum
 
   //! direction, taken from PulsarSim
   inline std::pair<double,double>
-    
     dir(double energy) 
     {
       return m_GalDir;
@@ -103,7 +102,7 @@ class PulsarSpectrum : public ISpectrum
   astro::SolarSystem m_solSys;
  
   astro::SkyDir m_PulsarDir;
-  CLHEP::Hep3Vector m_PulsarVectDir;
+  Hep3Vector m_PulsarVectDir;
 
   std::pair<double,double> m_GalDir;
   
