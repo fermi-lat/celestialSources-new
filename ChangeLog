@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Sun Jun 11 15:19:24 PDT 2006
+celestialSources/genericSources/src
+
+Modified Files:
+	FileSpectrum.cxx 
+Log Message:
+more FileSpectrum refactoring; tagging v1r6p12
+    *
+------------------------------------------------------------
+User: jchiang  Sun Jun 11 15:19:24 PDT 2006
 celestialSources/genericSources/genericSources
 
 Modified Files:
