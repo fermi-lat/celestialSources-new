@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jun 12 09:43:26 PDT 2006
+celestialSources/genericSources/src
+
+Modified Files:
+	ConstParMap.h FileSpectrum.cxx FitsTransient.cxx MapCube.cxx 
+	MapSource.cxx SpectralTransient.cxx 
+Log Message:
+new ConstParMap constructor
+    *
+------------------------------------------------------------
 User: razzano  Mon Jun 12 01:21:02 PDT 2006
 celestialSources/Pulsar/xml
 
