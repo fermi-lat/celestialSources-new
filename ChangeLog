@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon Jun 12 01:21:02 PDT 2006
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+PulsarShape added in PulsarSpectrum
+    *
+------------------------------------------------------------
 User: jchiang  Sun Jun 11 15:33:14 PDT 2006
 celestialSources/genericSources/cmt
 
