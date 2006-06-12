@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Mon Jun 12 01:21:02 PDT 2006
+celestialSources/Pulsar/xml
+
+Modified Files:
+	Pulsar_user_library.xml 
+Log Message:
+PulsarShape added in PulsarSpectrum
+    *
+------------------------------------------------------------
+User: razzano  Mon Jun 12 01:21:02 PDT 2006
 celestialSources/Pulsar/src
 
 Modified Files:
