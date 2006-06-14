@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Jun 14 07:58:08 PDT 2006
+celestialSources/Pulsar/src/test/other
+
+Modified Files:
+	PulsarROOTtest.cxx 
+Log Message:
+PulsarShape added to PulsarSpectrum
+    *
+------------------------------------------------------------
 User: razzano  Wed Jun 14 07:58:07 PDT 2006
 celestialSources/Pulsar/doc
 
