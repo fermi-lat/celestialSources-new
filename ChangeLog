@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Thu Jun 15 00:19:14 PDT 2006
+celestialSources/DarkMatter/src
+
+Modified Files:
+	LineOfSight.cxx LineOfSight.h makeMap.cxx 
+Log Message:
+a few improvements
+
+    *
+------------------------------------------------------------
 User: cohen  Wed Jun 14 19:04:49 PDT 2006
 celestialSources/DarkMatter/src
 
