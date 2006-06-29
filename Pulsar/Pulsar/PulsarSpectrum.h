@@ -78,7 +78,6 @@ class PulsarSpectrum : public ISpectrum
 
   //! direction, taken from PulsarSim
   inline std::pair<double,double>
-    
     dir(double energy) 
     {
       return m_GalDir;
@@ -103,14 +102,13 @@ class PulsarSpectrum : public ISpectrum
   astro::SolarSystem m_solSys;
  
   astro::SkyDir m_PulsarDir;
-  CLHEP::Hep3Vector m_PulsarVectDir;
+  Hep3Vector m_PulsarVectDir;
 
   std::pair<double,double> m_GalDir;
   
   const std::string& m_params; 
   
   std::string m_PSRname;
-  std::string m_PSRShapeName;
   
   bool m_ff;
 
@@ -119,7 +117,7 @@ class PulsarSpectrum : public ISpectrum
   std::string m_ephemType;
   std::vector<double> m_periodVect, m_pdotVect, m_p2dotVect, m_f0Vect, m_f1Vect, m_f2Vect, m_phi0Vect, m_t0Vect, m_t0InitVect, m_t0EndVect, m_txbaryVect;
   
-  int m_ppar0;
+  int m_numpeaks;
   int m_model;
   double m_flux, m_enphmin, m_enphmax;
   int m_seed;
