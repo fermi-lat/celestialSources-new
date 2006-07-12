@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Wed Jul 12 06:18:19 PDT 2006
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx 
+Log Message:
+Fixed GRBdate
+
+    *
+------------------------------------------------------------
 User: omodei  Wed Jul 12 06:18:18 PDT 2006
 celestialSources/GRBtemplate/cmt
 
