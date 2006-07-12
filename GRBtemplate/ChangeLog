@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: omodei  Wed Jul 12 06:18:18 PDT 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	cleanup.csh cleanup.sh requirements rh9_gcc32.make setup.csh 
+	setup.sh 
+Log Message:
+Fixed GRBdate
+
+    *
+------------------------------------------------------------
+User: omodei  Wed Jul 12 06:18:18 PDT 2006
 celestialSources/GRBtemplate/GRBtemplate
 
 Modified Files:
