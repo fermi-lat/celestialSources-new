@@ -1,0 +1,1963 @@
+------------------------------------------------------------
+TAG
+Tag name: v2r1p1, operation: add
+Package: GRBobs
+User: cohen  Tue Nov 29 13:23:08 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.159
+  GRBobs/GRBobs/GRBobsmanager.h  1.13
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/SpectralComponent.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.7
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.15
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.7
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.9
+  GRBobs/src/GRBobsConstants.cxx  1.18
+  GRBobs/src/GRBobsmanager.cxx  1.24
+  GRBobs/src/SpectralComponet.cxx  1.1
+  GRBobs/src/GRBobsengine.cxx  1.9
+  GRBobs/src/GRBobsSim.cxx  1.18
+  GRBobs/src/LoadTree.C  1.3
+  GRBobs/src/test/testGRB.cxx  1.2
+  GRBobs/src/test/GRBParam.txt  1.22
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.23
+
+    *
+------------------------------------------------------------
+User: cohen  Tue Nov 29 12:42:13 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+modify getGRBname in order to use info from missionStart and Spectrum::startTime()
+
+    *
+------------------------------------------------------------
+User: cohen  Mon Nov 28 20:29:33 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+attempt at a fix to the time issue with the rotation: GRBobsmanager now inherits from Spectrum, and uses Spectrum::startTime() to get the launch time
+
+    *
+------------------------------------------------------------
+User: cohen  Mon Nov 28 20:29:33 PST 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsmanager.h 
+Log Message:
+attempt at a fix to the time issue with the rotation: GRBobsmanager now inherits from Spectrum, and uses Spectrum::startTime() to get the launch time
+
+    *
+------------------------------------------------------------
+User: omodei  Fri Nov 11 02:25:15 PST 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C SWIFT_bursts.xml 
+Log Message:
+Changed library, make more readable
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov  9 03:18:40 PST 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Added Files:
+	GRBobs_user_library_Z.xml GRBobs_user_library_noZ.xml 
+	SWIFT_bursts.xml 
+Log Message:
+Modified the libraries
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov  9 03:18:38 PST 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Modified the libraries
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov  9 03:18:38 PST 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Modified the libraries
+    *
+------------------------------------------------------------
+TAG
+Tag name: v2r1, operation: add
+Package: GRBobs
+User: omodei  Wed Oct 19 09:46:49 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.151
+  GRBobs/GRBobs/GRBobsmanager.h  1.12
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/SpectralComponent.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.7
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.15
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.7
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.9
+  GRBobs/src/GRBobsConstants.cxx  1.18
+  GRBobs/src/GRBobsmanager.cxx  1.22
+  GRBobs/src/SpectralComponet.cxx  1.1
+  GRBobs/src/GRBobsengine.cxx  1.9
+  GRBobs/src/GRBobsSim.cxx  1.18
+  GRBobs/src/LoadTree.C  1.3
+  GRBobs/src/test/testGRB.cxx  1.2
+  GRBobs/src/test/GRBParam.txt  1.21
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.22
+  GRBobs/xml/GenerateXMLLibrary.C  1.17
+  GRBobs/xml/GRBobs_user_library.xml  1.21
+
+    *
+------------------------------------------------------------
+User: omodei  Wed Oct 19 09:46:22 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+Bug fixed for the redshift dependence
+    *
+------------------------------------------------------------
+TAG
+Tag name: v2r0p4, operation: add
+Package: GRBobs
+User: omodei  Wed Oct 19 08:24:55 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.142
+  GRBobs/GRBobs/GRBobsmanager.h  1.12
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/SpectralComponent.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.7
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.15
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.7
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.9
+  GRBobs/src/GRBobsConstants.cxx  1.18
+  GRBobs/src/GRBobsmanager.cxx  1.21
+  GRBobs/src/SpectralComponet.cxx  1.1
+  GRBobs/src/GRBobsengine.cxx  1.9
+  GRBobs/src/GRBobsSim.cxx  1.18
+  GRBobs/src/LoadTree.C  1.3
+  GRBobs/src/test/testGRB.cxx  1.2
+  GRBobs/src/test/GRBParam.txt  1.21
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.22
+  GRBobs/xml/GenerateXMLLibrary.C  1.17
+  GRBobs/xml/GRBobs_user_library.xml  1.21
+
+    *
+------------------------------------------------------------
+User: omodei  Wed Oct 19 08:24:14 PDT 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Change SpectrObj version required
+    *
+------------------------------------------------------------
+TAG
+Tag name: v2r0p2, operation: add
+Package: GRBobs
+User: omodei  Fri Oct 14 07:08:32 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.142
+  GRBobs/GRBobs/GRBobsmanager.h  1.12
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/SpectralComponent.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.7
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.15
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.6
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.9
+  GRBobs/src/GRBobsConstants.cxx  1.18
+  GRBobs/src/GRBobsmanager.cxx  1.21
+  GRBobs/src/SpectralComponet.cxx  1.1
+  GRBobs/src/GRBobsengine.cxx  1.9
+  GRBobs/src/GRBobsSim.cxx  1.18
+  GRBobs/src/LoadTree.C  1.3
+  GRBobs/src/test/testGRB.cxx  1.2
+  GRBobs/src/test/GRBParam.txt  1.21
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.22
+  GRBobs/xml/GenerateXMLLibrary.C  1.17
+  GRBobs/xml/GRBobs_user_library.xml  1.21
+
+    *
+------------------------------------------------------------
+User: omodei  Fri Oct 14 07:07:35 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Added time and energy dilation due to the redshift
+    *
+------------------------------------------------------------
+User: omodei  Fri Oct 14 07:07:34 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt testGRB.cxx 
+Log Message:
+Added time and energy dilation due to the redshift
+    *
+------------------------------------------------------------
+User: omodei  Fri Oct 14 07:07:33 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx 
+Log Message:
+Added time and energy dilation due to the redshift
+    *
+------------------------------------------------------------
+User: omodei  Fri Oct 14 07:07:33 PDT 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Added time and energy dilation due to the redshift
+    *
+------------------------------------------------------------
+TAG
+Tag name: v2r0p1, operation: add
+Package: GRBobs
+User: omodei  Fri Oct 14 03:31:29 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.142
+  GRBobs/GRBobs/GRBobsmanager.h  1.12
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/SpectralComponent.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.7
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.15
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.5
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.9
+  GRBobs/src/GRBobsConstants.cxx  1.17
+  GRBobs/src/GRBobsmanager.cxx  1.21
+  GRBobs/src/SpectralComponet.cxx  1.1
+  GRBobs/src/GRBobsengine.cxx  1.9
+  GRBobs/src/GRBobsSim.cxx  1.17
+  GRBobs/src/LoadTree.C  1.3
+  GRBobs/src/test/testGRB.cxx  1.1
+  GRBobs/src/test/GRBParam.txt  1.20
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.22
+  GRBobs/xml/GenerateXMLLibrary.C  1.16
+  GRBobs/xml/GRBobs_user_library.xml  1.20
+
+    *
+------------------------------------------------------------
+User: omodei  Thu Oct 13 09:22:32 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Fluence and Peak flux normalization available.
+    *
+------------------------------------------------------------
+User: omodei  Thu Oct 13 09:22:31 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Fluence and Peak flux normalization available.
+    *
+------------------------------------------------------------
+User: omodei  Thu Oct 13 09:22:30 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsmanager.cxx 
+Log Message:
+Fluence and Peak flux normalization available.
+    *
+------------------------------------------------------------
+User: omodei  Thu Oct 13 09:22:30 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+Fluence and Peak flux normalization available.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 10 06:38:10 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Add useful information for SWIFT output as well as redshift attenuation
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 10 06:38:08 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add useful information for SWIFT output as well as redshift attenuation
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 10 06:38:08 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Add useful information for SWIFT output as well as redshift attenuation
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 10 06:38:08 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsmanager.cxx 
+Log Message:
+Add useful information for SWIFT output as well as redshift attenuation
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 10 06:38:07 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsmanager.h 
+Log Message:
+Add useful information for SWIFT output as well as redshift attenuation
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct  3 06:05:07 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Added SWIFT informations
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct  3 06:05:06 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx 
+Log Message:
+Added SWIFT informations
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct  3 06:05:06 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+Added SWIFT informations
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct  3 01:24:28 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx 
+Log Message:
+changed output file names for GBM
+    *
+------------------------------------------------------------
+User: omodei  Wed Sep  7 03:18:42 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GenerateXMLLibrary.C 
+Log Message:
+remove stat box from plot
+    *
+------------------------------------------------------------
+TAG
+Tag name: v2r0p0, operation: add
+Package: GRBobs
+User: omodei  Mon Aug 22 07:51:23 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.124
+  GRBobs/GRBobs/GRBobsmanager.h  1.11
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/SpectralComponent.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.7
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.12
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.5
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.9
+  GRBobs/src/GRBobsConstants.cxx  1.15
+  GRBobs/src/GRBobsmanager.cxx  1.19
+  GRBobs/src/SpectralComponet.cxx  1.1
+  GRBobs/src/GRBobsengine.cxx  1.9
+  GRBobs/src/GRBobsSim.cxx  1.15
+  GRBobs/src/LoadTree.C  1.3
+  GRBobs/src/test/testGRB.cxx  1.1
+  GRBobs/src/test/GRBParam.txt  1.18
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.20
+  GRBobs/xml/GenerateXMLLibrary.C  1.13
+  GRBobs/xml/GRBobs_user_library.xml  1.18
+
+    *
+------------------------------------------------------------
+User: omodei  Mon Aug 22 07:50:54 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Remove a cout
+    *
+------------------------------------------------------------
+User: omodei  Mon Aug 22 07:50:54 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Remove a cout
+    *
+------------------------------------------------------------
+User: omodei  Mon Aug 22 07:50:53 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx 
+Log Message:
+Remove a cout
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r4p5, operation: add
+Package: GRBobs
+User: omodei  Mon Aug 22 07:00:01 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.118
+  GRBobs/GRBobs/GRBobsmanager.h  1.11
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/SpectralComponent.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.7
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.12
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.5
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.9
+  GRBobs/src/GRBobsConstants.cxx  1.15
+  GRBobs/src/GRBobsmanager.cxx  1.19
+  GRBobs/src/SpectralComponet.cxx  1.1
+  GRBobs/src/GRBobsengine.cxx  1.9
+  GRBobs/src/GRBobsSim.cxx  1.14
+  GRBobs/src/LoadTree.C  1.3
+  GRBobs/src/test/testGRB.cxx  1.1
+  GRBobs/src/test/GRBParam.txt  1.17
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.20
+  GRBobs/xml/GenerateXMLLibrary.C  1.12
+  GRBobs/xml/GRBobs_user_library.xml  1.17
+
+    *
+------------------------------------------------------------
+User: omodei  Mon Aug 22 06:59:37 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Change FoV and library
+    *
+------------------------------------------------------------
+User: omodei  Mon Aug 22 06:59:36 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Change FoV and library
+    *
+------------------------------------------------------------
+User: omodei  Mon Aug 22 06:59:36 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Change FoV and library
+    *
+------------------------------------------------------------
+User: omodei  Mon Aug 22 06:59:36 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+Change FoV and library
+    *
+------------------------------------------------------------
+User: omodei  Mon Aug 22 06:59:36 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+Change FoV and library
+    *
+------------------------------------------------------------
+User: omodei  Fri Aug 12 06:36:13 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml 
+Log Message:
+add different lat flux in the test prog
+    *
+------------------------------------------------------------
+User: omodei  Fri Aug 12 06:36:12 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+add different lat flux in the test prog
+    *
+------------------------------------------------------------
+User: omodei  Fri Aug 12 06:36:12 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+add different lat flux in the test prog
+    *
+------------------------------------------------------------
+User: omodei  Fri Aug 12 06:36:11 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx LoadTree.C 
+Log Message:
+add different lat flux in the test prog
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug 11 07:37:37 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Redo the random orientation in the sky
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug 11 07:37:36 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Redo the random orientation in the sky
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug 11 07:37:36 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Redo the random orientation in the sky
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug 11 07:37:36 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx GRBobsengine.cxx 
+	GRBobsmanager.cxx LoadTree.C 
+Log Message:
+Redo the random orientation in the sky
+    *
+------------------------------------------------------------
+User: omodei  Thu Aug 11 07:37:36 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsmanager.h 
+Log Message:
+Redo the random orientation in the sky
+    *
+------------------------------------------------------------
+User: omodei  Tue Aug  9 11:20:14 PDT 2005
+celestialSources/GRBobs/src
+
+Added Files:
+	LoadTree.C 
+Log Message:
+Add a root macro for visualizeing the tree creatd by the test program
+    *
+------------------------------------------------------------
+User: omodei  Tue Aug  9 11:17:19 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Add the high energy extra component and a GRB test program
+    *
+------------------------------------------------------------
+User: omodei  Tue Aug  9 11:17:18 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add the high energy extra component and a GRB test program
+    *
+------------------------------------------------------------
+User: omodei  Tue Aug  9 11:17:18 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Added Files:
+	testGRB.cxx 
+Log Message:
+Add the high energy extra component and a GRB test program
+    *
+------------------------------------------------------------
+User: omodei  Tue Aug  9 11:17:17 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx GRBobsengine.cxx 
+	GRBobsmanager.cxx 
+Added Files:
+	SpectralComponet.cxx 
+Log Message:
+Add the high energy extra component and a GRB test program
+    *
+------------------------------------------------------------
+User: omodei  Tue Aug  9 11:17:17 PDT 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Add the high energy extra component and a GRB test program
+    *
+------------------------------------------------------------
+User: omodei  Tue Aug  9 11:17:17 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsSim.h GRBobsmanager.h 
+Added Files:
+	SpectralComponent.h 
+Log Message:
+Add the high energy extra component and a GRB test program
+    *
+------------------------------------------------------------
+User: omodei  Fri Jul  8 11:11:10 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+new Generate library
+    *
+------------------------------------------------------------
+User: omodei  Fri Jul  8 11:11:09 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+new Generate library
+    *
+------------------------------------------------------------
+User: omodei  Fri Jul  8 11:11:09 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+new Generate library
+    *
+------------------------------------------------------------
+User: omodei  Fri Jul  8 11:11:09 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+new Generate library
+    *
+------------------------------------------------------------
+User: omodei  Mon Jul  4 07:59:43 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx 
+Log Message:
+Normalization to PF corrected
+    *
+------------------------------------------------------------
+User: omodei  Mon Jul  4 07:59:42 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+Normalization to PF corrected
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p4, operation: add
+Package: GRBobs
+User: omodei  Thu Jun 23 12:16:41 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.95
+  GRBobs/GRBobs/GRBobsmanager.h  1.9
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/GRBobsSim.h  1.6
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.8
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.4
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.9
+  GRBobs/src/GRBobsConstants.cxx  1.12
+  GRBobs/src/GRBobsmanager.cxx  1.15
+  GRBobs/src/GRBobsengine.cxx  1.7
+  GRBobs/src/GRBobsSim.cxx  1.10
+  GRBobs/src/test/GRBParam.txt  1.12
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.15
+  GRBobs/xml/GenerateXMLLibrary.C  1.8
+  GRBobs/xml/GRBobs_user_library.xml  1.12
+
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 12:15:58 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx 
+Log Message:
+removing a std::cout
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p3, operation: add
+Package: GRBobs
+User: omodei  Thu Jun 23 12:09:57 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.93
+  GRBobs/GRBobs/GRBobsmanager.h  1.9
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/GRBobsSim.h  1.6
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.8
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.4
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.9
+  GRBobs/src/GRBobsConstants.cxx  1.11
+  GRBobs/src/GRBobsmanager.cxx  1.15
+  GRBobs/src/GRBobsengine.cxx  1.7
+  GRBobs/src/GRBobsSim.cxx  1.10
+  GRBobs/src/test/GRBParam.txt  1.12
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.15
+  GRBobs/xml/GenerateXMLLibrary.C  1.8
+  GRBobs/xml/GRBobs_user_library.xml  1.12
+
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 12:09:23 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+remove a DEBUG flag
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p2, operation: add
+Package: GRBobs
+User: omodei  Thu Jun 23 10:43:43 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.91
+  GRBobs/GRBobs/GRBobsmanager.h  1.9
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/GRBobsSim.h  1.6
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.8
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.9
+  GRBobs/src/GRBobsConstants.cxx  1.11
+  GRBobs/src/GRBobsmanager.cxx  1.14
+  GRBobs/src/GRBobsengine.cxx  1.7
+  GRBobs/src/GRBobsSim.cxx  1.10
+  GRBobs/src/test/GRBParam.txt  1.12
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.15
+  GRBobs/xml/GenerateXMLLibrary.C  1.8
+  GRBobs/xml/GRBobs_user_library.xml  1.12
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p2, operation: add
+Package: GRBobs
+User: omodei  Thu Jun 23 10:42:13 2005
+Files:
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.4
+
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 10:41:24 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Modify some distributions. Stretch as a function of the peak flux included.
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 10:41:23 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Modify some distributions. Stretch as a function of the peak flux included.
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 10:41:22 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Modify some distributions. Stretch as a function of the peak flux included.
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 10:41:22 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsSim.cxx 
+	GRBobsengine.cxx GRBobsmanager.cxx 
+Log Message:
+Modify some distributions. Stretch as a function of the peak flux included.
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 10:41:22 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsmanager.h 
+Log Message:
+Modify some distributions. Stretch as a function of the peak flux included.
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p1, operation: add
+Package: GRBobs
+User: burnett  Wed Jun 15 15:03:10 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.81
+  GRBobs/GRBobs/GRBobsmanager.h  1.8
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/GRBobsSim.h  1.6
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.7
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.4
+  GRBobs/doc/release.notes  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.8
+  GRBobs/src/GRBobsConstants.cxx  1.10
+  GRBobs/src/GRBobsmanager.cxx  1.13
+  GRBobs/src/GRBobsengine.cxx  1.6
+  GRBobs/src/GRBobsSim.cxx  1.9
+  GRBobs/src/test/GRBParam.txt  1.11
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.14
+  GRBobs/xml/GenerateXMLLibrary.C  1.7
+  GRBobs/xml/GRBobs_user_library.xml  1.11
+
+    *
+------------------------------------------------------------
+User: burnett  Wed Jun 15 14:54:40 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+minor fix for  GPS move to astro namespace
+    *
+------------------------------------------------------------
+User: burnett  Wed Jun 15 14:54:40 PDT 2005
+celestialSources/GRBobs/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+minor fix for  GPS move to astro namespace
+    *
+------------------------------------------------------------
+User: burnett  Wed Jun 15 14:54:40 PDT 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+minor fix for  GPS move to astro namespace
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p0, operation: add
+Package: GRBobs
+User: omodei  Tue May  3 09:03:06 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.80
+  GRBobs/GRBobs/GRBobsmanager.h  1.8
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/GRBobsSim.h  1.6
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.7
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.3
+  GRBobs/doc/release.notes  1.1
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.8
+  GRBobs/src/GRBobsConstants.cxx  1.10
+  GRBobs/src/GRBobsmanager.cxx  1.12
+  GRBobs/src/GRBobsengine.cxx  1.6
+  GRBobs/src/GRBobsSim.cxx  1.9
+  GRBobs/src/test/GRBParam.txt  1.11
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.14
+  GRBobs/xml/GenerateXMLLibrary.C  1.7
+  GRBobs/xml/GRBobs_user_library.xml  1.11
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r3p3, operation: add
+Package: GRBobs
+User: omodei  Thu Apr 28 10:18:23 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.79
+  GRBobs/GRBobs/GRBobsmanager.h  1.8
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/GRBobsSim.h  1.6
+  GRBobs/GRBobs/GRBobsengine.h  1.3
+  GRBobs/GRBobs/GRBobsPulse.h  1.4
+  GRBobs/GRBobs/GRBobsConstants.h  1.7
+  GRBobs/cmt/requirements  1.3
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.8
+  GRBobs/src/GRBobsConstants.cxx  1.10
+  GRBobs/src/GRBobsmanager.cxx  1.12
+  GRBobs/src/GRBobsengine.cxx  1.6
+  GRBobs/src/GRBobsSim.cxx  1.9
+  GRBobs/src/test/GRBParam.txt  1.11
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.14
+  GRBobs/xml/GenerateXMLLibrary.C  1.7
+  GRBobs/xml/GRBobs_user_library.xml  1.11
+
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr 28 10:17:21 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx 
+Log Message:
+add cmath for pow and fabs. Tentative windows compatibility.
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr 28 04:14:17 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+add doc and clean code
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr 28 04:14:16 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+add doc and clean code
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr 28 04:14:16 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx GRBobsengine.cxx 
+	GRBobsmanager.cxx 
+Log Message:
+add doc and clean code
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr 28 04:14:16 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsPulse.h GRBobsSim.h GRBobsengine.h 
+	GRBobsmanager.h mainpage.h 
+Log Message:
+add doc and clean code
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r3p2, operation: add
+Package: GRBobs
+User: omodei  Tue Apr 12 02:11:13 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.73
+  GRBobs/GRBobs/GRBobsmanager.h  1.7
+  GRBobs/GRBobs/mainpage.h  1.3
+  GRBobs/GRBobs/GRBobsSim.h  1.5
+  GRBobs/GRBobs/GRBobsengine.h  1.2
+  GRBobs/GRBobs/GRBobsPulse.h  1.3
+  GRBobs/GRBobs/GRBobsConstants.h  1.6
+  GRBobs/cmt/requirements  1.3
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.7
+  GRBobs/src/GRBobsConstants.cxx  1.8
+  GRBobs/src/GRBobsmanager.cxx  1.11
+  GRBobs/src/GRBobsengine.cxx  1.5
+  GRBobs/src/GRBobsSim.cxx  1.8
+  GRBobs/src/test/GRBParam.txt  1.10
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.14
+  GRBobs/xml/GenerateXMLLibrary.C  1.6
+  GRBobs/xml/GRBobs_user_library.xml  1.10
+
+    *
+------------------------------------------------------------
+User: omodei  Tue Apr 12 02:05:29 PDT 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: omodei  Tue Apr 12 02:05:29 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: omodei  Tue Apr 12 02:05:29 PDT 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: omodei  Tue Apr 12 02:05:28 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsengine.cxx 
+	GRBobsmanager.cxx 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: omodei  Tue Apr 12 02:05:28 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsPulse.h GRBobsmanager.h 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: cohen  Sun Apr 10 17:12:34 PDT 2005
+celestialSources/GRBobs/cmt
+
+Removed Files:
+	Makefile 
+Log Message:
+fixes and cosmetics
+
+    *
+------------------------------------------------------------
+User: cohen  Sun Apr 10 17:12:34 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx 
+Log Message:
+fixes and cosmetics
+
+    *
+------------------------------------------------------------
+User: cohen  Sun Apr 10 17:12:33 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+fixes and cosmetics
+
+    *
+------------------------------------------------------------
+User: burnett  Thu Apr  7 07:23:33 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+comment out printout code that does not compile on windows
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r3p1, operation: add
+Package: GRBobs
+User: cohen  Tue Apr  5 16:23:20 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.63
+  GRBobs/GRBobs/GRBobsmanager.h  1.6
+  GRBobs/GRBobs/mainpage.h  1.3
+  GRBobs/GRBobs/GRBobsSim.h  1.5
+  GRBobs/GRBobs/GRBobsengine.h  1.2
+  GRBobs/GRBobs/GRBobsPulse.h  1.2
+  GRBobs/GRBobs/GRBobsConstants.h  1.5
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.3
+  GRBobs/cmt/Makefile  1.1.1.1
+  GRBobs/doc/release.notes  1.1
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.6
+  GRBobs/src/GRBobsConstants.cxx  1.6
+  GRBobs/src/GRBobsmanager.cxx  1.10
+  GRBobs/src/GRBobsengine.cxx  1.4
+  GRBobs/src/GRBobsSim.cxx  1.8
+  GRBobs/src/test/GRBParam.txt  1.9
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.11
+  GRBobs/xml/GenerateXMLLibrary.C  1.5
+  GRBobs/xml/GRBobs_user_library.xml  1.9
+
+    *
+------------------------------------------------------------
+User: cohen  Tue Apr  5 16:22:54 PDT 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsmanager.h 
+Log Message:
+attempt to fix windows build problem and linux corresponding warning, plus an inocuous warning on unsigned int against int comparison
+
+    *
+------------------------------------------------------------
+User: cohen  Tue Apr  5 16:22:53 PDT 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+attempt to fix windows build problem and linux corresponding warning, plus an inocuous warning on unsigned int against int comparison
+
+    *
+------------------------------------------------------------
+User: cohen  Tue Apr  5 16:22:53 PDT 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+attempt to fix windows build problem and linux corresponding warning, plus an inocuous warning on unsigned int against int comparison
+
+    *
+------------------------------------------------------------
+User: cohen  Tue Apr  5 16:21:08 PDT 2005
+celestialSources/GRBobs/doc
+
+Added Files:
+	release.notes 
+Log Message:
+cleanup the package in CVS
+
+    *
+------------------------------------------------------------
+User: cohen  Tue Apr  5 16:21:08 PDT 2005
+celestialSources/GRBobs/cmt
+
+Added Files:
+	.cvsignore 
+Removed Files:
+	setup.sh setup.csh rh9_gcc32.make cleanup.sh cleanup.csh 
+Log Message:
+cleanup the package in CVS
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r3, operation: add
+Package: GRBobs
+User: omodei  Mon Apr  4 09:59:38 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.57
+  GRBobs/GRBobs/GRBobsmanager.h  1.5
+  GRBobs/GRBobs/mainpage.h  1.3
+  GRBobs/GRBobs/GRBobsSim.h  1.5
+  GRBobs/GRBobs/GRBobsengine.h  1.2
+  GRBobs/GRBobs/GRBobsPulse.h  1.2
+  GRBobs/GRBobs/GRBobsConstants.h  1.5
+  GRBobs/cmt/requirements  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.6
+  GRBobs/src/GRBobsConstants.cxx  1.6
+  GRBobs/src/GRBobsmanager.cxx  1.9
+  GRBobs/src/GRBobsengine.cxx  1.4
+  GRBobs/src/GRBobsSim.cxx  1.8
+  GRBobs/src/test/GRBParam.txt  1.9
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.11
+  GRBobs/xml/GenerateXMLLibrary.C  1.5
+  GRBobs/xml/GRBobs_user_library.xml  1.9
+
+    *
+------------------------------------------------------------
+User: omodei  Mon Apr  4 09:58:00 PDT 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Remove some warnings
+    *
+------------------------------------------------------------
+User: omodei  Tue Mar 22 07:49:31 PST 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+use namespace astro::SkyDir for coordinate (GALACTIC), new xml library
+    *
+------------------------------------------------------------
+User: omodei  Tue Mar 22 07:49:31 PST 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+use namespace astro::SkyDir for coordinate (GALACTIC), new xml library
+    *
+------------------------------------------------------------
+User: omodei  Tue Mar 22 07:49:30 PST 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+use namespace astro::SkyDir for coordinate (GALACTIC), new xml library
+    *
+------------------------------------------------------------
+User: omodei  Tue Mar 22 07:49:30 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+use namespace astro::SkyDir for coordinate (GALACTIC), new xml library
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r2p2, operation: add
+Package: GRBobs
+User: omodei  Mon Mar 21 10:10:36 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.27
+  GRBobs/GRBobs/GRBobsmanager.h  1.5
+  GRBobs/GRBobs/mainpage.h  1.3
+  GRBobs/GRBobs/GRBobsSim.h  1.5
+  GRBobs/GRBobs/GRBobsengine.h  1.2
+  GRBobs/GRBobs/GRBobsPulse.h  1.2
+  GRBobs/GRBobs/GRBobsConstants.h  1.5
+  GRBobs/cmt/requirements  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.6
+  GRBobs/src/GRBobsConstants.cxx  1.6
+  GRBobs/src/GRBobsmanager.cxx  1.8
+  GRBobs/src/GRBobsengine.cxx  1.4
+  GRBobs/src/GRBobsSim.cxx  1.8
+  GRBobs/src/test/GRBParam.txt  1.8
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.9
+  GRBobs/xml/GenerateXMLLibrary.C  1.4
+  GRBobs/xml/GRBobs_user_library.xml  1.8
+
+    *
+------------------------------------------------------------
+User: omodei  Mon Mar 21 10:09:48 PST 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Change Param and GRB name convention
+    *
+------------------------------------------------------------
+User: omodei  Mon Mar 21 10:09:48 PST 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Change Param and GRB name convention
+    *
+------------------------------------------------------------
+User: omodei  Mon Mar 21 10:09:48 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+Change Param and GRB name convention
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r2p1, operation: add
+Package: GRBobs
+User: omodei  Thu Mar  3 03:32:54 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.27
+  GRBobs/GRBobs/GRBobsmanager.h  1.5
+  GRBobs/GRBobs/mainpage.h  1.3
+  GRBobs/GRBobs/GRBobsSim.h  1.5
+  GRBobs/GRBobs/GRBobsengine.h  1.2
+  GRBobs/GRBobs/GRBobsPulse.h  1.2
+  GRBobs/GRBobs/GRBobsConstants.h  1.5
+  GRBobs/cmt/requirements  1.2
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.6
+  GRBobs/src/GRBobsConstants.cxx  1.6
+  GRBobs/src/GRBobsmanager.cxx  1.7
+  GRBobs/src/GRBobsengine.cxx  1.4
+  GRBobs/src/GRBobsSim.cxx  1.8
+  GRBobs/src/test/GRBParam.txt  1.7
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.9
+  GRBobs/xml/GenerateXMLLibrary.C  1.3
+  GRBobs/xml/GRBobs_user_library.xml  1.7
+
+    *
+------------------------------------------------------------
+User: omodei  Thu Mar  3 02:54:19 PST 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+GRB generated only in the FOV (SC coordinate are known). Changed parameters. Fitting Procedure ok
+    *
+------------------------------------------------------------
+User: omodei  Thu Mar  3 02:54:19 PST 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+GRB generated only in the FOV (SC coordinate are known). Changed parameters. Fitting Procedure ok
+    *
+------------------------------------------------------------
+User: omodei  Thu Mar  3 02:54:19 PST 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+GRB generated only in the FOV (SC coordinate are known). Changed parameters. Fitting Procedure ok
+    *
+------------------------------------------------------------
+User: omodei  Thu Mar  3 02:54:19 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx GRBobsmanager.cxx 
+Log Message:
+GRB generated only in the FOV (SC coordinate are known). Changed parameters. Fitting Procedure ok
+    *
+------------------------------------------------------------
+User: omodei  Thu Mar  3 02:54:19 PST 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+GRB generated only in the FOV (SC coordinate are known). Changed parameters. Fitting Procedure ok
+    *
+------------------------------------------------------------
+User: omodei  Thu Mar  3 02:54:19 PST 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsSim.h GRBobsmanager.h 
+Log Message:
+GRB generated only in the FOV (SC coordinate are known). Changed parameters. Fitting Procedure ok
+    *
+------------------------------------------------------------
+User: omodei  Thu Feb 24 04:24:46 PST 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Review the BATSE normalization. Preparing for DC2
+    *
+------------------------------------------------------------
+User: omodei  Thu Feb 24 04:24:46 PST 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Review the BATSE normalization. Preparing for DC2
+    *
+------------------------------------------------------------
+User: omodei  Thu Feb 24 04:24:46 PST 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Review the BATSE normalization. Preparing for DC2
+    *
+------------------------------------------------------------
+User: omodei  Thu Feb 24 04:24:46 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx GRBobsmanager.cxx 
+Log Message:
+Review the BATSE normalization. Preparing for DC2
+    *
+------------------------------------------------------------
+User: omodei  Thu Feb 24 04:24:46 PST 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsmanager.h 
+Log Message:
+Review the BATSE normalization. Preparing for DC2
+    *
+------------------------------------------------------------
+User: omodei  Mon Feb 21 03:56:28 PST 2005
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml 
+Added Files:
+	GenerateXMLLibrary.C 
+Log Message:
+Add macro to generate library, remove some cout
+
+    *
+------------------------------------------------------------
+User: omodei  Mon Feb 21 03:56:28 PST 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add macro to generate library, remove some cout
+
+    *
+------------------------------------------------------------
+User: omodei  Mon Feb 21 03:56:28 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsPulse.cxx GRBobsSim.cxx GRBobsengine.cxx 
+	GRBobsmanager.cxx 
+Log Message:
+Add macro to generate library, remove some cout
+
+    *
+------------------------------------------------------------
+User: omodei  Mon Feb 21 03:56:28 PST 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsmanager.h 
+Log Message:
+Add macro to generate library, remove some cout
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r2, operation: add
+Package: GRBobs
+User: omodei  Tue Feb  8 02:11:05 2005
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.27
+  GRBobs/GRBobs/GRBobsmanager.h  1.2
+  GRBobs/GRBobs/mainpage.h  1.3
+  GRBobs/GRBobs/GRBobsSim.h  1.4
+  GRBobs/GRBobs/GRBobsengine.h  1.2
+  GRBobs/GRBobs/GRBobsPulse.h  1.2
+  GRBobs/GRBobs/GRBobsConstants.h  1.4
+  GRBobs/cmt/requirements  1.1.1.1
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.5
+  GRBobs/src/GRBobsConstants.cxx  1.5
+  GRBobs/src/GRBobsmanager.cxx  1.4
+  GRBobs/src/GRBobsengine.cxx  1.3
+  GRBobs/src/GRBobsSim.cxx  1.5
+  GRBobs/src/test/GRBParam.txt  1.5
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.6
+  GRBobs/xml/GRBobs_user_library.xml  1.4
+
+    *
+------------------------------------------------------------
+User: omodei  Tue Feb  8 02:08:10 PST 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+remove obsolete file, add GBM spectrum
+    *
+------------------------------------------------------------
+User: omodei  Tue Feb  8 02:08:10 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx 
+Log Message:
+remove obsolete file, add GBM spectrum
+    *
+------------------------------------------------------------
+User: omodei  Tue Feb  8 02:08:10 PST 2005
+celestialSources/GRBobs/cmt
+
+Removed Files:
+      Tag: v0r1p1
+	Makefile cleanup.csh cleanup.sh rh9_gcc32.make setup.csh 
+	setup.sh 
+Log Message:
+remove obsolete file, add GBM spectrum
+    *
+------------------------------------------------------------
+User: omodei  Tue Feb  8 02:08:09 PST 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsSim.h 
+Log Message:
+remove obsolete file, add GBM spectrum
+    *
+------------------------------------------------------------
+User: omodei  Thu Jan 20 02:30:11 PST 2005
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: omodei  Thu Jan 20 02:30:11 PST 2005
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: omodei  Thu Jan 20 02:30:11 PST 2005
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsSim.cxx 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: omodei  Thu Jan 20 02:30:11 PST 2005
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	rh9_gcc32.make 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: omodei  Thu Jan 20 02:30:10 PST 2005
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsSim.h GRBobsengine.h 
+Log Message:
+update the model
+    *
+------------------------------------------------------------
+User: omodei  Tue Dec 14 08:00:55 PST 2004
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml 
+Log Message:
+Reimplemented the Fluence calculation
+    *
+------------------------------------------------------------
+User: omodei  Tue Dec 14 08:00:55 PST 2004
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Reimplemented the Fluence calculation
+    *
+------------------------------------------------------------
+User: omodei  Tue Dec 14 08:00:55 PST 2004
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Reimplemented the Fluence calculation
+    *
+------------------------------------------------------------
+User: omodei  Tue Dec 14 08:00:55 PST 2004
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsSim.cxx 
+	GRBobsengine.cxx GRBobsmanager.cxx 
+Log Message:
+Reimplemented the Fluence calculation
+    *
+------------------------------------------------------------
+User: omodei  Tue Dec 14 08:00:55 PST 2004
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h mainpage.h 
+Log Message:
+Reimplemented the Fluence calculation
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 10 10:19:05 PST 2004
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml 
+Log Message:
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 10 10:19:05 PST 2004
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 10 10:19:05 PST 2004
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 10 10:19:05 PST 2004
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsSim.cxx 
+	GRBobsmanager.cxx 
+Log Message:
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 10 10:19:05 PST 2004
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	rh9_gcc32.make 
+Log Message:
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 10 10:19:05 PST 2004
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsSim.h mainpage.h 
+Log Message:
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r1p1, operation: add
+Package: GRBobs
+User: omodei  Thu Dec  9 10:31:51 2004
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.1
+  GRBobs/GRBobs/GRBobsmanager.h  1.2
+  GRBobs/GRBobs/mainpage.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.1.1.1
+  GRBobs/GRBobs/GRBobsengine.h  1.1.1.1
+  GRBobs/GRBobs/GRBobsPulse.h  1.2
+  GRBobs/GRBobs/GRBobsConstants.h  1.2
+  GRBobs/cmt/setup.csh  1.2
+  GRBobs/cmt/cleanup.csh  1.2
+  GRBobs/cmt/rh9_gcc32.make  1.1.1.1
+  GRBobs/cmt/requirements  1.1.1.1
+  GRBobs/cmt/cleanup.sh  1.2
+  GRBobs/cmt/setup.sh  1.2
+  GRBobs/cmt/Makefile  1.1.1.1
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.2
+  GRBobs/src/GRBobsConstants.cxx  1.2
+  GRBobs/src/GRBobsmanager.cxx  1.2
+  GRBobs/src/GRBobsengine.cxx  1.2
+  GRBobs/src/GRBobsSim.cxx  1.1.1.1
+  GRBobs/src/test/GRBParam.txt  1.2
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.2
+  GRBobs/xml/GRBobs_user_library.xml  1.2
+
+    *
+------------------------------------------------------------
+User: omodei  Thu Dec  9 10:31:22 PST 2004
+celestialSources/GRBobs/doc
+
+Added Files:
+	Doxyfile 
+Log Message:
+Add doc and Doxyfile
+    *
+------------------------------------------------------------
+User: omodei  Thu Dec  9 10:30:33 PST 2004
+celestialSources/GRBobs/doc
+
+Log Message:
+Directory /nfs/slac/g/glast/ground/cvs/celestialSources/GRBobs/doc added to the repository
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r1, operation: add
+Package: GRBobs
+User: omodei  Thu Dec  9 10:29:47 2004
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.1
+  GRBobs/GRBobs/GRBobsmanager.h  1.2
+  GRBobs/GRBobs/mainpage.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.1.1.1
+  GRBobs/GRBobs/GRBobsengine.h  1.1.1.1
+  GRBobs/GRBobs/GRBobsPulse.h  1.2
+  GRBobs/GRBobs/GRBobsConstants.h  1.2
+  GRBobs/cmt/setup.csh  1.2
+  GRBobs/cmt/cleanup.csh  1.2
+  GRBobs/cmt/rh9_gcc32.make  1.1.1.1
+  GRBobs/cmt/requirements  1.1.1.1
+  GRBobs/cmt/cleanup.sh  1.2
+  GRBobs/cmt/setup.sh  1.2
+  GRBobs/cmt/Makefile  1.1.1.1
+  GRBobs/src/GRBobsPulse.cxx  1.2
+  GRBobs/src/GRBobsConstants.cxx  1.2
+  GRBobs/src/GRBobsmanager.cxx  1.2
+  GRBobs/src/GRBobsengine.cxx  1.2
+  GRBobs/src/GRBobsSim.cxx  1.1.1.1
+  GRBobs/src/test/GRBParam.txt  1.2
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.2
+  GRBobs/xml/GRBobs_user_library.xml  1.2
+
+    *
+------------------------------------------------------------
+User: omodei  Thu Dec  9 10:28:34 PST 2004
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml 
+Log Message:
+Add mainpage.h and some cleaning
+    *
+------------------------------------------------------------
+User: omodei  Thu Dec  9 10:28:34 PST 2004
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add mainpage.h and some cleaning
+    *
+------------------------------------------------------------
+User: omodei  Thu Dec  9 10:28:34 PST 2004
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Add mainpage.h and some cleaning
+    *
+------------------------------------------------------------
+User: omodei  Thu Dec  9 10:28:34 PST 2004
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsengine.cxx 
+	GRBobsmanager.cxx 
+Log Message:
+Add mainpage.h and some cleaning
+    *
+------------------------------------------------------------
+User: omodei  Thu Dec  9 10:28:34 PST 2004
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	cleanup.csh cleanup.sh setup.csh setup.sh 
+Log Message:
+Add mainpage.h and some cleaning
+    *
+------------------------------------------------------------
+User: omodei  Thu Dec  9 10:28:34 PST 2004
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsPulse.h GRBobsmanager.h 
+Added Files:
+	mainpage.h 
+Log Message:
+Add mainpage.h and some cleaning
+    *
+------------------------------------------------------------
+User: omodei  Mon Dec  6 02:26:02 PST 2004
+celestialSources/GRBobs
+
+Log Message:
+First import of new GRB obs sim
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N celestialSources/GRBobs/.cvsignore
+N celestialSources/GRBobs/cmt/Makefile
+N celestialSources/GRBobs/cmt/requirements
+N celestialSources/GRBobs/cmt/rh9_gcc32.make
+N celestialSources/GRBobs/cmt/setup.csh
+N celestialSources/GRBobs/cmt/setup.sh
+N celestialSources/GRBobs/cmt/cleanup.csh
+N celestialSources/GRBobs/cmt/cleanup.sh
+N celestialSources/GRBobs/src/GRBobsConstants.cxx
+N celestialSources/GRBobs/src/GRBobsengine.cxx
+N celestialSources/GRBobs/src/GRBobsmanager.cxx
+N celestialSources/GRBobs/src/GRBobsPulse.cxx
+N celestialSources/GRBobs/src/GRBobsSim.cxx
+N celestialSources/GRBobs/src/test/GRBParam.txt
+N celestialSources/GRBobs/src/test/other/compile.C
+N celestialSources/GRBobs/src/test/other/GRBROOTtest.cxx
+N celestialSources/GRBobs/GRBobs/GRBobsengine.h
+N celestialSources/GRBobs/GRBobs/GRBobsPulse.h
+N celestialSources/GRBobs/GRBobs/GRBobsSim.h
+N celestialSources/GRBobs/GRBobs/GRBobsConstants.h
+N celestialSources/GRBobs/GRBobs/GRBobsmanager.h
+N celestialSources/GRBobs/xml/GRBobs_user_library.xml
+
+No conflicts created by this import
+
+    *
