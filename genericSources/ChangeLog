@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Sep  5 13:08:27 PDT 2006
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+xrb bug fix; tagging v1r6p14
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r6p13, operation: add
 Package: genericSources
