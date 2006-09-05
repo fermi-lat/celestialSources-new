@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Sep  5 13:08:27 PDT 2006
+celestialSources/genericSources/src
+
+Modified Files:
+	SpectralTransient.cxx 
+Log Message:
+xrb bug fix; tagging v1r6p14
+    *
+------------------------------------------------------------
+User: jchiang  Tue Sep  5 13:08:27 PDT 2006
 celestialSources/genericSources/doc
 
 Modified Files:
