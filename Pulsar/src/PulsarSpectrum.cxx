@@ -88,23 +88,12 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
   m_enphmax    = std::atof(parseParamList(params,4).c_str()); // minimum energy of extracted photons
   m_model      = std::atoi(parseParamList(params,5).c_str()); // choosen model
   m_seed       = std::atoi(parseParamList(params,6).c_str()); //Model Parameters: Random seed
-  
+  m_numpeaks   = std::atoi(parseParamList(params,7).c_str()); //Model Parameters: Number of peaks
 
-  if (m_model == 1) //Phenomenological model
-    {
-      m_ppar0   = std::atoi(parseParamList(params,7).c_str()); //Model Parameters: Number of peaks  
-      m_ppar1 = std::atof(parseParamList(params,8).c_str());   // model parameters
-      m_ppar2 = std::atof(parseParamList(params,9).c_str());
-      m_ppar3 = std::atof(parseParamList(params,10).c_str());
-      m_ppar4 = std::atof(parseParamList(params,11).c_str());
-    }
-  else 
-    if (m_model == 2) //PulsarShape model
-      {
-	m_ppar0   = std::atoi(parseParamList(params,7).c_str());  //Model Parameters: Use normalization?
-	m_PSRShapeName = parseParamList(params,8).c_str();        // model parameters
-      }
-
+ m_ppar1 = std::atof(parseParamList(params,8).c_str()); // model parameters
+ m_ppar2 = std::atof(parseParamList(params,9).c_str());
+ m_ppar3 = std::atof(parseParamList(params,10).c_str());
+ m_ppar4 = std::atof(parseParamList(params,11).c_str());
 
   //Retrieve pulsar data from a list of DataList file.
   std::string pulsar_root = ::getenv("PULSARROOT");
@@ -186,20 +175,8 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
 
 
   //writes out an output log file
-  //  std::string logLabel = "PsrOutput/" + m_PSRname + "Log.txt";
 
-  //Redirect output to a subdirectory
-  const char * pulsarOutDir = ::getenv("PULSAROUTFILES");
-
-  std::string logLabel;
-  // override obssim if running in Gleam environment
-  if( pulsarOutDir!=0) 
-    logLabel = std::string(pulsarOutDir) + "/" + m_PSRname + "Log.txt";
-  else
-    logLabel = m_PSRname + "Log.txt";
-
-  //  std::string nameProfile = "PsrOutput/" + m_name + "TimeProfile.txt";
-
+  std::string logLabel = "PsrOutput/" + m_PSRname + "Log.txt";
   ofstream PulsarLog(logLabel.c_str());
   
   PulsarLog << "\n********   PulsarSpectrum Log for pulsar" << m_PSRname << std::endl;
@@ -247,7 +224,7 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
   if (m_model == 1)
     {
       PulsarLog << "**   Model chosen : " << m_model << " --> Using Phenomenological Pulsar Model " << std::endl;  
-      m_spectrum = new SpectObj(m_Pulsar->PSRPhenom(double(m_ppar0), m_ppar1,m_ppar2,m_ppar3,m_ppar4),1);
+      m_spectrum = new SpectObj(m_Pulsar->PSRPhenom(double(m_numpeaks), m_ppar1,m_ppar2,m_ppar3,m_ppar4),1);
       m_spectrum->SetAreaDetector(EventSource::totalArea());
 
       PulsarLog << "**   Effective Area set to : " << m_spectrum->GetAreaDetector() << " m2 " << std::endl; 
@@ -259,25 +236,10 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
  	}  
     }
   else 
-    if (m_model == 2)
-      {
-	PulsarLog << "**   Model chosen : " << m_model << " --> Using External 2-D Pulsar Shape" << std::endl;  
-	m_spectrum = new SpectObj(m_Pulsar->PSRShape(m_PSRShapeName,m_ppar0),1);
-	m_spectrum->SetAreaDetector(EventSource::totalArea());
-	
-	PulsarLog << "**   Effective Area set to : " << m_spectrum->GetAreaDetector() << " m2 " << std::endl; 
-	
-	if (DEBUG)
-	  {
-	    std::cout << "**   Model chosen : " << m_model << " --> Using External 2-D Pulsar Shape" << std::endl;  
-	    std::cout << "**  Effective Area set to : " << m_spectrum->GetAreaDetector() << " m2 " << std::endl; 
-	  }  
-      }
-    else
-      {
-	std::cout << "ERROR!  Model choice not implemented " << std::endl;
-	exit(1);
-      }
+    {
+      std::cout << "ERROR!  Model choice not implemented " << std::endl;
+      exit(1);
+    }
 
 
   PulsarLog.close();
@@ -338,9 +300,19 @@ double PulsarSpectrum::flux(double time) const
 double PulsarSpectrum::interval(double time)
 {  
   
+  if(!m_ff)
+    {
+      double tff =  Spectrum::startTime();
+      m_ff=true;
+      do{
+	  tff+=interval(tff);
+      }
+      while(tff<time);
+      return tff+interval(tff)-time;
+    }
+  
   double timeTildeDecorr = time + (StartMissionDateMJD)*SecsOneDay; //Arrival time decorrected
-  //this should be corrected before applying barycentryc decorr + ephem de-corrections
-  double timeTilde = timeTildeDecorr + getBaryCorr(timeTildeDecorr); 
+  double timeTilde = timeTildeDecorr + getBaryCorr(timeTildeDecorr); //should be corrected before applying ephem de-corrections
   
   double initTurns = getTurns(timeTilde); //Turns made at this time
   double intPart; //Integer part
@@ -353,7 +325,7 @@ double PulsarSpectrum::interval(double time)
       std::cout << "Warning!Time is out of range of validity for pulsar " << m_PSRname 
 		<< ": Switching to new ephemerides set..." << std::endl;
 #endif
-	for (unsigned int e=0; e < m_t0Vect.size();e++)
+	for (int e=0; e < m_t0Vect.size();e++)
 	  if (((timeTilde/SecsOneDay) > m_t0InitVect[e]) && ((timeTilde/SecsOneDay) < m_t0EndVect[e])) 
 	    {
 	      // std::cout << "\n" << timeTilde -(StartMissionDateMJD)*SecsOneDay <<  " PulsarSpectrum Phase is " 
@@ -385,7 +357,7 @@ double PulsarSpectrum::interval(double time)
 	      if (m_model == 1)
 		{
 		  delete m_spectrum;
-		  m_spectrum = new SpectObj(m_Pulsar->PSRPhenom(double(m_ppar0), m_ppar1,m_ppar2,m_ppar3,m_ppar4),1);
+		  m_spectrum = new SpectObj(m_Pulsar->PSRPhenom(double(m_numpeaks), m_ppar1,m_ppar2,m_ppar3,m_ppar4),1);
 		  m_spectrum->SetAreaDetector(EventSource::totalArea());
 		}
 
@@ -557,7 +529,7 @@ double PulsarSpectrum::getBaryCorr( double ttInput )
   double tdb_min_tt = m_earthOrbit->tdb_minus_tt(ttJD);
 
   double timeMET = ttInput - (StartMissionDateMJD)*SecsOneDay;
-  CLHEP::Hep3Vector scPos;
+  Hep3Vector scPos;
 
   //Exception error in case of time not in the range of available position (when using a FT2 file)
 
@@ -573,11 +545,11 @@ double PulsarSpectrum::getBaryCorr( double ttInput )
   }
 
   //Correction due to geometric time delay of light propagation 
-  CLHEP::Hep3Vector GeomVect = (scPos/clight) - m_solSys.getBarycenter(ttJD);
+  Hep3Vector GeomVect = (scPos/clight) - m_solSys.getBarycenter(ttJD);
   double GeomCorr = GeomVect.dot(m_PulsarVectDir);
 
   //Correction due to Shapiro delay.
-  CLHEP::Hep3Vector sunV = m_solSys.getSolarVector(ttJD);
+  Hep3Vector sunV = m_solSys.getSolarVector(ttJD);
 
   // Angle of source-sun-observer
   double costheta = - sunV.dot(m_PulsarVectDir) / ( sunV.mag() * m_PulsarVectDir.mag() );
@@ -800,7 +772,7 @@ int PulsarSpectrum::saveDbTxtFile()
 
   //Writes out the infos of the file
   DbOutputFile.open(DbOutputFileName.c_str(),std::ios::app);
-  double tempInt, tempFract;
+  double tempInt, tempFract, f0, f1, f2;
   for (unsigned int ep = 0; ep < m_periodVect.size(); ep++)
     {
       DbOutputFile << "\"" << m_PSRname << std::setprecision(5) << "\" " << m_RA << " " << m_dec << " ";
