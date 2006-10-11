@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Oct 11 09:09:09 PDT 2006
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h 
+Log Message:
+Changed MJDREF
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p1, operation: add
 Package: Pulsar
