@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Oct 16 03:41:23 PDT 2006
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Ep is now in the XML library.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 16 03:41:23 PDT 2006
 celestialSources/GRBobs/src/test/other
 
 Modified Files:
