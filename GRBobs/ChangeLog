@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Oct 16 09:31:52 PDT 2006
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Add a second component in the prompt phase (SSC)
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 16 09:31:52 PDT 2006
 celestialSources/GRBobs/src
 
 Modified Files:
