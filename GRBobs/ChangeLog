@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Oct 16 03:41:23 PDT 2006
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsPulse.cxx GRBobsengine.cxx 
+	GRBobsmanager.cxx 
+Log Message:
+Ep is now in the XML library.
+    *
+------------------------------------------------------------
 User: omodei  Mon Oct 16 03:41:22 PDT 2006
 celestialSources/GRBobs/GRBobs
 
