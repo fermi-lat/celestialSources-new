@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Oct 16 03:41:22 PDT 2006
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsPulse.h GRBobsmanager.h 
+Log Message:
+Ep is now in the XML library.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p15, operation: add
 Package: GRBobs
