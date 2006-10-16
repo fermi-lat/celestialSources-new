@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Oct 16 09:31:52 PDT 2006
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsmanager.h 
+Log Message:
+Add a second component in the prompt phase (SSC)
+    *
+------------------------------------------------------------
 User: omodei  Mon Oct 16 03:41:23 PDT 2006
 celestialSources/GRBobs/xml
 
