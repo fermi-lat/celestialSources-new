@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Oct 27 04:06:10 PDT 2006
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Add new parameters in the output file (better interface)
+    *
+------------------------------------------------------------
+User: omodei  Fri Oct 27 04:06:10 PDT 2006
 celestialSources/GRBobs/src/test
 
 Modified Files:
