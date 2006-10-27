@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Oct 27 04:06:10 PDT 2006
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx GRBobsmanager.cxx 
+Log Message:
+Add new parameters in the output file (better interface)
+    *
+------------------------------------------------------------
 User: omodei  Mon Oct 16 09:31:52 PDT 2006
 celestialSources/GRBobs/xml
 
