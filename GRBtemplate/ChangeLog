@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Oct 30 11:40:52 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements rh9_gcc32.make 
+Log Message:
+add the test program, bugs fixed.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:52 PST 2006
 celestialSources/GRBtemplate/GRBtemplate
 
 Modified Files:
