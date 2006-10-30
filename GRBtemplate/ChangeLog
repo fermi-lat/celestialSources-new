@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:52 PST 2006
+celestialSources/GRBtemplate/GRBtemplate
+
+Modified Files:
+	GRBtemplateManager.h GRBtemplateSim.h 
+Log Message:
+add the test program, bugs fixed.
+    *
+------------------------------------------------------------
 User: omodei  Mon Oct 30 11:40:06 PST 2006
 celestialSources/GRBtemplate/doc
 
