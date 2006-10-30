@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Oct 30 11:40:52 PST 2006
+celestialSources/GRBtemplate/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+add the test program, bugs fixed.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:52 PST 2006
 celestialSources/GRBtemplate/src/test
 
 Added Files:
