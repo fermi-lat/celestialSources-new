@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Oct 31 13:50:40 PST 2006
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+Add GRBtemplate in the SpectrumfactoryLoader
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 13:50:40 PST 2006
 celestialSources/cmt
 
 Modified Files:
