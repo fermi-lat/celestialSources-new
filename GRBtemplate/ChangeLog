@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Tue Oct 31 09:38:02 PST 2006
+celestialSources/GRBtemplate/data
+
+Modified Files:
+	Thermal_LAT_A_025.dat Thermal_LAT_A_073.dat 
+	Thermal_LAT_A_617.dat Thermal_LAT_C_014.dat 
+Log Message:
+Bug Fixed in the data files
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p1, operation: add
 Package: GRBtemplate
