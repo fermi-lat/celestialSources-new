@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Oct 31 07:01:32 PST 2006
+celestialSources/GRBtemplate/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add different options in the main of the root test
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 07:01:32 PST 2006
 celestialSources/GRBtemplate/src
 
 Modified Files:
