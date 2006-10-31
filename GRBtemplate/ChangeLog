@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Tue Oct 31 07:11:35 PST 2006
+celestialSources/GRBtemplate/data
+
+Added Files:
+	Thermal_LAT_A_025.dat Thermal_LAT_A_073.dat 
+	Thermal_LAT_A_617.dat Thermal_LAT_C_014.dat 
+Log Message:
+Add LAT template files
+    *
+------------------------------------------------------------
 User: omodei  Tue Oct 31 07:01:32 PST 2006
 celestialSources/GRBtemplate/xml
 
