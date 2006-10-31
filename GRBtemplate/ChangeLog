@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Oct 31 13:01:23 PST 2006
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx GRBtemplateSim.cxx 
+Log Message:
+bug fixed
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 13:01:23 PST 2006
 celestialSources/GRBtemplate/cmt
 
 Modified Files:
