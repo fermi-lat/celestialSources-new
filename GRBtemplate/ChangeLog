@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Oct 31 07:01:32 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	rh9_gcc32.make 
+Log Message:
+Add different options in the main of the root test
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0, operation: add
 Package: GRBtemplate
