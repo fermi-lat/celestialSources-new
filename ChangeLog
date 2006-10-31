@@ -1,4 +1,22 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r2, operation: add
+Package: celestialSources
+User: omodei  Tue Oct 31 14:12:05 2006
+Files:
+  celestialSources/.cvsignore  1.1.1.1
+  celestialSources/ChangeLog  1.191
+  celestialSources/celestialSources/SpectrumFactoryLoader.h  1.2
+  celestialSources/celestialSources/TRandom4.h  1.2
+  celestialSources/cmt/requirements  1.40
+  celestialSources/doc/release.notes  1.27
+  celestialSources/src/mainpage.h  1.1.1.1
+  celestialSources/src/TRandom4.cxx  1.2
+  celestialSources/src/SpectrumFactoryLoader.cxx  1.16
+  celestialSources/src/test/test.cxx  1.1
+
+    *
+------------------------------------------------------------
 User: omodei  Tue Oct 31 14:11:39 PST 2006
 celestialSources/doc
 
