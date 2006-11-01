@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Nov  1 08:33:11 PST 2006
+celestialSources/SpectObj/data
+
+Added Files:
+	EBLmodel.dat 
+Log Message:
+Add a configuration file to select the EBL model
+    *
+------------------------------------------------------------
 User: omodei  Wed Nov  1 08:32:09 PST 2006
 celestialSources/SpectObj/data
 
