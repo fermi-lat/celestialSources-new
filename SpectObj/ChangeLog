@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r2, operation: add
+Package: SpectObj
+User: omodei  Wed Nov  1 08:36:43 2006
+Files:
+  SpectObj/ChangeLog  1.104
+  SpectObj/SpectObj/SpectObj.h  1.23
+  SpectObj/cmt/requirements  1.12
+  SpectObj/data/EBLmodel.dat  1.1
+  SpectObj/doc/release.notes  1.1
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.45
+
+    *
+------------------------------------------------------------
 User: omodei  Wed Nov  1 08:36:11 PST 2006
 celestialSources/SpectObj/doc
 
