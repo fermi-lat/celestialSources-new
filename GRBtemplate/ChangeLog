@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Nov  1 09:36:40 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Tested under windows: ok. Now tag...
+    *
+------------------------------------------------------------
 User: omodei  Wed Nov  1 09:25:26 PST 2006
 celestialSources/GRBtemplate/cmt
 
