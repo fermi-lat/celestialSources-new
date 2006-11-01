@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Nov  1 09:22:24 PST 2006
+celestialSources/GRBtemplate/GRBtemplate
+
+Modified Files:
+	GRBtemplateSim.h 
+Log Message:
+reinterpret_cast windows bug fixed (?)
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p2, operation: add
 Package: GRBtemplate
