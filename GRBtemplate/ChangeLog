@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Wed Nov  1 09:22:24 PST 2006
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx GRBtemplateSim.cxx 
+Log Message:
+reinterpret_cast windows bug fixed (?)
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov  1 09:22:24 PST 2006
 celestialSources/GRBtemplate/cmt
 
 Modified Files:
