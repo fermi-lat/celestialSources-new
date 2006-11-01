@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Wed Nov  1 09:25:26 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Removed Files:
+	Makefile cleanup.csh cleanup.sh rh9_gcc32.make setup.csh 
+	setup.sh 
+Log Message:
+remove obsolerte files
+    *
+------------------------------------------------------------
 User: omodei  Wed Nov  1 09:22:24 PST 2006
 celestialSources/GRBtemplate/src
 
