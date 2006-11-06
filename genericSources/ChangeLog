@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Mon Nov  6 06:10:28 PST 2006
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fix test program for changed astro::GPS
+    *
+------------------------------------------------------------
+User: burnett  Mon Nov  6 06:10:28 PST 2006
 celestialSources/genericSources/cmt
 
 Modified Files:
