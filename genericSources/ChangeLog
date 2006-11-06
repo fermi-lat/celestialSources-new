@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Mon Nov  6 06:10:28 PST 2006
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix test program for changed astro::GPS
+    *
+------------------------------------------------------------
 User: jchiang  Thu Oct 26 09:24:32 PDT 2006
 celestialSources/genericSources/xml
 
