@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Nov  6 02:49:59 PST 2006
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Fixed the interface with the new astro pkg
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r1p2, operation: add
 Package: Pulsar
