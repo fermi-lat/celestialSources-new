@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Nov  8 12:32:16 PST 2006
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+add spectrum file option to SpectralTransient for SolarFlares; tagging v1r7
+    *
+------------------------------------------------------------
+User: jchiang  Wed Nov  8 12:32:16 PST 2006
 celestialSources/genericSources/cmt
 
 Modified Files:
