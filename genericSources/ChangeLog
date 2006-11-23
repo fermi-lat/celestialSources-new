@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Thu Nov 23 07:38:28 PST 2006
+celestialSources/genericSources/src
+
+Modified Files:
+	SpectralTransient.cxx 
+Log Message:
+check for negative flux values in input light curve files
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r7p1, operation: add
 Package: genericSources
