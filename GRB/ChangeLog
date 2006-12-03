@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Sun Dec  3 09:34:52 PST 2006
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBmanager.cxx 
+Log Message:
+fix reference to unsupported CLHEP vectors
+    *
+------------------------------------------------------------
+User: burnett  Sun Dec  3 09:34:52 PST 2006
 celestialSources/GRB/doc
 
 Modified Files:
