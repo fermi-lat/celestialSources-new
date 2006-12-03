@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sun Dec  3 09:34:51 PST 2006
+celestialSources/GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix reference to unsupported CLHEP vectors
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r3p0, operation: add
 Package: GRB
