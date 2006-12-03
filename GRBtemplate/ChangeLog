@@ -1,4 +1,31 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r0p4, operation: add
+Package: GRBtemplate
+User: burnett  Sun Dec  3 11:24:58 2006
+Files:
+  GRBtemplate/.cvsignore  1.1.1.1
+  GRBtemplate/ChangeLog  1.57
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.5
+  GRBtemplate/cmt/requirements  1.8
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.5
+  GRBtemplate/src/GRBtemplateManager.cxx  1.9
+  GRBtemplate/src/GRBtemplateSim.cxx  1.8
+  GRBtemplate/src/test/testGRB.cxx  1.1
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.5
+  GRBtemplate/xml/GRBtemplate_library.xml  1.5
+
+    *
+------------------------------------------------------------
 User: burnett  Sun Dec  3 11:24:35 PST 2006
 celestialSources/GRBtemplate/src
 
