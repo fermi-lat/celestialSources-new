@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Sun Dec  3 09:38:20 PST 2006
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+fix use of unsupported CHLEP vector class, and tag
+    *
+------------------------------------------------------------
+User: burnett  Sun Dec  3 09:38:20 PST 2006
 celestialSources/GRBobs/doc
 
 Modified Files:
