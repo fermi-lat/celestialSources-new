@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Sun Dec  3 11:24:35 PST 2006
-celestialSources/GRBtemplate/src
-
-Modified Files:
-	GRBtemplateManager.cxx 
-Log Message:
-fix reference to unsupported CLHEP vector and tag
-    *
-------------------------------------------------------------
-User: burnett  Sun Dec  3 11:24:35 PST 2006
-celestialSources/GRBtemplate/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-fix reference to unsupported CLHEP vector and tag
-    *
-------------------------------------------------------------
-User: burnett  Sun Dec  3 11:24:35 PST 2006
-celestialSources/GRBtemplate/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-fix reference to unsupported CLHEP vector and tag
-    *
-------------------------------------------------------------
 TAG
 Tag name: v1r0p3, operation: add
 Package: GRBtemplate
