@@ -1,0 +1,27 @@
+------------------------------------------------------------
+User: burnett  Tue Dec 19 09:21:01 PST 2006
+users/burnett/microQuasar
+
+Log Message:
+test package for Richard
+
+Status:
+
+Vendor Tag:	THB
+Release Tags:	v0
+		
+N users/burnett/microQuasar/.cvsignore
+N users/burnett/microQuasar/mq.txt
+N users/burnett/microQuasar/cmt/.cvsignore
+N users/burnett/microQuasar/cmt/Makefile
+N users/burnett/microQuasar/cmt/NMake
+N users/burnett/microQuasar/cmt/requirements
+N users/burnett/microQuasar/microQuasar/microQuasar.h
+N users/burnett/microQuasar/src/microQuasar.cxx
+N users/burnett/microQuasar/src/test/mq.txt
+N users/burnett/microQuasar/src/test/test_main.cxx
+N users/burnett/microQuasar/xml/mq.xml
+
+No conflicts created by this import
+
+    *
