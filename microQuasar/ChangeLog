@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Tue Dec 19 21:10:59 PST 2006
+users/burnett/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+fix findregion for correct region & remove type on m_nTurns
+
+    *
+------------------------------------------------------------
 User: burnett  Tue Dec 19 14:20:58 PST 2006
 users/burnett/microQuasar/src/test
 
