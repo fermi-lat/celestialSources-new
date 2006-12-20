@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Dec 20 14:18:10 PST 2006
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	SpectralTransient.h 
+Log Message:
+make LogParabola model less of a memory hog
+    *
+------------------------------------------------------------
 User: jchiang  Thu Nov 23 07:38:28 PST 2006
 celestialSources/genericSources/src
 
