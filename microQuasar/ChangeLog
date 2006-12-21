@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: richard  Thu Dec 21 15:12:14 PST 2006
+users/burnett/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Next round for oscillations and jet-on period. All features now appear to work. Next to add orbital phases
+and parameter setting.
+
+    *
+------------------------------------------------------------
 User: richard  Thu Dec 21 15:11:15 PST 2006
 users/burnett/microQuasar/microQuasar
 
