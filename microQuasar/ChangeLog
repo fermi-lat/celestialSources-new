@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Fri Dec 22 13:10:57 PST 2006
+celestialSources/microQuasar/xml
+
+Modified Files:
+	mq.xml 
+Log Message:
+fix XML comment: change source in test program
+    *
+------------------------------------------------------------
+User: burnett  Fri Dec 22 13:10:57 PST 2006
 celestialSources/microQuasar/src/test
 
 Modified Files:
