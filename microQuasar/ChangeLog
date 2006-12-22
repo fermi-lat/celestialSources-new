@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Fri Dec 22 13:10:57 PST 2006
+celestialSources/microQuasar/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+fix XML comment: change source in test program
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1, operation: add
 Package: microQuasar
