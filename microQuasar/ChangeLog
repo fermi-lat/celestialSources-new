@@ -1,0 +1,106 @@
+------------------------------------------------------------
+User: richard  Thu Dec 21 17:36:45 PST 2006
+users/burnett/microQuasar/xml
+
+Modified Files:
+	mq.xml 
+Log Message:
+MOdify for setting model parameters in xml
+
+    *
+------------------------------------------------------------
+User: richard  Thu Dec 21 17:36:14 PST 2006
+users/burnett/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Orbital phase and parameter setting from xml added
+
+    *
+------------------------------------------------------------
+User: richard  Thu Dec 21 17:35:45 PST 2006
+users/burnett/microQuasar/microQuasar
+
+Modified Files:
+	microQuasar.h 
+Log Message:
+Orbital phase added and parameters now set from xml
+
+    *
+------------------------------------------------------------
+User: richard  Thu Dec 21 15:12:14 PST 2006
+users/burnett/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Next round for oscillations and jet-on period. All features now appear to work. Next to add orbital phases
+and parameter setting.
+
+    *
+------------------------------------------------------------
+User: richard  Thu Dec 21 15:11:15 PST 2006
+users/burnett/microQuasar/microQuasar
+
+Modified Files:
+	microQuasar.h 
+Log Message:
+ Fixed up for oscillations and jet-on periods
+
+    *
+------------------------------------------------------------
+User: richard  Tue Dec 19 21:10:59 PST 2006
+users/burnett/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+fix findregion for correct region & remove type on m_nTurns
+
+    *
+------------------------------------------------------------
+User: burnett  Tue Dec 19 14:20:58 PST 2006
+users/burnett/microQuasar/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+fix a bug
+    *
+------------------------------------------------------------
+User: burnett  Tue Dec 19 14:20:58 PST 2006
+users/burnett/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+fix a bug
+    *
+------------------------------------------------------------
+User: burnett  Tue Dec 19 09:21:01 PST 2006
+users/burnett/microQuasar
+
+Log Message:
+test package for Richard
+
+Status:
+
+Vendor Tag:	THB
+Release Tags:	v0
+		
+N users/burnett/microQuasar/.cvsignore
+N users/burnett/microQuasar/mq.txt
+N users/burnett/microQuasar/cmt/.cvsignore
+N users/burnett/microQuasar/cmt/Makefile
+N users/burnett/microQuasar/cmt/NMake
+N users/burnett/microQuasar/cmt/requirements
+N users/burnett/microQuasar/microQuasar/microQuasar.h
+N users/burnett/microQuasar/src/microQuasar.cxx
+N users/burnett/microQuasar/src/test/mq.txt
+N users/burnett/microQuasar/src/test/test_main.cxx
+N users/burnett/microQuasar/xml/mq.xml
+
+No conflicts created by this import
+
+    *
