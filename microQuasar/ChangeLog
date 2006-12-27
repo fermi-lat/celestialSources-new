@@ -1,4 +1,24 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r0p1, operation: add
+Package: microQuasar
+User: burnett  Wed Dec 27 14:08:27 2006
+Files:
+  microQuasar/mq.txt  1.1.1.1
+  microQuasar/.cvsignore  1.1.1.1
+  microQuasar/ChangeLog  1.16
+  microQuasar/cmt/.cvsignore  1.1.1.1
+  microQuasar/cmt/NMake  1.1.1.1
+  microQuasar/cmt/requirements  1.2
+  microQuasar/cmt/Makefile  1.1.1.1
+  microQuasar/microQuasar/microQuasar.h  1.4
+  microQuasar/src/mainpage.h  1.1
+  microQuasar/src/test/mq.txt  1.1.1.1
+  microQuasar/src/test/test_main.cxx  1.4
+  microQuasar/xml/mq.xml  1.3
+
+    *
+------------------------------------------------------------
 User: burnett  Wed Dec 27 14:08:05 PST 2006
 celestialSources/microQuasar/src/test
 
