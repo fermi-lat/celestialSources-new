@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Sat Dec 30 17:50:20 PST 2006
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+improve normalization of flux
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p1, operation: add
 Package: microQuasar
