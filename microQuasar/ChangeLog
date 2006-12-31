@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Sun Dec 31 13:18:22 PST 2006
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Make repairs to jet-on handling
+
+    *
+------------------------------------------------------------
 User: richard  Sat Dec 30 17:55:17 PST 2006
 celestialSources/microQuasar/microQuasar
 
