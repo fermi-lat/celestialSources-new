@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Sat Dec 30 17:54:41 PST 2006
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+put wrong version in last time! Now fix normalization...
+
+    *
+------------------------------------------------------------
 User: richard  Sat Dec 30 17:50:20 PST 2006
 celestialSources/microQuasar/src
 
