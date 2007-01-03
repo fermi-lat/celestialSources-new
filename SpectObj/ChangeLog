@@ -2,6 +2,15 @@
 TAG
 Tag name: v1r2p1, operation: del
 Package: SpectObj
+User: glast  Wed Jan  3 07:50:41 2007
+Files:
+  SpectObj/cmt/requirements  1.12
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r2p1, operation: del
+Package: SpectObj
 User: glast  Wed Jan  3 07:50:34 2007
 Files:
   SpectObj/SpectObj/SpectObj.h  1.23
