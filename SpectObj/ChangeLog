@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 TAG
+Tag name: v1r2p1, operation: del
+Package: SpectObj
+User: glast  Wed Jan  3 07:50:22 2007
+Files:
+  SpectObj/ChangeLog  1.104
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r2p1, operation: add
 Package: SpectObj
 User: richard  Tue Jan  2 20:56:07 2007
