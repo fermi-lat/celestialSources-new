@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Jan  9 00:00:50 PST 2007
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+Changed PSRMuro Ephem
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r2p1, operation: del
 Package: Pulsar
