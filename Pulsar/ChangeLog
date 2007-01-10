@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Jan 10 06:34:57 PST 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+initial import of binaries1
+    *
+------------------------------------------------------------
 User: razzano  Wed Jan 10 03:50:49 PST 2007
 celestialSources/Pulsar/xml
 
