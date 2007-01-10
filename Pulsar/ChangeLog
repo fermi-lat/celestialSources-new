@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: razzano  Wed Jan 10 03:50:49 PST 2007
+celestialSources/Pulsar/data
+
+Modified Files:
+	BasicDataList.txt PulsarDataList.txt 
+Added Files:
+	BasicBinDataList.txt PSRMUROBTimeProfile.txt 
+	PulsarBinDataList.txt 
+Log Message:
+initial import of binaries
+    *
+------------------------------------------------------------
+User: razzano  Wed Jan 10 03:50:49 PST 2007
 celestialSources/Pulsar/Pulsar
 
 Modified Files:
