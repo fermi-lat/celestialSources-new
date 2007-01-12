@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Fri Jan 12 08:39:59 PST 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Doublify things for numerical precision
+
+    *
+------------------------------------------------------------
 User: richard  Fri Jan 12 08:39:25 PST 2007
 celestialSources/microQuasar/microQuasar
 
