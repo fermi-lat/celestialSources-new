@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Jan 16 03:45:18 PST 2007
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+eccentric anomaly added
+    *
+------------------------------------------------------------
 User: razzano  Wed Jan 10 06:34:57 PST 2007
 celestialSources/Pulsar/src
 
