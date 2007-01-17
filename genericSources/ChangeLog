@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: cohen  Tue Jan 16 21:53:04 PST 2007
+celestialSources/genericSources/src
+
+Modified Files:
+	TF1Map.cxx TF1Spectrum.cxx 
+Log Message:
+fix the parsing and add the flux method to TF1Spectrum
+
+    *
+------------------------------------------------------------
+User: cohen  Tue Jan 16 21:53:04 PST 2007
 celestialSources/genericSources/genericSources
 
 Modified Files:
