@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Wed Feb 14 06:43:52 PST 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+test program changed
+    *
+------------------------------------------------------------
+User: razzano  Wed Feb 14 06:43:52 PST 2007
 celestialSources/Pulsar/Pulsar
 
 Modified Files:
