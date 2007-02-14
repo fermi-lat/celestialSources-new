@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Feb 14 08:42:26 PST 2007
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsmanager.h 
+Log Message:
+Add the map representation for the parameters
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r2p2, operation: add
 Package: GRBobs
