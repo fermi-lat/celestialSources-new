@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: golpa  Thu Feb 15 09:50:23 PST 2007
+celestialSources/microQuasar/xml
+
+Modified Files:
+	mq.xml 
+Log Message:
+Uses a little more human readable parameters
+    *
+------------------------------------------------------------
+User: golpa  Thu Feb 15 09:50:23 PST 2007
 celestialSources/microQuasar/src
 
 Modified Files:
