@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb 19 06:54:51 PST 2007
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Add titles to the x axis of the plots
+    *
+------------------------------------------------------------
 User: omodei  Wed Feb 14 08:42:26 PST 2007
 celestialSources/GRBobs/xml
 
