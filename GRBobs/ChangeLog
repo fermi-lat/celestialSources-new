@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Mon Feb 19 10:50:20 PST 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	ConstParMap.h GRBobsmanager.cxx LoadTree.C 
+Log Message:
+Using map for storing the param from the xml library
+    *
+------------------------------------------------------------
+User: omodei  Mon Feb 19 10:50:20 PST 2007
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
