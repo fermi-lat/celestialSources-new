@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb 19 10:50:20 PST 2007
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+Using map for storing the param from the xml library
+    *
+------------------------------------------------------------
 User: omodei  Mon Feb 19 06:54:52 PST 2007
 celestialSources/GRBobs/xml
 
