@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Tue Feb 20 08:40:16 PST 2007
+celestialSources/microQuasar/microQuasar
+
+Modified Files:
+	microQuasar.h 
+Log Message:
+Fixed compile errors
+    *
+------------------------------------------------------------
 User: golpa  Thu Feb 15 09:50:23 PST 2007
 celestialSources/microQuasar/xml
 
