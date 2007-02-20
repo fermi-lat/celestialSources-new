@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Feb 20 11:10:35 PST 2007
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+coordinates read from the xml lib.
+    *
+------------------------------------------------------------
+User: omodei  Tue Feb 20 11:10:35 PST 2007
 celestialSources/GRBobs/src/test
 
 Modified Files:
