@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Wed Feb 21 09:39:13 PST 2007
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add GBM energy grid.
+    *
+------------------------------------------------------------
+User: omodei  Wed Feb 21 09:39:13 PST 2007
 celestialSources/GRBobs/src
 
 Modified Files:
