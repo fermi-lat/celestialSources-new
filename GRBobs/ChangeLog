@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Feb 22 05:53:29 PST 2007
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Removed couts. Clean up the code
+    *
+------------------------------------------------------------
+User: omodei  Thu Feb 22 05:53:29 PST 2007
 celestialSources/GRBobs/src
 
 Modified Files:
