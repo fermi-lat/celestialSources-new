@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Feb 22 05:53:29 PST 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsSim.cxx GRBobsmanager.cxx 
+Log Message:
+Removed couts. Clean up the code
+    *
+------------------------------------------------------------
 User: omodei  Wed Feb 21 09:39:14 PST 2007
 celestialSources/GRBobs/xml
 
