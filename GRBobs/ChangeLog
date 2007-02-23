@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Feb 23 09:05:14 PST 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	ConstParMap.h GRBobsSim.cxx GRBobsmanager.cxx 
+Log Message:
+Fixed Peak Flux computation
+    *
+------------------------------------------------------------
 User: omodei  Thu Feb 22 09:15:53 PST 2007
 celestialSources/GRBobs/src
 
