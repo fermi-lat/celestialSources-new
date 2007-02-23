@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Feb 23 09:05:14 PST 2007
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Fixed Peak Flux computation
+    *
+------------------------------------------------------------
+User: omodei  Fri Feb 23 09:05:14 PST 2007
 celestialSources/GRBobs/src
 
 Modified Files:
