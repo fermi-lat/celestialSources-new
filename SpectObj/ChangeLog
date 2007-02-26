@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Mon Feb 26 09:13:10 PST 2007
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Improved the PF computation (used only in GRB)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r2p1, operation: del
 Package: SpectObj
