@@ -1,4 +1,44 @@
 ------------------------------------------------------------
+TAG
+Tag name: v3r0p1, operation: add
+Package: GRBobs
+User: omodei  Tue Feb 27 06:01:58 2007
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.298
+  GRBobs/GRBobs/GRBobsmanager.h  1.21
+  GRBobs/GRBobs/SpectralComponent.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.11
+  GRBobs/GRBobs/BGO_energy_grid.dat  1.1
+  GRBobs/GRBobs/NaI_energy_grid.dat  1.1
+  GRBobs/GRBobs/GRBobsConstants.h  1.20
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/GRBobsengine.h  1.4
+  GRBobs/GRBobs/GRBobsPulse.h  1.5
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.26
+  GRBobs/doc/release.notes  1.18
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.11
+  GRBobs/src/GRBobsConstants.cxx  1.25
+  GRBobs/src/GRBobsmanager.cxx  1.47
+  GRBobs/src/SpectralComponet.cxx  1.1
+  GRBobs/src/GRBobsengine.cxx  1.13
+  GRBobs/src/GRBobsSim.cxx  1.33
+  GRBobs/src/LoadTree.C  1.4
+  GRBobs/src/ConstParMap.h  1.3
+  GRBobs/src/test/testGRB.cxx  1.4
+  GRBobs/src/test/GRBParam.txt  1.34
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.27
+  GRBobs/xml/GenerateXMLLibrary.C  1.34
+  GRBobs/xml/GRBobs_user_library.xml  1.36
+  GRBobs/xml/SWIFT_bursts.xml  1.2
+  GRBobs/xml/GRBobs_user_library_noZ.xml  1.1
+  GRBobs/xml/GRBobs_user_library_Z.xml  1.1
+
+    *
+------------------------------------------------------------
 User: omodei  Tue Feb 27 05:54:20 PST 2007
 celestialSources/GRBobs/src
 
