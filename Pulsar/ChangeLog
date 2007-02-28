@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Feb 28 01:07:32 PST 2007
+celestialSources/Pulsar/data
+
+Modified Files:
+	PSRVELATimeProfile.txt 
+Log Message:
+Changed delta8 timing noise to gauss
+    *
+------------------------------------------------------------
 User: razzano  Tue Feb 27 16:42:18 PST 2007
 celestialSources/Pulsar/src/test/other
 
