@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Wed Feb 28 01:07:32 PST 2007
+celestialSources/Pulsar/src/test/other
+
+Modified Files:
+	PulsarROOTtest.cxx 
+Log Message:
+Changed delta8 timing noise to gauss
+    *
+------------------------------------------------------------
+User: razzano  Wed Feb 28 01:07:32 PST 2007
 celestialSources/Pulsar/src
 
 Modified Files:
