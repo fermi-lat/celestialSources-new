@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Thu Mar  1 09:55:55 PST 2007
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+Adding timing noise RW
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r2p2, operation: add
 Package: Pulsar
