@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: razzano  Mon Mar  5 10:36:23 PST 2007
-celestialSources/Pulsar/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-added doxy headers
-    *
-------------------------------------------------------------
-User: razzano  Mon Mar  5 10:36:23 PST 2007
-celestialSources/Pulsar/Pulsar
-
-Modified Files:
-	PulsarConstants.h PulsarSim.h PulsarSpectrum.h 
-Log Message:
-added doxy headers
-    *
-------------------------------------------------------------
 TAG
 Tag name: v2r2p3, operation: add
 Package: Pulsar
