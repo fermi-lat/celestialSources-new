@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Mar  9 15:34:40 PST 2007
+celestialSources/Pulsar/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+deleted timing noise msg
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r2p7, operation: add
 Package: Pulsar
