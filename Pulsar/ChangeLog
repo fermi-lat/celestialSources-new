@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Mar  9 05:36:25 PST 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+Cordes phase noise added
+    *
+------------------------------------------------------------
 User: razzano  Fri Mar  9 05:36:24 PST 2007
 celestialSources/Pulsar/doc
 
