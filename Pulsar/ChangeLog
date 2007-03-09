@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Fri Mar  9 15:34:40 PST 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+deleted timing noise msg
+    *
+------------------------------------------------------------
+User: razzano  Fri Mar  9 15:34:40 PST 2007
 celestialSources/Pulsar/doc
 
 Modified Files:
