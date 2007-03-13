@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Mar 13 04:47:46 PDT 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsengine.cxx 
+Log Message:
+Add a check for avoiding a weird infinite loop. Update the lib
+    *
+------------------------------------------------------------
 User: omodei  Wed Mar  7 04:43:09 PST 2007
 celestialSources/GRBobs/xml
 
