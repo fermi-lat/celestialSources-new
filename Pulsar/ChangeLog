@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Mar 13 10:44:49 PDT 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+removed cout
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r2p9, operation: add
 Package: Pulsar
