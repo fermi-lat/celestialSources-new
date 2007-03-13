@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Mar 13 04:47:46 PDT 2007
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Log Message:
+Add a check for avoiding a weird infinite loop. Update the lib
+    *
+------------------------------------------------------------
+User: omodei  Tue Mar 13 04:47:46 PDT 2007
 celestialSources/GRBobs/src/test
 
 Modified Files:
