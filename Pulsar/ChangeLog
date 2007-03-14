@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: razzano  Wed Mar 14 11:25:39 PDT 2007
-celestialSources/Pulsar/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-fix log binaries added log
-    *
-------------------------------------------------------------
-User: razzano  Wed Mar 14 03:55:22 PDT 2007
-celestialSources/Pulsar/src
-
-Modified Files:
-	PulsarSpectrum.cxx 
-Log Message:
-fixed log problems for binaries
-    *
-------------------------------------------------------------
 TAG
 Tag name: v2r2p10, operation: add
 Package: Pulsar
