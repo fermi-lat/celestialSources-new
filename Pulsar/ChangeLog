@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Thu Mar 15 15:10:34 PDT 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+fixed bugs in position in D4
+    *
+------------------------------------------------------------
+User: razzano  Thu Mar 15 15:10:34 PDT 2007
 celestialSources/Pulsar/doc
 
 Modified Files:
