@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: razzano  Thu Mar 15 14:59:14 PDT 2007
-celestialSources/Pulsar/src
-
-Modified Files:
-	PulsarSpectrum.cxx 
-Log Message:
-fix bug in saveDbfile
-    *
-------------------------------------------------------------
-User: razzano  Thu Mar 15 14:59:14 PDT 2007
-celestialSources/Pulsar/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-fix bug in saveDbfile
-    *
-------------------------------------------------------------
-User: razzano  Thu Mar 15 14:59:14 PDT 2007
-celestialSources/Pulsar/data
-
-Modified Files:
-	BasicDataList.txt 
-Log Message:
-fix bug in saveDbfile
-    *
-------------------------------------------------------------
 TAG
 Tag name: v2r2p11, operation: add
 Package: Pulsar
