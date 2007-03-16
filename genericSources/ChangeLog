@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Mar 16 14:09:25 PDT 2007
+celestialSources/genericSources/src
+
+Modified Files:
+	SourcePopulation.cxx 
+Log Message:
+check for input file in SourcePopulation; tagging v1r7p4
+    *
+------------------------------------------------------------
 User: jchiang  Fri Mar 16 14:09:24 PDT 2007
 celestialSources/genericSources/doc
 
