@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Mar 16 10:53:54 PDT 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx 
+Log Message:
+Bug fixed for GBM generation (158 bins instead of 159)
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r0p2, operation: add
 Package: GRBobs
