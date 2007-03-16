@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Mar 16 14:09:23 PDT 2007
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+check for input file in SourcePopulation; tagging v1r7p4
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r7p3, operation: add
 Package: genericSources
