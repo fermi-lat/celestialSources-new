@@ -1,4 +1,68 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r7p4, operation: add
+Package: genericSources
+User: jchiang  Fri Mar 16 14:10:58 2007
+Files:
+  genericSources/.cvsignore  1.2
+  genericSources/ChangeLog  1.277
+  genericSources/cmt/.cvsignore  1.1
+  genericSources/cmt/requirements  1.47
+  genericSources/data/3c279Template.dat  1.1.1.1
+  genericSources/data/dm120gev.dat  1.2
+  genericSources/data/sourcePop.dat  1.1
+  genericSources/data/pks1622-297_Template.dat  1.2
+  genericSources/data/CrabTemplate.dat  1.1.1.1
+  genericSources/data/map_cube_example.fits  1.1
+  genericSources/data/GemingaTemplate.dat  1.1.1.1
+  genericSources/data/test_image.fits  1.1
+  genericSources/data/testTemplate.dat  1.2
+  genericSources/data/fitsSpectrum.fits  1.1
+  genericSources/doc/release.notes  1.39
+  genericSources/genericSources/SourcePopulation.h  1.6
+  genericSources/genericSources/FileSpectrum.h  1.6
+  genericSources/genericSources/PeriodicSource.h  1.1.1.1
+  genericSources/genericSources/MapCube.h  1.5
+  genericSources/genericSources/SpectralTransient.h  1.10
+  genericSources/genericSources/MapSource.h  1.6
+  genericSources/genericSources/TF1Map.h  1.4
+  genericSources/genericSources/Pulsar.h  1.1.1.1
+  genericSources/genericSources/Isotropic.h  1.1.1.1
+  genericSources/genericSources/FitsTransient.h  1.1
+  genericSources/genericSources/GaussianSource.h  1.2
+  genericSources/genericSources/SimpleTransient.h  1.1.1.1
+  genericSources/genericSources/TF1Spectrum.h  1.5
+  genericSources/genericSources/TransientTemplate.h  1.2
+  genericSources/genericSources/FileSpectrumMap.h  1.2
+  genericSources/src/Pulsar.cxx  1.6
+  genericSources/src/dgaus8.c  1.1
+  genericSources/src/TransientTemplate.cxx  1.7
+  genericSources/src/FileSpectrum.cxx  1.12
+  genericSources/src/mainpage.h  1.2
+  genericSources/src/TF1Map.cxx  1.5
+  genericSources/src/PeriodicSource.cxx  1.5
+  genericSources/src/FitsImage.cxx  1.10
+  genericSources/src/SpectralTransient.cxx  1.30
+  genericSources/src/GaussianSource.cxx  1.2
+  genericSources/src/Isotropic.cxx  1.2
+  genericSources/src/TF1Spectrum.cxx  1.5
+  genericSources/src/FitsImage.h  1.9
+  genericSources/src/SourcePopulation.cxx  1.7
+  genericSources/src/dgaus8.h  1.1
+  genericSources/src/Util.h  1.4
+  genericSources/src/FileSpectrumMap.cxx  1.2
+  genericSources/src/Util.cxx  1.9
+  genericSources/src/SimpleTransient.cxx  1.5
+  genericSources/src/MapSource.cxx  1.18
+  genericSources/src/MapCube.cxx  1.13
+  genericSources/src/FitsTransient.cxx  1.6
+  genericSources/src/ConstParMap.h  1.4
+  genericSources/src/test/TestUtil.h  1.1
+  genericSources/src/test/test.cxx  1.13
+  genericSources/xml/source_library.xml  1.21
+
+    *
+------------------------------------------------------------
 User: jchiang  Fri Mar 16 14:09:25 PDT 2007
 celestialSources/genericSources/src
 
