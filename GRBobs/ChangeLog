@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Thu Mar 22 11:40:49 PDT 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+Inizialized the random seed with tstart
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r0p3, operation: add
 Package: GRBobs
