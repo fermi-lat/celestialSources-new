@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Wed Mar 28 13:32:30 PDT 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+fix scale on orb period back to days
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p5, operation: add
 Package: microQuasar
