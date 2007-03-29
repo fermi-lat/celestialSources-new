@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Thu Mar 29 16:04:18 PDT 2007
+celestialSources/genericSources/src
+
+Modified Files:
+	FitsImage.cxx 
+Log Message:
+read in FITS reference pixel as float; tagging v1r7p5
+    *
+------------------------------------------------------------
+User: jchiang  Thu Mar 29 16:04:18 PDT 2007
 celestialSources/genericSources/doc
 
 Modified Files:
