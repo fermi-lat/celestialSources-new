@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Apr  3 08:43:45 PDT 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+fix pow problem for windows compilation
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r3, operation: add
 Package: Pulsar
