@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Wed Apr  4 03:53:22 PDT 2007
+celestialSources/GRBobs/macros
+
+Added Files:
+	ConvertPositions.py PlotGRBCatalogue.C countSources.py 
+	pyFindGRB.py pyFindGRB_v1.py pyParse.py 
+Log Message:
+Added macros to check distribution and parse files...
+    *
+------------------------------------------------------------
 User: omodei  Wed Apr  4 03:11:47 PDT 2007
 celestialSources/GRBobs/macros
 
