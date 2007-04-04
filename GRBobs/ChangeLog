@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Apr  4 04:58:30 PDT 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+Add the possibility to set the seed directly from the XML file. Backward compatible ok
+    *
+------------------------------------------------------------
 User: omodei  Wed Apr  4 03:57:59 PDT 2007
 celestialSources/GRBobs/xml
 
