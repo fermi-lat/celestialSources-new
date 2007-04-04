@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: omodei  Wed Apr  4 03:57:59 PDT 2007
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_user_library.xml GenerateXMLLibrary.C 
+Added Files:
+	GRBobs_grid_library.xml GenerateGRBGrid.C grb_position.txt 
+	l_b_coords.txt 
+Log Message:
+Add the possibility of reading from a repoint file and the grid of bursts
+    *
+------------------------------------------------------------
 User: omodei  Wed Apr  4 03:53:22 PDT 2007
 celestialSources/GRBobs/macros
 
