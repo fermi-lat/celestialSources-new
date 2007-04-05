@@ -1,0 +1,772 @@
+------------------------------------------------------------
+User: omodei  Thu Apr  5 08:21:30 PDT 2007
+celestialSources/GRBtemplate/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+ready to be tagged
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr  5 08:21:30 PDT 2007
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+ready to be tagged
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr  5 08:19:40 PDT 2007
+celestialSources/GRBtemplate/data
+
+Added Files:
+	BGO_energy_grid.dat NaI_energy_grid.dat 
+Log Message:
+Add NaI and BGO energy grids
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr  5 08:19:05 PDT 2007
+celestialSources/GRBtemplate/xml
+
+Modified Files:
+	GRBtemplate_library.xml 
+Log Message:
+Change the GBM outpout file generation. Now histograms
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr  5 08:19:05 PDT 2007
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateSim.cxx 
+Log Message:
+Change the GBM outpout file generation. Now histograms
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr  5 08:19:05 PDT 2007
+celestialSources/GRBtemplate/GRBtemplate
+
+Modified Files:
+	GRBtemplateSim.h 
+Log Message:
+Change the GBM outpout file generation. Now histograms
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p4, operation: add
+Package: GRBtemplate
+User: burnett  Sun Dec  3 11:24:58 2006
+Files:
+  GRBtemplate/.cvsignore  1.1.1.1
+  GRBtemplate/ChangeLog  1.57
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.5
+  GRBtemplate/cmt/requirements  1.8
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.5
+  GRBtemplate/src/GRBtemplateManager.cxx  1.9
+  GRBtemplate/src/GRBtemplateSim.cxx  1.8
+  GRBtemplate/src/test/testGRB.cxx  1.1
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.5
+  GRBtemplate/xml/GRBtemplate_library.xml  1.5
+
+    *
+------------------------------------------------------------
+User: burnett  Sun Dec  3 11:24:35 PST 2006
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx 
+Log Message:
+fix reference to unsupported CLHEP vector and tag
+    *
+------------------------------------------------------------
+User: burnett  Sun Dec  3 11:24:35 PST 2006
+celestialSources/GRBtemplate/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fix reference to unsupported CLHEP vector and tag
+    *
+------------------------------------------------------------
+User: burnett  Sun Dec  3 11:24:35 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix reference to unsupported CLHEP vector and tag
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p3, operation: add
+Package: GRBtemplate
+User: omodei  Wed Nov  1 09:37:10 2006
+Files:
+  GRBtemplate/.cvsignore  1.1.1.1
+  GRBtemplate/ChangeLog  1.56
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.5
+  GRBtemplate/cmt/requirements  1.7
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.4
+  GRBtemplate/src/GRBtemplateManager.cxx  1.8
+  GRBtemplate/src/GRBtemplateSim.cxx  1.8
+  GRBtemplate/src/test/testGRB.cxx  1.1
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.5
+  GRBtemplate/xml/GRBtemplate_library.xml  1.5
+
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov  1 09:36:40 PST 2006
+celestialSources/GRBtemplate/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Tested under windows: ok. Now tag...
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov  1 09:36:40 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Tested under windows: ok. Now tag...
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov  1 09:25:26 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Removed Files:
+	Makefile cleanup.csh cleanup.sh rh9_gcc32.make setup.csh 
+	setup.sh 
+Log Message:
+remove obsolerte files
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov  1 09:22:24 PST 2006
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx GRBtemplateSim.cxx 
+Log Message:
+reinterpret_cast windows bug fixed (?)
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov  1 09:22:24 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	cleanup.csh cleanup.sh rh9_gcc32.make setup.csh setup.sh 
+Log Message:
+reinterpret_cast windows bug fixed (?)
+    *
+------------------------------------------------------------
+User: omodei  Wed Nov  1 09:22:24 PST 2006
+celestialSources/GRBtemplate/GRBtemplate
+
+Modified Files:
+	GRBtemplateSim.h 
+Log Message:
+reinterpret_cast windows bug fixed (?)
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p2, operation: add
+Package: GRBtemplate
+User: omodei  Tue Oct 31 14:16:38 2006
+Files:
+  GRBtemplate/.cvsignore  1.1.1.1
+  GRBtemplate/ChangeLog  1.49
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.4
+  GRBtemplate/cmt/setup.csh  1.4
+  GRBtemplate/cmt/cleanup.csh  1.4
+  GRBtemplate/cmt/rh9_gcc32.make  1.8
+  GRBtemplate/cmt/requirements  1.6
+  GRBtemplate/cmt/cleanup.sh  1.4
+  GRBtemplate/cmt/setup.sh  1.4
+  GRBtemplate/cmt/Makefile  1.1.1.1
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.3
+  GRBtemplate/src/GRBtemplateManager.cxx  1.7
+  GRBtemplate/src/GRBtemplateSim.cxx  1.7
+  GRBtemplate/src/test/testGRB.cxx  1.1
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.5
+  GRBtemplate/xml/GRBtemplate_library.xml  1.5
+
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 14:15:46 PST 2006
+celestialSources/GRBtemplate/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+ready to be tagged
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 14:15:46 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+ready to be tagged
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 13:01:23 PST 2006
+celestialSources/GRBtemplate/xml
+
+Modified Files:
+	GRBtemplate_library.xml 
+Log Message:
+bug fixed
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 13:01:23 PST 2006
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx GRBtemplateSim.cxx 
+Log Message:
+bug fixed
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 13:01:23 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	rh9_gcc32.make 
+Log Message:
+bug fixed
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 13:01:23 PST 2006
+celestialSources/GRBtemplate/GRBtemplate
+
+Modified Files:
+	GRBtemplateManager.h GRBtemplateSim.h 
+Log Message:
+bug fixed
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 09:38:02 PST 2006
+celestialSources/GRBtemplate/data
+
+Modified Files:
+	Thermal_LAT_A_025.dat Thermal_LAT_A_073.dat 
+	Thermal_LAT_A_617.dat Thermal_LAT_C_014.dat 
+Log Message:
+Bug Fixed in the data files
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0p1, operation: add
+Package: GRBtemplate
+User: omodei  Tue Oct 31 07:14:14 2006
+Files:
+  GRBtemplate/.cvsignore  1.1.1.1
+  GRBtemplate/ChangeLog  1.41
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.4
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.3
+  GRBtemplate/cmt/setup.csh  1.4
+  GRBtemplate/cmt/cleanup.csh  1.4
+  GRBtemplate/cmt/rh9_gcc32.make  1.7
+  GRBtemplate/cmt/requirements  1.5
+  GRBtemplate/cmt/cleanup.sh  1.4
+  GRBtemplate/cmt/setup.sh  1.4
+  GRBtemplate/cmt/Makefile  1.1.1.1
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.1
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.1
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.2
+  GRBtemplate/src/GRBtemplateManager.cxx  1.6
+  GRBtemplate/src/GRBtemplateSim.cxx  1.6
+  GRBtemplate/src/test/testGRB.cxx  1.1
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.5
+  GRBtemplate/xml/GRBtemplate_library.xml  1.4
+
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 07:13:39 PST 2006
+celestialSources/GRBtemplate/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+ready to be tagged
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 07:13:39 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+ready to be tagged
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 07:11:35 PST 2006
+celestialSources/GRBtemplate/xml
+
+Modified Files:
+	GRBtemplate_library.xml 
+Log Message:
+Add LAT template files
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 07:11:35 PST 2006
+celestialSources/GRBtemplate/data
+
+Added Files:
+	Thermal_LAT_A_025.dat Thermal_LAT_A_073.dat 
+	Thermal_LAT_A_617.dat Thermal_LAT_C_014.dat 
+Log Message:
+Add LAT template files
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 07:01:32 PST 2006
+celestialSources/GRBtemplate/xml
+
+Modified Files:
+	GRBtemplate_library.xml 
+Log Message:
+Add different options in the main of the root test
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 07:01:32 PST 2006
+celestialSources/GRBtemplate/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add different options in the main of the root test
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 07:01:32 PST 2006
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateSim.cxx 
+Log Message:
+Add different options in the main of the root test
+    *
+------------------------------------------------------------
+User: omodei  Tue Oct 31 07:01:32 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	rh9_gcc32.make 
+Log Message:
+Add different options in the main of the root test
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r0, operation: add
+Package: GRBtemplate
+User: omodei  Mon Oct 30 11:42:28 2006
+Files:
+  GRBtemplate/.cvsignore  1.1.1.1
+  GRBtemplate/ChangeLog  1.32
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.4
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.3
+  GRBtemplate/cmt/setup.csh  1.4
+  GRBtemplate/cmt/cleanup.csh  1.4
+  GRBtemplate/cmt/rh9_gcc32.make  1.6
+  GRBtemplate/cmt/requirements  1.4
+  GRBtemplate/cmt/cleanup.sh  1.4
+  GRBtemplate/cmt/setup.sh  1.4
+  GRBtemplate/cmt/Makefile  1.1.1.1
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/doc/release.notes  1.1
+  GRBtemplate/src/GRBtemplateManager.cxx  1.6
+  GRBtemplate/src/GRBtemplateSim.cxx  1.5
+  GRBtemplate/src/test/testGRB.cxx  1.1
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.4
+  GRBtemplate/xml/GRBtemplate_library.xml  1.2
+
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:42:00 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+First stable version?
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:52 PST 2006
+celestialSources/GRBtemplate/xml
+
+Modified Files:
+	GRBtemplate_library.xml 
+Log Message:
+add the test program, bugs fixed.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:52 PST 2006
+celestialSources/GRBtemplate/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+add the test program, bugs fixed.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:52 PST 2006
+celestialSources/GRBtemplate/src/test
+
+Added Files:
+	testGRB.cxx 
+Log Message:
+add the test program, bugs fixed.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:52 PST 2006
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx GRBtemplateSim.cxx 
+Log Message:
+add the test program, bugs fixed.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:52 PST 2006
+celestialSources/GRBtemplate/doc
+
+Added Files:
+	release.notes 
+Log Message:
+add the test program, bugs fixed.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:52 PST 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements rh9_gcc32.make 
+Log Message:
+add the test program, bugs fixed.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:52 PST 2006
+celestialSources/GRBtemplate/GRBtemplate
+
+Modified Files:
+	GRBtemplateManager.h GRBtemplateSim.h 
+Log Message:
+add the test program, bugs fixed.
+    *
+------------------------------------------------------------
+User: omodei  Mon Oct 30 11:40:06 PST 2006
+celestialSources/GRBtemplate/doc
+
+Log Message:
+Directory /nfs/slac/g/glast/ground/cvs/celestialSources/GRBtemplate/doc added to the repository
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r3, operation: add
+Package: GRBtemplate
+User: omodei  Wed Jul 12 06:18:37 2006
+Files:
+  GRBtemplate/.cvsignore  1.1.1.1
+  GRBtemplate/ChangeLog  1.19
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.2
+  GRBtemplate/cmt/setup.csh  1.4
+  GRBtemplate/cmt/cleanup.csh  1.4
+  GRBtemplate/cmt/rh9_gcc32.make  1.5
+  GRBtemplate/cmt/requirements  1.2
+  GRBtemplate/cmt/cleanup.sh  1.4
+  GRBtemplate/cmt/setup.sh  1.4
+  GRBtemplate/cmt/Makefile  1.1.1.1
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/src/GRBtemplateManager.cxx  1.5
+  GRBtemplate/src/GRBtemplateSim.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.3
+  GRBtemplate/xml/GRBtemplate_library.xml  1.1
+
+    *
+------------------------------------------------------------
+User: omodei  Wed Jul 12 06:18:19 PDT 2006
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx 
+Log Message:
+Fixed GRBdate
+
+    *
+------------------------------------------------------------
+User: omodei  Wed Jul 12 06:18:18 PDT 2006
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	cleanup.csh cleanup.sh requirements rh9_gcc32.make setup.csh 
+	setup.sh 
+Log Message:
+Fixed GRBdate
+
+    *
+------------------------------------------------------------
+User: omodei  Wed Jul 12 06:18:18 PDT 2006
+celestialSources/GRBtemplate/GRBtemplate
+
+Modified Files:
+	GRBtemplateManager.h 
+Log Message:
+Fixed GRBdate
+
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 10:27:02 PST 2005
+celestialSources/GRBtemplate/data
+
+Added Files:
+	test.dat 
+Log Message:
+add test.dat
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 10:25:57 PST 2005
+celestialSources/GRBtemplate/data
+
+Modified Files:
+	pulse_002.dat 
+Log Message:
+check the flux normalization
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 10:24:35 PST 2005
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx GRBtemplateSim.cxx 
+Log Message:
+check the flux normalization
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 10:24:35 PST 2005
+celestialSources/GRBtemplate/data
+
+Modified Files:
+	GRBTMP000000.dat GenerateFakeBurst.C pulse_002.dat 
+Log Message:
+check the flux normalization
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 10:24:33 PST 2005
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	rh9_gcc32.make 
+Log Message:
+check the flux normalization
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 08:38:09 PST 2005
+celestialSources/GRBtemplate/xml
+
+Added Files:
+	GRBtemplate_library.xml 
+Log Message:
+Add the xml library, and facilities for expanding a variable
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 08:38:09 PST 2005
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx GRBtemplateSim.cxx 
+Log Message:
+Add the xml library, and facilities for expanding a variable
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 08:38:09 PST 2005
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	cleanup.csh cleanup.sh rh9_gcc32.make setup.csh setup.sh 
+Log Message:
+Add the xml library, and facilities for expanding a variable
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 08:38:09 PST 2005
+celestialSources/GRBtemplate/GRBtemplate
+
+Modified Files:
+	GRBtemplateManager.h GRBtemplateSim.h 
+Log Message:
+Add the xml library, and facilities for expanding a variable
+    *
+------------------------------------------------------------
+User: omodei  Fri Dec 16 08:06:05 PST 2005
+celestialSources/GRBtemplate/xml
+
+Log Message:
+Directory /nfs/slac/g/glast/ground/cvs/celestialSources/GRBtemplate/xml added to the repository
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceToolsv6r2, operation: add
+Package: GRBtemplate
+User: glast  Wed Dec 14 10:49:30 2005
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v0r2, operation: add
+Package: GRBtemplate
+User: omodei  Thu Jun 23 10:47:41 2005
+Files:
+  GRBtemplate/.cvsignore  1.1.1.1
+  GRBtemplate/ChangeLog  1.7
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.1.1.1
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.1.1.1
+  GRBtemplate/cmt/setup.csh  1.2
+  GRBtemplate/cmt/cleanup.csh  1.2
+  GRBtemplate/cmt/rh9_gcc32.make  1.2
+  GRBtemplate/cmt/requirements  1.1.1.1
+  GRBtemplate/cmt/cleanup.sh  1.2
+  GRBtemplate/cmt/setup.sh  1.2
+  GRBtemplate/cmt/Makefile  1.1.1.1
+  GRBtemplate/data/pulse_002.dat  1.1
+  GRBtemplate/data/GenerateFakeBurst.C  1.2
+  GRBtemplate/data/GRBTMP000000.dat  1.2
+  GRBtemplate/src/GRBtemplateManager.cxx  1.2
+  GRBtemplate/src/GRBtemplateSim.cxx  1.2
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.3
+
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 10:46:39 PDT 2005
+celestialSources/GRBtemplate/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+GPS namespace included and some minor changes in root plots
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 10:46:39 PDT 2005
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx 
+Log Message:
+GPS namespace included and some minor changes in root plots
+    *
+------------------------------------------------------------
+User: omodei  Thu Jun 23 10:46:39 PDT 2005
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	cleanup.csh cleanup.sh rh9_gcc32.make setup.csh setup.sh 
+Log Message:
+GPS namespace included and some minor changes in root plots
+    *
+------------------------------------------------------------
+User: omodei  Wed May 11 02:14:50 PDT 2005
+celestialSources/GRBtemplate/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add the pulse profile from Felix Ryde & Milan Battelino
+
+    *
+------------------------------------------------------------
+User: omodei  Wed May 11 02:14:50 PDT 2005
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateSim.cxx 
+Log Message:
+Add the pulse profile from Felix Ryde & Milan Battelino
+
+    *
+------------------------------------------------------------
+User: omodei  Wed May 11 02:14:50 PDT 2005
+celestialSources/GRBtemplate/data
+
+Modified Files:
+	GRBTMP000000.dat GenerateFakeBurst.C 
+Added Files:
+	pulse_002.dat 
+Log Message:
+Add the pulse profile from Felix Ryde & Milan Battelino
+
+    *
+------------------------------------------------------------
+User: omodei  Fri May  6 08:59:22 PDT 2005
+celestialSources/GRBtemplate
+
+Log Message:
+Fisrt Import of GRBtemplate: read ascii file and convert into TH2D
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0r1
+		
+N celestialSources/GRBtemplate/.cvsignore
+N celestialSources/GRBtemplate/cmt/Makefile
+N celestialSources/GRBtemplate/cmt/requirements
+N celestialSources/GRBtemplate/cmt/rh9_gcc32.make
+N celestialSources/GRBtemplate/cmt/setup.csh
+N celestialSources/GRBtemplate/cmt/setup.sh
+N celestialSources/GRBtemplate/cmt/cleanup.csh
+N celestialSources/GRBtemplate/cmt/cleanup.sh
+N celestialSources/GRBtemplate/src/GRBtemplateManager.cxx
+N celestialSources/GRBtemplate/src/GRBtemplateSim.cxx
+N celestialSources/GRBtemplate/src/test/other/GRBROOTtest.cxx
+N celestialSources/GRBtemplate/GRBtemplate/GRBtemplateManager.h
+N celestialSources/GRBtemplate/GRBtemplate/GRBtemplateSim.h
+N celestialSources/GRBtemplate/data/GRBTMP000000.dat
+N celestialSources/GRBtemplate/data/GenerateFakeBurst.C
+
+No conflicts created by this import
+
+    *
