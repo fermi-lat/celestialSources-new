@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Apr  5 08:19:40 PDT 2007
+celestialSources/GRBtemplate/data
+
+Added Files:
+	BGO_energy_grid.dat NaI_energy_grid.dat 
+Log Message:
+Add NaI and BGO energy grids
+    *
+------------------------------------------------------------
 User: omodei  Thu Apr  5 08:19:05 PDT 2007
 celestialSources/GRBtemplate/xml
 
