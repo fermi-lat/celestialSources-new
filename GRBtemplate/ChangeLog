@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Apr  5 08:19:05 PDT 2007
+celestialSources/GRBtemplate/xml
+
+Modified Files:
+	GRBtemplate_library.xml 
+Log Message:
+Change the GBM outpout file generation. Now histograms
+    *
+------------------------------------------------------------
+User: omodei  Thu Apr  5 08:19:05 PDT 2007
 celestialSources/GRBtemplate/src
 
 Modified Files:
