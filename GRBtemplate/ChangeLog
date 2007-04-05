@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Apr  5 08:19:05 PDT 2007
+celestialSources/GRBtemplate/GRBtemplate
+
+Modified Files:
+	GRBtemplateSim.h 
+Log Message:
+Change the GBM outpout file generation. Now histograms
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p4, operation: add
 Package: GRBtemplate
