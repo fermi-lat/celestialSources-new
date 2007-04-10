@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Apr 10 08:54:22 PDT 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+fixed a window compilation problem
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r0p5, operation: add
 Package: GRBobs
