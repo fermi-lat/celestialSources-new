@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Tue Apr 10 08:54:22 PDT 2007
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+fixed a window compilation problem
+    *
+------------------------------------------------------------
+User: omodei  Tue Apr 10 08:54:22 PDT 2007
 celestialSources/GRBobs/src
 
 Modified Files:
