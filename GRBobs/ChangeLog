@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Tue Apr 10 08:54:23 PDT 2007
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_grid_library.xml GRBobs_user_library.xml 
+	GenerateGRBGrid.C GenerateXMLLibrary.C 
+Log Message:
+fixed a window compilation problem
+    *
+------------------------------------------------------------
 User: omodei  Tue Apr 10 08:54:22 PDT 2007
 celestialSources/GRBobs/src/test
 
