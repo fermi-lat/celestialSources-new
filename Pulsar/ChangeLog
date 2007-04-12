@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Thu Apr 12 10:44:58 PDT 2007
+celestialSources/Pulsar/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Fixed bug on StartTime and endTime
+    *
+------------------------------------------------------------
+User: razzano  Thu Apr 12 10:44:58 PDT 2007
 celestialSources/Pulsar/data
 
 Modified Files:
