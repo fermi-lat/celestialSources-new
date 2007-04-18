@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Apr 18 16:22:08 PDT 2007
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+added timerange exception
+    *
+------------------------------------------------------------
 User: razzano  Wed Apr 18 12:13:56 PDT 2007
 celestialSources/Pulsar/src
 
