@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Thu Apr 19 20:33:47 PDT 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Intermediate version towards pre-calculating outburst times
+
+    *
+------------------------------------------------------------
 User: richard  Thu Apr 19 20:33:10 PDT 2007
 celestialSources/microQuasar/microQuasar
 
