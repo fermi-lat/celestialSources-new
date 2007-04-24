@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Tue Apr 24 03:39:26 PDT 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+workaround for FT2 problems
+    *
+------------------------------------------------------------
+User: razzano  Tue Apr 24 03:39:26 PDT 2007
 celestialSources/Pulsar/doc
 
 Modified Files:
