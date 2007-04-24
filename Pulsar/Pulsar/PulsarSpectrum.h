@@ -186,6 +186,12 @@ class PulsarSpectrum : public ISpectrum
   //!Minimum and maximum energy of the extracted photons
   double m_enphmin, m_enphmax;
 
+  //! start and end of pointing history
+  double m_FT2_startMET,m_FT2_stopMET; 
+  int m_UseFT2;
+
+  double m_Sim_startMET,m_Sim_stopMET; 
+
   //! Random seed
   int m_seed;
 
