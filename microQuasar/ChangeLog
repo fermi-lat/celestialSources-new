@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Thu May 10 14:46:19 PDT 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx mainpage.h 
+Log Message:
+A little more cleanup; optional xml parameters allowed now.
+
+    *
+------------------------------------------------------------
 User: richard  Thu May 10 12:41:51 PDT 2007
 celestialSources/microQuasar/src
 
