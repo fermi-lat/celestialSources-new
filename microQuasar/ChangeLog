@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Thu May 10 12:41:51 PDT 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+ Precomputed bursts appear to be working. Some cleanup still needed.
+
+    *
+------------------------------------------------------------
 User: richard  Wed May  9 15:22:18 PDT 2007
 celestialSources/microQuasar/src
 
