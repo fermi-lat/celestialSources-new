@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sat May 12 14:30:18 PDT 2007
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBShell.cxx GRBShock.h 
+Log Message:
+convert from MAC line end
+    *
+------------------------------------------------------------
 User: burnett  Sat May 12 14:29:12 PDT 2007
 celestialSources/GRB/src/GRB
 
