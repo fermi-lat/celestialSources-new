@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sat May 12 14:23:47 PDT 2007
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+convert from Mac line ends
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r0p6, operation: add
 Package: GRBobs
