@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sat May 12 14:29:12 PDT 2007
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBShell.cxx GRBShell.h 
+Log Message:
+convert mac line ends
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r3p1, operation: add
 Package: GRB
