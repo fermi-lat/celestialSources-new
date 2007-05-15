@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Mon May 14 19:52:21 PDT 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Fix burst # calculation
+
+    *
+------------------------------------------------------------
 User: richard  Mon May 14 19:51:49 PDT 2007
 celestialSources/microQuasar/microQuasar
 
