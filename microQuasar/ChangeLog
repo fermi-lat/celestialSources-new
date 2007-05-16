@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Tue May 15 18:48:34 PDT 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Another fix for outburst timing
+
+    *
+------------------------------------------------------------
 User: richard  Tue May 15 18:48:14 PDT 2007
 celestialSources/microQuasar/microQuasar
 
