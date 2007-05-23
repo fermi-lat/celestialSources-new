@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Tue May 22 18:57:40 PDT 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Remove cout of outbursts
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p7, operation: add
 Package: microQuasar
