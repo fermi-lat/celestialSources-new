@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Fri Jun  1 11:57:42 PDT 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+ Don't access history file if no outburst
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p8, operation: add
 Package: microQuasar
