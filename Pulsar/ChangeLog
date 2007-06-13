@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Wed Jun 13 01:05:17 PDT 2007
+celestialSources/Pulsar/src/test/other
+
+Modified Files:
+	PulsarROOTtest.cxx 
+Log Message:
+Added new algorithm for inverse barycentering
+    *
+------------------------------------------------------------
+User: razzano  Wed Jun 13 01:05:17 PDT 2007
 celestialSources/Pulsar/src
 
 Modified Files:
