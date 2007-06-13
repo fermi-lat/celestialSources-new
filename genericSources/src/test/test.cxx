@@ -11,7 +11,7 @@
 
 #include <cstdlib>
 
-#include <fstream>
+#include<fstream>
 
 #include "astro/GPS.h"
 #include "astro/PointingTransform.h"
@@ -20,9 +20,6 @@
 #include "flux/CompositeSource.h"
 #include "flux/FluxMgr.h"
 
-#include "TestUtil.h"
-
-ISpectrumFactory & FitsTransientFactory();
 ISpectrumFactory & GaussianSourceFactory();
 ISpectrumFactory & GRBmanagerFactory();
 ISpectrumFactory & IsotropicFactory();
@@ -31,13 +28,7 @@ ISpectrumFactory & MapSourceFactory();
 ISpectrumFactory & PeriodicSourceFactory();
 ISpectrumFactory & PulsarFactory();
 ISpectrumFactory & SimpleTransientFactory();
-ISpectrumFactory & SourcePopulationFactory();
 ISpectrumFactory & TransientTemplateFactory();
-ISpectrumFactory & TF1SpectrumFactory();
-ISpectrumFactory & TF1MapFactory();
-ISpectrumFactory & FileSpectrumFactory();
-ISpectrumFactory & FileSpectrumMapFactory();
-//ISpectrumFactory & EventListFactory();
 
 class TestApp {
 
@@ -79,7 +70,7 @@ int main(int iargc, char * argv[]) {
 
    try {
       TestApp testApp;
-      
+
       testApp.parseCommandLine(iargc, argv);
       testApp.load_sources();
       testApp.setXmlFiles();
@@ -88,11 +79,6 @@ int main(int iargc, char * argv[]) {
 
    } catch (std::exception & eObj) {
       std::cout << eObj.what() << std::endl;
-      return 1;
-   }
-
-   if (!Util_tests()) {
-      return 1;
    }
 }
 
@@ -119,11 +105,8 @@ void TestApp::parseCommandLine(int iargc, char * argv[]) {
    }
 }
 
-
 void TestApp::setSources() {
-   char * srcNames[] = {
-                        "Galactic_diffuse",
-                        "Galactic_diffuse_0",
+   char * srcNames[] = {"Galactic_diffuse",
                         "simple_transient",
                         "transient_template",
                         "_3C279_June1991_flare",
@@ -133,17 +116,8 @@ void TestApp::setSources() {
                         "Geminga_Pulsar",
                         "gaussian_source",
                         "Extragalactic_diffuse",
-                        "map_cube_source",
-                        "map_cube_source_0",
-                        "fits_spectrum",
-                        "source_population",
-			"tf1spectrum_test",
- 			"tf1map_test",
-                        "filespectrummap_test",
- 			"filespectrum_test"
-   };
-   size_t nsrcNames(sizeof(srcNames)/sizeof(char*));
-   std::vector<std::string> sourceNames(srcNames, srcNames + nsrcNames);
+                        "map_cube_source"};
+   std::vector<std::string> sourceNames(srcNames, srcNames+11);
 
    m_compositeSource = new CompositeSource();
    unsigned long nsrcs(0);
@@ -179,9 +153,7 @@ void TestApp::createEvents(const std::string & filename) {
       HepRotation rotMatrix = instrumentToCelestial(currentTime);
       astro::SkyDir srcDir(rotMatrix(-launchDir), astro::SkyDir::EQUATORIAL);
       
-      outputFile << m_compositeSource->findSource().c_str()<<"  "
-		 << newEvent->particleName()<<"  "
-		 << newEvent->time() << "  "
+      outputFile << newEvent->time() << "  "
                  << newEvent->energy() << "  "
                  << srcDir.ra() << "  "
                  << srcDir.dec() << "\n";
@@ -190,7 +162,6 @@ void TestApp::createEvents(const std::string & filename) {
 }
 
 void TestApp::load_sources() {
-   FitsTransientFactory();
    GaussianSourceFactory();
    IsotropicFactory();
    MapCubeFactory();
@@ -198,19 +169,16 @@ void TestApp::load_sources() {
    PeriodicSourceFactory();
    PulsarFactory();
    SimpleTransientFactory();
-   SourcePopulationFactory();
    TransientTemplateFactory();
-   TF1SpectrumFactory();
-   TF1MapFactory();
-   FileSpectrumFactory();
-   FileSpectrumMapFactory();
-//   EventListFactory();
 }
 
 HepRotation TestApp::instrumentToCelestial(double time) {
-   astro::GPS *gps = astro::GPS::instance();
-   gps->time(time);
+//   astro::GPS *gps = astro::GPS::instance();
+   GPS *gps = GPS::instance();
+   gps->getPointingCharacteristics(time);
+   astro::SkyDir xAxis(gps->RAX(), gps->DECX());
+   astro::SkyDir zAxis(gps->RAZ(), gps->DECZ());
 
-   astro::PointingTransform transform(gps->zAxisDir(), gps->xAxisDir());
+   astro::PointingTransform transform(zAxis, xAxis);
    return transform.localToCelestial();
 }
