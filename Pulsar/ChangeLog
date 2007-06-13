@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Wed Jun 13 07:35:45 PDT 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Upgraded the inverse bary algorit
+    *
+------------------------------------------------------------
+User: razzano  Wed Jun 13 07:35:45 PDT 2007
 celestialSources/Pulsar/doc
 
 Modified Files:
