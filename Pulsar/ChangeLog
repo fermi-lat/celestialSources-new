@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Wed Jun 13 01:33:55 PDT 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+changed precision of inverse correctons
+    *
+------------------------------------------------------------
+User: razzano  Wed Jun 13 01:33:55 PDT 2007
 celestialSources/Pulsar/Pulsar
 
 Modified Files:
