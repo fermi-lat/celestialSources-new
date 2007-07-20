@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: lreyes  Fri Jul 20 10:31:49 PDT 2007
-celestialSources/eblAtten/src
-
-Modified Files:
-	IRB_routines.cxx 
-Log Message:
-Extending energy range of implemented EBL models and updating Stecker's model
-    *
-------------------------------------------------------------
-User: lreyes  Fri Jul 20 10:31:49 PDT 2007
-celestialSources/eblAtten/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-Extending energy range of implemented EBL models and updating Stecker's model
-    *
-------------------------------------------------------------
 TAG
 Tag name: ScienceToolsv6r2, operation: add
 Package: eblAtten
