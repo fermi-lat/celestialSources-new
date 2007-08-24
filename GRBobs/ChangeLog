@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Aug 24 08:10:37 PDT 2007
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+add in some Berrie recommended includes
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r0p7, operation: add
 Package: GRBobs

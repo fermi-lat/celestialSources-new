@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Aug 24 08:08:59 PDT 2007
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx GRBConstants.h 
+Log Message:
+add Berrie recommended includes
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r3p2, operation: add
 Package: GRB
