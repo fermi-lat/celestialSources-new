@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Wed Aug 29 10:40:11 PDT 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsPulse.cxx 
+Log Message:
+Disableling the spectral evolution. Test.
+    *
+------------------------------------------------------------
+User: omodei  Wed Aug 29 10:40:11 PDT 2007
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
