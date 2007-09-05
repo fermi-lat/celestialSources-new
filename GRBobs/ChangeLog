@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: omodei  Wed Sep  5 08:16:34 PDT 2007
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_grid_library.xml GRBobs_user_library.xml 
+	GenerateGRBGrid.C GenerateXMLLibrary.C 
+Log Message:
+Changes in the library (create a grid of 600 bursts)
+    *
+------------------------------------------------------------
 User: omodei  Wed Sep  5 08:16:33 PDT 2007
 celestialSources/GRBobs/src/test
 
