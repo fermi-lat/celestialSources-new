@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Sep  5 08:16:33 PDT 2007
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+Changes in the library (create a grid of 600 bursts)
+    *
+------------------------------------------------------------
 User: omodei  Wed Sep  5 07:20:06 PDT 2007
 celestialSources/GRBobs/xml
 
