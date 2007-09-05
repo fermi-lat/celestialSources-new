@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Sep  5 07:20:05 PDT 2007
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+changes on the fluence calculation
+    *
+------------------------------------------------------------
 User: omodei  Wed Aug 29 10:40:12 PDT 2007
 celestialSources/GRBobs/xml
 
