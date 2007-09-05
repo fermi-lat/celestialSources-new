@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Wed Sep  5 07:20:05 PDT 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx 
+Log Message:
+changes on the fluence calculation
+    *
+------------------------------------------------------------
+User: omodei  Wed Sep  5 07:20:05 PDT 2007
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
