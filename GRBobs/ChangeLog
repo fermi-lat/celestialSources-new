@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Sep  5 09:16:54 PDT 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+Now it prionts out the seed.
+    *
+------------------------------------------------------------
 User: omodei  Wed Sep  5 08:16:34 PDT 2007
 celestialSources/GRBobs/xml
 
