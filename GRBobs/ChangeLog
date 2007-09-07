@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Sep  7 01:35:12 PDT 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsmanager.cxx 
+Log Message:
+prints fluence and pflux in PAR file
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r1, operation: add
 Package: GRBobs
