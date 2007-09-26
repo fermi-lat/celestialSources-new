@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Wed Sep 26 13:38:59 PDT 2007
+celestialSources/GRBobs/GRBobs
+
+Removed Files:
+	BGO_energy_grid.dat NaI_energy_grid.dat 
+Log Message:
+Use commonUtilities and move data files into data directory
+    *
+------------------------------------------------------------
 User: golpa  Wed Sep 26 13:35:50 PDT 2007
 celestialSources/GRBobs/data
 
