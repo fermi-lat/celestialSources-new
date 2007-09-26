@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: golpa  Wed Sep 26 13:38:59 PDT 2007
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Use commonUtilities and move data files into data directory
+    *
+------------------------------------------------------------
+User: golpa  Wed Sep 26 13:38:59 PDT 2007
 celestialSources/GRBobs/src/test
 
 Modified Files:
