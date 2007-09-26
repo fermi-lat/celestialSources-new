@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Wed Sep 26 14:49:26 PDT 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+updated to use commonUtilities
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r3p8, operation: add
 Package: Pulsar
