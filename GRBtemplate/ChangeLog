@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: golpa  Wed Sep 26 13:20:49 PDT 2007
+celestialSources/GRBtemplate/src/test
+
+Modified Files:
+	testGRB.cxx 
+Log Message:
+Use commonUtilities
+    *
+------------------------------------------------------------
+User: golpa  Wed Sep 26 13:20:49 PDT 2007
 celestialSources/GRBtemplate/src
 
 Modified Files:
