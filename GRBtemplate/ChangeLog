@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Wed Sep 26 13:20:49 PDT 2007
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateSim.cxx 
+Log Message:
+Use commonUtilities
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r1p0, operation: add
 Package: GRBtemplate
