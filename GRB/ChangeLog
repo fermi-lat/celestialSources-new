@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Wed Sep 26 12:46:50 PDT 2007
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBmanager.cxx GRBmanager.h 
+Log Message:
+Changes to use commonUtilities
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r3p3, operation: add
 Package: GRB
