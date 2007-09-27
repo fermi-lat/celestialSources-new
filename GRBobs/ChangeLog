@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Thu Sep 27 10:20:25 PDT 2007
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Add the Navid Changes for facilities/commonUtil
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r1p2, operation: add
 Package: GRBobs
