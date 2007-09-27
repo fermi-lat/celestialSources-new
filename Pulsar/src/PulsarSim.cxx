@@ -6,7 +6,6 @@
 #include <iostream>
 #include "Pulsar/PulsarConstants.h"
 #include "Pulsar/PulsarSim.h"
-#include "facilities/commonUtilities.h"
 
 #define DEBUG 0
 #define SAVETIMEPROFILE 0
@@ -107,7 +106,7 @@ TH2D* PulsarSim::PSRPhenom(double par0, double par1, double par2, double par3, d
   std::string logSimLabel;
   // override obssim if running in Gleam environment
   if( pulsarOutDir!=0) 
-    logSimLabel = facilities::commonUtilities::joinPath(std::string(pulsarOutDir), m_name + "Log.txt");
+    logSimLabel = std::string(pulsarOutDir) + "/" + m_name + "Log.txt"; 
   else
     logSimLabel = m_name + "Log.txt"; 
 
@@ -232,11 +231,12 @@ TH2D* PulsarSim::PSRPhenom(double par0, double par1, double par2, double par3, d
     {
 
       //Look for NAMETimeProfile.txt in the data directory...
-      std::string TimeProfileFileName = facilities::commonUtilities::joinPath(facilities::commonUtilities::getDataPath("Pulsar"), m_name+"TimeProfile.txt");
+      std::string  pulsar_root = ::getenv("PULSARROOT");
+      std::string TimeProfileFileName = pulsar_root + "/data/" + m_name + "TimeProfile.txt";
       const char * gleam = ::getenv("PULSARDATA");
 
       // override obssim if running in Gleam environment
-      if( gleam!=0) TimeProfileFileName = facilities::commonUtilities::joinPath(std::string(gleam), m_name + "TimeProfile.txt");
+      if( gleam!=0) TimeProfileFileName = std::string(gleam)+"/"+ m_name + "TimeProfile.txt";
 
       if (DEBUG)
 	{
@@ -248,7 +248,8 @@ TH2D* PulsarSim::PSRPhenom(double par0, double par1, double par2, double par3, d
   
       if (! TimeProfileFile.is_open()) 
 	{
-	  std::cout << "Error opening TimeProfile file " << TimeProfileFileName << " for Pulsar " << m_name << std::endl;
+	  std::cout << "Error opening TimeProfile file " << TimeProfileFileName << " for Pulsar " << m_name
+		    << " (check whether $PULSARROOT is set" << std::endl; 
 	  exit (1);
 	}
 
@@ -365,7 +366,7 @@ TH2D* PulsarSim::PSRShape(std::string ModelShapeName, int NormalizeFlux)
   std::string logSimLabel;
   // override obssim if running in Gleam environment
   if( pulsarOutDir!=0) 
-    logSimLabel = facilities::commonUtilities::joinPath(std::string(pulsarOutDir), m_name + "Log.txt");
+    logSimLabel = std::string(pulsarOutDir) + "/" + m_name + "Log.txt"; 
   else
     logSimLabel = m_name + "Log.txt"; 
 
@@ -383,11 +384,12 @@ TH2D* PulsarSim::PSRShape(std::string ModelShapeName, int NormalizeFlux)
  
 
   //Look for ModelShapeName.root in the data directory...
-  std::string ModelShapeInputFileName = facilities::commonUtilities::joinPath(facilities::commonUtilities::getDataPath("Pulsar"), ModelShapeName + ".root");
+  std::string  pulsar_root = ::getenv("PULSARROOT");
+  std::string ModelShapeInputFileName = pulsar_root + "/data/" + ModelShapeName + ".root";
   const char * gleam = ::getenv("PULSARDATA");
   
   // override obssim if running in Gleam environment
-  if( gleam!=0) ModelShapeInputFileName = facilities::commonUtilities::joinPath(std::string(gleam), ModelShapeName + ".root");
+  if( gleam!=0) ModelShapeInputFileName = std::string(gleam)+"/"+ ModelShapeName + ".root";
 
   PulsarLogSim << "** Using Shape " << ModelShapeName << " located at: " << ModelShapeInputFileName << std::endl;
 
@@ -504,7 +506,7 @@ void PulsarSim::SaveNv(TH2D *Nv)
   // override obssim if running in Gleam environment
   std::string root_name;
   if( pulsarOutDir!=0) 
-    root_name = facilities::commonUtilities::joinPath(std::string(pulsarOutDir),  m_name + "root.root");
+    root_name = std::string(pulsarOutDir) + "/" + m_name + "root.root";
   else
     root_name =  m_name + "root.root";
 
@@ -537,7 +539,7 @@ void PulsarSim::SaveTimeProfile(TH2D *Nv)
   // override obssim if running in Gleam environment
   std::string nameProfile;
   if( pulsarOutDir!=0) 
-    nameProfile = facilities::commonUtilities::joinPath(std::string(pulsarOutDir), m_name + "TimeProfile.txt");
+    nameProfile = std::string(pulsarOutDir) + "/" + m_name + "TimeProfile.txt";
   else
     nameProfile = m_name + "TimeProfile.txt";
 
