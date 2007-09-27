@@ -5,8 +5,6 @@
 #include "flux/FluxMgr.h"
 #include "astro/GPS.h"
 
-#include "facilities/commonUtilities.h"
-
 #include <iostream>
 #include <fstream>
 #include <algorithm>
@@ -130,7 +128,7 @@ int main(int argn, char * argc[]) {
   
   //TESTING MULTIPLE XML INPUT
   std::vector<std::string> fileList;
-  fileList.push_back(facilities::commonUtilities::joinPath(facilities::commonUtilities::getXmlPath("GRB"), "GRB_user_library.xml"));
+  fileList.push_back("$(GRBROOT)/xml/GRB_user_library.xml");
   FluxMgr fm(fileList);
   
   //FluxMgr fm;
