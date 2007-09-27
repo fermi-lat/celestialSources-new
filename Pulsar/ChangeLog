@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: razzano  Thu Sep 27 03:48:30 PDT 2007
-celestialSources/Pulsar/src
-
-Modified Files:
-	PulsarSpectrum.cxx 
-Log Message:
- commit changes using commonUtilities
-    *
-------------------------------------------------------------
-User: razzano  Thu Sep 27 03:48:30 PDT 2007
-celestialSources/Pulsar/doc
-
-Modified Files:
-	release.notes 
-Log Message:
- commit changes using commonUtilities
-    *
-------------------------------------------------------------
 User: golpa  Wed Sep 26 14:49:26 PDT 2007
 celestialSources/Pulsar/src
 
