@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Thu Sep 27 09:40:27 PDT 2007
+celestialSources/genericSources/src/test
+
+Modified Files:
+	test.cxx 
+Log Message:
+Use commonUtilities to obtain path
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r7p5, operation: add
 Package: genericSources
