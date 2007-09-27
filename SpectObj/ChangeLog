@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Thu Sep 27 09:27:21 PDT 2007
+celestialSources/SpectObj/src
+
+Modified Files:
+	SpectObj.cxx 
+Log Message:
+Use commonUtilities
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r3p1, operation: add
 Package: SpectObj
