@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r3p3, operation: add
+Package: SpectObj
+User: golpa  Thu Sep 27 14:58:07 2007
+Files:
+  SpectObj/ChangeLog  1.124
+  SpectObj/SpectObj/SpectObj.h  1.24
+  SpectObj/cmt/requirements  1.16
+  SpectObj/data/EBLmodel.dat  1.1
+  SpectObj/doc/release.notes  1.5
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.48
+
+    *
+------------------------------------------------------------
 User: golpa  Thu Sep 27 14:57:50 PDT 2007
 celestialSources/SpectObj/doc
 
