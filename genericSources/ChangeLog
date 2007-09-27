@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Thu Sep 27 09:42:54 PDT 2007
+celestialSources/genericSources/src/test
+
+Modified Files:
+	test.cxx 
+Log Message:
+commonUtilities header file wasn't included. Fixed
+    *
+------------------------------------------------------------
 User: golpa  Thu Sep 27 09:40:27 PDT 2007
 celestialSources/genericSources/src/test
 
