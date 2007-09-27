@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Thu Sep 27 10:38:01 PDT 2007
+celestialSources/microQuasar/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+Use commonUtilities to obtain paths
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r0p9, operation: add
 Package: microQuasar
