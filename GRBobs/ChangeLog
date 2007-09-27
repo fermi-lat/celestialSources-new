@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Thu Sep 27 08:07:34 PDT 2007
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx GRBobsmanager.cxx 
+Log Message:
+Bug Fixed
+    *
+------------------------------------------------------------
+User: omodei  Thu Sep 27 08:07:34 PDT 2007
 celestialSources/GRBobs/doc
 
 Modified Files:
