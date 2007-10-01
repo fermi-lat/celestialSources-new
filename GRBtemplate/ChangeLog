@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Oct  1 12:41:38 PDT 2007
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateSim.cxx 
+Log Message:
+add in cmath include into CRBtemplateSim.cxx
+    *
+------------------------------------------------------------
 User: golpa  Wed Sep 26 13:20:49 PDT 2007
 celestialSources/GRBtemplate/src/test/other
 
