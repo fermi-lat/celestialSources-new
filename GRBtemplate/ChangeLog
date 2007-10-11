@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: heather  Thu Oct 11 13:46:17 PDT 2007
-celestialSources/GRBtemplate/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-include cmath
-    *
-------------------------------------------------------------
 TAG
 Tag name: v1r1p1, operation: add
 Package: GRBtemplate
