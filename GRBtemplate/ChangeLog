@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Oct 11 13:46:18 PDT 2007
+celestialSources/GRBtemplate/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+include cmath
+    *
+------------------------------------------------------------
+User: heather  Thu Oct 11 13:46:18 PDT 2007
 celestialSources/GRBtemplate/doc
 
 Modified Files:
