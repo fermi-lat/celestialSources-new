@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed Oct 10 19:46:22 PDT 2007
+celestialSources/GRBtemplate/src/test
+
+Modified Files:
+	testGRB.cxx 
+Log Message:
+pathches for new ROOT and commonUtilities
+    *
+------------------------------------------------------------
+User: heather  Wed Oct 10 19:46:22 PDT 2007
 celestialSources/GRBtemplate/src
 
 Modified Files:
