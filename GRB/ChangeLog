@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Thu Nov  7 16:02:33 PST 2002
-GRB/xml
-
-Modified Files:
-	GRB_user_library.xml 
-Log Message:
-fix XML for new DTD
-    *
-------------------------------------------------------------
-User: burnett  Thu Nov  7 16:02:03 PST 2002
-GRB/src/test
-
-Modified Files:
-	jobOptions.txt 
-Log Message:
-reduce number of events for test
-    *
-------------------------------------------------------------
 User: burnett  Thu Nov  7 15:26:03 PST 2002
 GRB/xml
 
