@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Oct 10 19:46:22 PDT 2007
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateSim.cxx 
+Log Message:
+pathches for new ROOT and commonUtilities
+    *
+------------------------------------------------------------
 User: heather  Wed Oct 10 19:46:21 PDT 2007
 celestialSources/GRBtemplate/doc
 
