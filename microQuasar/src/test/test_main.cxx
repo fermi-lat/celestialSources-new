@@ -7,8 +7,6 @@ $Header$
 #include "flux/SpectrumFactoryTable.h"
 #include "flux/FluxMgr.h"
 
-#include "facilities/commonUtilities.h"
-
 #include <iostream>
 #include <algorithm>
 
@@ -16,7 +14,7 @@ $Header$
 namespace {
     int default_count =100 ;
     std::string default_source("Galactic_LS5039");
-    std::string xml_spec(facilities::commonUtilities::joinPath(facilities::commonUtilities::getXmlPath("microQuasar"), "mq.xml"));
+    std::string xml_spec("$(MICROQUASARROOT)/xml/mq.xml");
 
 }
 ISpectrumFactory & microQuasarFactory();
