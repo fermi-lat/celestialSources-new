@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Oct 19 14:35:20 PDT 2007
+celestialSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove EventListFactory
+    *
+------------------------------------------------------------
 User: jchiang  Fri Oct 19 14:34:07 PDT 2007
 celestialSources/src
 
