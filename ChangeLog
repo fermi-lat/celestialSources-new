@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r3, operation: add
+Package: celestialSources
+User: jchiang  Fri Oct 19 12:40:35 2007
+Files:
+  celestialSources/.cvsignore  1.1.1.1
+  celestialSources/ChangeLog  1.198
+
+    *
+------------------------------------------------------------
 User: jchiang  Fri Oct 19 12:40:19 PDT 2007
 celestialSources/doc
 
