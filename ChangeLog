@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Oct 19 14:34:07 PDT 2007
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+remove EventListFactory
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r3, operation: add
 Package: celestialSources
