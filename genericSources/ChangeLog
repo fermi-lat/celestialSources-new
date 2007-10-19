@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Thu Oct 18 18:01:29 PDT 2007
+celestialSources/genericSources/src
+
+Added Files:
+	RadialSource.cxx 
+Log Message:
+add radial profile source
+    *
+------------------------------------------------------------
+User: jchiang  Thu Oct 18 18:01:29 PDT 2007
 celestialSources/genericSources/genericSources
 
 Added Files:
