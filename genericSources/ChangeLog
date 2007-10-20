@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Oct 19 20:59:23 PDT 2007
+celestialSources/genericSources/data
+
+Added Files:
+	energy_dist.dat radial_dist.dat 
+Log Message:
+add test data
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r9, operation: add
 Package: genericSources
