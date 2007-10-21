@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Oct 21 14:44:45 PDT 2007
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	SpectralTransient.h 
+Log Message:
+add option to change particle type
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r9p1, operation: add
 Package: genericSources
