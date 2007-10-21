@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Oct 21 14:44:46 PDT 2007
+celestialSources/genericSources/src
+
+Modified Files:
+	SpectralTransient.cxx 
+Log Message:
+add option to change particle type
+    *
+------------------------------------------------------------
 User: jchiang  Sun Oct 21 14:44:45 PDT 2007
 celestialSources/genericSources/genericSources
 
