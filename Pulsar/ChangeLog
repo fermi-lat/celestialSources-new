@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Sun Oct 21 23:49:45 PDT 2007
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h 
+Log Message:
+precision increased for ephem calculations
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r3, operation: add
 Package: Pulsar
