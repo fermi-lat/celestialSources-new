@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Oct 23 06:56:47 PDT 2007
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+reorganization of load form datalist and exceptions inserted
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r3p10, operation: add
 Package: Pulsar
