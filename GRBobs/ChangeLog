@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Tue Oct 23 11:08:02 PDT 2007
+celestialSources/GRBobs/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fix call to determine SAA status, also will correct tag
+    *
+------------------------------------------------------------
+User: burnett  Tue Oct 23 11:08:02 PDT 2007
 celestialSources/GRBobs/cmt
 
 Modified Files:
