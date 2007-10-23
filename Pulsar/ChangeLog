@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Tue Oct 23 07:56:01 PDT 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+constructor reorganized and ore readable
+    *
+------------------------------------------------------------
+User: razzano  Tue Oct 23 07:56:01 PDT 2007
 celestialSources/Pulsar/Pulsar
 
 Modified Files:
