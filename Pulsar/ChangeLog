@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Oct 23 07:56:01 PDT 2007
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+constructor reorganized and ore readable
+    *
+------------------------------------------------------------
 User: razzano  Tue Oct 23 06:56:48 PDT 2007
 celestialSources/Pulsar/src
 
