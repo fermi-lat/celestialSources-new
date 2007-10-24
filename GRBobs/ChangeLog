@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Oct 24 02:27:46 PDT 2007
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+Add two flags: one for turning off the spectral evolution, one for the SAA. Minor bug fixed.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r1p4, operation: add
 Package: GRBobs
