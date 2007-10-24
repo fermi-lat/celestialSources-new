@@ -152,7 +152,6 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
   m_UseFT2 = 0;
 
 
-
    //Read from XML file
   m_PSRname    = parseParamList(params,0).c_str();            // Pulsar name
   m_RA = std::atof(parseParamList(params,1).c_str());         // Pulsar Right Ascension
@@ -181,7 +180,6 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
 	m_PSRShapeName = parseParamList(params,8).c_str();        // model parameters
       }
 
-  /*
   // Determine start and end time for FT2 or orbit file 
   try {
     const astro::PointingHistory & history = astro::GPS::instance()->history();
@@ -197,11 +195,18 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
 
   m_Sim_startMET = Spectrum::startTime();
   m_Sim_stopMET = astro::GPS::instance()->endTime();
-  */
 
-
+  //Retrieve pulsar data from a list of DataList file.
+  
   // if this is in the GLEAM environment, allow for separate path specified by env var PULSARDATA
   std::string pulsar_data(facilities::commonUtilities::getDataPath("Pulsar")); // the default, perhaps overriden
+
+  /*changed to old settings
+  const char * gleam = ::getenv("PULSARDATA");
+  if( gleam!=0) {
+       pulsar_data =  std::string(gleam)+"/";
+  }
+  */
 
   const char * gleam = ::getenv("SKYMODEL_DIR");
   if( gleam!=0) {
@@ -212,64 +217,276 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
 	std::cout << "Warning !SKYMODEL_DIR not found!"  <<std::endl;
     }
 
-  /* via di qui
-  //Load Pulsar General data from PulsarDataList.txt
-  LoadPulsarGeneralData(pulsar_data);
+  //Scan PulsarDataList.txt
+  std::string ListFileName = facilities::commonUtilities::joinPath(pulsar_data, "PulsarDataList.txt");
+  
+  std::ifstream ListFile;
+  ListFile.open(ListFileName.c_str(), std::ios::in);
+  char DataListFileName[200];
+  std::string CompletePathFileName = "";
+
+  ListFile.getline(DataListFileName,200); 
+
+  int Retrieved = 0;
+  int AllRetrieved = 0;
+ 
+  if (! ListFile.is_open()) 
+    {
+      std::cout << "Error opening file containing DataList files" << ListFileName  
+		<< " (check whether $PULSARROOT is set" << std::endl; 
+      exit(1);
+    }  else 
+      {
+
+	ListFile >> DataListFileName;
+	while (!ListFile.eof()) 
+	  {	
+	    CompletePathFileName = pulsar_data + "/" + std::string(DataListFileName);
+	    Retrieved = getPulsarFromDataList(CompletePathFileName);
+	    
+	    if (Retrieved == 1)
+	      {
+		if (DEBUG)
+		  {
+		    std::cout << "Pulsar " << m_PSRname << " found in file " << CompletePathFileName << std::endl;
+		  }
+		AllRetrieved = 1;
+	      } 
+	    ListFile >> DataListFileName ;	  
+
+	  }
+
+	if (AllRetrieved == 0)
+	  {
+	    std::cout << "Pulsar " << m_PSRname 
+		      << " not found in any DataList file.Please Check if $PULSARDATA is correctly set " 
+		      << std::endl;
+	    exit(1);
+	  }
+      }
+
+  //  ListFile.getline(DataListFileName,200); 
 
   //Scan for Binary Pulsar if there are
+
   if (m_BinaryFlag ==1)
     {
-      LoadPulsarOrbitalData(pulsar_data);
+      std::string BinListFileName = pulsar_data + "PulsarBinDataList.txt";
+      
+      //Look to BinDataList.txt for binary pulsar data
+      std::ifstream BinListFile;
+      BinListFile.open(BinListFileName.c_str(), std::ios::in);
+      char BinDataListFileName[200];
+      BinListFile.getline(BinDataListFileName,200); 
+
+      if (! BinListFile.is_open()) 
+	{
+	  std::cout << "Error opening file containing Binary DataList files" << BinListFileName  
+		    << " (check whether $PULSARDATA is set" << std::endl; 
+	  exit(1);
+	}  else 
+	  {
+
+	    BinListFile >> BinDataListFileName;
+	    while (!BinListFile.eof()) 
+	      {	
+		CompletePathFileName = pulsar_data + std::string(BinDataListFileName);
+		Retrieved = getOrbitalDataFromBinDataList(CompletePathFileName);
+		
+		if (Retrieved == 1)
+		  {
+		    if (DEBUG)
+		      {
+			std::cout << "Binary Pulsar " << m_PSRname << " found in file " << CompletePathFileName << std::endl;
+		      }
+		    AllRetrieved = 1;
+		  } 
+		BinListFile >> BinDataListFileName ;	  
+	      }
+
+	    if (AllRetrieved == 0)
+	      {
+		std::cout << "Binary Pulsar " << m_PSRname 
+			  << " not found in any BinDataList file.Please Check if PULSARDATA is correctly set " 
+			  << std::endl;
+		exit(1);
+	      }
+	  }
     }
-  */
 
-  // Determine start and end time for FT2 or orbit file 
-  try {
-    const astro::PointingHistory & history = astro::GPS::instance()->history();
-    //    throw(NoHistoryError);
-    m_FT2_startMET = history.startTime();
-    m_FT2_stopMET = history.endTime();
-    m_UseFT2 = 1;
-  } catch (astro::GPS::NoHistoryError & eObj)
-    {
-      m_FT2_startMET = Spectrum::startTime();
-      m_FT2_stopMET = astro::GPS::instance()->endTime();
-    }
+  //Assign as starting ephemeris the first entry of the vectors... 
+  m_t0Init = m_t0InitVect[0];
+  m_t0 = m_t0Vect[0];
+  m_t0End = m_t0EndVect[0];
+  m_period = m_periodVect[0];
+  m_pdot = m_pdotVect[0];
+  m_p2dot = m_p2dotVect[0];
+  m_f0 = m_f0Vect[0];
+  m_f1 = m_f1Vect[0];
+  m_f2 = m_f2Vect[0];
+  m_f0NoNoise = m_f0Vect[0];
+  m_f1NoNoise = m_f1Vect[0];
+  m_f2NoNoise = m_f2Vect[0];
 
-  m_Sim_startMET = Spectrum::startTime();
-  m_Sim_stopMET = astro::GPS::instance()->endTime();
-
+  m_phi0 = m_phi0Vect[0];
 
   //Init SolarSystem stuffs useful for barycentric decorrections
   astro::JulianDate JDStart(StartMissionDateMJD+JDminusMJD);
-  m_earthOrbit = new astro::EarthOrbit(JDStart);   
+  m_earthOrbit = new astro::EarthOrbit(JDStart); 
+  
   astro::SkyDir m_PulsarDir(m_RA,m_dec,astro::SkyDir::EQUATORIAL);
   m_PulsarVectDir = m_PulsarDir.dir();
   m_GalDir = std::make_pair(m_PulsarDir.l(),m_PulsarDir.b());
   m_l = m_GalDir.first;
   m_b = m_GalDir.second;
 
-
-  //Load Pulsar General data from PulsarDataList.txt
-  LoadPulsarGeneralData(pulsar_data);
-  //Save the output txt file..
-  int DbFlag = saveDbTxtFile();
-
-  //Binary Pulsar Data
-  if (m_BinaryFlag ==1)
-    {
-      LoadPulsarOrbitalData(pulsar_data);
-      int BinDbFlag = saveBinDbTxtFile();
-    }
-
   //Redirect output to a subdirectory
   const char * pulsarOutDir = ::getenv("PULSAROUTFILES");
 
-  WritePulsarLog(std::string(pulsarOutDir));
+  std::string logLabel;
+  // override obssim if running in Gleam environment
+  if( pulsarOutDir!=0) 
+    logLabel = std::string(pulsarOutDir) + "/" + m_PSRname + "Log.txt";
+  else
+    logLabel = m_PSRname + "Log.txt";
+
+  ofstream PulsarLog(logLabel.c_str());
+
+  //Write infos to Log file  
+
+  PulsarLog << "\n********   PulsarSpectrum Log for pulsar" << m_PSRname << std::endl;
+  PulsarLog << "**   Name : " << m_PSRname << std::endl;
+  PulsarLog << "**\n**   Position : (RA,Dec)=(" << m_RA << "," << m_dec 
+	    << ") ; (l,b)=(" << m_l << "," << m_b << ")" << std::endl; 
+  PulsarLog << "**\n**   Flux above 100 MeV : " << m_flux << " ph/cm2/s " << std::endl;
+  PulsarLog << "**   Enphmin: " << m_enphmin << " keV | Enphmax: " << m_enphmax << " keV" << std::endl;
+  PulsarLog << "**************************************************" << std::endl;
+
+  //Write info about FT2 
+  if (m_UseFT2 == 0)
+    {
+      PulsarLog << "** No FT2 file used " << std::endl;
+    }
+  else
+    PulsarLog << "** FT2 file used " << std::endl;
+  
+  PulsarLog << "** Start time:" << std::setprecision(30) << m_FT2_startMET << " s. MET |  End time:" 
+	    << m_FT2_stopMET << " s. MET" << std::endl;
+  PulsarLog << "**************************************************" << std::endl;
+  PulsarLog << "** Simulation start at " << m_Sim_startMET << " s. MET and ends at :" << m_Sim_stopMET << std::endl;
+  PulsarLog << "**************************************************" << std::endl;
+
+  //Writes down on Log all the ephemerides
+  for (unsigned int n=0; n < m_t0Vect.size(); n++)
+    {
+      PulsarLog << "**   Ephemerides valid from " << m_t0InitVect[n] 
+		<< " to " << m_t0EndVect[n] << " (MJD): " << std::endl;
+      PulsarLog << "**     Epoch (MJD) :  " << m_t0Vect[n] << std::endl;
+      PulsarLog << std::setprecision(8) << "**     TxBary (MJD) where fiducial point (phi=0) is reached : " 
+		<< m_txbaryVect[n] << std::endl;
+      PulsarLog << "**     Phi0 (at Epoch t0) : " << m_phi0Vect[n] << std::endl;
+      
+      if (m_ephemType == "P")
+	{
+	  PulsarLog << "**     Ephemerides type: PERIOD" << std::endl;
+	  PulsarLog << std::setprecision(14) << "**     Period : " << m_periodVect[n] << " s. | f0: " << m_f0Vect[n] << std::endl;
+	  PulsarLog << std::setprecision(14) << "**     Pdot : " <<  m_pdotVect[n]  << " | f1: " << m_f1Vect[n] << std::endl; 
+	  PulsarLog << std::setprecision(14) << "**     P2dot : " <<  m_p2dotVect[n]  << " | f2: " << m_f2Vect[n] << std::endl; 
+	} 
+      else if (m_ephemType == "F")
+	{
+	  PulsarLog << "**Ephemerides type: FREQUENCY" << std::endl;
+	  PulsarLog << std::setprecision(14) << "**     Period : " << m_periodVect[n] << " s. | f0: " << m_f0Vect[n] << std::endl;
+	  PulsarLog << std::setprecision(14) << "**     f1: " << m_f1Vect[n] << std::endl; 
+	  PulsarLog << std::setprecision(14) << "**     f2: " << m_f2Vect[n] << std::endl; 
+	}
+    }
+
+  PulsarLog << "**\n**   Mission Reference time: MJD " << StartMissionDateMJD << " (" 
+	    << std::setprecision(12) << (StartMissionDateMJD+JDminusMJD)*SecsOneDay 
+	    << " sec.)" << std::endl;
 
   if (m_TimingNoiseModel != 0)
     { 
-      InitTimingNoise();
+      if (TNOISELOG)
+	{
+	  std::ofstream TimingNoiseLogFile((m_PSRname + "TimingNoise.log").c_str());
+	  TimingNoiseLogFile << "Timing Noise log file using model: " << m_TimingNoiseModel << std::endl;
+	  TimingNoiseLogFile << "tMET\tA\tS0\tS1\tS2\tf0_l\tf0_n\tf1_l\tf1_n\tf2_l\tf2_n\tPhi_l\tPhi_n"<<std::endl;
+	  TimingNoiseLogFile.close();
+	}
+
+      //define a default mean rate of about 1 day
+      m_TimingNoiseMeanRate = 1/86400.;
+      // according to Poisson statistics
+      double startTime = Spectrum::startTime();
+      m_TimingNoiseTimeNextEvent = startTime -log(1.-m_PSpectrumRandom->Uniform(1.0))/m_TimingNoiseMeanRate; 
+
+      //Determine next Timing noise event according to the rate R m_TimingNoiseRate
+
+
+      if (m_TimingNoiseModel == 1) // Timing model #1 - Delta8 parameter (Arzoumanian94)
+	{
+	  PulsarLog << "**\n**   Timing Noise Model : " << m_TimingNoiseModel << " (Stability parameter, Arzoumanian 1994)" << std::endl;
+	  PulsarLog << "**      Timing Noise Events Mean Rate : " << m_TimingNoiseMeanRate << std::endl;
+	}
+      else if (m_TimingNoiseModel == 2) //Timing model #2 - PN Random Walk (Cordes-Downs 1985) 
+	{
+	  PulsarLog << "**\n**   Timing Noise Model : " << m_TimingNoiseModel << " (PN Random Walk; Cordes-Downs 1985)" << std::endl;
+	  PulsarLog << "**      Timing Noise Events Mean Rate : " << m_TimingNoiseMeanRate << std::endl;
+	  // double alpha = 0.57;
+	  //double PdotCrab = 422E-15;
+	  //double SigmaRMSCrab = 0.012/0.033;
+	  //m_TimingNoiseActivity = -1.0*alpha*std::log10(PdotCrab)+alpha*std::log10(m_pdotVect[0]);
+	  //m_TimingNoiseRMS = pow(10.,m_TimingNoiseActivity)*SigmaRMSCrab;
+	  //PulsarLog << "**          Cordes Activity Parameter A: " <<  m_TimingNoiseActivity << std::endl;
+	  //PulsarLog << "**          Cordes Activity Timing Noise RMS (phase): " <<  m_TimingNoiseRMS << std::endl;
+	}
+      else if (m_TimingNoiseModel == 3) //Timing model #3 - FN Random Walk (Cordes-Downs 1985) 
+	{
+	  PulsarLog << "**\n**   Timing Noise Model : " << m_TimingNoiseModel << " (FN Random Walk; Cordes-Downs 1985)" << std::endl;
+	  PulsarLog << "**      Timing Noise Events Mean Rate : " << m_TimingNoiseMeanRate << std::endl;
+	}
+      else if (m_TimingNoiseModel == 4) //Timing model #4 - SN Random Walk (Cordes-Downs 1985) 
+	{
+	  PulsarLog << "**\n**   Timing Noise Model : " << m_TimingNoiseModel << " (SN Random Walk; Cordes-Downs 1985)" << std::endl;
+	  PulsarLog << "**      Timing Noise Events Mean Rate : " << m_TimingNoiseMeanRate << std::endl;
+	}
+    }
+
+  PulsarLog << "**************************************************" << std::endl;
+
+  //Add lines in case of binary
+
+  if (m_BinaryFlag == 1)
+    {
+      PulsarLog << "**   Pulsar in a Binary System! Orbital Data:" << std::endl;
+      PulsarLog << "**     Orbital period: " << m_Porb << " s." << std::endl;
+      PulsarLog << "**     Projected major semiaxis (a * sini): " << m_asini << " lightsec." <<std::endl; 
+      PulsarLog << "**     Eccentricity: " << m_ecc << std::endl;
+      PulsarLog << "**     Longitude of periastron: " <<  m_omega << " deg." << std::endl;
+      PulsarLog << "**     Epoch of Periastron (MJD): " << m_t0PeriastrMJD << std::endl;
+      PulsarLog << "**     Epoch of Ascending Node (MJD): " << m_t0AscNodeMJD << std::endl;
+      if (m_PPN ==0)
+	PulsarLog << "**   No Post Newtonian Parameterization " << std::endl; 
+
+      PulsarLog << "**************************************************" << std::endl;
+
+      
+      if ((m_BinaryFlag ==1) && (BINDEMODLOG))
+ 	{
+	  std::ofstream BinDemodLogFile((m_PSRname + "BinDemod.log").c_str());
+	  BinDemodLogFile << "tMET\tdt\tE\tAt\tOmega\tecc\tasini\tdt_Roemer\tdt_einstein\tdt_shapiro" << std::endl;
+	  BinDemodLogFile.close();
+	}
+   
+      if (BARYCORRLOG)
+	{
+	  std::ofstream BaryCorrLogFile((m_PSRname + "BaryCorr.log").c_str());
+	  BaryCorrLogFile << "\nPulsar" << m_PSRname << " : Barycentric corrections log generated by PulsarSpectrum" << std::endl;
+	  BaryCorrLogFile << "tMET\tTDB-TT\tGeomDelay\tShapiroDelay" << std::endl;
+	  BaryCorrLogFile.close();
+	}
     }
 
   //Instantiate an object of PulsarSim class
@@ -278,14 +495,32 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
   //Instantiate an object of SpectObj class
   if (m_model == 1)
     {
+      PulsarLog << "**   Model chosen : " << m_model << " --> Using Phenomenological Pulsar Model " << std::endl;  
       m_spectrum = new SpectObj(m_Pulsar->PSRPhenom(double(m_ppar0), m_ppar1,m_ppar2,m_ppar3,m_ppar4),1);
       m_spectrum->SetAreaDetector(EventSource::totalArea());
+
+      PulsarLog << "**   Effective Area set to : " << m_spectrum->GetAreaDetector() << " m2 " << std::endl; 
+
+      if (DEBUG)
+	{
+	  std::cout << "**   Model chosen : " << m_model << " --> Using Phenomenological Pulsar Model " << std::endl;  
+	  std::cout << "**  Effective Area set to : " << m_spectrum->GetAreaDetector() << " m2 " << std::endl; 
+ 	}  
     }
   else 
     if (m_model == 2)
       {
+	PulsarLog << "**   Model chosen : " << m_model << " --> Using External 2-D Pulsar Shape" << std::endl;  
 	m_spectrum = new SpectObj(m_Pulsar->PSRShape(m_PSRShapeName,m_ppar0),1);
 	m_spectrum->SetAreaDetector(EventSource::totalArea());
+	
+	PulsarLog << "**   Effective Area set to : " << m_spectrum->GetAreaDetector() << " m2 " << std::endl; 
+	
+	if (DEBUG)
+	  {
+	    std::cout << "**   Model chosen : " << m_model << " --> Using External 2-D Pulsar Shape" << std::endl;  
+	    std::cout << "**  Effective Area set to : " << m_spectrum->GetAreaDetector() << " m2 " << std::endl; 
+	  }  
       }
     else
       {
@@ -293,14 +528,39 @@ PulsarSpectrum::PulsarSpectrum(const std::string& params)
 	exit(1);
       }
 
+
+  PulsarLog.close();
+
   //Save the output txt file..
-  // int DbFlag = saveDbTxtFile();
+  int DbFlag = saveDbTxtFile();
+
+  if (DEBUG) 
+    if (DbFlag == 0)
+      { 
+	std::cout << "Database Output file created from scratch " << std::endl;
+      } 
+    else 
+      {
+	std::cout << "Appendended data to existing Database output file" << std::endl;
+      }
+
 
   //Save the binary data output txt file..
-  //  if (m_BinaryFlag ==1)
-  //{
-  //  int BinDbFlag = saveBinDbTxtFile();
-  //}
+  if (m_BinaryFlag ==1)
+    {
+
+      int BinDbFlag = saveBinDbTxtFile();
+      
+      if (DEBUG) 
+	if (BinDbFlag == 0)
+	  { 
+	    std::cout << "Database for Binary pulsars file created from scratch " << std::endl;
+	  } 
+	else 
+	  {
+	    std::cout << "Database for Binary pulsars appended to existing binary Database output file" << std::endl;
+	  }
+    }
 
 }
 
@@ -1273,11 +1533,10 @@ int PulsarSpectrum::getPulsarFromDataList(std::string sourceFileName)
   
   if (! PulsarDataTXT.is_open()) 
     {
-      throw "Error!Cannot open file";
-      //      std::cout << "Error opening Datalist file " << sourceFileName  
-      //	<< " (check whether $PULSARROOT is set" << std::endl; 
-      //Status = 0;
-      //exit(1);
+      std::cout << "Error opening Datalist file " << sourceFileName  
+		<< " (check whether $PULSARROOT is set" << std::endl; 
+      Status = 0;
+      exit(1);
     }
   
   char aLine[400];  
@@ -1389,93 +1648,6 @@ int PulsarSpectrum::getPulsarFromDataList(std::string sourceFileName)
 
 
 
-
-/////////////////////////////////////////////
-/*!
- * \param pulsar_data_dir The Directory where PulsarDataList.txt resides
- *
- * <br>
- * This method looks into PulsarDataList and load pulsar data
- */
-void PulsarSpectrum::LoadPulsarGeneralData(std::string pulsar_data_dir)
-{
-
-  //Scan PulsarDataList.txt for Pulsar general data
-  std::string ListFileName = facilities::commonUtilities::joinPath(pulsar_data_dir, "PulsarDataList.txt");
-  std::string CompletePathFileName = "";
-  int Retrieved = 0;
-  int AllRetrieved = 0;
-
-  try
-    {
-      std::ifstream ListFile;
-      CheckFileExistence(ListFileName);
-      ListFile.open(ListFileName.c_str(), std::ios::in);
-      char DataListFileName[200];
-      ListFile.getline(DataListFileName,200); 
-      //    int Retrieved = 0;
-      //int AllRetrieved = 0;
-
-      ListFile >> DataListFileName;
-      while (!ListFile.eof()) 
-	{	
-
-	  CompletePathFileName = pulsar_data_dir + "/" + std::string(DataListFileName);
-
-	  try
-	    {
-	      Retrieved = getPulsarFromDataList(CompletePathFileName);
-	      if (Retrieved == 1)
-		{
-		  if (DEBUG)
-		    {
-		      std::cout << "Pulsar " << m_PSRname << " found in file " << CompletePathFileName << std::endl;
-		    }
-		  AllRetrieved = 1;
-		}
-	    }
-	  catch (char const *error)
-	    {
-	      std::cerr << error << CompletePathFileName << "..skipping to next DataList file" << std::endl;
-	    }
-
-
-	  ListFile >> DataListFileName ;	  	  
-	}
-      
-      if (AllRetrieved == 0)
-	{
-	  std::cout << "Pulsar " << m_PSRname 
-		    << " not found in any DataList file.Please Check if $PULSARDATA is correctly set " 
-		    << std::endl;
-	  exit(1);
-	}
-    }
-  catch (char const *error)
-    {
-      std::cerr << error << ListFileName << std::endl;
-      exit(1);
-    }
-
-  //Assign as starting ephemeris the first entry of the vectors... 
-  m_t0Init = m_t0InitVect[0];
-  m_t0 = m_t0Vect[0];
-  m_t0End = m_t0EndVect[0];
-  m_period = m_periodVect[0];
-  m_pdot = m_pdotVect[0];
-  m_p2dot = m_p2dotVect[0];
-  m_f0 = m_f0Vect[0];
-  m_f1 = m_f1Vect[0];
-  m_f2 = m_f2Vect[0];
-  m_f0NoNoise = m_f0Vect[0];
-  m_f1NoNoise = m_f1Vect[0];
-  m_f2NoNoise = m_f2Vect[0];
-  m_phi0 = m_phi0Vect[0];
-
-}
-
-
-
 /////////////////////////////////////////////
 /*!
  * \param None
@@ -1512,11 +1684,10 @@ int PulsarSpectrum::getOrbitalDataFromBinDataList(std::string sourceBinFileName)
   
   if (! PulsarBinDataTXT.is_open()) 
     {
-      throw "Error!Cannot open file";
-      //      std::cout << "Error opening BinDatalist file " << sourceBinFileName  
-      //	<< " (check whether $PULSARDATA is set)" << std::endl; 
-      //Status = 0;
-      //exit(1);
+      std::cout << "Error opening BinDatalist file " << sourceBinFileName  
+		<< " (check whether $PULSARDATA is set)" << std::endl; 
+      Status = 0;
+      exit(1);
     }
   
   char aLine[400];  
@@ -1543,115 +1714,6 @@ int PulsarSpectrum::getOrbitalDataFromBinDataList(std::string sourceBinFileName)
     }
 
   return Status;
-}
-
-/////////////////////////////////////////////
-/*!
- * \param pulsar_data_dir The Directory where PulsarBinDataList.txt resides
- *
- * <br>
- * This method looks into BinPulsarDataList and load pulsar data
- */
-void PulsarSpectrum::LoadPulsarOrbitalData(std::string pulsar_data_dir)
-{
-
-  std::string CompletePathFileName = "";
-  int Retrieved = 0;
-  int AllRetrieved = 0;
-
-  std::string BinListFileName = pulsar_data_dir + "PulsarBinDataList.txt";
-  
-  try 
-    {
-      //Look to BinDataList.txt for binary pulsar data
-      std::ifstream BinListFile;
-      CheckFileExistence(BinListFileName);
-      BinListFile.open(BinListFileName.c_str(), std::ios::in);
-      char BinDataListFileName[200];
-      BinListFile.getline(BinDataListFileName,200); 
-      BinListFile >> BinDataListFileName;
-      while (!BinListFile.eof()) 
-	{	
-	  CompletePathFileName = pulsar_data_dir + std::string(BinDataListFileName);
-	  
-	  try
-	    {
-	      Retrieved = getOrbitalDataFromBinDataList(CompletePathFileName);
-	      if (Retrieved == 1)
-		{
-		  if (DEBUG)
-		    {
-		      std::cout << "Binary Pulsar " << m_PSRname << " found in file " << CompletePathFileName << std::endl;
-		    }
-		  AllRetrieved = 1;
-		} 
-	    }
-	  catch (char const *error)
-	    {
-	      std::cerr << error << CompletePathFileName << "..skipping to next BinDataList file" << std::endl;
-	    }
-	  
-	  BinListFile >> BinDataListFileName ;	  
-	}
-      
-      if (AllRetrieved == 0)
-	{
-	  std::cout << "Binary Pulsar " << m_PSRname 
-		    << " not found in any BinDataList file.Please Check if PULSARDATA is correctly set " 
-		    << std::endl;
-	  exit(1);
-	}
-
-      if ((m_BinaryFlag ==1) && (BINDEMODLOG))
-	{
-	  std::ofstream BinDemodLogFile((m_PSRname + "BinDemod.log").c_str());
-	  BinDemodLogFile << "tMET\tdt\tE\tAt\tOmega\tecc\tasini\tdt_Roemer\tdt_einstein\tdt_shapiro" << std::endl;
-	  BinDemodLogFile.close();
-	}
-      
-      if (BARYCORRLOG)
-	{
-	  std::ofstream BaryCorrLogFile((m_PSRname + "BaryCorr.log").c_str());
-	  BaryCorrLogFile << "\nPulsar" << m_PSRname << " : Barycentric corrections log generated by PulsarSpectrum" << std::endl;
-	  BaryCorrLogFile << "tMET\tTDB-TT\tGeomDelay\tShapiroDelay" << std::endl;
-	  BaryCorrLogFile.close();
-	}
-
-    }
-  catch (char const *error)
-    {
-      std::cerr << error << BinListFileName << std::endl;
-      exit(1);
-    }
-
-}
-
-/////////////////////////////////////////////
-/*!
- * \param None
- *
- * <br>
- * Initialize variable related to timing noise
- */
-void PulsarSpectrum::InitTimingNoise()
-{
-
-  if (TNOISELOG)
-    {
-      std::ofstream TimingNoiseLogFile((m_PSRname + "TimingNoise.log").c_str());
-      TimingNoiseLogFile << "Timing Noise log file using model: " << m_TimingNoiseModel << std::endl;
-      TimingNoiseLogFile << "tMET\tA\tS0\tS1\tS2\tf0_l\tf0_n\tf1_l\tf1_n\tf2_l\tf2_n\tPhi_l\tPhi_n"
-			 <<std::endl;
-      TimingNoiseLogFile.close();
-    }
-  
-  //define a default mean rate of about 1 day
-  m_TimingNoiseMeanRate = 1/86400.;
-  // according to Poisson statistics
-  double startTime = Spectrum::startTime();
-  //Determine next Timing noise event according to the rate R m_TimingNoiseRate      
-  m_TimingNoiseTimeNextEvent = startTime -log(1.-m_PSpectrumRandom->Uniform(1.0))/m_TimingNoiseMeanRate; 
-  
 }
 
 /////////////////////////////////////////////
@@ -1737,43 +1799,9 @@ int PulsarSpectrum::saveDbTxtFile()
   
 
   DbOutputFile.close();
-
-  if (DEBUG) 
-    if (Flag == 0)
-      { 
-	std::cout << "Database Output file created from scratch " << std::endl;
-      } 
-    else 
-      {
-	std::cout << "Appendended data to existing Database output file" << std::endl;
-      }
-
   return Flag;
 }
 
-/////////////////////////////////////////////
-/*!
- * \param NameFileToCheck
- *
- * <br>
- * This method simply check the file and return an exception
- */
-//max1
-void PulsarSpectrum::CheckFileExistence(std::string NameFileToCheck)
-{
-
-  std::ifstream FileToCheck;
-
-  FileToCheck.open(NameFileToCheck.c_str(), std::ios::in);
-
-  if (!FileToCheck.is_open()) 
-    {
-      throw "Error!Cannot open file";
-    }
-
-  FileToCheck.close();
-
-}
 
 /////////////////////////////////////////////
 /*!
@@ -1843,162 +1871,10 @@ int PulsarSpectrum::saveBinDbTxtFile()
   DbSumInputFile << "SimPulsars_spin.txt\nSimPulsars_bin.txt" <<std::endl;
   DbSumInputFile.close();
 
-  if (DEBUG) 
-    if (Flag == 0)
-      { 
-	std::cout << "Database for Binary pulsars file created from scratch " << std::endl;
-      } 
-    else 
-      {
-	std::cout << "Database for Binary pulsars appended to existing binary Database output file" << std::endl;
-      }
-
   return Flag;
 
 }
 
-
-/////////////////////////////////////////////
-/*!
- * \param None
- *
- * <br>
- * This method saves the relevant information about pulsar in a log file
- */
-void PulsarSpectrum::WritePulsarLog(std::string pulsarOutDir)
-{
-
-  std::string logLabel;
-  // override obssim if running in Gleam environment
-  if( pulsarOutDir!=0) 
-    logLabel = std::string(pulsarOutDir) + "/" + m_PSRname + "Log.txt";
-  else
-    logLabel = m_PSRname + "Log.txt";
-
-  ofstream PulsarLog(logLabel.c_str());
-
-  //Write infos to Log file  
-
-  PulsarLog << "\n********   PulsarSpectrum Log for pulsar" << m_PSRname << std::endl;
-  PulsarLog << "**   Name : " << m_PSRname << std::endl;
-  PulsarLog << "**\n**   Position : (RA,Dec)=(" << m_RA << "," << m_dec 
-	    << ") ; (l,b)=(" << m_l << "," << m_b << ")" << std::endl; 
-  PulsarLog << "**\n**   Flux above 100 MeV : " << m_flux << " ph/cm2/s " << std::endl;
-  PulsarLog << "**   Enphmin: " << m_enphmin << " keV | Enphmax: " << m_enphmax << " keV" << std::endl;
-  PulsarLog << "**************************************************" << std::endl;
-
-  //Write info about FT2 
-  if (m_UseFT2 == 0)
-    {
-      PulsarLog << "** No FT2 file used " << std::endl;
-    }
-  else
-    PulsarLog << "** FT2 file used " << std::endl;
-  
-  PulsarLog << "** Start time:" << std::setprecision(30) << m_FT2_startMET << " s. MET |  End time:" 
-	    << m_FT2_stopMET << " s. MET" << std::endl;
-  PulsarLog << "**************************************************" << std::endl;
-  PulsarLog << "** Simulation start at " << m_Sim_startMET << " s. MET and ends at :" 
-	    << m_Sim_stopMET << std::endl;
-  PulsarLog << "**************************************************" << std::endl;
-
-  //Writes down on Log all the ephemerides
-  for (unsigned int n=0; n < m_t0Vect.size(); n++)
-    {
-      PulsarLog << "**   Ephemerides valid from " << m_t0InitVect[n] 
-		<< " to " << m_t0EndVect[n] << " (MJD): " << std::endl;
-      PulsarLog << "**     Epoch (MJD) :  " << m_t0Vect[n] << std::endl;
-      PulsarLog << std::setprecision(8) << "**     TxBary (MJD) where fiducial point (phi=0) is reached : " 
-		<< m_txbaryVect[n] << std::endl;
-      PulsarLog << "**     Phi0 (at Epoch t0) : " << m_phi0Vect[n] << std::endl;
-      
-      if (m_ephemType == "P")
-	{
-	  PulsarLog << "**     Ephemerides type: PERIOD" << std::endl;
-	  PulsarLog << std::setprecision(14) << "**     Period : " 
-		    << m_periodVect[n] << " s. | f0: " << m_f0Vect[n] << std::endl;
-	  PulsarLog << std::setprecision(14) << "**     Pdot : " 
-		    <<  m_pdotVect[n]  << " | f1: " << m_f1Vect[n] << std::endl; 
-	  PulsarLog << std::setprecision(14) << "**     P2dot : " 
-		    <<  m_p2dotVect[n]  << " | f2: " << m_f2Vect[n] << std::endl; 
-	} 
-      else if (m_ephemType == "F")
-	{
-	  PulsarLog << "**Ephemerides type: FREQUENCY" << std::endl;
-	  PulsarLog << std::setprecision(14) << "**     Period : " 
-		    << m_periodVect[n] << " s. | f0: " << m_f0Vect[n] << std::endl;
-	  PulsarLog << std::setprecision(14) << "**     f1: " << m_f1Vect[n] << std::endl; 
-	  PulsarLog << std::setprecision(14) << "**     f2: " << m_f2Vect[n] << std::endl; 
-	}
-    }
-
-  //MJDRef
-  PulsarLog << "**\n**   Mission Reference time: MJD " << StartMissionDateMJD << " (" 
-	    << std::setprecision(12) << (StartMissionDateMJD+JDminusMJD)*SecsOneDay 
-	    << " sec.)" << std::endl;
-
-  //SimulationModel
-  if (m_model ==1)
-    {
-      PulsarLog << "**   Model chosen : " << m_model 
-		<< " --> Using Phenomenological Pulsar Model " << std::endl;  
-    } else if (m_model == 2)
-      {
-	PulsarLog << "**   Model chosen : " << m_model 
-		  << " --> Using External 2-D Pulsar Shape" << std::endl;  
-      }
-
-  PulsarLog << "**   Effective Area set to : " << m_spectrum->GetAreaDetector() << " m2 " << std::endl; 
-  PulsarLog << "**************************************************" << std::endl;
-
-  //Timing noise
-  if (m_TimingNoiseModel == 1) // Timing model #1 - Delta8 parameter (Arzoumanian94)
-    {
-      PulsarLog << "**\n**   Timing Noise Model : " << m_TimingNoiseModel 
-		<< " (Stability parameter, Arzoumanian 1994)" << std::endl;
-      PulsarLog << "**      Timing Noise Events Mean Rate : " << m_TimingNoiseMeanRate << std::endl;
-    }
-  else if (m_TimingNoiseModel == 2) //Timing model #2 - PN Random Walk (Cordes-Downs 1985) 
-    {
-      PulsarLog << "**\n**   Timing Noise Model : " << m_TimingNoiseModel 
-		<< " (PN Random Walk; Cordes-Downs 1985)" << std::endl;
-      PulsarLog << "**      Timing Noise Events Mean Rate : " << m_TimingNoiseMeanRate << std::endl;
-    }
-  else if (m_TimingNoiseModel == 3) //Timing model #3 - FN Random Walk (Cordes-Downs 1985) 
-    {
-      PulsarLog << "**\n**   Timing Noise Model : " << m_TimingNoiseModel 
-		<< " (FN Random Walk; Cordes-Downs 1985)" << std::endl;
-      PulsarLog << "**      Timing Noise Events Mean Rate : " << m_TimingNoiseMeanRate << std::endl;
-    }
-  else if (m_TimingNoiseModel == 4) //Timing model #4 - SN Random Walk (Cordes-Downs 1985) 
-    {
-      PulsarLog << "**\n**   Timing Noise Model : " << m_TimingNoiseModel 
-		<< " (SN Random Walk; Cordes-Downs 1985)" << std::endl;
-      PulsarLog << "**      Timing Noise Events Mean Rate : " << m_TimingNoiseMeanRate << std::endl;
-    }
-  
-
-  //Orbital info
-  if (m_BinaryFlag == 1)
-    {
-      PulsarLog << "**************************************************" << std::endl;
-      PulsarLog << "**   Pulsar in a Binary System! Orbital Data:" << std::endl;
-      PulsarLog << "**     Orbital period: " << m_Porb << " s." << std::endl;
-      PulsarLog << "**     Projected major semiaxis (a * sini): " << m_asini << " lightsec." <<std::endl; 
-      PulsarLog << "**     Eccentricity: " << m_ecc << std::endl;
-      PulsarLog << "**     Longitude of periastron: " <<  m_omega << " deg." << std::endl;
-      PulsarLog << "**     Epoch of Periastron (MJD): " << m_t0PeriastrMJD << std::endl;
-      PulsarLog << "**     Epoch of Ascending Node (MJD): " << m_t0AscNodeMJD << std::endl;
-      if (m_PPN ==0)
-	PulsarLog << "**   No Post Newtonian Parameterization " << std::endl; 
-
-      PulsarLog << "**************************************************" << std::endl;
-    }
-
-  PulsarLog.close();
-
-
-}
 
 //////////////////////////////////////////////////////////
 // no longer used
