@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Oct 24 08:24:54 PDT 2007
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+fixed null string problem
+    *
+------------------------------------------------------------
 User: razzano  Tue Oct 23 07:56:01 PDT 2007
 celestialSources/Pulsar/src
 
