@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Wed Oct 24 02:27:47 PDT 2007
+celestialSources/GRBobs/src/test
+
+Modified Files:
+	GRBParam.txt 
+Log Message:
+Add two flags: one for turning off the spectral evolution, one for the SAA. Minor bug fixed.
+    *
+------------------------------------------------------------
+User: omodei  Wed Oct 24 02:27:47 PDT 2007
 celestialSources/GRBobs/src
 
 Modified Files:
