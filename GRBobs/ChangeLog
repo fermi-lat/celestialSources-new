@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Wed Oct 24 02:27:47 PDT 2007
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Add two flags: one for turning off the spectral evolution, one for the SAA. Minor bug fixed.
+    *
+------------------------------------------------------------
 User: omodei  Wed Oct 24 02:27:46 PDT 2007
 celestialSources/GRBobs/GRBobs
 
