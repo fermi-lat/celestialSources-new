@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Thu Oct 25 07:34:35 PDT 2007
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+created function for checking ephemerides and for timing noise
+    *
+------------------------------------------------------------
 User: razzano  Thu Oct 25 02:55:01 PDT 2007
 celestialSources/Pulsar/src
 
