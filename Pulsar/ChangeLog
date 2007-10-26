@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Oct 26 01:24:53 PDT 2007
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+toggle output
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r4, operation: add
 Package: Pulsar
