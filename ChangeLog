@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Oct 29 10:49:49 PDT 2007
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+remove GRBobsFactory
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r3p1, operation: add
 Package: celestialSources
