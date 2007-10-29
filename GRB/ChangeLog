@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Mon Oct 29 06:26:05 PDT 2007
+celestialSources/GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove GRBmaker from codes to be compiled in the library. Prepare for tag
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r3, operation: add
 Package: GRB
