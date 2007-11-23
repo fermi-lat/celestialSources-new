@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Fri Nov 23 09:14:11 PST 2007
+celestialSources/GRBtemplate/xml
+
+Modified Files:
+	GRBtemplate_library.xml 
+Log Message:
+Data files no longer use <PACKAGE>ROOT variable to obtain path
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r3, operation: add
 Package: GRBtemplate
