@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Fri Nov 23 09:36:18 PST 2007
+celestialSources/genericSources/src
+
+Modified Files:
+	mainpage.h 
+Log Message:
+changes to remove <PACKAGE>ROOT variable
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r9p2, operation: add
 Package: genericSources
