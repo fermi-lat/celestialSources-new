@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: golpa  Fri Nov 23 09:36:18 PST 2007
+celestialSources/genericSources/xml
+
+Modified Files:
+	source_library.xml 
+Log Message:
+changes to remove <PACKAGE>ROOT variable
+    *
+------------------------------------------------------------
+User: golpa  Fri Nov 23 09:36:18 PST 2007
 celestialSources/genericSources/src
 
 Modified Files:
