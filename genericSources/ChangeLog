@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Nov 27 12:09:00 PST 2007
+celestialSources/genericSources/src/test
+
+Modified Files:
+	test.cxx 
+Log Message:
+remove unnecessary data members from RadialSource; test.cxx modifications to support xml env var changes
+    *
+------------------------------------------------------------
+User: jchiang  Tue Nov 27 12:09:00 PST 2007
 celestialSources/genericSources/src
 
 Modified Files:
