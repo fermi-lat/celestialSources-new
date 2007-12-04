@@ -5,6 +5,8 @@
 #include "flux/FluxMgr.h"
 #include "astro/GPS.h"
 
+#include "facilities/commonUtilities.h"
+
 #include <iostream>
 #include <fstream>
 #include <algorithm>
@@ -121,6 +123,7 @@ void galacticTest(FluxMgr* fm, std::string sourceName)
 int main(int argn, char * argc[]) {
   using std::cout;
   using std::endl;
+  facilities::commonUtilities::setupEnvironment();
   flux_load();
   
   int count = default_count;
@@ -128,7 +131,7 @@ int main(int argn, char * argc[]) {
   
   //TESTING MULTIPLE XML INPUT
   std::vector<std::string> fileList;
-  fileList.push_back(facilities::commonUtilities::joinPath(facilities::commonUtilities::getXmlpath("GRBtemplate"), "GRBtemplate_library.xml"));
+  fileList.push_back(facilities::commonUtilities::joinPath(facilities::commonUtilities::getXmlPath("GRBtemplate"), "GRBtemplate_library.xml"));
   FluxMgr fm(fileList);
 
 
