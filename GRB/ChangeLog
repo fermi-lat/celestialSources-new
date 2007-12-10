@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Mon Dec 10 12:05:24 PST 2007
+celestialSources/GRB
+
+Added Files:
+	GRBLib.py SConscript 
+Log Message:
+Initial import of SCons files
+    *
+------------------------------------------------------------
 TAG
 Tag name: v4r4, operation: add
 Package: GRB
