@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed Dec 26 22:32:48 PST 2007
+celestialSources/genericSources/src
+
+Modified Files:
+	SourcePopulation.cxx SpectralTransient.cxx 
+Log Message:
+add checks for zero length intervals being computed
+    *
+------------------------------------------------------------
+User: jchiang  Wed Dec 26 22:32:48 PST 2007
 celestialSources/genericSources/genericSources
 
 Modified Files:
