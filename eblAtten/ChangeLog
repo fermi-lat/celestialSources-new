@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jan  8 11:39:55 PST 2008
+celestialSources/eblAtten/src
+
+Modified Files:
+	IRB_routines.cxx 
+Added Files:
+	Primack05.cxx Primack05.h 
+Log Message:
+class to handle Primack05 model
+    *
+------------------------------------------------------------
 User: golpa  Mon Dec 10 12:53:58 PST 2007
 celestialSources/eblAtten
 
