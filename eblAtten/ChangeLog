@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jan  8 11:47:33 PST 2008
+celestialSources/eblAtten/src
+
+Modified Files:
+	Primack05.cxx Primack05.h 
+Log Message:
+includes, declarations, typo fixes
+    *
+------------------------------------------------------------
 User: jchiang  Tue Jan  8 11:39:55 PST 2008
 celestialSources/eblAtten/src
 
