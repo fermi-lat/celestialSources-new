@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Mon Jan 14 14:05:56 PST 2008
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+fix warning messages; inherit from Spectrum, not ISpectrum
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r4p3, operation: add
 Package: Pulsar
