@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: razzano  Mon Jan 14 09:39:22 PST 2008
-celestialSources/Pulsar/src
-
-Modified Files:
-	PulsarSim.cxx PulsarSpectrum.cxx 
-Log Message:
-fixed warnings
-    *
-------------------------------------------------------------
-User: razzano  Mon Jan 14 09:39:22 PST 2008
-celestialSources/Pulsar/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-fixed warnings
-    *
-------------------------------------------------------------
 TAG
 Tag name: v2r4p2, operation: add
 Package: Pulsar
