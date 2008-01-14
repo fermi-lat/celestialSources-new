@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Mon Jan 14 14:05:56 PST 2008
+celestialSources/Pulsar/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fix warning messages; inherit from Spectrum, not ISpectrum
+    *
+------------------------------------------------------------
+User: burnett  Mon Jan 14 14:05:56 PST 2008
 celestialSources/Pulsar/cmt
 
 Modified Files:
