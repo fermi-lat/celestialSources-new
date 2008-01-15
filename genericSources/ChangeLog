@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Jan 14 17:32:56 PST 2008
+celestialSources/genericSources/src
+
+Modified Files:
+	SourcePopulation.cxx 
+Log Message:
+setIdentifier for SourcePopulation object
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r9p5, operation: add
 Package: genericSources
