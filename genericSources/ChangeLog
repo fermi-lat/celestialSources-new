@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Mon Jan 14 22:39:49 PST 2008
+celestialSources/genericSources/src
+
+Modified Files:
+	SourcePopulation.cxx 
+Log Message:
+apply offset to identifier
+    *
+------------------------------------------------------------
+User: jchiang  Mon Jan 14 22:39:49 PST 2008
 celestialSources/genericSources/genericSources
 
 Modified Files:
