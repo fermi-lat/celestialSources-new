@@ -1,5 +1,209 @@
 ------------------------------------------------------------
 TAG
+Tag name: v2r4p4, operation: add
+Package: Pulsar
+User: burnett  Mon Jan 14 14:06:38 2008
+Files:
+  Pulsar/.cvsignore  1.2
+  Pulsar/ChangeLog  1.467
+  Pulsar/PulsarLib.py  1.1
+  Pulsar/SConscript  1.1
+  Pulsar/Pulsar/PulsarConstants.h  1.33
+  Pulsar/Pulsar/PulsarSpectrum.h  1.57
+  Pulsar/Pulsar/PulsarSim.h  1.15
+  Pulsar/cmt/requirements  1.16
+  Pulsar/data/TestPulsarDataList.txt  1.1
+  Pulsar/data/PSRVELATimeProfile.txt  1.2
+  Pulsar/data/BasicDataList.txt  1.18
+  Pulsar/data/PulsarBinDataList.txt  1.1
+  Pulsar/data/PSRMUROMTimeProfile.txt  1.1
+  Pulsar/data/PSRCRABTimeProfile.txt  1.1
+  Pulsar/data/PSRMUROBTimeProfile.txt  1.1
+  Pulsar/data/PulsarDataList.txt  1.35
+  Pulsar/data/PSRMURON1TimeProfile.txt  1.1
+  Pulsar/data/PsrPCHShape.root  1.2
+  Pulsar/data/PSRMURON2TimeProfile.txt  1.1
+  Pulsar/data/BasicBinDataList.txt  1.4
+  Pulsar/data/PSRMUROSTimeProfile.txt  1.1
+  Pulsar/doc/release.notes  1.47
+  Pulsar/doc/NJSnForm.jpg  1.1
+  Pulsar/doc/DoxyFile  1.5
+  Pulsar/src/mainpage.h  1.3
+  Pulsar/src/PulsarSim.cxx  1.39
+  Pulsar/src/PulsarSpectrum.cxx  1.134
+  Pulsar/src/test/other/PulsarROOTtest.cxx  1.39
+  Pulsar/xml/Pulsar_test_library.xml  1.4
+  Pulsar/xml/Pulsar_user_library.xml  1.22
+
+    *
+------------------------------------------------------------
+User: burnett  Mon Jan 14 14:05:56 PST 2008
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+fix warning messages; inherit from Spectrum, not ISpectrum
+    *
+------------------------------------------------------------
+User: burnett  Mon Jan 14 14:05:56 PST 2008
+celestialSources/Pulsar/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fix warning messages; inherit from Spectrum, not ISpectrum
+    *
+------------------------------------------------------------
+User: burnett  Mon Jan 14 14:05:56 PST 2008
+celestialSources/Pulsar/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix warning messages; inherit from Spectrum, not ISpectrum
+    *
+------------------------------------------------------------
+User: burnett  Mon Jan 14 14:05:56 PST 2008
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSpectrum.h 
+Log Message:
+fix warning messages; inherit from Spectrum, not ISpectrum
+    *
+------------------------------------------------------------
+TAG
+Tag name: v2r4p3, operation: add
+Package: Pulsar
+User: razzano  Mon Jan 14 10:30:09 2008
+Files:
+  Pulsar/.cvsignore  1.2
+  Pulsar/ChangeLog  1.464
+  Pulsar/PulsarLib.py  1.1
+  Pulsar/SConscript  1.1
+  Pulsar/Pulsar/PulsarConstants.h  1.33
+  Pulsar/Pulsar/PulsarSpectrum.h  1.56
+  Pulsar/Pulsar/PulsarSim.h  1.15
+  Pulsar/cmt/requirements  1.15
+  Pulsar/data/TestPulsarDataList.txt  1.1
+  Pulsar/data/PSRVELATimeProfile.txt  1.2
+  Pulsar/data/BasicDataList.txt  1.18
+  Pulsar/data/PulsarBinDataList.txt  1.1
+  Pulsar/data/PSRMUROMTimeProfile.txt  1.1
+  Pulsar/data/PSRCRABTimeProfile.txt  1.1
+  Pulsar/data/PSRMUROBTimeProfile.txt  1.1
+  Pulsar/data/PulsarDataList.txt  1.35
+  Pulsar/data/PSRMURON1TimeProfile.txt  1.1
+  Pulsar/data/PsrPCHShape.root  1.2
+  Pulsar/data/PSRMURON2TimeProfile.txt  1.1
+  Pulsar/data/BasicBinDataList.txt  1.4
+  Pulsar/data/PSRMUROSTimeProfile.txt  1.1
+  Pulsar/doc/release.notes  1.46
+  Pulsar/doc/NJSnForm.jpg  1.1
+  Pulsar/doc/DoxyFile  1.5
+  Pulsar/src/mainpage.h  1.3
+  Pulsar/src/PulsarSim.cxx  1.39
+  Pulsar/src/PulsarSpectrum.cxx  1.133
+  Pulsar/src/test/other/PulsarROOTtest.cxx  1.39
+  Pulsar/xml/Pulsar_test_library.xml  1.4
+  Pulsar/xml/Pulsar_user_library.xml  1.22
+
+    *
+------------------------------------------------------------
+User: razzano  Mon Jan 14 09:39:22 PST 2008
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSim.cxx PulsarSpectrum.cxx 
+Log Message:
+fixed warnings
+    *
+------------------------------------------------------------
+User: razzano  Mon Jan 14 09:39:22 PST 2008
+celestialSources/Pulsar/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fixed warnings
+    *
+------------------------------------------------------------
+TAG
+Tag name: v2r4p2, operation: add
+Package: Pulsar
+User: razzano  Thu Jan 10 09:16:01 2008
+Files:
+  Pulsar/.cvsignore  1.2
+  Pulsar/ChangeLog  1.460
+  Pulsar/PulsarLib.py  1.1
+  Pulsar/SConscript  1.1
+  Pulsar/Pulsar/PulsarConstants.h  1.33
+  Pulsar/Pulsar/PulsarSpectrum.h  1.56
+  Pulsar/Pulsar/PulsarSim.h  1.15
+  Pulsar/cmt/requirements  1.15
+  Pulsar/data/TestPulsarDataList.txt  1.1
+  Pulsar/data/PSRVELATimeProfile.txt  1.2
+  Pulsar/data/BasicDataList.txt  1.18
+  Pulsar/data/PulsarBinDataList.txt  1.1
+  Pulsar/data/PSRMUROMTimeProfile.txt  1.1
+  Pulsar/data/PSRCRABTimeProfile.txt  1.1
+  Pulsar/data/PSRMUROBTimeProfile.txt  1.1
+  Pulsar/data/PulsarDataList.txt  1.35
+  Pulsar/data/PSRMURON1TimeProfile.txt  1.1
+  Pulsar/data/PsrPCHShape.root  1.2
+  Pulsar/data/PSRMURON2TimeProfile.txt  1.1
+  Pulsar/data/BasicBinDataList.txt  1.4
+  Pulsar/data/PSRMUROSTimeProfile.txt  1.1
+  Pulsar/doc/release.notes  1.45
+  Pulsar/doc/NJSnForm.jpg  1.1
+  Pulsar/doc/DoxyFile  1.5
+  Pulsar/src/mainpage.h  1.3
+  Pulsar/src/PulsarSim.cxx  1.38
+  Pulsar/src/PulsarSpectrum.cxx  1.132
+  Pulsar/src/test/other/PulsarROOTtest.cxx  1.39
+  Pulsar/xml/Pulsar_test_library.xml  1.4
+  Pulsar/xml/Pulsar_user_library.xml  1.22
+
+    *
+------------------------------------------------------------
+User: razzano  Thu Jan 10 09:15:23 PST 2008
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+fixed binaries
+    *
+------------------------------------------------------------
+User: razzano  Thu Jan 10 09:15:23 PST 2008
+celestialSources/Pulsar/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fixed binaries
+    *
+------------------------------------------------------------
+User: razzano  Thu Jan 10 09:15:23 PST 2008
+celestialSources/Pulsar/data
+
+Modified Files:
+	BasicBinDataList.txt PulsarDataList.txt 
+Log Message:
+fixed binaries
+    *
+------------------------------------------------------------
+User: golpa  Mon Dec 10 12:11:30 PST 2007
+celestialSources/Pulsar
+
+Added Files:
+	PulsarLib.py SConscript 
+Log Message:
+Initial import of SCons files
+    *
+------------------------------------------------------------
+TAG
 Tag name: v2r4p1, operation: add
 Package: Pulsar
 User: razzano  Fri Oct 26 01:25:14 2007

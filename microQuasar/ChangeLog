@@ -1,4 +1,41 @@
 ------------------------------------------------------------
+User: richard  Mon Dec 31 15:10:26 PST 2007
+celestialSources/microQuasar/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+updated for new release v1r3p1
+    *
+------------------------------------------------------------
+User: richard  Mon Dec 31 15:09:55 PST 2007
+celestialSources/microQuasar/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Added new line - version v1r3p1
+    *
+------------------------------------------------------------
+User: richard  Mon Dec 31 13:10:28 PST 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Fix assignment of spectral index vs orbital phase. Dread single = in if!
+
+    *
+------------------------------------------------------------
+User: golpa  Mon Dec 10 13:05:57 PST 2007
+celestialSources/microQuasar
+
+Added Files:
+	SConscript microQuasarLib.py 
+Log Message:
+Initial import of SCons files
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r3, operation: add
 Package: microQuasar
