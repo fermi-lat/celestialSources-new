@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Jan 15 17:36:50 PST 2008
+celestialSources/genericSources/genericSources
+
+Modified Files:
+	SourcePopulation.h 
+Log Message:
+Add  individual source name.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r10, operation: add
 Package: genericSources
