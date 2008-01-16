@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Tue Jan 15 17:36:50 PST 2008
+celestialSources/genericSources/src
+
+Modified Files:
+	SourcePopulation.cxx 
+Log Message:
+Add  individual source name.
+    *
+------------------------------------------------------------
+User: burnett  Tue Jan 15 17:36:50 PST 2008
 celestialSources/genericSources/genericSources
 
 Modified Files:
