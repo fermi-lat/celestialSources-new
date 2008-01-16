@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Wed Jan 16 10:33:38 PST 2008
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+fix binary pulsar with new algorithm
+    *
+------------------------------------------------------------
+User: razzano  Wed Jan 16 10:33:38 PST 2008
 celestialSources/Pulsar/doc
 
 Modified Files:
