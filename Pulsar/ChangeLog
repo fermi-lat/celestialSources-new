@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v2r4p5, operation: add
+Package: Pulsar
+User: razzano  Wed Jan 16 11:01:12 2008
+Files:
+  Pulsar/cmt/requirements  1.16
+
+    *
+------------------------------------------------------------
 User: razzano  Wed Jan 16 10:33:38 PST 2008
 celestialSources/Pulsar/src
 
