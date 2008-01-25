@@ -2,6 +2,14 @@
 TAG
 Tag name: GRBtemplate-01-02-02, operation: add
 Package: GRBtemplate
+User: glastrm  Fri Jan 25 09:31:34 2008
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GRBtemplate-01-02-02, operation: add
+Package: GRBtemplate
 User: glastrm  Fri Jan 25 09:30:54 2008
 Files:
   GRBtemplate/.cvsignore  1.1.1.1
