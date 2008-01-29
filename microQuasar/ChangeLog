@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Tue Jan 29 08:00:13 PST 2008
+celestialSources/microQuasar/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+New tag to include SCons files
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r3p1, operation: add
 Package: microQuasar
