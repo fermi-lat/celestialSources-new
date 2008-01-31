@@ -1,5 +1,57 @@
 ------------------------------------------------------------
 TAG
+Tag name: celestialSources-01-03-02, operation: add
+Package: GRBobs
+User: golpa  Thu Jan 31 07:38:02 2008
+Files:
+  GRBobs/.cvsignore  1.1.1.1
+  GRBobs/ChangeLog  1.390
+  GRBobs/SConscript  1.1
+  GRBobs/GRBobsLib.py  1.1
+  GRBobs/GRBobs/GRBobsmanager.h  1.21
+  GRBobs/GRBobs/mainpage.h  1.4
+  GRBobs/GRBobs/SpectralComponent.h  1.1
+  GRBobs/GRBobs/GRBobsSim.h  1.11
+  GRBobs/GRBobs/GRBobsengine.h  1.4
+  GRBobs/GRBobs/GRBobsPulse.h  1.5
+  GRBobs/GRBobs/GRBobsConstants.h  1.26
+  GRBobs/cmt/.cvsignore  1.1
+  GRBobs/cmt/requirements  1.38
+  GRBobs/data/BGO_energy_grid.dat  1.1
+  GRBobs/data/NaI_energy_grid.dat  1.1
+  GRBobs/doc/release.notes  1.31
+  GRBobs/doc/Doxyfile  1.1
+  GRBobs/macros/pyFindGRB_v1.py  1.1
+  GRBobs/macros/countSources.py  1.1
+  GRBobs/macros/ConvertPositions.py  1.1
+  GRBobs/macros/pyParse.py  1.1
+  GRBobs/macros/pyFindGRB.py  1.1
+  GRBobs/macros/PlotGRBCatalogue.C  1.1
+  GRBobs/src/GRBobsPulse.cxx  1.13
+  GRBobs/src/GRBobsConstants.cxx  1.26
+  GRBobs/src/GRBobsmanager.cxx  1.55
+  GRBobs/src/SpectralComponet.cxx  1.1
+  GRBobs/src/GRBobsengine.cxx  1.14
+  GRBobs/src/GRBobsSim.cxx  1.38
+  GRBobs/src/LoadTree.C  1.4
+  GRBobs/src/ConstParMap.h  1.3
+  GRBobs/src/test/testGRB.cxx  1.7
+  GRBobs/src/test/GRBParam.txt  1.42
+  GRBobs/src/test/other/compile.C  1.1.1.1
+  GRBobs/src/test/other/GRBROOTtest.cxx  1.32
+  GRBobs/xml/GRBobs_grid_library.xml  1.3
+  GRBobs/xml/grb_position.txt  1.1
+  GRBobs/xml/GenerateXMLLibrary.C  1.42
+  GRBobs/xml/GRBobs_user_library.xml  1.43
+  GRBobs/xml/l_b_coords.txt  1.1
+  GRBobs/xml/SWIFT_bursts.xml  1.2
+  GRBobs/xml/GenerateGRBGrid.C  1.4
+  GRBobs/xml/GRBobs_user_library_noZ.xml  1.1
+  GRBobs/xml/GRBobs_user_library_Z.xml  1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GRBobs-03-02-01, operation: add
 Package: GRBobs
 User: glastrm  Fri Jan 25 02:45:55 2008

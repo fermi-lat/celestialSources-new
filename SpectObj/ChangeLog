@@ -1,5 +1,22 @@
 ------------------------------------------------------------
 TAG
+Tag name: celestialSources-01-03-02, operation: add
+Package: SpectObj
+User: golpa  Thu Jan 31 07:38:00 2008
+Files:
+  SpectObj/ChangeLog  1.129
+  SpectObj/SConscript  1.1
+  SpectObj/SpectObjLib.py  1.1
+  SpectObj/SpectObj/SpectObj.h  1.24
+  SpectObj/cmt/requirements  1.16
+  SpectObj/data/EBLmodel.dat  1.1
+  SpectObj/doc/release.notes  1.5
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.48
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: SpectObj-01-03-04, operation: add
 Package: SpectObj
 User: glastrm  Fri Jan 25 09:31:22 2008
