@@ -2,6 +2,30 @@
 TAG
 Tag name: celestialSources-01-03-02, operation: add
 Package: microQuasar
+User: golpa  Thu Jan 31 07:38:46 2008
+Files:
+  microQuasar/mq.txt  1.1.1.1
+  microQuasar/microQuasarLib.py  1.1
+  microQuasar/.cvsignore  1.1.1.1
+  microQuasar/ChangeLog  1.82
+  microQuasar/SConscript  1.1
+  microQuasar/cmt/.cvsignore  1.1.1.1
+  microQuasar/cmt/NMake  1.1.1.1
+  microQuasar/cmt/requirements  1.11
+  microQuasar/cmt/Makefile  1.1.1.1
+  microQuasar/doc/release.notes  1.8
+  microQuasar/microQuasar/microQuasar.h  1.13
+  microQuasar/src/microQuasar.cxx  1.29
+  microQuasar/src/mainpage.h  1.2
+  microQuasar/src/test/mq.txt  1.1.1.1
+  microQuasar/src/test/test_main.cxx  1.5
+  microQuasar/xml/mq.xml  1.5
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: celestialSources-01-03-02, operation: add
+Package: microQuasar
 User: golpa  Thu Jan 31 07:38:02 2008
 Files:
   microQuasar/mq.txt  1.1.1.1
