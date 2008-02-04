@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 TAG
+Tag name: v1r3p2, operation: add
+Package: celestialSources
+User: golpa  Mon Feb  4 08:42:38 2008
+Files:
+  celestialSources/SConscript  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: celestialSources-01-03-02, operation: add
 Package: celestialSources
 User: golpa  Thu Jan 31 07:46:27 2008
