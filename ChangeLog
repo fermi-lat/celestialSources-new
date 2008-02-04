@@ -2,6 +2,15 @@
 TAG
 Tag name: v1r3p2, operation: add
 Package: celestialSources
+User: golpa  Mon Feb  4 08:42:48 2008
+Files:
+  celestialSources/celestialSourcesLib.py  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r3p2, operation: add
+Package: celestialSources
 User: golpa  Mon Feb  4 08:42:38 2008
 Files:
   celestialSources/SConscript  1.2
