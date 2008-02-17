@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Feb 17 08:28:53 PST 2008
+celestialSources/genericSources/src
+
+Modified Files:
+	FileSpectrum.cxx 
+Log Message:
+bug fix for random redeviate reuse; warn against zero-valued dN/dE in input file
+    *
+------------------------------------------------------------
 TAG
 Tag name: celestialSources-01-03-02, operation: del
 Package: genericSources
