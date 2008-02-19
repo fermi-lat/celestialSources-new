@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Feb 19 11:41:28 PST 2008
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove zero value dN/dE entries from dm120gev.dat; tagging v1r11p1
+    *
+------------------------------------------------------------
 TAG
 Tag name: genericSources-01-11-00, operation: add
 Package: genericSources
