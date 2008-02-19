@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Feb 19 09:27:18 PST 2008
+celestialSources/genericSources/src
+
+Modified Files:
+	FileSpectrum.cxx 
+Log Message:
+remove commented out code
+    *
+------------------------------------------------------------
 User: jchiang  Sun Feb 17 08:28:53 PST 2008
 celestialSources/genericSources/src
 
