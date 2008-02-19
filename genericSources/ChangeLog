@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Feb 19 11:41:28 PST 2008
+celestialSources/genericSources/data
+
+Modified Files:
+	dm120gev.dat 
+Log Message:
+remove zero value dN/dE entries from dm120gev.dat; tagging v1r11p1
+    *
+------------------------------------------------------------
+User: jchiang  Tue Feb 19 11:41:28 PST 2008
 celestialSources/genericSources/cmt
 
 Modified Files:
