@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: golpa  Wed Feb 20 09:12:44 PST 2008
+celestialSources/GRB
+
+Modified Files:
+	GRBLib.py SConscript 
+Log Message:
+Fix libGRB, cosmetic changes
+    *
+------------------------------------------------------------
 TAG
 Tag name: celestialSources-01-03-02, operation: del
 Package: GRB
