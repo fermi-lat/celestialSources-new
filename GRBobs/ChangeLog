@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Feb 22 06:36:12 PST 2008
+celestialSources/GRBobs/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+Add the single pulse model
+    *
+------------------------------------------------------------
+User: omodei  Fri Feb 22 06:36:12 PST 2008
 celestialSources/GRBobs/src/test
 
 Modified Files:
