@@ -2,6 +2,14 @@
 TAG
 Tag name: GRB-04-04-02, operation: add
 Package: GRB
+User: glastrm  Fri Feb 22 07:00:56 2008
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GRB-04-04-02, operation: add
+Package: GRB
 User: glastrm  Fri Feb 22 07:00:31 2008
 Files:
   GRB/.cvsignore  1.3
