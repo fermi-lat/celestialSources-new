@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Feb 22 10:17:25 PST 2008
+celestialSources/GRBobs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Compatibility with windoz fixed
+    *
+------------------------------------------------------------
 TAG
 Tag name: GRBobs-03-03-00, operation: add
 Package: GRBobs
