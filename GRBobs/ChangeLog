@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: omodei  Fri Feb 22 06:36:13 PST 2008
+celestialSources/GRBobs/xml
+
+Modified Files:
+	GRBobs_grid_library.xml GRBobs_user_library.xml 
+	GenerateXMLLibrary.C 
+Removed Files:
+	GRBobs_user_library_Z.xml GRBobs_user_library_noZ.xml 
+Log Message:
+Add the single pulse model
+    *
+------------------------------------------------------------
 User: omodei  Fri Feb 22 06:36:12 PST 2008
 celestialSources/GRBobs/src/test/other
 
