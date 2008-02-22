@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: omodei  Fri Feb 22 06:36:11 PST 2008
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx GRBobsengine.cxx GRBobsmanager.cxx 
+Log Message:
+Add the single pulse model
+    *
+------------------------------------------------------------
+User: omodei  Fri Feb 22 06:36:11 PST 2008
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
