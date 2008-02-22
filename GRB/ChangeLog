@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Feb 22 06:56:52 PST 2008
+celestialSources/GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+update SCons, ready to be tagged
+    *
+------------------------------------------------------------
 User: golpa  Wed Feb 20 09:12:44 PST 2008
 celestialSources/GRB
 
