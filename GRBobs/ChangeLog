@@ -2,6 +2,14 @@
 TAG
 Tag name: GRBobs-03-03-01, operation: add
 Package: GRBobs
+User: glastrm  Fri Feb 22 10:31:02 2008
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GRBobs-03-03-01, operation: add
+Package: GRBobs
 User: glastrm  Fri Feb 22 10:30:34 2008
 Files:
   GRBobs/.cvsignore  1.1.1.1
