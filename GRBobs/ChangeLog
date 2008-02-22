@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Feb 22 06:36:11 PST 2008
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h GRBobsmanager.h 
+Log Message:
+Add the single pulse model
+    *
+------------------------------------------------------------
 TAG
 Tag name: celestialSources-01-03-02, operation: del
 Package: GRBobs
