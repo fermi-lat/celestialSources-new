@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Fri Feb 22 10:17:26 PST 2008
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsConstants.cxx 
+Log Message:
+Compatibility with windoz fixed
+    *
+------------------------------------------------------------
 User: omodei  Fri Feb 22 10:17:25 PST 2008
 celestialSources/GRBobs/doc
 
