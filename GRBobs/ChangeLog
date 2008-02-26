@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: v3r3p1, operation: mov
+Package: GRBobs
+User: glast  Tue Feb 26 08:33:37 2008
+Files:
+  GRBobs/SConscript  1.2
+  GRBobs/GRBobsLib.py  1.2
+
+    *
+------------------------------------------------------------
 User: glastrm  Tue Feb 26 08:33:06 PST 2008
 ScienceTools-scons/celestialSources/GRBobs
 
