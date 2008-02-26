@@ -1,5 +1,66 @@
 ------------------------------------------------------------
 TAG
+Tag name: v1r3p1, operation: add
+Package: microQuasar
+User: richard  Mon Dec 31 15:10:39 2007
+Files:
+  microQuasar/mq.txt  1.1.1.1
+  microQuasar/microQuasarLib.py  1.1
+  microQuasar/.cvsignore  1.1.1.1
+  microQuasar/ChangeLog  1.81
+  microQuasar/SConscript  1.1
+  microQuasar/cmt/.cvsignore  1.1.1.1
+  microQuasar/cmt/NMake  1.1.1.1
+  microQuasar/cmt/requirements  1.10
+  microQuasar/cmt/Makefile  1.1.1.1
+  microQuasar/doc/release.notes  1.8
+  microQuasar/microQuasar/microQuasar.h  1.13
+  microQuasar/src/microQuasar.cxx  1.29
+  microQuasar/src/mainpage.h  1.2
+  microQuasar/src/test/mq.txt  1.1.1.1
+  microQuasar/src/test/test_main.cxx  1.5
+  microQuasar/xml/mq.xml  1.5
+
+    *
+------------------------------------------------------------
+User: richard  Mon Dec 31 15:10:26 PST 2007
+celestialSources/microQuasar/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+updated for new release v1r3p1
+    *
+------------------------------------------------------------
+User: richard  Mon Dec 31 15:09:55 PST 2007
+celestialSources/microQuasar/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Added new line - version v1r3p1
+    *
+------------------------------------------------------------
+User: richard  Mon Dec 31 13:10:28 PST 2007
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+Fix assignment of spectral index vs orbital phase. Dread single = in if!
+
+    *
+------------------------------------------------------------
+User: golpa  Mon Dec 10 13:05:57 PST 2007
+celestialSources/microQuasar
+
+Added Files:
+	SConscript microQuasarLib.py 
+Log Message:
+Initial import of SCons files
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r3, operation: add
 Package: microQuasar
 User: jchiang  Fri Oct 19 12:40:48 2007
