@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 TAG
+Tag name: Pulsar-02-04-05, operation: mov
+Package: Pulsar
+User: glast  Tue Feb 26 08:36:48 2008
+Files:
+  Pulsar/SConscript  1.2
+  Pulsar/PulsarLib.py  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v2r4p5, operation: mov
 Package: Pulsar
 User: glast  Tue Feb 26 08:36:27 2008
