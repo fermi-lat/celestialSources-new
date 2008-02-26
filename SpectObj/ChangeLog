@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 TAG
+Tag name: SpectObj-01-03-04, operation: mov
+Package: SpectObj
+User: glast  Tue Feb 26 08:38:33 2008
+Files:
+  SpectObj/SConscript  1.2
+  SpectObj/SpectObjLib.py  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r3p4, operation: mov
 Package: SpectObj
 User: glast  Tue Feb 26 08:38:18 2008
