@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r3p2, operation: mov
+Package: celestialSources
+User: glast  Tue Feb 26 08:30:07 2008
+Files:
+  celestialSources/SConscript  1.3
+  celestialSources/celestialSourcesLib.py  1.2
+
+    *
+------------------------------------------------------------
 User: glastrm  Tue Feb 26 08:29:38 PST 2008
 ScienceTools-scons/celestialSources
 
