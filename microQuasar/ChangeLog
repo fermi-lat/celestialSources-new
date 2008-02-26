@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r3p2, operation: mov
+Package: microQuasar
+User: glast  Tue Feb 26 08:44:20 2008
+Files:
+  microQuasar/SConscript  1.2
+  microQuasar/microQuasarLib.py  1.2
+
+    *
+------------------------------------------------------------
 User: glastrm  Tue Feb 26 08:43:31 PST 2008
 ScienceTools-scons/celestialSources/microQuasar
 
