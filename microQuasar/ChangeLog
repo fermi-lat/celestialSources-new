@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Tue Feb 26 08:43:31 PST 2008
+ScienceTools-scons/celestialSources/microQuasar
+
+Modified Files:
+	SConscript microQuasarLib.py 
+Log Message:
+Add lib dependencies when creating a library
+    *
+------------------------------------------------------------
 TAG
 Tag name: celestialSources-01-03-02, operation: del
 Package: microQuasar

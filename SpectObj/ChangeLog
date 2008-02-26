@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Tue Feb 26 08:37:15 PST 2008
+ScienceTools-scons/celestialSources/SpectObj
+
+Modified Files:
+	SConscript SpectObjLib.py 
+Log Message:
+Add lib dependencies when creating a library
+    *
+------------------------------------------------------------
 TAG
 Tag name: celestialSources-01-03-02, operation: del
 Package: SpectObj

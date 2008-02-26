@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Tue Feb 26 08:39:09 PST 2008
+ScienceTools-scons/celestialSources/eblAtten
+
+Modified Files:
+	SConscript eblAttenLib.py 
+Log Message:
+Add lib dependencies when creating a library
+    *
+------------------------------------------------------------
 TAG
 Tag name: celestialSources-01-03-02, operation: del
 Package: eblAtten

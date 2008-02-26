@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Tue Feb 26 08:31:15 PST 2008
+ScienceTools-scons/celestialSources/GRB
+
+Modified Files:
+	GRBLib.py SConscript 
+Log Message:
+Add lib dependencies when creating a library
+    *
+------------------------------------------------------------
 TAG
 Tag name: GRB-04-04-02, operation: add
 Package: GRB

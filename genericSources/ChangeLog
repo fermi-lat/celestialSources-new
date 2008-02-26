@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Tue Feb 26 08:40:27 PST 2008
+ScienceTools-scons/celestialSources/genericSources
+
+Modified Files:
+	SConscript genericSourcesLib.py 
+Log Message:
+Add lib dependencies when creating a library
+    *
+------------------------------------------------------------
 TAG
 Tag name: genericSources-01-11-01, operation: add
 Package: genericSources
