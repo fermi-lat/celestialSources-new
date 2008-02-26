@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r11p1, operation: mov
+Package: genericSources
+User: glast  Tue Feb 26 08:41:14 2008
+Files:
+  genericSources/SConscript  1.3
+  genericSources/genericSourcesLib.py  1.2
+
+    *
+------------------------------------------------------------
 User: glastrm  Tue Feb 26 08:40:27 PST 2008
 ScienceTools-scons/celestialSources/genericSources
 
