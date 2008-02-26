@@ -2,6 +2,15 @@
 TAG
 Tag name: v1r3p4, operation: mov
 Package: SpectObj
+User: glast  Tue Feb 26 08:38:18 2008
+Files:
+  SpectObj/SConscript  1.2
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v1r3p4, operation: mov
+Package: SpectObj
 User: glast  Tue Feb 26 08:37:59 2008
 Files:
   SpectObj/SpectObjLib.py  1.2
