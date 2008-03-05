@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: burnett  Tue Mar  4 16:09:07 PST 2008
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+first shot at optional FileSpectrum for specifying flux
+    *
+------------------------------------------------------------
+User: burnett  Tue Mar  4 16:09:07 PST 2008
 celestialSources/microQuasar/microQuasar
 
 Modified Files:
