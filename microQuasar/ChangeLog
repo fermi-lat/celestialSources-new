@@ -1,5 +1,29 @@
 ------------------------------------------------------------
 TAG
+Tag name: microQuasar-01-04-00, operation: add
+Package: microQuasar
+User: glastrm  Sun Mar  9 17:30:30 2008
+Files:
+  microQuasar/mq.txt  1.1.1.1
+  microQuasar/microQuasarLib.py  1.2
+  microQuasar/.cvsignore  1.1.1.1
+  microQuasar/ChangeLog  1.99
+  microQuasar/SConscript  1.2
+  microQuasar/cmt/.cvsignore  1.1.1.1
+  microQuasar/cmt/NMake  1.1.1.1
+  microQuasar/cmt/requirements  1.13
+  microQuasar/cmt/Makefile  1.1.1.1
+  microQuasar/doc/release.notes  1.9
+  microQuasar/microQuasar/microQuasar.h  1.15
+  microQuasar/src/microQuasar.cxx  1.31
+  microQuasar/src/mainpage.h  1.2
+  microQuasar/src/test/mq.txt  1.1.1.1
+  microQuasar/src/test/test_main.cxx  1.5
+  microQuasar/xml/mq.xml  1.5
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r4, operation: add
 Package: microQuasar
 User: richard  Sun Mar  9 17:24:10 2008
