@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r3p4, operation: mov
+Package: SpectObj
+User: glast  Wed Mar 19 14:21:22 2008
+Files:
+  SpectObj/SConscript  1.3
+
+    *
+------------------------------------------------------------
 User: glastrm  Wed Mar 19 14:20:44 PDT 2008
 ScienceTools-scons/celestialSources/SpectObj
 
