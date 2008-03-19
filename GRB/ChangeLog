@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Wed Mar 19 14:25:18 PDT 2008
+ScienceTools-scons/celestialSources/GRB
+
+Modified Files:
+	SConscript 
+Log Message:
+Register data files
+    *
+------------------------------------------------------------
 TAG
 Tag name: GRB-04-04-02, operation: mov
 Package: GRB

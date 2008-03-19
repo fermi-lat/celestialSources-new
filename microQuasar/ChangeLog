@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Wed Mar 19 14:13:15 PDT 2008
+ScienceTools-scons/celestialSources/microQuasar
+
+Modified Files:
+	microQuasarLib.py 
+Log Message:
+microQuasar depends on genericSources
+    *
+------------------------------------------------------------
 TAG
 Tag name: microQuasar-01-04-00, operation: add
 Package: microQuasar

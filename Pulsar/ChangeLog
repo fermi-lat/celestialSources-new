@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Wed Mar 19 14:27:57 PDT 2008
+ScienceTools-scons/celestialSources/Pulsar
+
+Modified Files:
+	SConscript 
+Log Message:
+Register data files
+    *
+------------------------------------------------------------
 TAG
 Tag name: Pulsar-02-04-05, operation: mov
 Package: Pulsar

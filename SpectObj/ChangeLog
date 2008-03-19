@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Wed Mar 19 14:20:44 PDT 2008
+ScienceTools-scons/celestialSources/SpectObj
+
+Modified Files:
+	SConscript 
+Log Message:
+Register data files
+    *
+------------------------------------------------------------
 TAG
 Tag name: SpectObj-01-03-04, operation: mov
 Package: SpectObj
