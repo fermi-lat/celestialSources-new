@@ -63,6 +63,9 @@ public:
 
 private:
 
+   double m_emin;
+   double m_emax;
+
    FileSpectrum * m_spectrum;
 
    std::vector<double> m_thetas;
