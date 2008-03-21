@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v2r4p5, operation: mov
+Package: Pulsar
+User: glastrm  Fri Mar 21 10:04:37 2008
+Files:
+  Pulsar/SConscript  1.4
+
+    *
+------------------------------------------------------------
 User: glastrm  Fri Mar 21 09:52:34 PDT 2008
 ScienceTools-scons/celestialSources/Pulsar
 

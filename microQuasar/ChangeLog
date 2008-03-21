@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 TAG
+Tag name: microQuasar-01-04-00, operation: mov
+Package: microQuasar
+User: glastrm  Fri Mar 21 10:03:51 2008
+Files:
+  microQuasar/SConscript  1.3
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r4, operation: mov
 Package: microQuasar
 User: glastrm  Fri Mar 21 10:03:26 2008
