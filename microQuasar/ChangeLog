@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Fri Mar 21 09:52:34 PDT 2008
+ScienceTools-scons/celestialSources/microQuasar
+
+Modified Files:
+	SConscript 
+Log Message:
+Register xml files with SCons
+    *
+------------------------------------------------------------
 TAG
 Tag name: microQuasar-01-04-00, operation: mov
 Package: microQuasar
