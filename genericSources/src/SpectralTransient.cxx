@@ -31,17 +31,6 @@
 #include "eblAtten/EblAtten.h"
 #include "genericSources/SpectralTransient.h"
 
-namespace {
-   double my_RandFlat_shoot() {
-      static double step(1./std::pow(2., 24));
-      double xi = CLHEP::RandFlat::shoot() + CLHEP::RandFlat::shoot()*step;
-      if (xi > 1) {
-         xi = 1.;
-      }
-      return xi;
-   }
-}
-
 std::vector<double> SpectralTransient::ModelInterval::s_energies;
 
 ISpectrumFactory & SpectralTransientFactory() {
@@ -171,12 +160,7 @@ double SpectralTransient::interval(double time) {
       std::pair<double, double> thisEvent = m_eventCache.back();
       m_eventCache.pop_back();
       m_currentEnergy = thisEvent.second;
-      double my_interval(thisEvent.first - time);
-      if (my_interval == 0) {
-         throw std::runtime_error("SpectralTransient::interval:"
-                                  "zero interval computed");
-      }
-      return my_interval;
+      return thisEvent.first - time;
    }
    return 3.15e8;
 }
@@ -209,8 +193,7 @@ void SpectralTransient::fillEventCache(double time) {
             if (m_z == 0 || m_tau == 0 || 
                 CLHEP::RandFlat::shoot() < std::exp(-m_tauScale*
                                                     (*m_tau)(energy, m_z))) {
-//               double eventTime(CLHEP::RandFlat::shoot()*dt + time);
-               double eventTime(::my_RandFlat_shoot()*dt + time);
+               double eventTime(CLHEP::RandFlat::shoot()*dt + time);
                my_cache.push_back(std::make_pair(eventTime, energy));
             }
          }
