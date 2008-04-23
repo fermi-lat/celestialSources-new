@@ -2,6 +2,14 @@
 TAG
 Tag name: SpectObj-01-03-05, operation: add
 Package: SpectObj
+User: glastrm  Wed Apr 23 13:16:04 2008
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: SpectObj-01-03-05, operation: add
+Package: SpectObj
 User: glastrm  Wed Apr 23 13:15:22 2008
 Files:
   SpectObj/ChangeLog  1.142
