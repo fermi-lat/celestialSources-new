@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Tue Apr 22 21:18:00 PDT 2008
+ScienceTools-scons/celestialSources/microQuasar/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+use commonUtilties instead of FLUX_XML
+    *
+------------------------------------------------------------
 User: glastrm  Tue Apr 22 14:15:01 PDT 2008
 ScienceTools-scons/celestialSources/microQuasar/src/test
 
