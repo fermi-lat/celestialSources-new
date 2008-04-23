@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Wed Apr 23 13:10:32 PDT 2008
+celestialSources/SpectObj/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix compilation on 64bit machines, see JIRA GRB-27
+    *
+------------------------------------------------------------
 TAG
 Tag name: SpectObj-01-03-04, operation: mov
 Package: SpectObj
