@@ -1,4 +1,28 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r4p1, operation: add
+Package: microQuasar
+User: glastrm  Tue Apr 22 21:19:31 2008
+Files:
+  microQuasar/mq.txt  1.1.1.1
+  microQuasar/microQuasarLib.py  1.3
+  microQuasar/.cvsignore  1.1.1.1
+  microQuasar/ChangeLog  1.109
+  microQuasar/SConscript  1.3
+  microQuasar/cmt/.cvsignore  1.1.1.1
+  microQuasar/cmt/NMake  1.1.1.1
+  microQuasar/cmt/requirements  1.14
+  microQuasar/cmt/Makefile  1.1.1.1
+  microQuasar/doc/release.notes  1.10
+  microQuasar/microQuasar/microQuasar.h  1.15
+  microQuasar/src/microQuasar.cxx  1.31
+  microQuasar/src/mainpage.h  1.2
+  microQuasar/src/test/mq.txt  1.1.1.1
+  microQuasar/src/test/test_main.cxx  1.6
+  microQuasar/xml/mq.xml  1.5
+
+    *
+------------------------------------------------------------
 User: glastrm  Tue Apr 22 21:18:00 PDT 2008
 ScienceTools-scons/celestialSources/microQuasar/doc
 
