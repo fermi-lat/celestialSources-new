@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: cohen  Wed Apr 23 13:16:53 PDT 2008
-celestialSources/GRBobs/GRBobs
-
-Modified Files:
-	GRBobsConstants.h 
-Log Message:
-fix compilation on 64bit machines, see JIRA GRB-27
-    *
-------------------------------------------------------------
 TAG
 Tag name: GRBobs-03-03-01, operation: mov
 Package: GRBobs
