@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Wed Apr 23 13:14:57 PDT 2008
+celestialSources/GRB/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix compilation on 64bit machines, see JIRA GRB-27
+    *
+------------------------------------------------------------
 TAG
 Tag name: GRB-04-04-02, operation: mov
 Package: GRB
