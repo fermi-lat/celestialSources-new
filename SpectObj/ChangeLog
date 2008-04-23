@@ -1,4 +1,21 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r3p5, operation: add
+Package: SpectObj
+User: cohen  Wed Apr 23 13:11:21 2008
+Files:
+  SpectObj/ChangeLog  1.142
+  SpectObj/SConscript  1.3
+  SpectObj/SpectObjLib.py  1.2
+  SpectObj/SpectObj/SpectObj.h  1.24
+  SpectObj/cmt/requirements  1.17
+  SpectObj/data/EBLmodel.dat  1.1
+  SpectObj/doc/release.notes  1.6
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.49
+
+    *
+------------------------------------------------------------
 User: cohen  Wed Apr 23 13:10:32 PDT 2008
 celestialSources/SpectObj/src
 
