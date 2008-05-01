@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Thu May  1 09:25:25 PDT 2008
+celestialSources/microQuasar/src
+
+Modified Files:
+	microQuasar.cxx 
+Log Message:
+ Protect against zero energy.
+
+    *
+------------------------------------------------------------
 User: richard  Thu May  1 09:24:52 PDT 2008
 celestialSources/microQuasar/microQuasar
 
