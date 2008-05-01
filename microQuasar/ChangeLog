@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Thu May  1 09:24:52 PDT 2008
+celestialSources/microQuasar/microQuasar
+
+Modified Files:
+	microQuasar.h 
+Log Message:
+Change from Spectrum to FileSpectrum declaration.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: microQuasar-01-04-01, operation: add
 Package: microQuasar
