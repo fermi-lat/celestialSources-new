@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon May  5 07:24:44 PDT 2008
+celestialSources/Pulsar/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+added env variables for managing output control
+    *
+------------------------------------------------------------
 TAG
 Tag name: Pulsar-02-04-05, operation: mov
 Package: Pulsar
