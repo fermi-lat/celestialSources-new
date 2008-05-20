@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: richard  Tue May 20 10:33:58 PDT 2008
+celestialSources/microQuasar/microQuasar
+
+Modified Files:
+	microQuasar.h 
+Log Message:
+Remove setting randoms seed.
+
+    *
+------------------------------------------------------------
 User: richard  Thu May  1 09:25:25 PDT 2008
 celestialSources/microQuasar/src
 
