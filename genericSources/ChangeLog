@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Wed May 21 22:58:10 PDT 2008
+celestialSources/genericSources/src
+
+Modified Files:
+	FitsTransient.cxx 
+Log Message:
+fix precision bug arising from 9 digit METs
+    *
+------------------------------------------------------------
+User: jchiang  Wed May 21 22:58:10 PDT 2008
 celestialSources/genericSources/genericSources
 
 Modified Files:
