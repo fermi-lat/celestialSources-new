@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri May 23 06:21:43 PDT 2008
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h PulsarSpectrum.h 
+Log Message:
+optimized read procedure from datalist
+    *
+------------------------------------------------------------
 User: razzano  Thu May 22 09:37:16 PDT 2008
 celestialSources/Pulsar/src
 
