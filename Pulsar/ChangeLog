@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Fri May 23 06:21:43 PDT 2008
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+optimized read procedure from datalist
+    *
+------------------------------------------------------------
+User: razzano  Fri May 23 06:21:43 PDT 2008
 celestialSources/Pulsar/Pulsar
 
 Modified Files:
