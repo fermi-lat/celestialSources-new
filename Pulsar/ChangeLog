@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon May 26 07:58:15 PDT 2008
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarSim.h PulsarSpectrum.h 
+Log Message:
+improved logging system
+    *
+------------------------------------------------------------
 User: razzano  Fri May 23 09:16:01 PDT 2008
 celestialSources/Pulsar/src
 
