@@ -2,6 +2,14 @@
 TAG
 Tag name: Pulsar-02-05-00, operation: add
 Package: Pulsar
+User: glastrm  Mon May 26 08:16:01 2008
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: Pulsar-02-05-00, operation: add
+Package: Pulsar
 User: glastrm  Mon May 26 08:15:34 2008
 Files:
   Pulsar/.cvsignore  1.2
