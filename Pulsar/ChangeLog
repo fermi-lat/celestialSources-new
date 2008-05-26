@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Mon May 26 08:00:11 PDT 2008
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+improved logging system
+    *
+------------------------------------------------------------
 User: razzano  Mon May 26 07:58:15 PDT 2008
 celestialSources/Pulsar/src
 
