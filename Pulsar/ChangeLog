@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Sat May 31 07:09:04 PDT 2008
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+corrected PULSAR_NO_DB
+    *
+------------------------------------------------------------
 User: razzano  Fri May 30 05:50:56 PDT 2008
 celestialSources/Pulsar/src
 
