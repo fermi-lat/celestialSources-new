@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Tue Jun 10 14:29:05 PDT 2008
+celestialSources/genericSources/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix a bug when the map is given with CDELT<0, id est increases in LON to the left of the map center
+    *
+------------------------------------------------------------
 TAG
 Tag name: genericSources-01-11-02, operation: add
 Package: genericSources
