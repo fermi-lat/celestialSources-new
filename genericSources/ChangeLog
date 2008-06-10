@@ -2,6 +2,14 @@
 TAG
 Tag name: genericSources-01-11-03, operation: add
 Package: genericSources
+User: glastrm  Tue Jun 10 14:30:55 2008
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: genericSources-01-11-03, operation: add
+Package: genericSources
 User: glastrm  Tue Jun 10 14:30:24 2008
 Files:
   genericSources/.cvsignore  1.2
