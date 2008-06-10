@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: cohen  Tue Jun 10 14:29:05 PDT 2008
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx 
+Log Message:
+fix a bug when the map is given with CDELT<0, id est increases in LON to the left of the map center
+    *
+------------------------------------------------------------
+User: cohen  Tue Jun 10 14:29:05 PDT 2008
 celestialSources/genericSources/doc
 
 Modified Files:
