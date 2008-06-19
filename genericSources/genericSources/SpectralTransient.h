@@ -72,12 +72,11 @@ private:
    float m_z;
    int m_logParabola;
    bool m_specFile;
+   std::string m_particle;
 
    IRB::EblAtten * m_tau;
 
    double m_tauScale;
-
-   std::string m_particle;
 
    double m_currentEnergy;
 
