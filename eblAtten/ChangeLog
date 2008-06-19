@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Thu Jun 19 15:17:32 PDT 2008
+celestialSources/eblAtten
+
+Modified Files:
+	SConscript 
+Log Message:
+Added Author and Version fields
+    *
+------------------------------------------------------------
 TAG
 Tag name: eblAtten-00-05-00, operation: mov
 Package: eblAtten
