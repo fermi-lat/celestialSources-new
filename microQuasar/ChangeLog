@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Thu Jun 19 15:20:51 PDT 2008
+celestialSources/microQuasar
+
+Modified Files:
+	SConscript 
+Log Message:
+Added Author and Version fields
+    *
+------------------------------------------------------------
 TAG
 Tag name: microQuasar-01-04-02, operation: add
 Package: microQuasar
