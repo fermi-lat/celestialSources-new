@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Thu Jun 19 15:07:24 PDT 2008
+celestialSources/GRBtemplate
+
+Modified Files:
+	SConscript 
+Log Message:
+Added Author and Version fields
+    *
+------------------------------------------------------------
 TAG
 Tag name: GRBtemplate-01-02-03, operation: add
 Package: GRBtemplate
