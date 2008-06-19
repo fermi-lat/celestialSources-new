@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 TAG
+Tag name: v1r2p3, operation: mov
+Package: GRBtemplate
+User: glastrm  Thu Jun 19 15:07:48 2008
+Files:
+  GRBtemplate/SConscript  1.5
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GRBtemplate-01-02-03, operation: mov
 Package: GRBtemplate
 User: glastrm  Thu Jun 19 15:07:37 2008

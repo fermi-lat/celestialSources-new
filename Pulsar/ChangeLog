@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Thu Jun 19 15:12:16 PDT 2008
+celestialSources/Pulsar
+
+Modified Files:
+	SConscript 
+Log Message:
+Added Author and Version fields
+    *
+------------------------------------------------------------
 User: razzano  Sat May 31 07:09:04 PDT 2008
 celestialSources/Pulsar/src
 
