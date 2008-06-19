@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: microQuasar-01-04-02, operation: mov
+Package: microQuasar
+User: glastrm  Thu Jun 19 15:21:00 2008
+Files:
+  microQuasar/SConscript  1.4
+
+    *
+------------------------------------------------------------
 User: glastrm  Thu Jun 19 15:20:51 PDT 2008
 celestialSources/microQuasar
 
