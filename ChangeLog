@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: celestialSources-01-03-02, operation: mov
+Package: celestialSources
+User: glastrm  Thu Jun 19 14:57:20 2008
+Files:
+  celestialSources/SConscript  1.4
+
+    *
+------------------------------------------------------------
 User: glastrm  Thu Jun 19 14:57:08 PDT 2008
 celestialSources
 
