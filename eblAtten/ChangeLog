@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 TAG
+Tag name: eblAtten-00-05-00, operation: mov
+Package: eblAtten
+User: glastrm  Thu Jun 19 15:18:08 2008
+Files:
+  eblAtten/SConscript  1.3
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v0r5, operation: mov
 Package: eblAtten
 User: glastrm  Thu Jun 19 15:17:53 2008
