@@ -1,5 +1,24 @@
 ------------------------------------------------------------
 TAG
+Tag name: ScienceTools-09-06-00, operation: add
+Package: microQuasar
+User: glastrm  Wed Jul  9 20:38:57 2008
+Files:
+  microQuasar/cmt/.cvsignore  1.1.1.1
+  microQuasar/cmt/NMake  1.1.1.1
+  microQuasar/cmt/requirements  1.15
+  microQuasar/cmt/Makefile  1.1.1.1
+  microQuasar/doc/release.notes  1.11
+  microQuasar/microQuasar/microQuasar.h  1.17
+  microQuasar/src/microQuasar.cxx  1.33
+  microQuasar/src/mainpage.h  1.2
+  microQuasar/src/test/mq.txt  1.1.1.1
+  microQuasar/src/test/test_main.cxx  1.6
+  microQuasar/xml/mq.xml  1.5
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r4p2, operation: mov
 Package: microQuasar
 User: glastrm  Thu Jun 19 15:21:12 2008
