@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Tue Jul 22 09:46:49 PDT 2008
+celestialSources/Pulsar/Pulsar
+
+Modified Files:
+	PulsarConstants.h PulsarSim.h 
+Log Message:
+fixed jire 48 issue
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-06-03, operation: add
 Package: Pulsar
