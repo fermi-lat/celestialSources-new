@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: vernaleo  Wed Oct 29 14:50:33 PDT 2008
+celestialSources/genericSources/src/test
+
+Modified Files:
+	test.cxx 
+Log Message:
+added some code from Peachey to allow for root free build option
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-06-00, operation: del
 Package: genericSources
