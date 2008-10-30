@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r11p4, operation: mov
+Package: genericSources
+User: glastrm  Wed Oct 29 20:03:27 2008
+Files:
+  genericSources/SConscript  1.7
+
+    *
+------------------------------------------------------------
 User: glastrm  Wed Oct 29 20:03:21 PDT 2008
 celestialSources/genericSources
 
