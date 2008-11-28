@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Fri Nov 28 07:22:07 PST 2008
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+log replaced log10
+    *
+------------------------------------------------------------
+User: razzano  Fri Nov 28 07:22:07 PST 2008
 celestialSources/Pulsar/doc
 
 Modified Files:
