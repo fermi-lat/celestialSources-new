@@ -1,5 +1,19 @@
 ------------------------------------------------------------
 TAG
+Tag name: ScienceTools-09-09-00, operation: add
+Package: SpectObj
+User: glastrm  Thu Dec  4 21:26:19 2008
+Files:
+  SpectObj/SpectObj/SpectObj.h  1.24
+  SpectObj/cmt/requirements  1.17
+  SpectObj/data/EBLmodel.dat  1.1
+  SpectObj/doc/release.notes  1.6
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.49
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: ScienceTools-09-08-03, operation: add
 Package: SpectObj
 User: glastrm  Fri Nov 28 16:11:19 2008
