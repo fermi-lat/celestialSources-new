@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-15-50-10, operation: del
+Package: pySources
+User: glastrm  Fri Jan  9 08:31:28 2009
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: ScienceTools-09-06-00, operation: del
 Package: pySources
 User: glastrm  Wed Sep 17 13:18:16 2008
