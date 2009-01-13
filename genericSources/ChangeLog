@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jan 13 11:37:25 PST 2009
+celestialSources/genericSources/src
+
+Added Files:
+	GaussianQuadrature.h 
+Log Message:
+add header file
+    *
+------------------------------------------------------------
 TAG
 Tag name: genericSources-01-12-00, operation: add
 Package: genericSources
