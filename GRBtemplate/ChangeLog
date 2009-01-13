@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: omodei  Tue Jan 13 15:41:51 PST 2009
+celestialSources/GRBtemplate/src
+
+Modified Files:
+	GRBtemplateManager.cxx 
+Log Message:
+fixed a bug on unsigned int vs unsigned long
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-15-50-10, operation: del
 Package: GRBtemplate
