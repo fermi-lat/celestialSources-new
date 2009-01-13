@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: genericSources-01-12-00, operation: add
+Package: genericSources
+User: glastrm  Tue Jan 13 11:31:15 2009
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r12, operation: mov
 Package: genericSources
 User: glastrm  Tue Jan 13 11:31:10 2009
