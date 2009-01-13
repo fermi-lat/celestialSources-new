@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Jan 13 10:31:12 PST 2009
+celestialSources/genericSources/src
+
+Removed Files:
+	dgaus8.f 
+Log Message:
+remove dgaus8.f
+    *
+------------------------------------------------------------
 User: jchiang  Tue Jan 13 10:26:33 PST 2009
 celestialSources/genericSources/src/test
 
