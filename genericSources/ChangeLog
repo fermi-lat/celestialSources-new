@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: jchiang  Tue Jan 13 10:26:33 PST 2009
+celestialSources/genericSources/src
+
+Modified Files:
+	SourcePopulation.cxx 
+Removed Files:
+	dgaus8.c 
+Log Message:
+remove f2c'd version of dgaus8 in favor of C++ translation; remove f2c dependence
+    *
+------------------------------------------------------------
+User: jchiang  Tue Jan 13 10:26:33 PST 2009
 celestialSources/genericSources/genericSources
 
 Modified Files:
