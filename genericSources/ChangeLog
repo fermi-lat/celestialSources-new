@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 TAG
+Tag name: v1r12p1, operation: mov
+Package: genericSources
+User: glastrm  Mon Apr  6 10:27:50 2009
+Files:
+  genericSources/SConscript  1.10
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: genericSources-01-12-01, operation: mov
 Package: genericSources
 User: glastrm  Mon Apr  6 10:27:36 2009
