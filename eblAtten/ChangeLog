@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Tue Jun  2 15:00:31 PDT 2009
+celestialSources/eblAtten/src
+
+Modified Files:
+	EblAtten.cxx IRB_routines.cxx 
+Log Message:
+Adding Franceschini et al. and Razzaque et al. EBL models
+    *
+------------------------------------------------------------
 User: lreyes  Tue Jun  2 15:00:30 PDT 2009
 celestialSources/eblAtten/eblAtten
 
