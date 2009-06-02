@@ -1,4 +1,24 @@
 ------------------------------------------------------------
+TAG
+Tag name: v0r6, operation: add
+Package: eblAtten
+User: lreyes  Tue Jun  2 15:04:12 2009
+Files:
+  eblAtten/.cvsignore  1.1.1.1
+  eblAtten/ChangeLog  1.86
+  eblAtten/SConscript  1.3
+  eblAtten/eblAttenLib.py  1.2
+  eblAtten/cmt/requirements  1.13
+  eblAtten/doc/release.notes  1.9
+  eblAtten/eblAtten/EblAtten.h  1.5
+  eblAtten/src/Primack05.cxx  1.3
+  eblAtten/src/EblAtten.cxx  1.5
+  eblAtten/src/IRB_routines.cxx  1.9
+  eblAtten/src/Primack05.h  1.2
+  eblAtten/src/test/test.cxx  1.5
+
+    *
+------------------------------------------------------------
 User: lreyes  Tue Jun  2 15:00:31 PDT 2009
 celestialSources/eblAtten/src/test
 
