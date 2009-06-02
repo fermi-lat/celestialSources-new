@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Tue Jun  2 15:00:23 PDT 2009
+celestialSources/eblAtten/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Adding Franceschini et al. and Razzaque et al. EBL models
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-14-00, operation: add
 Package: eblAtten
