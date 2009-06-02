@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v0r6, operation: mov
+Package: eblAtten
+User: glastrm  Tue Jun  2 15:30:30 2009
+Files:
+  eblAtten/SConscript  1.4
+
+    *
+------------------------------------------------------------
 User: glastrm  Tue Jun  2 15:30:24 PDT 2009
 celestialSources/eblAtten
 
