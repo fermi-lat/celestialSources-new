@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Mon Jun  8 11:11:45 PDT 2009
+celestialSources/eblAtten/src
+
+Modified Files:
+	EblAtten.cxx IRB_routines.cxx 
+Log Message:
+adding Gilmore model, updating Finke et al. (previously Razzaque et al.)
+    *
+------------------------------------------------------------
 User: lreyes  Mon Jun  8 11:11:44 PDT 2009
 celestialSources/eblAtten/eblAtten
 
