@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Mon Jun  8 11:11:43 PDT 2009
+celestialSources/eblAtten/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+adding Gilmore model, updating Finke et al. (previously Razzaque et al.)
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-15-01, operation: add
 Package: eblAtten
