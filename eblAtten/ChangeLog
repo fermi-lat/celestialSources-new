@@ -1,4 +1,24 @@
 ------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-15-03, operation: add
+Package: eblAtten
+User: glastrm  Tue Jul 14 16:03:32 2009
+Files:
+  eblAtten/.cvsignore  1.1.1.1
+  eblAtten/ChangeLog  1.112
+  eblAtten/SConscript  1.6
+  eblAtten/eblAttenLib.py  1.2
+  eblAtten/cmt/requirements  1.15
+  eblAtten/doc/release.notes  1.10
+  eblAtten/eblAtten/EblAtten.h  1.7
+  eblAtten/src/Primack05.cxx  1.3
+  eblAtten/src/EblAtten.cxx  1.6
+  eblAtten/src/IRB_routines.cxx  1.10
+  eblAtten/src/Primack05.h  1.2
+  eblAtten/src/test/test.cxx  1.6
+
+    *
+------------------------------------------------------------
 User: heather  Wed Jul  1 09:43:45 PDT 2009
 celestialSources/eblAtten/doc
 
