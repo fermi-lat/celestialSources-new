@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r3p2, operation: mov
+Package: GRBtemplate
+User: glastrm  Wed Jul 15 10:32:08 2009
+Files:
+  GRBtemplate/SConscript  1.8
+
+    *
+------------------------------------------------------------
 User: glastrm  Wed Jul 15 10:32:02 PDT 2009
 celestialSources/GRBtemplate
 
