@@ -1,4 +1,21 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r3p6, operation: add
+Package: SpectObj
+User: jrb  Wed Jul 15 10:25:06 2009
+Files:
+  SpectObj/ChangeLog  1.180
+  SpectObj/SConscript  1.5
+  SpectObj/SpectObjLib.py  1.2
+  SpectObj/SpectObj/SpectObj.h  1.24
+  SpectObj/cmt/requirements  1.18
+  SpectObj/data/EBLmodel.dat  1.1
+  SpectObj/doc/release.notes  1.8
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.49
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Jul 15 10:24:56 PDT 2009
 celestialSources/SpectObj/doc
 
