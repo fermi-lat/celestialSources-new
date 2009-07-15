@@ -2,7 +2,6 @@
 def generate(env, **kw):
     if not kw.get('depsOnly',0):
         env.Tool('addLibrary', library = ['microQuasar'])
-    env.Tool('genericSourcesLib')
     env.Tool('fluxLib')
     env.Tool('SpectObjLib')
     env.Tool('astroLib')
