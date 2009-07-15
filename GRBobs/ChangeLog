@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v3r3p3, operation: mov
+Package: GRBobs
+User: glastrm  Wed Jul 15 10:31:06 2009
+Files:
+  GRBobs/SConscript  1.7
+
+    *
+------------------------------------------------------------
 User: glastrm  Wed Jul 15 10:31:00 PDT 2009
 celestialSources/GRBobs
 
