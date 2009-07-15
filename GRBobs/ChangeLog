@@ -1,4 +1,12 @@
 ------------------------------------------------------------
+User: glastrm  Wed Jul 15 10:31:00 PDT 2009
+celestialSources/GRBobs
+
+Modified Files:
+	SConscript 
+Log Message:
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r3p3, operation: add
 Package: GRBobs
