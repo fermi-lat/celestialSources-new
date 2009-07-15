@@ -12,8 +12,7 @@
 
 #include <vector>
 
-//#include "flux/Spectrum.h"
-#include "genericSources/FileSpectrum.h"
+#include "flux/Spectrum.h"
 #include "CLHEP/Random/Random.h"
 
 /**
@@ -141,7 +140,6 @@ public:
 		float m_jetOnDurationFluctuation;
 		/// current spectral index
 
-
 	};
 protected:
 
@@ -238,9 +236,8 @@ private:
 	double m_jetEnd;
 	double m_nJet;
 	double m_cycleStart;
-	int m_region;
 	// random see for burst generation
-//	double m_burstSeed;  // bad idea!
+	double m_burstSeed;
 	CLHEP::HepRandom m_randGenBurst;
 	std::vector<burstPairs > m_bursts;
 
@@ -250,8 +247,6 @@ private:
 	JetProperties m_jetProperties;
 	/// allow max two orbital regions for now
 	OrbitalRegion m_orbitalRegion;
-
-	FileSpectrum* m_spectrum[2]; ///< pointer to spectrum object for the spectral function - orb phase 1
 
 };
 
