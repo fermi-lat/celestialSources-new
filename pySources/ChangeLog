@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: celestialSources-01-03-03, operation: add
+Package: pySources
+User: glastrm  Mon Jul 20 14:30:46 2009
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-15-50-10, operation: del
 Package: pySources
 User: glastrm  Fri Jan  9 08:31:28 2009
