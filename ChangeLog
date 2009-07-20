@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r3p3, operation: add
+Package: celestialSources
+User: jrb  Mon Jul 20 13:59:00 2009
+Files:
+  celestialSources/.cvsignore  1.1.1.1
+  celestialSources/ChangeLog  1.263
+  celestialSources/SConscript  1.7
+  celestialSources/celestialSourcesLib.py  1.2
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Jul 20 13:58:07 PDT 2009
 ScienceTools-scons/celestialSources/doc
 
