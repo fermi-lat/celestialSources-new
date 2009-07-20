@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r3p3, operation: mov
+Package: celestialSources
+User: glastrm  Mon Jul 20 14:30:34 2009
+Files:
+  celestialSources/SConscript  1.8
+
+    *
+------------------------------------------------------------
 User: glastrm  Mon Jul 20 14:30:28 PDT 2009
 celestialSources
 
