@@ -266,7 +266,7 @@ void GRBtemplateSim::SaveNv()
   mod.Close();
   m_Nv->SetName(name.c_str());
   
-};
+}
 
 //////////////////////////////////////////////////
 void GRBtemplateSim::SaveGBMDefinition(std::string GRBname, double ra, double dec, double theta, double phi, double tstart)
