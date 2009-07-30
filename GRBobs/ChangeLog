@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: elwinter  Thu Jul 30 09:58:13 PDT 2009
+celestialSources/GRBobs/src
+
+Modified Files:
+      Tag: ScienceToolsv9r15p2
+	GRBobsSim.cxx 
+Log Message:
+Imported changes from FSSC.
+    *
+------------------------------------------------------------
+User: elwinter  Thu Jul 30 09:58:13 PDT 2009
 celestialSources/GRBobs/GRBobs
 
 Modified Files:
