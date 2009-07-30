@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: elwinter  Thu Jul 30 09:59:28 PDT 2009
+celestialSources/GRBtemplate/src
+
+Modified Files:
+      Tag: ScienceToolsv9r15p2
+	GRBtemplateSim.cxx 
+Log Message:
+Imported changes from FSSC.
+    *
+------------------------------------------------------------
+User: elwinter  Thu Jul 30 09:59:28 PDT 2009
 celestialSources/GRBtemplate/GRBtemplate
 
 Modified Files:
