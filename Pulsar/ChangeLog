@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: razzano  Thu Aug  6 05:18:41 PDT 2009
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+updated binaries and added binary modulation
+    *
+------------------------------------------------------------
+User: razzano  Thu Aug  6 05:18:41 PDT 2009
 celestialSources/Pulsar/data
 
 Modified Files:
