@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Thu Aug  6 03:26:08 PDT 2009
+celestialSources/SpectObj/SpectObj
+
+Modified Files:
+	SpectObj.h 
+Log Message:
+Added m_FluxFactor for allowing flux variation for sourceType 1
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-15-04, operation: add
 Package: SpectObj
