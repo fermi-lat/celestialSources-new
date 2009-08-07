@@ -1,4 +1,21 @@
 ------------------------------------------------------------
+TAG
+Tag name: SpectObj-01-03-07, operation: add
+Package: SpectObj
+User: razzano  Fri Aug  7 02:42:25 2009
+Files:
+  SpectObj/ChangeLog  1.194
+  SpectObj/SConscript  1.7
+  SpectObj/SpectObjLib.py  1.2
+  SpectObj/SpectObj/SpectObj.h  1.25
+  SpectObj/cmt/requirements  1.18
+  SpectObj/data/EBLmodel.dat  1.1
+  SpectObj/doc/release.notes  1.9
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.50
+
+    *
+------------------------------------------------------------
 User: razzano  Fri Aug  7 02:42:14 PDT 2009
 celestialSources/SpectObj/doc
 
