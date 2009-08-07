@@ -1,4 +1,22 @@
 ------------------------------------------------------------
+User: razzano  Fri Aug  7 02:42:14 PDT 2009
+celestialSources/SpectObj/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: razzano  Fri Aug  7 02:42:13 PDT 2009
+celestialSources/SpectObj
+
+Modified Files:
+	SConscript 
+Log Message:
+GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: razzano  Thu Aug  6 03:26:08 PDT 2009
 celestialSources/SpectObj/src
 
