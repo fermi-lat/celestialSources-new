@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lande  Sat Oct 17 15:30:48 PDT 2009
+celestialSources/genericSources/src
+
+Modified Files:
+	GaussianSource.cxx 
+Log Message:
+Changing the definition of GaussianSource from (uniform in theta)x(gaussian in r) to (gaussian in x)x(gaussin in y).
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-15-05, operation: add
 Package: genericSources
