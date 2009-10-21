@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Oct 21 08:06:55 PDT 2009
+celestialSources/genericSources/src
+
+Modified Files:
+	SimpleTransient.cxx 
+Log Message:
+handle photon index of 1
+    *
+------------------------------------------------------------
 TAG
 Tag name: genericSources-01-14-00, operation: add
 Package: genericSources
