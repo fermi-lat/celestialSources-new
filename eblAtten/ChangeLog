@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Wed Nov 11 10:00:11 PST 2009
+celestialSources/eblAtten
+
+Modified Files:
+	SConscript 
+Log Message:
+preparing for v0r8
+    *
+------------------------------------------------------------
 User: lreyes  Wed Nov 11 09:45:21 PST 2009
 celestialSources/eblAtten/src/test
 
