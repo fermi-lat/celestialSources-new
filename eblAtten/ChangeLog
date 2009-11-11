@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lreyes  Wed Nov 11 09:45:21 PST 2009
+celestialSources/eblAtten/src/test
+
+Modified Files:
+	test.cxx 
+Log Message:
+add new models: Stecker06 Fast Evol, SalamonStecker and Generic Tau(E,z)
+    *
+------------------------------------------------------------
 User: lreyes  Wed Nov 11 09:45:14 PST 2009
 celestialSources/eblAtten/src
 
