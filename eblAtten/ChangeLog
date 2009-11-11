@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: lreyes  Wed Nov 11 09:45:14 PST 2009
+celestialSources/eblAtten/src
+
+Modified Files:
+	EblAtten.cxx IRB_routines.cxx 
+Log Message:
+add new models: Stecker06 Fast Evol, SalamonStecker and Generic Tau(E,z)
+    *
+------------------------------------------------------------
+User: lreyes  Wed Nov 11 09:45:14 PST 2009
 celestialSources/eblAtten/eblAtten
 
 Modified Files:
