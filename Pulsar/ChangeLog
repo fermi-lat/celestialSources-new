@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Wed Nov 18 08:25:45 PST 2009
+celestialSources/Pulsar
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 TAG
 Tag name: Pulsar-03-00-00, operation: add
 Package: Pulsar
