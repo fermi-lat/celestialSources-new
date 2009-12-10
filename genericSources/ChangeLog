@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: vernaleo  Thu Dec 10 14:08:40 PST 2009
+celestialSources/genericSources/src/test
+
+Modified Files:
+	test.cxx 
+Log Message:
+Added an ifndef to support the FSSC --without-root option
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-15-06, operation: add
 Package: genericSources
