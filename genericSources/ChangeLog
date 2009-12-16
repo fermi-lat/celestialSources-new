@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: elwinter  Wed Dec 16 12:38:46 PST 2009
+celestialSources/genericSources/src
+
+Modified Files:
+	FitsTransient.cxx 
+Log Message:
+Added <memory> header needed by gcc4.
+
+    *
+------------------------------------------------------------
 User: elwinter  Wed Dec 16 12:37:22 PST 2009
 celestialSources/genericSources/src
 
