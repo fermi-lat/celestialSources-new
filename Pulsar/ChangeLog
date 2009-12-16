@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: elwinter  Wed Dec 16 12:05:21 PST 2009
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+Added <cstdlib> header required by gcc4.
+
+    *
+------------------------------------------------------------
 User: elwinter  Wed Dec 16 12:03:07 PST 2009
 celestialSources/Pulsar/src
 
