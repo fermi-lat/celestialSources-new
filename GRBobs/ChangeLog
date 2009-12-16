@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: elwinter  Wed Dec 16 11:43:54 PST 2009
+celestialSources/GRBobs/src
+
+Modified Files:
+	GRBobsSim.cxx 
+Log Message:
+Removed superfluous semicolons that caused compiler errors at the FSSC.
+
+    *
+------------------------------------------------------------
 User: elwinter  Wed Dec 16 11:31:12 PST 2009
 celestialSources/GRBobs/GRBobs
 
