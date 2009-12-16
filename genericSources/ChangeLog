@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: elwinter  Wed Dec 16 12:44:43 PST 2009
+celestialSources/genericSources/src
+
+Modified Files:
+	TF1Spectrum.cxx 
+Log Message:
+Added <cstdlib> header needed by gcc4.
+
+    *
+------------------------------------------------------------
 User: elwinter  Wed Dec 16 12:42:39 PST 2009
 celestialSources/genericSources/src
 

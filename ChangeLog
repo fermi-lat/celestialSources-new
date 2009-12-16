@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: elwinter  Wed Dec 16 12:52:05 PST 2009
+celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+Added conditional compilation of ROOT-dependent lines when
+BUILD_WITHOUT_ROOT is not defined. The BUILD_WITHOUT_ROOT symbol is
+available as an option in the FSSC distribution of the Science Tools,
+and so this change should have no effect when ROOT is available.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-15-06, operation: add
 Package: celestialSources

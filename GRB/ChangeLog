@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: elwinter  Wed Dec 16 12:47:20 PST 2009
+celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBmanager.cxx 
+Log Message:
+Added <ctsdlib> header needed by gcc4.
+
+    *
+------------------------------------------------------------
 User: elwinter  Wed Dec 16 11:26:29 PST 2009
 celestialSources/GRB/src/GRB
 
