@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: elwinter  Wed Dec 16 11:31:12 PST 2009
+celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsSim.h 
+Log Message:
+Removed superfluous GRBobsSim:: namespace qualification from
+declaration of Nph() method to avoid compiler error at FSSC.
+
+    *
+------------------------------------------------------------
 User: elwinter  Wed Dec 16 11:28:51 PST 2009
 celestialSources/GRBobs/GRBobs
 
