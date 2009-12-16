@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: elwinter  Wed Dec 16 12:40:34 PST 2009
+celestialSources/genericSources/src
+
+Modified Files:
+	GaussianSource.cxx 
+Log Message:
+Added <cstdlib> header needed by gcc4.
+
+    *
+------------------------------------------------------------
 User: elwinter  Wed Dec 16 12:38:46 PST 2009
 celestialSources/genericSources/src
 
