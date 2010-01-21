@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Thu Jan 21 10:59:20 PST 2010
+celestialSources/genericSources/src
+
+Modified Files:
+	MapSource.cxx 
+Log Message:
+fix a bug in the spatial sampling of MapSource
+    *
+------------------------------------------------------------
 User: elwinter  Wed Dec 16 12:44:43 PST 2009
 celestialSources/genericSources/src
 
