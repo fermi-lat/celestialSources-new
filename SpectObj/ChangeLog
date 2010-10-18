@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Oct 18 11:36:29 PDT 2010
+celestialSources/SpectObj
+
+Modified Files:
+      Tag: GlastReleasev18r7p1
+	SConscript 
+Log Message:
+Bring SpectObj up to date on the branch
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-18-05, operation: add
 Package: SpectObj
