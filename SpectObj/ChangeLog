@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: jrb  Mon Oct 18 11:36:29 PDT 2010
+celestialSources/SpectObj/cmt
+
+Modified Files:
+      Tag: GlastReleasev18r7p1
+	requirements 
+Log Message:
+Bring SpectObj up to date on the branch
+    *
+------------------------------------------------------------
+User: jrb  Mon Oct 18 11:36:29 PDT 2010
 celestialSources/SpectObj/SpectObj
 
 Modified Files:
