@@ -1,4 +1,22 @@
 ------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-18-06, operation: add
+Package: SpectObj
+User: glastrm  Tue Oct 19 16:01:21 2010
+Files:
+  SpectObj/.cvsignore  1.1
+  SpectObj/ChangeLog  1.206
+  SpectObj/SConscript  1.9
+  SpectObj/SpectObjLib.py  1.2
+  SpectObj/SpectObj/SpectObj.h  1.25
+  SpectObj/cmt/requirements  1.19
+  SpectObj/data/EBLmodel.dat  1.1
+  SpectObj/doc/release.notes  1.10
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.50
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Oct 18 11:36:29 PDT 2010
 celestialSources/SpectObj/src
 
