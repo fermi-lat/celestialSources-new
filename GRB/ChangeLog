@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Sun Dec 19 14:21:54 PST 2010
+ScienceTools-scons/celestialSources/GRB/src/test/other
+
+Modified Files:
+	GRBROOTtest.cxx 
+Log Message:
+gcc 4.4 fix
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-20-00, operation: add
 Package: GRB
