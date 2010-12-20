@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Sun Dec 19 21:55:44 PST 2010
+celestialSources/GRB
+
+Modified Files:
+	SConscript 
+Log Message:
+GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: cohen  Sun Dec 19 14:21:54 PST 2010
 ScienceTools-scons/celestialSources/GRB/src/test/other
 
