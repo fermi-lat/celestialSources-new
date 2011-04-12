@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Tue Apr 12 15:59:57 PDT 2011
+ScienceTools-scons/celestialSources/genericSources/src
+
+Modified Files:
+	MapCube.cxx 
+Added Files:
+	IsotropicFileSpectrum.cxx 
+Log Message:
+add IsotropicFileSpectrum
+    *
+------------------------------------------------------------
 User: jchiang  Tue Apr 12 15:59:56 PDT 2011
 ScienceTools-scons/celestialSources/genericSources/genericSources
 
