@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-23-gr01, operation: add
+Package: GRBtemplate
+User: heather  Wed Jul 20 12:30:59 2011
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GRBtemplate-01-03-06, operation: add
 Package: GRBtemplate
 User: jchiang  Thu Jul  7 09:18:18 2011
