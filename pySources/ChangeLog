@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-19-03-07, operation: add
+Package: pySources
+User: heather  Wed Sep  7 10:16:08 2011
+Files:
+  pySources/.cvsignore  1.1.1.1
+  pySources/ChangeLog  1.19
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-19-03-07, operation: del
 Package: pySources
 User: glastrm  Tue Sep  6 14:16:19 2011
