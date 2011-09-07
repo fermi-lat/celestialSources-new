@@ -2,6 +2,15 @@
 TAG
 Tag name: GlastRelease-17-35-24-gr04, operation: add
 Package: celestialSources
+User: heather  Wed Sep  7 14:05:03 2011
+Files:
+  celestialSources/src/test/test.cxx  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr04, operation: add
+Package: celestialSources
 User: heather  Wed Sep  7 14:04:58 2011
 Files:
   celestialSources/src/mainpage.h  1.1.1.1
