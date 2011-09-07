@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-19-03-07, operation: add
+Package: GRBtemplate
+User: heather  Wed Sep  7 10:15:19 2011
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-19-03-07, operation: del
 Package: GRBtemplate
 User: glastrm  Tue Sep  6 14:16:17 2011
