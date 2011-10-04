@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Oct  3 22:28:56 PDT 2011
+ScienceTools-scons/celestialSources/GRBobs/GRBobs
+
+Modified Files:
+	GRBobsConstants.h 
+Log Message:
+gcc4.4.3/Ubuntu compatibility; switch to exception instead of call to exit
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr07, operation: add
 Package: GRBobs
