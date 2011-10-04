@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Oct  3 22:30:37 PDT 2011
+ScienceTools-scons/celestialSources/GRB/src/GRB
+
+Modified Files:
+	GRBConstants.cxx 
+Log Message:
+gcc4.4.3/Ubuntu compatibility; switch to exception instead of call to exit
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr07, operation: add
 Package: GRB
