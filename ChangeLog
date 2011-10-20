@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr10, operation: add
+Package: celestialSources
+User: heather  Thu Oct 20 10:55:07 2011
+Files:
+  celestialSources/.cvsignore  1.2
+  celestialSources/ChangeLog  1.298
+  celestialSources/SConscript  1.11
+  celestialSources/celestialSourcesLib.py  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-gr09, operation: add
 Package: celestialSources
 User: heather  Tue Oct 11 07:30:43 2011
