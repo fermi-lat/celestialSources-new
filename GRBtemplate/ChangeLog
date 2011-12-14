@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-19-04-01, operation: add
+Package: GRBtemplate
+User: heather  Tue Dec 13 18:22:14 2011
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: ScienceTools-09-26-01, operation: add
 Package: GRBtemplate
 User: jchiang  Tue Dec 13 16:43:22 2011
