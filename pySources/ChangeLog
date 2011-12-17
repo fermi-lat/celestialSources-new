@@ -1,5 +1,20 @@
 ------------------------------------------------------------
 TAG
+Tag name: ScienceTools-09-26-02, operation: add
+Package: pySources
+User: jchiang  Fri Dec 16 17:17:45 2011
+Files:
+  pySources/.cvsignore  1.1.1.1
+  pySources/ChangeLog  1.19
+  pySources/cmt/requirements  1.3
+  pySources/doc/release.notes  1.1.1.1
+  pySources/python/test_sources.py  1.2
+  pySources/python/ebl_plot.py  1.1
+  pySources/src/pySources.in  1.3
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-gr17, operation: add
 Package: pySources
 User: heather  Wed Dec 14 13:29:41 2011
