@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-br01, operation: add
+Package: pySources
+User: heather  Fri Jan 20 12:03:59 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: ScienceTools-09-26-02, operation: add
 Package: pySources
 User: jchiang  Fri Dec 16 17:17:45 2011
