@@ -2,6 +2,18 @@
 TAG
 Tag name: ScienceTools-09-27-00, operation: add
 Package: celestialSources
+User: jchiang  Thu Jan 26 17:17:50 2012
+Files:
+  celestialSources/src/mainpage.h  1.1.1.1
+  celestialSources/src/TRandom4.cxx  1.3
+  celestialSources/src/SpectrumFactoryLoader.cxx  1.22
+  celestialSources/src/test/test.cxx  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-27-00, operation: add
+Package: celestialSources
 User: jchiang  Thu Jan 26 17:17:36 2012
 Files:
   celestialSources/celestialSources/SpectrumFactoryLoader.h  1.2
