@@ -2,6 +2,24 @@
 TAG
 Tag name: GlastReleaseL1proc-17-35-24-gr18, operation: add
 Package: SpectObj
+User: heather  Mon Jan 30 19:35:45 2012
+Files:
+  SpectObj/.cvsignore  1.1
+  SpectObj/ChangeLog  1.206
+  SpectObj/SConscript  1.9
+  SpectObj/SpectObjLib.py  1.2
+  SpectObj/SpectObj/SpectObj.h  1.25
+  SpectObj/cmt/requirements  1.19
+  SpectObj/data/EBLmodel.dat  1.1
+  SpectObj/doc/release.notes  1.10
+  SpectObj/doc/Doxyfile  1.2
+  SpectObj/src/SpectObj.cxx  1.50
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastReleaseL1proc-17-35-24-gr18, operation: add
+Package: SpectObj
 User: heather  Mon Jan 30 19:35:13 2012
 Files:
 
