@@ -2,6 +2,18 @@
 TAG
 Tag name: GlastRelease-19-04-01-gr08, operation: add
 Package: celestialSources
+User: heather  Thu Feb  9 12:16:05 2012
+Files:
+  celestialSources/celestialSources/SpectrumFactoryLoader.h  1.2
+  celestialSources/celestialSources/TRandom4.h  1.2
+  celestialSources/cmt/requirements  1.48
+  celestialSources/doc/release.notes  1.35
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-19-04-01-gr08, operation: add
+Package: celestialSources
 User: heather  Thu Feb  9 12:14:48 2012
 Files:
   celestialSources/.cvsignore  1.2
