@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-19-04-01-gr08, operation: add
 Package: microQuasar
+User: heather  Thu Feb  9 16:00:40 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-19-04-01-gr08, operation: add
+Package: microQuasar
 User: heather  Thu Feb  9 12:20:27 2012
 Files:
   microQuasar/mq.txt  1.1.1.1
