@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-19-04-01-gr08, operation: add
 Package: celestialSources
+User: heather  Thu Feb  9 16:00:21 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-19-04-01-gr08, operation: add
+Package: celestialSources
 User: heather  Thu Feb  9 12:16:18 2012
 Files:
   celestialSources/src/mainpage.h  1.1.1.1
