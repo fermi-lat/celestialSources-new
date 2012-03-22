@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-lp20, operation: add
+Package: eblAtten
+User: heather  Thu Mar 22 14:17:35 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-br04, operation: add
 Package: eblAtten
 User: heather  Thu Mar 22 10:05:02 2012
