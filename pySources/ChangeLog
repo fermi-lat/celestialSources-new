@@ -1,5 +1,20 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-19-04-01-gr15, operation: add
+Package: pySources
+User: heather  Wed Apr 18 07:59:44 2012
+Files:
+  pySources/.cvsignore  1.1.1.1
+  pySources/ChangeLog  1.19
+  pySources/cmt/requirements  1.3
+  pySources/doc/release.notes  1.1.1.1
+  pySources/python/test_sources.py  1.2
+  pySources/python/ebl_plot.py  1.1
+  pySources/src/pySources.in  1.3
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-rp07, operation: add
 Package: pySources
 User: heather  Tue Apr 17 20:11:06 2012
