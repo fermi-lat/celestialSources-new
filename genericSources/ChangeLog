@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Apr 24 15:41:29 PDT 2012
+celestialSources/genericSources
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: jchiang  Tue Apr 24 15:40:58 PDT 2012
 ScienceTools-scons/celestialSources/genericSources/xml
 
