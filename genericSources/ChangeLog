@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jchiang  Tue Apr 24 11:21:04 PDT 2012
+ScienceTools-scons/celestialSources/genericSources/genericSources
+
+Modified Files:
+	FileSpectrum.h GaussianSource.h Isotropic.h SimpleTransient.h 
+	TransientTemplate.h 
+Added Files:
+	GaussianSpectrum.h 
+Log Message:
+add GaussianSpectrum; clean up some header files
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr27, operation: add
 Package: genericSources
