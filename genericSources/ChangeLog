@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Apr 24 11:21:05 PDT 2012
+ScienceTools-scons/celestialSources/genericSources/src
+
+Added Files:
+	GaussianSpectrum.cxx 
+Log Message:
+add GaussianSpectrum; clean up some header files
+    *
+------------------------------------------------------------
 User: jchiang  Tue Apr 24 11:21:04 PDT 2012
 ScienceTools-scons/celestialSources/genericSources/genericSources
 
