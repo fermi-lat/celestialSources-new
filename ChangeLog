@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Tue Apr 24 11:21:42 PDT 2012
+ScienceTools-scons/celestialSources/src
+
+Modified Files:
+	SpectrumFactoryLoader.cxx 
+Log Message:
+add GaussianSpectrumFactory
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr27, operation: add
 Package: celestialSources
