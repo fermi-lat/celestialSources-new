@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Tue Apr 24 15:40:58 PDT 2012
+ScienceTools-scons/celestialSources/genericSources/src/test
+
+Modified Files:
+	test.cxx 
+Log Message:
+fix xml entries for IsotropicFileSpectrum and GaussianSpectrum examples; update test code and data
+    *
+------------------------------------------------------------
+User: jchiang  Tue Apr 24 15:40:58 PDT 2012
 ScienceTools-scons/celestialSources/genericSources/data
 
 Added Files:
