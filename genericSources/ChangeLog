@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr28, operation: add
+Package: genericSources
+User: heather  Tue Apr 24 20:06:40 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: genericSources-01-15-03, operation: add
 Package: genericSources
 User: jchiang  Tue Apr 24 15:41:35 2012

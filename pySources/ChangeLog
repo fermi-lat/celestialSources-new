@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr28, operation: add
+Package: pySources
+User: heather  Tue Apr 24 20:06:41 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: celestialSources-01-04-01, operation: add
 Package: pySources
 User: jchiang  Tue Apr 24 12:10:00 2012
