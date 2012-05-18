@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-lp25, operation: add
+Package: pySources
+User: heather  Fri May 18 10:34:05 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-lp24, operation: add
 Package: pySources
 User: heather  Fri May 18 05:36:45 2012
