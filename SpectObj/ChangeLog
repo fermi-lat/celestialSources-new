@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-lp30, operation: add
+Package: SpectObj
+User: heather  Mon Jun 11 12:23:54 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-tr07, operation: add
 Package: SpectObj
 User: heather  Mon Jun 11 11:32:24 2012
