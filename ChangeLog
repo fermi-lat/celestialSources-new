@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bechtol  Tue Jun 19 12:36:57 PDT 2012
+ScienceTools-scons/celestialSources
+
+Modified Files:
+	celestialSourcesLib.py 
+Log Message:
+EarthPhenom
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp31, operation: add
 Package: celestialSources
