@@ -1,4 +1,42 @@
 ------------------------------------------------------------
+User: bechtol  Tue Jun 19 14:59:11 PDT 2012
+celestialSources/EarthPhenom
+
+Log Message:
+Initial import
+
+Status:
+
+Vendor Tag:	v0
+Release Tags:	KCB
+		
+N celestialSources/EarthPhenom/EarthPhenomLib.py
+N celestialSources/EarthPhenom/SConscript
+I celestialSources/EarthPhenom/EarthPhenomLib.pyc
+I celestialSources/EarthPhenom/build
+N celestialSources/EarthPhenom/.cvsignore
+N celestialSources/EarthPhenom/ChangeLog
+N celestialSources/EarthPhenom/xml/EarthPhenom.xml
+N celestialSources/EarthPhenom/doc/release.notes
+I celestialSources/EarthPhenom/EarthPhenom/EarthPhenomLimb.h~
+N celestialSources/EarthPhenom/EarthPhenom/EarthPhenomLimb.h
+N celestialSources/EarthPhenom/EarthPhenom/EarthPhenomInner.h
+I celestialSources/EarthPhenom/EarthPhenom/EarthPhenomInner.h~
+N celestialSources/EarthPhenom/cmt/NMake
+N celestialSources/EarthPhenom/cmt/requirements
+N celestialSources/EarthPhenom/cmt/.cvsignore
+N celestialSources/EarthPhenom/cmt/Makefile
+I celestialSources/EarthPhenom/src/EarthPhenomInner.cxx~
+I celestialSources/EarthPhenom/src/EarthPhenomLimb.cxx~
+N celestialSources/EarthPhenom/src/EarthPhenomLimb.cxx
+N celestialSources/EarthPhenom/src/EarthPhenomInner.cxx
+N celestialSources/EarthPhenom/src/mainpage.h
+N celestialSources/EarthPhenom/src/test/test_main.cxx
+
+No conflicts created by this import
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp31, operation: add
 Package: microQuasar
