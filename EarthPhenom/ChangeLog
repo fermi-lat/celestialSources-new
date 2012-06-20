@@ -1,4 +1,28 @@
 ------------------------------------------------------------
+TAG
+Tag name: EarthPhenom-00-00-00, operation: add
+Package: EarthPhenom
+User: jchiang  Wed Jun 20 13:03:36 2012
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.6
+  EarthPhenom/EarthPhenomLib.py  1.1.1.1
+  EarthPhenom/SConscript  1.2
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.1.1.1
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.1.1.1
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.1.1.1
+  EarthPhenom/src/EarthPhenomInner.cxx  1.2
+  EarthPhenom/src/test/test_main.cxx  1.2
+  EarthPhenom/xml/EarthPhenom.xml  1.1.1.1
+
+    *
+------------------------------------------------------------
 User: jchiang  Wed Jun 20 13:03:20 PDT 2012
 celestialSources/EarthPhenom
 
