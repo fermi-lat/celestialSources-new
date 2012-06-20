@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Wed Jun 20 13:03:20 PDT 2012
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+update SConscript with initial tag
+    *
+------------------------------------------------------------
 TAG
 Tag name: EarthPhenom-00-00-00, operation: add
 Package: EarthPhenom
