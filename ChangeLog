@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-br06, operation: add
+Package: celestialSources
+User: heather  Thu Jun 21 10:23:09 2012
+Files:
+  celestialSources/.cvsignore  1.2
+  celestialSources/ChangeLog  1.298
+  celestialSources/SConscript  1.11
+  celestialSources/celestialSourcesLib.py  1.2
+
+    *
+------------------------------------------------------------
 User: bechtol  Tue Jun 19 12:36:58 PDT 2012
 ScienceTools-scons/celestialSources/src
 
