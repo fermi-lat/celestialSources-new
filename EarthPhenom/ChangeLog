@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: bechtol  Fri Jul 13 16:31:58 PDT 2012
+celestialSources/EarthPhenom/xml
+
+Modified Files:
+	EarthPhenom.xml 
+Log Message:
+Change format of xml file to use ConstParMap
+
+    *
+------------------------------------------------------------
 User: bechtol  Fri Jul 13 16:31:51 PDT 2012
 celestialSources/EarthPhenom/src
 
