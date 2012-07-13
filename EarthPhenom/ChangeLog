@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: bechtol  Fri Jul 13 16:31:51 PDT 2012
+celestialSources/EarthPhenom/src
+
+Modified Files:
+	EarthPhenomInner.cxx EarthPhenomLimb.cxx 
+Log Message:
+Change format of xml file to use ConstParMap
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-04-00, operation: add
 Package: EarthPhenom
