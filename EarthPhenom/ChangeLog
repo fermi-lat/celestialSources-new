@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bechtol  Thu Jul 19 14:16:54 PDT 2012
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr35, operation: add
 Package: EarthPhenom
