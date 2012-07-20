@@ -1,4 +1,197 @@
 ------------------------------------------------------------
+User: bechtol  Fri Jul 20 12:05:14 PDT 2012
+celestialSources/EarthPhenom/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Fri Jul 20 12:05:14 PDT 2012
+celestialSources/EarthPhenom/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Fri Jul 20 12:05:13 PDT 2012
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+TAG
+Tag name: EarthPhenom-00-01-01, operation: add
+Package: EarthPhenom
+User: heather  Fri Jul 20 12:05:11 2012
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.21
+  EarthPhenom/EarthPhenomLib.py  1.1.1.1
+  EarthPhenom/SConscript  1.4
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.3
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.3
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.2
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+User: heather  Fri Jul 20 12:04:59 PDT 2012
+celestialSources/EarthPhenom/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fix up release.notes
+    *
+------------------------------------------------------------
+User: heather  Fri Jul 20 12:04:59 PDT 2012
+celestialSources/EarthPhenom/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix up release.notes
+    *
+------------------------------------------------------------
+User: heather  Fri Jul 20 12:04:58 PDT 2012
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+fix up release.notes
+    *
+------------------------------------------------------------
+TAG
+Tag name: EarthPhenom-00-01-00, operation: add
+Package: EarthPhenom
+User: heather  Fri Jul 20 12:01:50 2012
+Files:
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.2
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.2
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.2
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: EarthPhenom-00-01-00, operation: add
+Package: EarthPhenom
+User: bechtol  Thu Jul 19 14:17:35 2012
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.19
+  EarthPhenom/EarthPhenomLib.py  1.1.1.1
+  EarthPhenom/SConscript  1.3
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.2
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.2
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.2
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+User: bechtol  Thu Jul 19 14:17:09 PDT 2012
+celestialSources/EarthPhenom/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Thu Jul 19 14:17:02 PDT 2012
+celestialSources/EarthPhenom/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Thu Jul 19 14:16:54 PDT 2012
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr35, operation: add
+Package: EarthPhenom
+User: heather  Thu Jul 19 13:42:41 2012
+Files:
+
+    *
+------------------------------------------------------------
+User: bechtol  Fri Jul 13 16:31:58 PDT 2012
+celestialSources/EarthPhenom/xml
+
+Modified Files:
+	EarthPhenom.xml 
+Log Message:
+Change format of xml file to use ConstParMap
+
+    *
+------------------------------------------------------------
+User: bechtol  Fri Jul 13 16:31:51 PDT 2012
+celestialSources/EarthPhenom/src
+
+Modified Files:
+	EarthPhenomInner.cxx EarthPhenomLimb.cxx 
+Log Message:
+Change format of xml file to use ConstParMap
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-04-00, operation: add
+Package: EarthPhenom
+User: heather  Thu Jul  5 12:44:18 2012
+Files:
+
+    *
+------------------------------------------------------------
+User: bechtol  Mon Jun 25 12:34:20 PDT 2012
+celestialSources/EarthPhenom/xml
+
+Modified Files:
+	EarthPhenom.xml 
+Log Message:
+Minor fix
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: ScienceTools-09-29-00, operation: add
 Package: EarthPhenom
