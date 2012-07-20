@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bechtol  Fri Jul 20 12:05:13 PDT 2012
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 TAG
 Tag name: EarthPhenom-00-01-01, operation: add
 Package: EarthPhenom
