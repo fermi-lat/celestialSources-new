@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Sun Aug 12 20:07:42 PDT 2012
+celestialSources/genericSources/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+fix CMT build
+    *
+------------------------------------------------------------
+User: heather  Sun Aug 12 20:07:42 PDT 2012
 celestialSources/genericSources/cmt
 
 Modified Files:
