@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Aug 12 20:07:42 PDT 2012
+celestialSources/genericSources
+
+Modified Files:
+	SConscript 
+Log Message:
+fix CMT build
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-04-01, operation: add
 Package: genericSources
