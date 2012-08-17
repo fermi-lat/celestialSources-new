@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-04-02, operation: add
+Package: GRBtemplate
+User: heather  Fri Aug 17 12:14:49 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-20-04-01, operation: add
 Package: GRBtemplate
 User: heather  Tue Jul 24 18:17:14 2012
