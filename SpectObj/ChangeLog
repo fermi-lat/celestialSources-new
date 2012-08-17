@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug 17 12:59:36 PDT 2012
+GlastRelease-scons/celestialSources/SpectObj
+
+Modified Files:
+	SConscript SpectObjLib.py 
+Log Message:
+patches for Windows no-install-headers
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-04-02, operation: add
 Package: SpectObj

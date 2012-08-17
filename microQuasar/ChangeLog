@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug 17 13:03:11 PDT 2012
+GlastRelease-scons/celestialSources/microQuasar
+
+Modified Files:
+	SConscript microQuasarLib.py 
+Log Message:
+patches for Windows no-install-headers
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-04-02, operation: add
 Package: microQuasar
