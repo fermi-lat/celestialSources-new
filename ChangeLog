@@ -1,4 +1,25 @@
 ------------------------------------------------------------
+TAG
+Tag name: celestialSources-01-06-00, operation: add
+Package: celestialSources
+User: jrb  Fri Aug 17 17:02:41 2012
+Files:
+  celestialSources/celestialSources/SpectrumFactoryLoader.h  1.2
+  celestialSources/celestialSources/TRandom4.h  1.2
+  celestialSources/celestialSources/ConstParMap.h  1.1
+  celestialSources/cmt/requirements  1.51
+  celestialSources/doc/release.notes  1.38
+  celestialSources/src/mainpage.h  1.1.1.1
+  celestialSources/src/TRandom4.cxx  1.3
+  celestialSources/src/SpectrumFactoryLoader.cxx  1.24
+  celestialSources/src/test/test.cxx  1.1
+  celestialSources/.cvsignore  1.2
+  celestialSources/ChangeLog  1.549
+  celestialSources/SConscript  1.16
+  celestialSources/celestialSourcesLib.py  1.4
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Aug 17 17:02:30 PDT 2012
 celestialSources/cmt
 
