@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-04-02-gr01, operation: add
+Package: eblAtten
+User: heather  Mon Aug 27 22:28:12 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: eblAtten-00-09-00, operation: add
 Package: eblAtten
 User: jrb  Fri Aug 17 16:58:39 2012

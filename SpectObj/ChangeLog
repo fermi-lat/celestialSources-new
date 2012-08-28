@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-04-02-gr01, operation: add
+Package: SpectObj
+User: heather  Mon Aug 27 22:27:57 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: SpectObj-01-04-00, operation: add
 Package: SpectObj
 User: jrb  Fri Aug 17 17:01:09 2012
