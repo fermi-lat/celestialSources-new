@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-05-00, operation: add
+Package: genericSources
+User: heather  Wed Sep  5 11:41:19 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-20-05-00, operation: del
 Package: genericSources
 User: glastrm  Thu Aug 30 11:47:20 2012
