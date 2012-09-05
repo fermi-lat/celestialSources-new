@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-05-00, operation: add
+Package: EarthPhenom
+User: heather  Wed Sep  5 11:41:14 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-20-05-00, operation: del
 Package: EarthPhenom
 User: glastrm  Thu Aug 30 11:47:10 2012
