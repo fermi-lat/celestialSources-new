@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-17-35-24-lp37, operation: add
 Package: celestialSources
+User: heather  Thu Oct  4 19:59:09 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp37, operation: add
+Package: celestialSources
 User: heather  Thu Oct  4 19:50:27 2012
 Files:
   celestialSources/src/mainpage.h  1.1.1.1
