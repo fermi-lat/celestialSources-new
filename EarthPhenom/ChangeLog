@@ -2,6 +2,30 @@
 TAG
 Tag name: GlastRelease-20-06-02, operation: add
 Package: EarthPhenom
+User: heather  Wed Oct 10 03:58:32 2012
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.38
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.7
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.5
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.5
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.2
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-02, operation: add
+Package: EarthPhenom
 User: heather  Wed Oct 10 03:27:51 2012
 Files:
 
