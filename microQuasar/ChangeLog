@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Nov 11 11:27:47 PST 2012
+ScienceTools-scons/celestialSources/microQuasar/src/test
+
+Modified Files:
+	test_main.cxx 
+Log Message:
+call setupEnvironment()
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-06-04, operation: add
 Package: microQuasar
