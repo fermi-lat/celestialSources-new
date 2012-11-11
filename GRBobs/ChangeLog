@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Nov 11 11:27:22 PST 2012
+ScienceTools-scons/celestialSources/GRBobs/src/test
+
+Modified Files:
+	testGRB.cxx 
+Log Message:
+call setupEnvironment()
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-06-04, operation: add
 Package: GRBobs
