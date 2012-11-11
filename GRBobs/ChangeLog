@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Sun Nov 11 11:27:32 PST 2012
+celestialSources/GRBobs
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: jchiang  Sun Nov 11 11:27:22 PST 2012
 ScienceTools-scons/celestialSources/GRBobs/src/test
 
