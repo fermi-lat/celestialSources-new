@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-08-04, operation: add
+Package: Pulsar
+User: heather  Thu Jan 17 17:11:54 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-20-08-03, operation: add
 Package: Pulsar
 User: heather  Thu Jan 17 11:35:02 2013
