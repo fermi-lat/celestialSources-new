@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: razzano  Fri Mar 15 01:13:33 PDT 2013
+celestialSources/Pulsar/src
+
+Modified Files:
+	PulsarSpectrum.cxx 
+Log Message:
+fixed bug in parseParams
+    *
+------------------------------------------------------------
 User: razzano  Fri Mar 15 00:55:08 PDT 2013
 celestialSources/Pulsar/doc
 
