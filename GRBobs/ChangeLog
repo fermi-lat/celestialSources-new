@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: tstephen  Fri May 17 12:02:59 PDT 2013
+ScienceTools-scons/celestialSources/GRBobs/src/test
+
+Modified Files:
+	testGRB.cxx 
+Log Message:
+Added in code to call function to overide the default handling of assertion
+dialogs to prevent test from hanging up the build system and report assertion
+error into the standard output of the test.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-08-13, operation: add
 Package: GRBobs
