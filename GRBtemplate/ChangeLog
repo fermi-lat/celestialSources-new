@@ -1,4 +1,31 @@
 ------------------------------------------------------------
+User: glastrm  Fri May 17 12:27:29 PDT 2013
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: glastrm  Fri May 17 12:27:29 PDT 2013
+celestialSources/GRBtemplate/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: glastrm  Fri May 17 12:27:29 PDT 2013
+celestialSources/GRBtemplate
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: tstephen  Fri May 17 12:03:42 PDT 2013
 ScienceTools-scons/celestialSources/GRBtemplate/src/test
 
