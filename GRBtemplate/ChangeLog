@@ -1,4 +1,2747 @@
 ------------------------------------------------------------
+User: glastrm  Fri May 17 12:27:29 PDT 2013
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: glastrm  Fri May 17 12:27:29 PDT 2013
+celestialSources/GRBtemplate/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: glastrm  Fri May 17 12:27:29 PDT 2013
+celestialSources/GRBtemplate
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: tstephen  Fri May 17 12:03:42 PDT 2013
+ScienceTools-scons/celestialSources/GRBtemplate/src/test
+
+Modified Files:
+	testGRB.cxx 
+Log Message:
+Added in code to call function to overide the default handling of assertion
+dialogs to prevent test from hanging up the build system and report assertion
+error into the standard output of the test.
+
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-13, operation: add
+Package: GRBtemplate
+User: heather  Fri May 17 07:06:46 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-13, operation: add
+Package: GRBtemplate
+User: heather  Fri May 17 07:05:55 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp43, operation: add
+Package: GRBtemplate
+User: heather  Wed Apr 10 05:49:46 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp43, operation: add
+Package: GRBtemplate
+User: heather  Wed Apr 10 05:48:54 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp42, operation: add
+Package: GRBtemplate
+User: heather  Tue Apr  9 04:53:58 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp42, operation: add
+Package: GRBtemplate
+User: heather  Tue Apr  9 04:52:49 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-12, operation: add
+Package: GRBtemplate
+User: heather  Tue Apr  9 04:32:15 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-12, operation: add
+Package: GRBtemplate
+User: heather  Tue Apr  9 04:31:16 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp41, operation: add
+Package: GRBtemplate
+User: heather  Mon Apr  8 13:50:30 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp41, operation: add
+Package: GRBtemplate
+User: heather  Mon Apr  8 13:49:28 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-11, operation: add
+Package: GRBtemplate
+User: heather  Fri Mar  8 13:51:04 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-11, operation: add
+Package: GRBtemplate
+User: heather  Fri Mar  8 13:50:09 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-31-02, operation: add
+Package: GRBtemplate
+User: jchiang  Tue Mar  5 09:39:35 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-31-02, operation: add
+Package: GRBtemplate
+User: jchiang  Tue Mar  5 09:38:38 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-10, operation: add
+Package: GRBtemplate
+User: heather  Wed Feb 27 04:56:18 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-10, operation: add
+Package: GRBtemplate
+User: heather  Wed Feb 27 04:55:27 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-09, operation: add
+Package: GRBtemplate
+User: heather  Fri Feb 22 11:59:00 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-09, operation: add
+Package: GRBtemplate
+User: heather  Fri Feb 22 11:58:05 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp40, operation: add
+Package: GRBtemplate
+User: heather  Fri Feb 15 11:18:52 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp40, operation: add
+Package: GRBtemplate
+User: heather  Fri Feb 15 11:16:53 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp40, operation: add
+Package: GRBtemplate
+User: heather  Fri Feb 15 11:16:47 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-08, operation: add
+Package: GRBtemplate
+User: heather  Fri Feb 15 04:14:19 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-08, operation: add
+Package: GRBtemplate
+User: heather  Fri Feb 15 04:13:19 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-07, operation: add
+Package: GRBtemplate
+User: heather  Mon Feb 11 07:48:24 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-07, operation: add
+Package: GRBtemplate
+User: heather  Mon Feb 11 07:47:30 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-06, operation: add
+Package: GRBtemplate
+User: heather  Fri Feb  1 08:46:19 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-06, operation: add
+Package: GRBtemplate
+User: heather  Fri Feb  1 08:45:24 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-05, operation: add
+Package: GRBtemplate
+User: heather  Thu Jan 24 09:52:30 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-05, operation: add
+Package: GRBtemplate
+User: heather  Thu Jan 24 09:51:24 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-04, operation: add
+Package: GRBtemplate
+User: heather  Thu Jan 17 17:12:44 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-04, operation: add
+Package: GRBtemplate
+User: heather  Thu Jan 17 17:11:54 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-03, operation: add
+Package: GRBtemplate
+User: heather  Thu Jan 17 11:35:29 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-03, operation: add
+Package: GRBtemplate
+User: heather  Thu Jan 17 11:34:38 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-02, operation: add
+Package: GRBtemplate
+User: heather  Fri Jan 11 17:13:47 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-02, operation: add
+Package: GRBtemplate
+User: heather  Fri Jan 11 17:12:56 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-31-01, operation: add
+Package: GRBtemplate
+User: glastrm  Thu Jan  3 16:47:31 2013
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-31-01, operation: add
+Package: GRBtemplate
+User: glastrm  Thu Jan  3 16:46:35 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-31-00, operation: add
+Package: GRBtemplate
+User: jchiang  Tue Dec 18 16:55:17 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-31-00, operation: add
+Package: GRBtemplate
+User: jchiang  Tue Dec 18 16:54:11 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-01, operation: add
+Package: GRBtemplate
+User: heather  Mon Dec 17 16:48:26 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-01, operation: add
+Package: GRBtemplate
+User: heather  Mon Dec 17 16:47:30 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-00, operation: add
+Package: GRBtemplate
+User: heather  Fri Dec 14 12:27:26 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-00, operation: add
+Package: GRBtemplate
+User: heather  Fri Dec 14 12:24:55 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-07-00, operation: add
+Package: GRBtemplate
+User: heather  Thu Nov 29 14:34:36 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-07-00, operation: add
+Package: GRBtemplate
+User: heather  Thu Nov 29 14:33:45 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-04, operation: add
+Package: GRBtemplate
+User: heather  Sun Oct 21 05:10:40 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-04, operation: add
+Package: GRBtemplate
+User: heather  Sun Oct 21 05:09:37 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-03, operation: add
+Package: GRBtemplate
+User: heather  Wed Oct 17 20:36:30 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-03, operation: add
+Package: GRBtemplate
+User: heather  Wed Oct 17 20:35:40 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp39, operation: add
+Package: GRBtemplate
+User: heather  Wed Oct 17 05:57:35 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp39, operation: add
+Package: GRBtemplate
+User: heather  Wed Oct 17 05:57:00 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp39, operation: add
+Package: GRBtemplate
+User: heather  Wed Oct 17 05:46:03 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp39, operation: add
+Package: GRBtemplate
+User: heather  Wed Oct 17 05:45:08 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp38, operation: add
+Package: GRBtemplate
+User: heather  Tue Oct 16 21:33:18 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp38, operation: add
+Package: GRBtemplate
+User: heather  Tue Oct 16 21:32:20 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-02, operation: add
+Package: GRBtemplate
+User: heather  Wed Oct 10 03:29:42 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-02, operation: add
+Package: GRBtemplate
+User: heather  Wed Oct 10 03:28:00 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-01, operation: add
+Package: GRBtemplate
+User: heather  Mon Oct  8 11:09:20 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-01, operation: add
+Package: GRBtemplate
+User: heather  Mon Oct  8 11:08:34 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-00, operation: add
+Package: GRBtemplate
+User: heather  Sat Oct  6 20:52:15 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-06-00, operation: add
+Package: GRBtemplate
+User: heather  Sat Oct  6 20:51:06 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp37, operation: add
+Package: GRBtemplate
+User: heather  Thu Oct  4 19:59:47 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp37, operation: add
+Package: GRBtemplate
+User: heather  Thu Oct  4 19:59:11 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp37, operation: add
+Package: GRBtemplate
+User: heather  Thu Oct  4 19:51:33 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp37, operation: add
+Package: GRBtemplate
+User: heather  Thu Oct  4 19:50:15 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp36, operation: add
+Package: GRBtemplate
+User: heather  Thu Oct  4 13:56:36 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp36, operation: add
+Package: GRBtemplate
+User: heather  Thu Oct  4 13:55:36 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-05-01, operation: add
+Package: GRBtemplate
+User: heather  Sun Sep 30 20:24:18 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-05-01, operation: add
+Package: GRBtemplate
+User: heather  Sun Sep 30 20:23:33 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-30-01, operation: add
+Package: GRBtemplate
+User: glastrm  Tue Sep 11 11:11:39 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-30-01, operation: add
+Package: GRBtemplate
+User: glastrm  Tue Sep 11 11:10:38 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-05-00, operation: add
+Package: GRBtemplate
+User: heather  Wed Sep  5 11:42:07 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-05-00, operation: add
+Package: GRBtemplate
+User: heather  Wed Sep  5 11:41:17 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-05-00, operation: del
+Package: GRBtemplate
+User: glastrm  Thu Aug 30 11:47:13 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-05-00, operation: add
+Package: GRBtemplate
+User: heather  Thu Aug 30 11:29:01 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-05-00, operation: add
+Package: GRBtemplate
+User: heather  Thu Aug 30 11:28:09 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-30-00, operation: add
+Package: GRBtemplate
+User: jchiang  Wed Aug 29 08:25:44 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-30-00, operation: add
+Package: GRBtemplate
+User: jchiang  Wed Aug 29 08:24:54 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-04-02-gr01, operation: add
+Package: GRBtemplate
+User: heather  Tue Aug 28 05:19:36 2012
+Files:
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-04-02-gr01, operation: add
+Package: GRBtemplate
+User: heather  Tue Aug 28 05:18:49 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-04-02-gr01, operation: add
+Package: GRBtemplate
+User: heather  Mon Aug 27 22:27:45 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GRBtemplate-01-04-00, operation: add
+Package: GRBtemplate
+User: jrb  Fri Aug 17 17:00:16 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.453
+  GRBtemplate/SConscript  1.15
+  GRBtemplate/GRBtemplateLib.py  1.3
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.20
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.18
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+User: jrb  Fri Aug 17 17:00:10 PDT 2012
+celestialSources/GRBtemplate/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: jrb  Fri Aug 17 17:00:10 PDT 2012
+celestialSources/GRBtemplate/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: jrb  Fri Aug 17 17:00:10 PDT 2012
+celestialSources/GRBtemplate
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: jrb  Fri Aug 17 12:50:31 PDT 2012
+GlastRelease-scons/celestialSources/GRBtemplate
+
+Modified Files:
+	GRBtemplateLib.py SConscript 
+Log Message:
+patches for Windows no-install-headers
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-04-02, operation: add
+Package: GRBtemplate
+User: heather  Fri Aug 17 12:15:55 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-04-02, operation: add
+Package: GRBtemplate
+User: heather  Fri Aug 17 12:14:49 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-04-01, operation: add
+Package: GRBtemplate
+User: heather  Tue Jul 24 18:17:14 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-04-01, operation: add
+Package: GRBtemplate
+User: heather  Tue Jul 24 18:16:18 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-bm01, operation: add
+Package: GRBtemplate
+User: heather  Sun Jul 22 20:38:30 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-bm01, operation: add
+Package: GRBtemplate
+User: heather  Sun Jul 22 20:37:12 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-br07, operation: add
+Package: GRBtemplate
+User: heather  Fri Jul 20 20:56:58 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr35, operation: add
+Package: GRBtemplate
+User: heather  Thu Jul 19 13:44:03 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr35, operation: add
+Package: GRBtemplate
+User: heather  Thu Jul 19 13:42:47 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-04-00, operation: add
+Package: GRBtemplate
+User: heather  Thu Jul  5 12:45:28 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-04-00, operation: add
+Package: GRBtemplate
+User: heather  Thu Jul  5 12:44:21 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-29-00, operation: add
+Package: GRBtemplate
+User: jchiang  Thu Jun 21 21:32:52 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-29-00, operation: add
+Package: GRBtemplate
+User: jchiang  Thu Jun 21 21:31:37 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp29, operation: add
+Package: GRBtemplate
+User: heather  Thu Jun 21 10:52:46 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp29, operation: add
+Package: GRBtemplate
+User: heather  Thu Jun 21 10:51:45 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-br06, operation: add
+Package: GRBtemplate
+User: heather  Thu Jun 21 10:23:18 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp31, operation: add
+Package: GRBtemplate
+User: heather  Thu Jun 14 09:48:27 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp31, operation: add
+Package: GRBtemplate
+User: heather  Thu Jun 14 09:47:37 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp30, operation: add
+Package: GRBtemplate
+User: heather  Mon Jun 11 12:24:42 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp30, operation: add
+Package: GRBtemplate
+User: heather  Mon Jun 11 12:23:52 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-tr07, operation: add
+Package: GRBtemplate
+User: heather  Mon Jun 11 11:32:51 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-tr07, operation: add
+Package: GRBtemplate
+User: heather  Mon Jun 11 11:32:00 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-03-04, operation: add
+Package: GRBtemplate
+User: heather  Fri Jun  8 06:08:10 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-03-04, operation: add
+Package: GRBtemplate
+User: heather  Fri Jun  8 06:07:12 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-03-02, operation: add
+Package: GRBtemplate
+User: heather  Thu Jun  7 11:00:08 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-03-02, operation: add
+Package: GRBtemplate
+User: heather  Thu Jun  7 10:59:18 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr34, operation: add
+Package: GRBtemplate
+User: heather  Thu Jun  7 08:45:37 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr34, operation: add
+Package: GRBtemplate
+User: heather  Thu Jun  7 08:44:56 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr33, operation: add
+Package: GRBtemplate
+User: heather  Wed Jun  6 19:30:27 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr33, operation: add
+Package: GRBtemplate
+User: heather  Wed Jun  6 19:29:38 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr32, operation: add
+Package: GRBtemplate
+User: heather  Wed Jun  6 13:39:21 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr32, operation: add
+Package: GRBtemplate
+User: heather  Wed Jun  6 13:38:05 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-03-01, operation: add
+Package: GRBtemplate
+User: heather  Tue Jun  5 15:18:26 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.211
+  GRBtemplate/SConscript  1.13
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.19
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.17
+  GRBtemplate/src/GRBtemplateManager.cxx  1.13
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.5
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-03-01, operation: add
+Package: GRBtemplate
+User: heather  Tue Jun  5 15:17:31 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-tr06, operation: add
+Package: GRBtemplate
+User: heather  Fri Jun  1 12:16:01 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-tr06, operation: add
+Package: GRBtemplate
+User: heather  Fri Jun  1 12:15:20 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp28, operation: add
+Package: GRBtemplate
+User: heather  Sat May 19 21:44:03 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp28, operation: add
+Package: GRBtemplate
+User: heather  Sat May 19 21:42:56 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp27, operation: add
+Package: GRBtemplate
+User: heather  Sat May 19 20:06:06 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp27, operation: add
+Package: GRBtemplate
+User: heather  Sat May 19 20:05:11 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp26, operation: add
+Package: GRBtemplate
+User: heather  Sat May 19 08:05:34 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp26, operation: add
+Package: GRBtemplate
+User: heather  Sat May 19 08:04:18 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp25, operation: add
+Package: GRBtemplate
+User: heather  Fri May 18 10:35:02 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp25, operation: add
+Package: GRBtemplate
+User: heather  Fri May 18 10:34:01 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp24, operation: add
+Package: GRBtemplate
+User: heather  Fri May 18 05:37:41 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp24, operation: add
+Package: GRBtemplate
+User: heather  Fri May 18 05:36:39 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp23, operation: add
+Package: GRBtemplate
+User: heather  Thu May 17 21:13:26 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp23, operation: add
+Package: GRBtemplate
+User: heather  Thu May 17 21:12:36 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr31, operation: add
+Package: GRBtemplate
+User: heather  Mon May  7 20:15:55 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr31, operation: add
+Package: GRBtemplate
+User: heather  Mon May  7 20:14:53 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr30, operation: add
+Package: GRBtemplate
+User: heather  Wed Apr 25 13:21:30 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr30, operation: add
+Package: GRBtemplate
+User: heather  Wed Apr 25 13:20:39 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr29, operation: add
+Package: GRBtemplate
+User: heather  Tue Apr 24 22:05:24 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr29, operation: add
+Package: GRBtemplate
+User: heather  Tue Apr 24 22:04:28 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr28, operation: add
+Package: GRBtemplate
+User: heather  Tue Apr 24 20:07:34 2012
+Files:
+  GRBtemplate/.cvsignore  1.2
+  GRBtemplate/ChangeLog  1.194
+  GRBtemplate/SConscript  1.11
+  GRBtemplate/GRBtemplateLib.py  1.2
+  GRBtemplate/GRBtemplate/GRBtemplateManager.h  1.5
+  GRBtemplate/GRBtemplate/GRBtemplateSim.h  1.7
+  GRBtemplate/cmt/requirements  1.17
+  GRBtemplate/data/Thermal_LAT_A_617.dat  1.2
+  GRBtemplate/data/BGO_energy_grid.dat  1.1
+  GRBtemplate/data/Thermal_LAT_A_025.dat  1.2
+  GRBtemplate/data/NaI_energy_grid.dat  1.1
+  GRBtemplate/data/GRBTMP000000.dat  1.3
+  GRBtemplate/data/pulse_002.dat  1.3
+  GRBtemplate/data/Thermal_LAT_A_073.dat  1.2
+  GRBtemplate/data/test.dat  1.1
+  GRBtemplate/data/Thermal_LAT_C_014.dat  1.2
+  GRBtemplate/data/GenerateFakeBurst.C  1.3
+  GRBtemplate/doc/release.notes  1.15
+  GRBtemplate/src/GRBtemplateManager.cxx  1.11
+  GRBtemplate/src/GRBtemplateSim.cxx  1.13
+  GRBtemplate/src/test/testGRB.cxx  1.4
+  GRBtemplate/src/test/other/GRBROOTtest.cxx  1.10
+  GRBtemplate/xml/GRBtemplate_library.xml  1.7
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr28, operation: add
+Package: GRBtemplate
+User: heather  Tue Apr 24 20:06:38 2012
+Files:
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr27, operation: add
 Package: GRBtemplate
