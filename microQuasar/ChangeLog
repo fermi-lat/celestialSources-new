@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-17-35-24-lp48, operation: add
 Package: microQuasar
+User: heather  Thu Jul 18 10:18:20 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp48, operation: add
+Package: microQuasar
 User: heather  Thu Jul 18 09:53:43 2013
 Files:
   microQuasar/mq.txt  1.1.1.1
