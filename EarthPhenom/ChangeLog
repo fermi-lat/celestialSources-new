@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bechtol  Sat Aug  3 18:53:59 PDT 2013
+celestialSources/EarthPhenom/src
+
+Modified Files:
+	EarthPhenomInner.cxx EarthPhenomLimb.cxx 
+Log Message:
+Azimuth angle fix and deconvolution of limb
+    *
+------------------------------------------------------------
 TAG
 Tag name: EarthPhenom-00-02-02, operation: add
 Package: EarthPhenom
