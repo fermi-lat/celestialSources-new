@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bechtol  Thu Aug 22 20:04:44 PDT 2013
+ScienceTools-scons/celestialSources/EarthPhenom/src
+
+Modified Files:
+	EarthPhenomInner.cxx EarthPhenomLimb.cxx 
+Log Message:
+Matching azimuthal coordinates to data convention
+    *
+------------------------------------------------------------
 TAG
 Tag name: EarthPhenom-00-02-03, operation: add
 Package: EarthPhenom
