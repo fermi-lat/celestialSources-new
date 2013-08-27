@@ -2,6 +2,19 @@
 TAG
 Tag name: GlastRelease-17-35-24-lp51, operation: add
 Package: celestialSources
+User: heather  Tue Aug 27 05:19:25 2013
+Files:
+  celestialSources/celestialSources/SpectrumFactoryLoader.h  1.2
+  celestialSources/celestialSources/TRandom4.h  1.2
+  celestialSources/celestialSources/ConstParMap.h  1.1
+  celestialSources/cmt/requirements  1.51
+  celestialSources/doc/release.notes  1.38
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp51, operation: add
+Package: celestialSources
 User: heather  Tue Aug 27 05:19:09 2013
 Files:
   celestialSources/.cvsignore  1.2
