@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jchiang  Fri Dec  6 07:20:44 PST 2013
+ScienceTools-scons/celestialSources/eblAtten/src
+
+Modified Files:
+	EblAtten.cxx IRB_routines.cxx 
+Added Files:
+	AsciiTableModel.cxx AsciiTableModel.h 
+Log Message:
+add AsciiTableModel and Gilmore et al 2012 models
+    *
+------------------------------------------------------------
 User: jchiang  Fri Dec  6 07:20:43 PST 2013
 ScienceTools-scons/celestialSources/eblAtten/eblAtten
 
