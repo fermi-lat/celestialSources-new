@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jchiang  Fri Dec  6 07:20:43 PST 2013
+ScienceTools-scons/celestialSources/eblAtten/data
+
+Added Files:
+	opdep_fiducial_Gilmore2012.dat opdep_fixed_Gilmore2012.dat 
+	readme_Gilmore2012.txt 
+Log Message:
+add AsciiTableModel and Gilmore et al 2012 models
+    *
+------------------------------------------------------------
 User: jchiang  Fri Dec  6 07:20:42 PST 2013
 ScienceTools-scons/celestialSources/eblAtten
 
