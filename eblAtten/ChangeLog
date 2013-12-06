@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jchiang  Fri Dec  6 07:20:43 PST 2013
+ScienceTools-scons/celestialSources/eblAtten/eblAtten
+
+Modified Files:
+	EblAtten.h 
+Log Message:
+add AsciiTableModel and Gilmore et al 2012 models
+    *
+------------------------------------------------------------
+User: jchiang  Fri Dec  6 07:20:43 PST 2013
 ScienceTools-scons/celestialSources/eblAtten/data
 
 Added Files:
