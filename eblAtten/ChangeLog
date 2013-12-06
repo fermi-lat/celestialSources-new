@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Fri Dec  6 07:20:42 PST 2013
+ScienceTools-scons/celestialSources/eblAtten
+
+Modified Files:
+	SConscript eblAttenLib.py 
+Log Message:
+add AsciiTableModel and Gilmore et al 2012 models
+    *
+------------------------------------------------------------
 User: jchiang  Fri Dec  6 03:58:33 PST 2013
 ScienceTools-scons/celestialSources/eblAtten/data
 
