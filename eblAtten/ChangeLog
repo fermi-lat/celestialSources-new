@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Dec  9 13:31:59 PST 2013
+ScienceTools-scons/celestialSources/eblAtten/src
+
+Modified Files:
+	AsciiTableModel.cxx 
+Log Message:
+in AsciiTableModel, handle redshifts below lower bound of redshift array by setting to zero to avoid extrapolation to negative values
+    *
+------------------------------------------------------------
 TAG
 Tag name: eblAtten-00-10-00, operation: add
 Package: eblAtten
