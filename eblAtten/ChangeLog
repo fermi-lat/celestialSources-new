@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jchiang  Mon Dec  9 13:32:39 PST 2013
+celestialSources/eblAtten
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: jchiang  Mon Dec  9 13:32:00 PST 2013
 ScienceTools-scons/celestialSources/eblAtten/src/test
 
