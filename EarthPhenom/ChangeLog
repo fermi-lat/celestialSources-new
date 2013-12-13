@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bechtol  Fri Dec 13 12:26:44 PST 2013
+ScienceTools-scons/celestialSources/EarthPhenom/EarthPhenom
+
+Modified Files:
+	EarthPhenomLimb.h 
+Log Message:
+Implementing revised zenith profile parametrization from Luigi
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-09-05, operation: add
 Package: EarthPhenom
