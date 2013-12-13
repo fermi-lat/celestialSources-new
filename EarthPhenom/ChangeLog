@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bechtol  Fri Dec 13 12:26:45 PST 2013
+ScienceTools-scons/celestialSources/EarthPhenom/src
+
+Modified Files:
+	EarthPhenomLimb.cxx 
+Log Message:
+Implementing revised zenith profile parametrization from Luigi
+    *
+------------------------------------------------------------
 User: bechtol  Fri Dec 13 12:26:44 PST 2013
 ScienceTools-scons/celestialSources/EarthPhenom/EarthPhenom
 
