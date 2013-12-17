@@ -1,4 +1,1352 @@
 ------------------------------------------------------------
+User: bechtol  Tue Dec 17 13:11:12 PST 2013
+celestialSources/EarthPhenom/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Tue Dec 17 13:11:11 PST 2013
+celestialSources/EarthPhenom/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Tue Dec 17 13:11:11 PST 2013
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Tue Dec 17 13:09:02 PST 2013
+ScienceTools-scons/celestialSources/EarthPhenom/xml
+
+Modified Files:
+	EarthPhenom.xml 
+Log Message:
+Default xml model file should use nadir coordinate system
+    *
+------------------------------------------------------------
+TAG
+Tag name: EarthPhenom-00-02-05, operation: add
+Package: EarthPhenom
+User: bechtol  Fri Dec 13 12:28:00 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.203
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.12
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.2
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.10
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.10
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.5
+  EarthPhenom/src/EarthPhenomInner.cxx  1.5
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+User: bechtol  Fri Dec 13 12:27:49 PST 2013
+celestialSources/EarthPhenom/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Fri Dec 13 12:27:49 PST 2013
+celestialSources/EarthPhenom/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Fri Dec 13 12:27:48 PST 2013
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Fri Dec 13 12:26:45 PST 2013
+ScienceTools-scons/celestialSources/EarthPhenom/src
+
+Modified Files:
+	EarthPhenomLimb.cxx 
+Log Message:
+Implementing revised zenith profile parametrization from Luigi
+    *
+------------------------------------------------------------
+User: bechtol  Fri Dec 13 12:26:44 PST 2013
+ScienceTools-scons/celestialSources/EarthPhenom/EarthPhenom
+
+Modified Files:
+	EarthPhenomLimb.h 
+Log Message:
+Implementing revised zenith profile parametrization from Luigi
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-05, operation: add
+Package: EarthPhenom
+User: heather  Fri Nov 15 09:27:25 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-05, operation: add
+Package: EarthPhenom
+User: heather  Fri Nov 15 09:13:22 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp61, operation: add
+Package: EarthPhenom
+User: heather  Tue Oct 22 10:01:56 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp61, operation: add
+Package: EarthPhenom
+User: heather  Tue Oct 22 10:00:38 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp60, operation: add
+Package: EarthPhenom
+User: heather  Mon Oct  7 07:13:27 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp60, operation: add
+Package: EarthPhenom
+User: heather  Mon Oct  7 07:12:19 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp59, operation: add
+Package: EarthPhenom
+User: heather  Fri Oct  4 11:53:35 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp59, operation: add
+Package: EarthPhenom
+User: heather  Fri Oct  4 11:51:35 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp58, operation: add
+Package: EarthPhenom
+User: heather  Fri Oct  4 09:11:04 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp58, operation: add
+Package: EarthPhenom
+User: heather  Fri Oct  4 09:09:48 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp57, operation: add
+Package: EarthPhenom
+User: heather  Wed Sep 25 10:38:13 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp57, operation: add
+Package: EarthPhenom
+User: heather  Wed Sep 25 10:36:50 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp56, operation: add
+Package: EarthPhenom
+User: heather  Fri Sep 20 10:19:00 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp56, operation: add
+Package: EarthPhenom
+User: heather  Fri Sep 20 10:17:53 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp55, operation: add
+Package: EarthPhenom
+User: heather  Fri Sep 20 09:33:13 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp55, operation: add
+Package: EarthPhenom
+User: heather  Fri Sep 20 09:32:00 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp54, operation: add
+Package: EarthPhenom
+User: heather  Thu Sep 19 11:49:20 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp54, operation: add
+Package: EarthPhenom
+User: heather  Thu Sep 19 11:48:06 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp53, operation: add
+Package: EarthPhenom
+User: heather  Mon Sep  9 12:04:44 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp53, operation: add
+Package: EarthPhenom
+User: heather  Mon Sep  9 12:03:41 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp52, operation: add
+Package: EarthPhenom
+User: heather  Mon Sep  9 05:49:30 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp52, operation: add
+Package: EarthPhenom
+User: heather  Mon Sep  9 05:48:28 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-04, operation: add
+Package: EarthPhenom
+User: heather  Tue Sep  3 09:26:40 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-04, operation: add
+Package: EarthPhenom
+User: heather  Tue Sep  3 09:15:58 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-03, operation: add
+Package: EarthPhenom
+User: heather  Fri Aug 30 09:56:32 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-03, operation: add
+Package: EarthPhenom
+User: heather  Fri Aug 30 09:44:50 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp51, operation: add
+Package: EarthPhenom
+User: heather  Tue Aug 27 05:21:30 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp51, operation: add
+Package: EarthPhenom
+User: heather  Tue Aug 27 05:19:11 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: EarthPhenom-00-02-04, operation: add
+Package: EarthPhenom
+User: bechtol  Thu Aug 22 20:06:30 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.169
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.11
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.9
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.9
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.4
+  EarthPhenom/src/EarthPhenomInner.cxx  1.5
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+User: bechtol  Thu Aug 22 20:06:19 PDT 2013
+celestialSources/EarthPhenom/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Thu Aug 22 20:06:18 PDT 2013
+celestialSources/EarthPhenom/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Thu Aug 22 20:06:18 PDT 2013
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Thu Aug 22 20:04:44 PDT 2013
+ScienceTools-scons/celestialSources/EarthPhenom/src
+
+Modified Files:
+	EarthPhenomInner.cxx EarthPhenomLimb.cxx 
+Log Message:
+Matching azimuthal coordinates to data convention
+    *
+------------------------------------------------------------
+TAG
+Tag name: EarthPhenom-00-02-03, operation: add
+Package: EarthPhenom
+User: bechtol  Sat Aug  3 18:55:12 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.164
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.10
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.8
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.8
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.3
+  EarthPhenom/src/EarthPhenomInner.cxx  1.4
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+User: bechtol  Sat Aug  3 18:55:00 PDT 2013
+celestialSources/EarthPhenom/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Sat Aug  3 18:54:59 PDT 2013
+celestialSources/EarthPhenom/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Sat Aug  3 18:54:58 PDT 2013
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Sat Aug  3 18:53:59 PDT 2013
+celestialSources/EarthPhenom/src
+
+Modified Files:
+	EarthPhenomInner.cxx EarthPhenomLimb.cxx 
+Log Message:
+Azimuth angle fix and deconvolution of limb
+    *
+------------------------------------------------------------
+TAG
+Tag name: EarthPhenom-00-02-02, operation: add
+Package: EarthPhenom
+User: bechtol  Sat Aug  3 17:07:37 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.159
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.9
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.7
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.7
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+User: bechtol  Sat Aug  3 17:07:25 PDT 2013
+celestialSources/EarthPhenom/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Sat Aug  3 17:07:24 PDT 2013
+celestialSources/EarthPhenom/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+User: bechtol  Sat Aug  3 17:07:23 PDT 2013
+celestialSources/EarthPhenom
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-02, operation: add
+Package: EarthPhenom
+User: heather  Tue Jul 30 11:50:46 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-02, operation: add
+Package: EarthPhenom
+User: heather  Tue Jul 30 11:38:07 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-05, operation: add
+Package: EarthPhenom
+User: jchiang  Fri Jul 26 21:23:30 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-05, operation: add
+Package: EarthPhenom
+User: jchiang  Fri Jul 26 21:16:15 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-01, operation: add
+Package: EarthPhenom
+User: heather  Fri Jul 26 08:14:26 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-01, operation: add
+Package: EarthPhenom
+User: heather  Fri Jul 26 08:00:54 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp50, operation: add
+Package: EarthPhenom
+User: heather  Fri Jul 19 08:52:44 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp50, operation: add
+Package: EarthPhenom
+User: heather  Fri Jul 19 08:51:40 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp49, operation: add
+Package: EarthPhenom
+User: heather  Thu Jul 18 10:56:22 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp49, operation: add
+Package: EarthPhenom
+User: heather  Thu Jul 18 10:55:23 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp48, operation: add
+Package: EarthPhenom
+User: heather  Thu Jul 18 10:19:05 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp48, operation: add
+Package: EarthPhenom
+User: heather  Thu Jul 18 10:18:17 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp48, operation: add
+Package: EarthPhenom
+User: heather  Thu Jul 18 09:53:49 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp48, operation: add
+Package: EarthPhenom
+User: heather  Thu Jul 18 09:52:24 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp47, operation: add
+Package: EarthPhenom
+User: heather  Wed Jul 17 13:43:58 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp47, operation: add
+Package: EarthPhenom
+User: heather  Wed Jul 17 13:42:53 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-00, operation: add
+Package: EarthPhenom
+User: heather  Tue Jul  2 00:03:57 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-09-00, operation: add
+Package: EarthPhenom
+User: heather  Mon Jul  1 23:34:23 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-18, operation: add
+Package: EarthPhenom
+User: heather  Fri Jun 28 10:18:37 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-18, operation: add
+Package: EarthPhenom
+User: heather  Fri Jun 28 10:08:03 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-04, operation: add
+Package: EarthPhenom
+User: jchiang  Sat Jun 15 21:37:39 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-04, operation: add
+Package: EarthPhenom
+User: jchiang  Sat Jun 15 21:30:35 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-17, operation: add
+Package: EarthPhenom
+User: heather  Thu Jun 13 20:26:36 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-17, operation: add
+Package: EarthPhenom
+User: heather  Thu Jun 13 20:15:24 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-03, operation: add
+Package: EarthPhenom
+User: heather  Fri Jun  7 08:54:38 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-03, operation: add
+Package: EarthPhenom
+User: heather  Fri Jun  7 08:28:51 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-02, operation: add
+Package: EarthPhenom
+User: jchiang  Thu Jun  6 10:10:57 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-02, operation: add
+Package: EarthPhenom
+User: jchiang  Thu Jun  6 09:52:55 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-02, operation: add
+Package: EarthPhenom
+User: jchiang  Thu Jun  6 09:52:46 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-16, operation: add
+Package: EarthPhenom
+User: heather  Wed Jun  5 23:26:41 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-16, operation: add
+Package: EarthPhenom
+User: heather  Wed Jun  5 23:14:33 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-01, operation: add
+Package: EarthPhenom
+User: jchiang  Wed Jun  5 06:00:09 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-01, operation: add
+Package: EarthPhenom
+User: jchiang  Wed Jun  5 05:53:44 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-15, operation: add
+Package: EarthPhenom
+User: heather  Tue Jun  4 13:31:56 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-15, operation: add
+Package: EarthPhenom
+User: heather  Tue Jun  4 13:07:39 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-00, operation: add
+Package: EarthPhenom
+User: jchiang  Mon Jun  3 16:36:17 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: ScienceTools-09-32-00, operation: add
+Package: EarthPhenom
+User: jchiang  Mon Jun  3 16:06:45 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp46, operation: add
+Package: EarthPhenom
+User: heather  Sun Jun  2 21:11:14 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp45, operation: add
+Package: EarthPhenom
+User: heather  Tue May 28 10:48:35 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-14, operation: add
+Package: EarthPhenom
+User: heather  Thu May 23 08:10:19 2013
+Files:
+  EarthPhenom/.cvsignore  1.1.1.1
+  EarthPhenom/ChangeLog  1.1.1.72
+  EarthPhenom/EarthPhenomLib.py  1.2
+  EarthPhenom/SConscript  1.8
+  EarthPhenom/EarthPhenom/EarthPhenomLimb.h  1.1.1.1
+  EarthPhenom/EarthPhenom/EarthPhenomInner.h  1.1.1.1
+  EarthPhenom/cmt/.cvsignore  1.1.1.1
+  EarthPhenom/cmt/NMake  1.1.1.1
+  EarthPhenom/cmt/requirements  1.6
+  EarthPhenom/cmt/Makefile  1.1.1.1
+  EarthPhenom/doc/release.notes  1.6
+  EarthPhenom/src/mainpage.h  1.1.1.1
+  EarthPhenom/src/EarthPhenomLimb.cxx  1.2
+  EarthPhenom/src/EarthPhenomInner.cxx  1.3
+  EarthPhenom/src/test/test_main.cxx  1.3
+  EarthPhenom/xml/EarthPhenom.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-14, operation: add
+Package: EarthPhenom
+User: heather  Thu May 23 07:48:15 2013
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp44, operation: add
+Package: EarthPhenom
+User: heather  Tue May 21 15:25:24 2013
+Files:
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-08-13, operation: add
 Package: EarthPhenom
