@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: bechtol  Tue Dec 17 13:09:02 PST 2013
+ScienceTools-scons/celestialSources/EarthPhenom/xml
+
+Modified Files:
+	EarthPhenom.xml 
+Log Message:
+Default xml model file should use nadir coordinate system
+    *
+------------------------------------------------------------
 TAG
 Tag name: EarthPhenom-00-02-05, operation: add
 Package: EarthPhenom
